@@ -1,0 +1,382 @@
+{
+  "说明": "中文翻译与汇总，原始文件见 original；所有场景均为 synthetic",
+  "对象定义条数": 18,
+  "去重对象数": 14,
+  "场景": [
+    {
+      "场景": "农田",
+      "来源文件": "original/ontology-platform/backend/tests/fixtures/semantic/field.json",
+      "对象": [
+        {
+          "名称": "organization",
+          "类型": "组织",
+          "UUID": "ac321fa4-e87a-5e33-b82d-b9d59d7f944e",
+          "数据性质": "synthetic"
+        },
+        {
+          "名称": "crop-field",
+          "类型": "作物概念",
+          "UUID": "02a4a2e5-eaf0-5601-aaf1-61ba43bcba4e",
+          "数据性质": "synthetic"
+        },
+        {
+          "名称": "field",
+          "类型": "农田",
+          "UUID": "d2c438ec-91f0-54e2-9de2-eba7f561db58",
+          "数据性质": "synthetic"
+        },
+        {
+          "名称": "shared-pump",
+          "类型": "水泵",
+          "UUID": "e8bf39eb-022b-5c13-9dfc-49d0bad03696",
+          "数据性质": "synthetic"
+        },
+        {
+          "名称": "field-sensor",
+          "类型": "传感器",
+          "UUID": "593155a5-7b76-5f7b-887b-b5ac6eeafbdd",
+          "数据性质": "synthetic"
+        },
+        {
+          "名称": "field-camera",
+          "类型": "摄像头",
+          "UUID": "3edb1145-fd07-5380-95ad-3b6f80e759ac",
+          "数据性质": "synthetic"
+        }
+      ],
+      "关系": [
+        {
+          "主体": "field",
+          "关系": "作物概念为",
+          "原关系": "crop",
+          "客体": "crop-field",
+          "所在位置": "objects"
+        },
+        {
+          "主体": "shared-pump",
+          "关系": "由其管理",
+          "原关系": "managedBy",
+          "客体": "organization",
+          "所在位置": "objects"
+        },
+        {
+          "主体": "field-sensor",
+          "关系": "由其管理",
+          "原关系": "managedBy",
+          "客体": "organization",
+          "所在位置": "objects"
+        },
+        {
+          "主体": "field-camera",
+          "关系": "由其管理",
+          "原关系": "managedBy",
+          "客体": "organization",
+          "所在位置": "objects"
+        },
+        {
+          "主体": "shared-pump",
+          "关系": "服务于",
+          "原关系": "serves",
+          "客体": "field",
+          "所在位置": "patches"
+        },
+        {
+          "主体": "field-sensor",
+          "关系": "监测",
+          "原关系": "monitors",
+          "客体": "field",
+          "所在位置": "patches"
+        }
+      ],
+      "几何": {
+        "resource_id": "d2c438ec-91f0-54e2-9de2-eba7f561db58",
+        "expected_revision": 1,
+        "geojson": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                114.5,
+                30.2
+              ],
+              [
+                114.501,
+                30.2
+              ],
+              [
+                114.501,
+                30.201
+              ],
+              [
+                114.5,
+                30.201
+              ],
+              [
+                114.5,
+                30.2
+              ]
+            ]
+          ]
+        },
+        "source_crs": "EPSG:4490",
+        "source_support": {
+          "support_id": "de0bd798-857d-5751-9261-aca214b9ab09",
+          "source_version": "synthetic-v1",
+          "raw_value": {
+            "seed": 20261020
+          }
+        }
+      }
+    },
+    {
+      "场景": "水塘",
+      "来源文件": "original/ontology-platform/backend/tests/fixtures/semantic/pond.json",
+      "对象": [
+        {
+          "名称": "organization",
+          "类型": "组织",
+          "UUID": "ac321fa4-e87a-5e33-b82d-b9d59d7f944e",
+          "数据性质": "synthetic"
+        },
+        {
+          "名称": "crop-pond",
+          "类型": "作物概念",
+          "UUID": "dfd2da6e-c37b-530f-98ed-ee509252e61a",
+          "数据性质": "synthetic"
+        },
+        {
+          "名称": "pond",
+          "类型": "水塘",
+          "UUID": "40666cd6-bfc7-59e2-be49-fd5ad55450bd",
+          "数据性质": "synthetic"
+        },
+        {
+          "名称": "shared-pump",
+          "类型": "水泵",
+          "UUID": "e8bf39eb-022b-5c13-9dfc-49d0bad03696",
+          "数据性质": "synthetic"
+        },
+        {
+          "名称": "pond-sensor",
+          "类型": "传感器",
+          "UUID": "b4e0d4d0-2128-5639-98bc-18cc2e9c52fd",
+          "数据性质": "synthetic"
+        },
+        {
+          "名称": "pond-camera",
+          "类型": "摄像头",
+          "UUID": "619588b3-c764-5c23-bfc6-5fd1c69cebb8",
+          "数据性质": "synthetic"
+        }
+      ],
+      "关系": [
+        {
+          "主体": "pond",
+          "关系": "作物概念为",
+          "原关系": "crop",
+          "客体": "crop-pond",
+          "所在位置": "objects"
+        },
+        {
+          "主体": "shared-pump",
+          "关系": "由其管理",
+          "原关系": "managedBy",
+          "客体": "organization",
+          "所在位置": "objects"
+        },
+        {
+          "主体": "pond-sensor",
+          "关系": "由其管理",
+          "原关系": "managedBy",
+          "客体": "organization",
+          "所在位置": "objects"
+        },
+        {
+          "主体": "pond-camera",
+          "关系": "由其管理",
+          "原关系": "managedBy",
+          "客体": "organization",
+          "所在位置": "objects"
+        },
+        {
+          "主体": "shared-pump",
+          "关系": "服务于",
+          "原关系": "serves",
+          "客体": "pond",
+          "所在位置": "patches"
+        },
+        {
+          "主体": "pond-sensor",
+          "关系": "监测",
+          "原关系": "monitors",
+          "客体": "pond",
+          "所在位置": "patches"
+        }
+      ],
+      "几何": {
+        "resource_id": "40666cd6-bfc7-59e2-be49-fd5ad55450bd",
+        "expected_revision": 1,
+        "geojson": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                114.5,
+                30.2
+              ],
+              [
+                114.501,
+                30.2
+              ],
+              [
+                114.501,
+                30.201
+              ],
+              [
+                114.5,
+                30.201
+              ],
+              [
+                114.5,
+                30.2
+              ]
+            ]
+          ]
+        },
+        "source_crs": "EPSG:4490",
+        "source_support": {
+          "support_id": "4914ecdf-1af0-51bc-9866-5610570c6822",
+          "source_version": "synthetic-v1",
+          "raw_value": {
+            "seed": 20261020
+          }
+        }
+      }
+    },
+    {
+      "场景": "果园",
+      "来源文件": "original/ontology-platform/backend/tests/fixtures/semantic/orchard.json",
+      "对象": [
+        {
+          "名称": "organization",
+          "类型": "组织",
+          "UUID": "ac321fa4-e87a-5e33-b82d-b9d59d7f944e",
+          "数据性质": "synthetic"
+        },
+        {
+          "名称": "crop-orchard",
+          "类型": "作物概念",
+          "UUID": "9e21cc8e-ed53-5bf7-b23f-b151d11b41b3",
+          "数据性质": "synthetic"
+        },
+        {
+          "名称": "orchard",
+          "类型": "果园",
+          "UUID": "e500edd0-bf06-553c-84d0-e05db74a21c7",
+          "数据性质": "synthetic"
+        },
+        {
+          "名称": "shared-pump",
+          "类型": "水泵",
+          "UUID": "e8bf39eb-022b-5c13-9dfc-49d0bad03696",
+          "数据性质": "synthetic"
+        },
+        {
+          "名称": "orchard-sensor",
+          "类型": "传感器",
+          "UUID": "a4b5fd98-492e-54fc-bda7-6a225207cdaf",
+          "数据性质": "synthetic"
+        },
+        {
+          "名称": "orchard-camera",
+          "类型": "摄像头",
+          "UUID": "a1447a0b-075d-58d0-85e3-32d86a8a889e",
+          "数据性质": "synthetic"
+        }
+      ],
+      "关系": [
+        {
+          "主体": "orchard",
+          "关系": "作物概念为",
+          "原关系": "crop",
+          "客体": "crop-orchard",
+          "所在位置": "objects"
+        },
+        {
+          "主体": "shared-pump",
+          "关系": "由其管理",
+          "原关系": "managedBy",
+          "客体": "organization",
+          "所在位置": "objects"
+        },
+        {
+          "主体": "orchard-sensor",
+          "关系": "由其管理",
+          "原关系": "managedBy",
+          "客体": "organization",
+          "所在位置": "objects"
+        },
+        {
+          "主体": "orchard-camera",
+          "关系": "由其管理",
+          "原关系": "managedBy",
+          "客体": "organization",
+          "所在位置": "objects"
+        },
+        {
+          "主体": "shared-pump",
+          "关系": "服务于",
+          "原关系": "serves",
+          "客体": "orchard",
+          "所在位置": "patches"
+        },
+        {
+          "主体": "orchard-sensor",
+          "关系": "监测",
+          "原关系": "monitors",
+          "客体": "orchard",
+          "所在位置": "patches"
+        }
+      ],
+      "几何": {
+        "resource_id": "e500edd0-bf06-553c-84d0-e05db74a21c7",
+        "expected_revision": 1,
+        "geojson": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                114.5,
+                30.2
+              ],
+              [
+                114.501,
+                30.2
+              ],
+              [
+                114.501,
+                30.201
+              ],
+              [
+                114.5,
+                30.201
+              ],
+              [
+                114.5,
+                30.2
+              ]
+            ]
+          ]
+        },
+        "source_crs": "EPSG:4490",
+        "source_support": {
+          "support_id": "04e92e3e-a622-5ce3-a02b-73ab9d248b0a",
+          "source_version": "synthetic-v1",
+          "raw_value": {
+            "seed": 20261020
+          }
+        }
+      }
+    }
+  ]
+}

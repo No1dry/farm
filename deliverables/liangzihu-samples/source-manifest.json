@@ -1,0 +1,127 @@
+{
+  "repository": "https://github.com/lianggeming14/liangzihu-ontology-traceability",
+  "commit": "5776ba8d656139d3fb8dfabd137d83dd6dbba11c",
+  "data_nature": "synthetic",
+  "files": [
+    {
+      "path": "ontology-platform/backend/tests/fixtures/semantic/field.json",
+      "size": 7861,
+      "sha256": "cc4caa0d9526446cb93081e8e7fd8856c78ba95e2ffacad4d0df686e299c312f",
+      "url": "https://raw.githubusercontent.com/lianggeming14/liangzihu-ontology-traceability/5776ba8d656139d3fb8dfabd137d83dd6dbba11c/ontology-platform/backend/tests/fixtures/semantic/field.json"
+    },
+    {
+      "path": "ontology-platform/backend/tests/fixtures/semantic/pond.json",
+      "size": 7856,
+      "sha256": "3bb0a3bf2ce58a5283b652ee39c22c35d7717a80adb7d97aeb696084e2a2f2e2",
+      "url": "https://raw.githubusercontent.com/lianggeming14/liangzihu-ontology-traceability/5776ba8d656139d3fb8dfabd137d83dd6dbba11c/ontology-platform/backend/tests/fixtures/semantic/pond.json"
+    },
+    {
+      "path": "ontology-platform/backend/tests/fixtures/semantic/orchard.json",
+      "size": 7871,
+      "sha256": "ec7db1644db209e21d2323de6d559764ae995db93934750855cfc0c114535540",
+      "url": "https://raw.githubusercontent.com/lianggeming14/liangzihu-ontology-traceability/5776ba8d656139d3fb8dfabd137d83dd6dbba11c/ontology-platform/backend/tests/fixtures/semantic/orchard.json"
+    },
+    {
+      "path": "ontology-platform/tests/fixtures/telemetry/field.csv",
+      "size": 305,
+      "sha256": "5406709f4da1baa0f092d81b3811cc24bc8fbc3018c7e8501c96a1f4400d6970",
+      "url": "https://raw.githubusercontent.com/lianggeming14/liangzihu-ontology-traceability/5776ba8d656139d3fb8dfabd137d83dd6dbba11c/ontology-platform/tests/fixtures/telemetry/field.csv"
+    },
+    {
+      "path": "ontology-platform/tests/fixtures/telemetry/pond.json",
+      "size": 496,
+      "sha256": "740c6d0166de5975aa1199bfabcf150148da7702d0e8144b4c47866653b153cb",
+      "url": "https://raw.githubusercontent.com/lianggeming14/liangzihu-ontology-traceability/5776ba8d656139d3fb8dfabd137d83dd6dbba11c/ontology-platform/tests/fixtures/telemetry/pond.json"
+    },
+    {
+      "path": "ontology-platform/tests/fixtures/telemetry/orchard.geojson",
+      "size": 570,
+      "sha256": "c964a5c55dc228f0abd3d81172c15f5d14b6fd8b707d3489970b890b29a27d20",
+      "url": "https://raw.githubusercontent.com/lianggeming14/liangzihu-ontology-traceability/5776ba8d656139d3fb8dfabd137d83dd6dbba11c/ontology-platform/tests/fixtures/telemetry/orchard.geojson"
+    },
+    {
+      "path": "ontology-platform/tests/fixtures/telemetry/README.md",
+      "size": 5024,
+      "sha256": "0ff458842bb694595c3ec217f166f072f579de9e389c1719cf65c7b53f60b2ae",
+      "url": "https://raw.githubusercontent.com/lianggeming14/liangzihu-ontology-traceability/5776ba8d656139d3fb8dfabd137d83dd6dbba11c/ontology-platform/tests/fixtures/telemetry/README.md"
+    },
+    {
+      "path": "ontology-platform/tests/fixtures/telemetry/legacy-professional-contract.json",
+      "size": 4019,
+      "sha256": "d32a862d8968bfd7dd81b6b75ab7369a64b7bcf9f6abf5f98890cbe50f6a4567",
+      "url": "https://raw.githubusercontent.com/lianggeming14/liangzihu-ontology-traceability/5776ba8d656139d3fb8dfabd137d83dd6dbba11c/ontology-platform/tests/fixtures/telemetry/legacy-professional-contract.json"
+    },
+    {
+      "path": "implementation/integrations/liangzihu/synthetic-core-example.json",
+      "size": 3942,
+      "sha256": "34222d6c254c8337ca7212a6280ba7ad14c3075eb34728d1e1572d082d367b17",
+      "url": "https://raw.githubusercontent.com/lianggeming14/liangzihu-ontology-traceability/5776ba8d656139d3fb8dfabd137d83dd6dbba11c/implementation/integrations/liangzihu/synthetic-core-example.json"
+    },
+    {
+      "path": "implementation/agri/seed.py",
+      "size": 9042,
+      "sha256": "ddbbbc24556832a086ef58bdc4b481aaf0eb69b26802a645f2ff62bb29e8b5e0",
+      "url": "https://raw.githubusercontent.com/lianggeming14/liangzihu-ontology-traceability/5776ba8d656139d3fb8dfabd137d83dd6dbba11c/implementation/agri/seed.py"
+    },
+    {
+      "path": "设计草案/canonical-record.examples.json",
+      "size": 20562,
+      "sha256": "31821cfe7dad17cd40fc60052f78dde6dbe11654b83bfe447edaa27fa725ad76",
+      "url": "https://raw.githubusercontent.com/lianggeming14/liangzihu-ontology-traceability/5776ba8d656139d3fb8dfabd137d83dd6dbba11c/%E8%AE%BE%E8%AE%A1%E8%8D%89%E6%A1%88/canonical-record.examples.json"
+    },
+    {
+      "path": "ontology-platform/tests/fixtures/maps/synthetic-mvt.mbtiles",
+      "size": 24576,
+      "sha256": "b8715c398b78b23aca2dbbbfbf8ed993c12620ef5521805b30efca1f544f57cf",
+      "url": "https://raw.githubusercontent.com/lianggeming14/liangzihu-ontology-traceability/5776ba8d656139d3fb8dfabd137d83dd6dbba11c/ontology-platform/tests/fixtures/maps/synthetic-mvt.mbtiles"
+    },
+    {
+      "path": "ontology-platform/tests/fixtures/maps/synthetic-mvt.pmtiles",
+      "size": 5985,
+      "sha256": "bdc885d5767033762aaa1bfa16a864c0481c1e0b3825ce2c7e2699cfac2e695e",
+      "url": "https://raw.githubusercontent.com/lianggeming14/liangzihu-ontology-traceability/5776ba8d656139d3fb8dfabd137d83dd6dbba11c/ontology-platform/tests/fixtures/maps/synthetic-mvt.pmtiles"
+    },
+    {
+      "path": "ontology-platform/tests/fixtures/maps/synthetic-raster.mbtiles",
+      "size": 110592,
+      "sha256": "10423018429770a59747186e8a1e1608b8f8e0dc983817552e8cbd609db1e94d",
+      "url": "https://raw.githubusercontent.com/lianggeming14/liangzihu-ontology-traceability/5776ba8d656139d3fb8dfabd137d83dd6dbba11c/ontology-platform/tests/fixtures/maps/synthetic-raster.mbtiles"
+    },
+    {
+      "path": "ontology-platform/tests/fixtures/maps/synthetic-raster.pmtiles",
+      "size": 82068,
+      "sha256": "018d53fdfe3890d0a7da14bdf2a9206f7d6ca179b0b3e8acac23a8c41e599285",
+      "url": "https://raw.githubusercontent.com/lianggeming14/liangzihu-ontology-traceability/5776ba8d656139d3fb8dfabd137d83dd6dbba11c/ontology-platform/tests/fixtures/maps/synthetic-raster.pmtiles"
+    },
+    {
+      "path": "ontology-platform/tests/fixtures/maps/manifest.json",
+      "size": 18825,
+      "sha256": "a3ce70b4536212f33a9f393cc072bac33fd37e41baaf9599d0b4d5d80705dedb",
+      "url": "https://raw.githubusercontent.com/lianggeming14/liangzihu-ontology-traceability/5776ba8d656139d3fb8dfabd137d83dd6dbba11c/ontology-platform/tests/fixtures/maps/manifest.json"
+    },
+    {
+      "path": "ontology-platform/tests/fixtures/maps/LICENSES.md",
+      "size": 3439,
+      "sha256": "d45f6d73f172ab4d7fe59c3e32945ac6d5a3c8247b51c8582f782098ecf24204",
+      "url": "https://raw.githubusercontent.com/lianggeming14/liangzihu-ontology-traceability/5776ba8d656139d3fb8dfabd137d83dd6dbba11c/ontology-platform/tests/fixtures/maps/LICENSES.md"
+    },
+    {
+      "path": "ontology-platform/tests/fixtures/maps/LICENSE-PMTILES.txt",
+      "size": 1713,
+      "sha256": "0371c38f338835f7fc13ed71176f3d92144e22c8b736a31cced57adbbeb647b3",
+      "url": "https://raw.githubusercontent.com/lianggeming14/liangzihu-ontology-traceability/5776ba8d656139d3fb8dfabd137d83dd6dbba11c/ontology-platform/tests/fixtures/maps/LICENSE-PMTILES.txt"
+    },
+    {
+      "path": "ontology-platform/tests/fixtures/maps/style-mvt.json",
+      "size": 1081,
+      "sha256": "790d54e84f8c4e79786fa9d78f06630d6a2f58685df54b1bd2aa057155deec88",
+      "url": "https://raw.githubusercontent.com/lianggeming14/liangzihu-ontology-traceability/5776ba8d656139d3fb8dfabd137d83dd6dbba11c/ontology-platform/tests/fixtures/maps/style-mvt.json"
+    },
+    {
+      "path": "ontology-platform/tests/fixtures/maps/style-raster.json",
+      "size": 526,
+      "sha256": "a4979c3030745321d1a480927b91534681ada588894796d8af529bb5fb9e603a",
+      "url": "https://raw.githubusercontent.com/lianggeming14/liangzihu-ontology-traceability/5776ba8d656139d3fb8dfabd137d83dd6dbba11c/ontology-platform/tests/fixtures/maps/style-raster.json"
+    }
+  ]
+}
