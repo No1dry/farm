@@ -1,0 +1,30 @@
+{
+  "verified_at": "2026-10-29T05:50:54.832605+00:00",
+  "version": "0.6.0",
+  "production_url": "http://127.0.0.1:5173",
+  "production_manifest_matches": true,
+  "manifest_sha256": "2fc32f4cba5ef33e68eefa16e3d9ec41f8374f29ecfbdbd8f2ce68227d39c673",
+  "model_revision": "v06",
+  "tests": {
+    "browser": 23,
+    "backend": 81,
+    "javascript_and_browser_adapter": 33,
+    "failed": 0
+  },
+  "browser_views": 16,
+  "village_views": 9,
+  "p95_frame_ms_range": [
+    7.3,
+    14.2
+  ],
+  "original_source_files_unchanged": 12,
+  "restored_tables_equal": 12,
+  "backup": "runtime/backups/farm-v06-20261029T054852356139Z.sqlite3",
+  "backup_sha256": "4650a47f028eaa6670faa138620ddda42837ff25120c68ea4b5d3a5152b527c7",
+  "limits": [
+    "Simplified full-region reconstruction with explicit replaceable samples, not a survey or photorealistic replica",
+    "Five drawing coordinate systems remain independently unregistered",
+    "No real telemetry or equipment control connected; synthetic business data stays isolated",
+    "Performance measured on the documented local RTX 5070 Ti desktop only"
+  ]
+}

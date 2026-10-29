@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "reopened_blend": "C:\\Users\\robot\\Desktop\\farm-main\\farm\\deliverables\\blender\\farm-full.blend",
+  "terrain_area_expected": 2497652.106747787,
+  "terrain_area_actual": 2497652.0654790755,
+  "unoccluded_water_triangles": 6919,
+  "editable_buildings": 249,
+  "tree_component_instances": 13479,
+  "unique_tree_mesh_datablocks": 9,
+  "channel_crest_faces_up": 5055,
+  "packed_images": 27,
+  "embedded_manifest_exact": true
+}

@@ -1,0 +1,294 @@
+{
+  "revision": "v06",
+  "created_utc": "2026-10-29T05:30:27.877934+00:00",
+  "status": "geometry_and_exports_frozen",
+  "manifest": {
+    "path": "public/models/manifest.json",
+    "sha256": "2fc32f4cba5ef33e68eefa16e3d9ec41f8374f29ecfbdbd8f2ce68227d39c673",
+    "default_asset_id": "full"
+  },
+  "blend": {
+    "path": "deliverables/blender/farm-full.blend",
+    "bytes": 402815683,
+    "sha256": "f7ccc689f10180eff76775c685d1df4105381c8daab989afff375a094758802c",
+    "standalone_reopen_passed": true
+  },
+  "assets": [
+    {
+      "asset_id": "full",
+      "kind": "main",
+      "path": "public/models/full-area.glb",
+      "bytes": 135574212,
+      "sha256": "f842c8c148a17cbc76c8d21c505830909f914ffcf032d71025e68e01880a42c6"
+    },
+    {
+      "asset_id": "full",
+      "kind": "lod",
+      "path": "public/models/full-area-lod.glb",
+      "bytes": 22646908,
+      "sha256": "152aed86cef8b9431e410c071a9203f315d12e4be12b5a49772293e1b87d23f4"
+    },
+    {
+      "asset_id": "detail-miaoxia",
+      "kind": "main",
+      "path": "public/models/detail-miaoxia.glb",
+      "bytes": 42389396,
+      "sha256": "c7d5b4528132599ba3a957241dd56ff8526195595669a6335414550353337446"
+    },
+    {
+      "asset_id": "detail-xinwumao",
+      "kind": "main",
+      "path": "public/models/detail-xinwumao.glb",
+      "bytes": 32944788,
+      "sha256": "10e26a69efc9b939e400c7379a0986d4a734c5ab1dd71acb697971a4f802c254"
+    },
+    {
+      "asset_id": "detail-zhangjia",
+      "kind": "main",
+      "path": "public/models/detail-zhangjia.glb",
+      "bytes": 25139844,
+      "sha256": "5e0c8b53c5c793cea79e349bf338bec152bb8354612c37744a492e1f71b62af1"
+    },
+    {
+      "asset_id": "detail-tanshen",
+      "kind": "main",
+      "path": "public/models/detail-tanshen.glb",
+      "bytes": 24719184,
+      "sha256": "4ed5cebfeeba9871846ca2b55e2370f93e3697494255f5384aca65a0e96f8e1d"
+    },
+    {
+      "asset_id": "detail-abcdef",
+      "kind": "main",
+      "path": "public/models/detail-abcdef.glb",
+      "bytes": 61436736,
+      "sha256": "d06b0a95d8ac6abec09e985aa4d1f35cb25c36b4a033a219ef04d1946279a8fe"
+    }
+  ],
+  "stable_business_representations": {
+    "full": 121,
+    "drawing": 163,
+    "total": 284,
+    "real_business_entities_added": 0
+  },
+  "appearance": {
+    "road_endpoint_snaps_within_parameter": 2,
+    "sample_context_ponds": 0,
+    "context_mosaic_policy": "Unverified external pond/parcel infill disabled after visual review; continuous meadow and source-observed lake/river/island only",
+    "sample_tree_count": 4493,
+    "sample_infill_parcels": 522,
+    "villages": [
+      {
+        "spatial_id": "SAT-SETTLEMENT-001",
+        "observed_roof_candidates": 19,
+        "sample_buildings": 8,
+        "lanes": 3
+      },
+      {
+        "spatial_id": "SAT-SETTLEMENT-002",
+        "observed_roof_candidates": 24,
+        "sample_buildings": 6,
+        "lanes": 4
+      },
+      {
+        "spatial_id": "SAT-SETTLEMENT-003",
+        "observed_roof_candidates": 16,
+        "sample_buildings": 2,
+        "lanes": 3
+      },
+      {
+        "spatial_id": "SAT-SETTLEMENT-004",
+        "observed_roof_candidates": 4,
+        "sample_buildings": 0,
+        "lanes": 2
+      },
+      {
+        "spatial_id": "SAT-SETTLEMENT-005",
+        "observed_roof_candidates": 36,
+        "sample_buildings": 12,
+        "lanes": 5
+      },
+      {
+        "spatial_id": "SAT-SETTLEMENT-006",
+        "observed_roof_candidates": 24,
+        "sample_buildings": 3,
+        "lanes": 4
+      },
+      {
+        "spatial_id": "SAT-SETTLEMENT-007",
+        "observed_roof_candidates": 24,
+        "sample_buildings": 9,
+        "lanes": 4
+      },
+      {
+        "spatial_id": "SAT-SETTLEMENT-008",
+        "observed_roof_candidates": 32,
+        "sample_buildings": 13,
+        "lanes": 6
+      },
+      {
+        "spatial_id": "SAT-SETTLEMENT-009",
+        "observed_roof_candidates": 13,
+        "sample_buildings": 4,
+        "lanes": 3
+      }
+    ],
+    "sample_device_count": 49,
+    "observed_roof_candidates": 192,
+    "redline_area": 3127797.7649250072,
+    "sample_completion_area": 1293496.3299249553,
+    "building_instances": 249
+  },
+  "statistics": {
+    "full_area_objects": 121,
+    "detail_objects": 163,
+    "drawing_assets": 5,
+    "mesh_objects": 18603,
+    "vertices": 8446049,
+    "polygons": 3777468
+  },
+  "sources": {
+    "full_region_enrichment": "941f7ddd74709ef88082588473f5f6667dd19ee5e07ee591f949bc41554dc1db",
+    "drawing_entities": "8353749c4105c8fadf2944e1140e06e91a7f9843d76e877a159eaea5de8cfaff",
+    "sample_parameters": "41dc40a561d432952d4902d617395d2c8c490cd8af6d83644ffa388c2b0ec728",
+    "device_layout": "a287779cece83d60acab29c6b9e53eda431ae5737fa66b11fdb748f2f1aa70f8",
+    "device_grounding_current_receipt": "23c9c69c4e9c1f6faacc4e6b33c39df856ef7b14c4b1b89f58877be7537bfbe1"
+  },
+  "verification": {
+    "scene": "deliverables/blender/full-region-scene-verification.json",
+    "export_bytes": "deliverables/blender/full-region-export-verification.json",
+    "all_seven_geometry_guard": "deliverables/verification/model-correction-guard.json",
+    "full_scene": {
+      "passed": true,
+      "reopened_blend": "C:\\Users\\robot\\Desktop\\farm-main\\farm\\deliverables\\blender\\farm-full.blend",
+      "terrain_area_expected": 2497652.106747787,
+      "terrain_area_actual": 2497652.0654790755,
+      "unoccluded_water_triangles": 6919,
+      "editable_buildings": 249,
+      "tree_component_instances": 13479,
+      "unique_tree_mesh_datablocks": 9,
+      "channel_crest_faces_up": 5055,
+      "packed_images": 27,
+      "embedded_manifest_exact": true
+    },
+    "full_exports": {
+      "model_revision": "v06",
+      "source_owners": 121,
+      "assets": [
+        {
+          "file": "full-area.glb",
+          "bytes": 135574212,
+          "sha256": "f842c8c148a17cbc76c8d21c505830909f914ffcf032d71025e68e01880a42c6",
+          "nodes": 591,
+          "meshes": 301,
+          "gpu_instance_batches": 147,
+          "gpu_component_instances": 13467,
+          "device_nodes": 49,
+          "leaf_alpha_mask": true,
+          "embedded_images": 17
+        },
+        {
+          "file": "full-area-lod.glb",
+          "bytes": 22646908,
+          "sha256": "152aed86cef8b9431e410c071a9203f315d12e4be12b5a49772293e1b87d23f4",
+          "nodes": 516,
+          "meshes": 226,
+          "gpu_instance_batches": 147,
+          "gpu_component_instances": 13467,
+          "device_nodes": 49,
+          "leaf_alpha_mask": true,
+          "embedded_images": 9
+        }
+      ],
+      "passed": true,
+      "limits": "Checks identity, self-containment and instance/material contracts; appearance is separately reviewed in actual rendered images."
+    },
+    "material_factors": {
+      "passed": true,
+      "assets": [
+        {
+          "path": "detail-abcdef.glb",
+          "verified_material_factors": 11,
+          "direct_texture_materials": []
+        },
+        {
+          "path": "detail-miaoxia.glb",
+          "verified_material_factors": 11,
+          "direct_texture_materials": []
+        },
+        {
+          "path": "detail-tanshen.glb",
+          "verified_material_factors": 10,
+          "direct_texture_materials": []
+        },
+        {
+          "path": "detail-xinwumao.glb",
+          "verified_material_factors": 12,
+          "direct_texture_materials": []
+        },
+        {
+          "path": "detail-zhangjia.glb",
+          "verified_material_factors": 10,
+          "direct_texture_materials": []
+        },
+        {
+          "path": "full-area-lod.glb",
+          "verified_material_factors": 38,
+          "direct_texture_materials": [
+            {
+              "name": "V06 CC0 photographic broadleaf sprays LOD.001",
+              "reason": "Direct photographic RGBA leaf texture; no multiplier in Blender shader."
+            }
+          ]
+        },
+        {
+          "path": "full-area.glb",
+          "verified_material_factors": 39,
+          "direct_texture_materials": [
+            {
+              "name": "V06 CC0 photographic broadleaf sprays",
+              "reason": "Direct photographic RGBA leaf texture; no multiplier in Blender shader."
+            }
+          ]
+        }
+      ],
+      "comparison": "Exported baseColorFactor equals the Blender BSDF or RGBA Multiply constant; absent glTF factor means white and fails when tint is expected."
+    },
+    "exact_asset_spatial_id_sets": true
+  },
+  "visual_review": {
+    "blender_full_and_village": "Reviewed actual rendered images with parent/source_audit; external artificial pond/checkerboard context removed.",
+    "preview_images": [
+      {
+        "path": "deliverables/blender/v06-full-preview.png",
+        "sha256": "6819430f471d4c87e7c2eec68e20c4dbbb01820b2aba81343f3e119cdff15678"
+      },
+      {
+        "path": "deliverables/blender/v06-village-preview.png",
+        "sha256": "aef951a79cbe4892f5cdcc3dbc4e0276777c663e8cc6ae3907eb78fe1a941438"
+      },
+      {
+        "path": "deliverables/blender/v06-field-preview.png",
+        "sha256": "b937a14ea5da7ec3542503301d52f607247a4948c70522d2c82389a1d49e3b25"
+      },
+      {
+        "path": "deliverables/blender/full-area-review.png",
+        "sha256": "0f6f47690d95e84032086e4089f8b30627ff9e969c94dfbb45c2b82b72c7c25f"
+      }
+    ],
+    "browser": "Final production browser verification coordinated by root; see deliverables/verification. This build report does not substitute automated geometry checks for visual acceptance.",
+    "browser_material_fix": "Root confirmed real browser full-area/village color restoration in deliverables/verification/material-export-fixed. Final full-region browser review uses frozen 2fc32f4c snapshot."
+  },
+  "limitations": [
+    "Local image-derived approximate units, no CRS or DEM.",
+    "192 image roof-like candidates are not a surveyed building inventory; heights, walls, roof types, vegetation, crops and 49 devices use explicitly replaceable sample parameters.",
+    "Near GLB is 135.56 MB; initial LOD is 22.64 MB.",
+    "Five drawing scenes remain unregistered paper-coordinate models.",
+    "No satellite/CAD screenshot material is exported in primary GLBs."
+  ],
+  "material_export_revision": "v06-canonical-rgba-multiply",
+  "corrections": [
+    "Canonical ShaderNodeMix RGBA MULTIPLY preserves baseColorFactor; all delivered materials checked against Blend shader sockets.",
+    "Explicit use_active_scene prevents saved selection states from another PDF scene leaking into full/LOD exports.",
+    "Final browser-approved overview/focus camera is [460,2472.5,1760] -> [0,0,154.455]."
+  ]
+}

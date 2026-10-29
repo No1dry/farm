@@ -1,0 +1,28 @@
+{
+  "repository": "https://github.com/lianggeming14/liangzihu-ontology-traceability",
+  "commit": "5776ba8d656139d3fb8dfabd137d83dd6dbba11c",
+  "directory": "ontology-platform/packages/ontology",
+  "files": [
+    {
+      "path": "agriculture/agriculture.ttl",
+      "sha256": "557768bbc94260e98740801df916197003f0b5f800109c4a781030af00e47217"
+    },
+    {
+      "path": "core/core.ttl",
+      "sha256": "c46358b966b6785da70fd0b28a3727bbdd6826fcdb1325767bfd510b892a458f"
+    },
+    {
+      "path": "devices/devices.ttl",
+      "sha256": "4aad19890ade5aaed5bab9f4c0a0c0daa60a027155e82441d0eeb679975f5182"
+    },
+    {
+      "path": "rules/finite-profile.json",
+      "sha256": "1c06e818778628b6902609eba01397c8ae7d2d1b275a3ce83913b561063fd2dc"
+    },
+    {
+      "path": "shapes/core.shacl.ttl",
+      "sha256": "1c201bf7b485a383697bbc0f0b02da94a07fd437a02ee56dc384a87a5e58aaa1"
+    }
+  ],
+  "scope": "Ontology terms and SHACL shapes only; no upstream frontend"
+}

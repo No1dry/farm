@@ -1,0 +1,52 @@
+{
+  "release": "v0.6.0",
+  "checked_at": "2026-10-29T07:02:38.401403+00:00",
+  "scope": "Local publication candidate; remote commit and uploaded assets must be verified separately before publishing.",
+  "checks": [
+    {
+      "command": "python -m pytest -q",
+      "passed": 102,
+      "failed": 0,
+      "warning": "Existing Starlette/httpx deprecation"
+    },
+    {
+      "command": "npm test",
+      "passed": 33,
+      "failed": 0
+    },
+    {
+      "command": "npm run test:e2e",
+      "passed": 23,
+      "failed": 0,
+      "browser": "Chrome",
+      "base_url": "http://127.0.0.1:5173"
+    },
+    {
+      "command": "npm ci (independent source staging)",
+      "exit_code": 0,
+      "vulnerabilities": 0
+    },
+    {
+      "command": "npm run build (independent source staging)",
+      "exit_code": 0,
+      "warning": "Three.js bundle exceeds Vite 500 kB advisory"
+    },
+    {
+      "command": "python scripts/fetch_release_assets.py --all --archive-dir LOCAL_ARCHIVES (independent staging)",
+      "verified_files": 49,
+      "installed_files": 8
+    },
+    {
+      "command": "python scripts/db_init.py --db runtime/fresh-release.sqlite3 (independent staging)",
+      "real": 284,
+      "demo": 189,
+      "release_seed_initialized": true,
+      "ledger_uuid_matches": 100,
+      "sqlite_integrity": "ok"
+    }
+  ],
+  "model_manifest_sha256": "2fc32f4cba5ef33e68eefa16e3d9ec41f8374f29ecfbdbd8f2ce68227d39c673",
+  "seed_sha256": "96a384f675a954ae6910a9f0c8e950e897d108404929183bb6a795d69e191377",
+  "original_focus_style_sha256": "874531436ffa156b232ca89766c1acfdd1f715ef22b4b2eba473cb5702a7c1cd",
+  "release_distribution": "Git tracks reviewed source and clean public seed; large final Blend and current GLBs are pinned Release attachments. Operational runtime history and credentials are excluded."
+}

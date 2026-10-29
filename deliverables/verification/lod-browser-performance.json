@@ -1,0 +1,52 @@
+{
+  "timestamp": "2026-10-29T07:01:16.973Z",
+  "overview": {
+    "viewport": [
+      1600,
+      1000
+    ],
+    "pixelRatio": 1,
+    "asset": "full",
+    "lod": "overview",
+    "loadedAssets": 1,
+    "loadMs": 175.7000000178814,
+    "assetLoadMs": 146.19999998807907,
+    "hardware": {
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5070 Ti (0x00002C05) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "logicalProcessors": 20,
+      "deviceMemoryGiB": 32
+    },
+    "samples": 300,
+    "medianFrameMs": 6.9000000059604645,
+    "p95FrameMs": 7.4000000059604645,
+    "drawCalls": 694,
+    "triangles": 2904356,
+    "geometries": 714,
+    "textures": 13
+  },
+  "detail": {
+    "viewport": [
+      1600,
+      1000
+    ],
+    "pixelRatio": 1,
+    "asset": "full",
+    "lod": "detail",
+    "loadedAssets": 2,
+    "loadMs": 175.7000000178814,
+    "assetLoadMs": 617.1999999880791,
+    "hardware": {
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5070 Ti (0x00002C05) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "logicalProcessors": 20,
+      "deviceMemoryGiB": 32
+    },
+    "samples": 300,
+    "medianFrameMs": 7,
+    "p95FrameMs": 12.5,
+    "drawCalls": 634,
+    "triangles": 4358576,
+    "geometries": 1351,
+    "textures": 32
+  },
+  "identicalIdentityCount": 121
+}

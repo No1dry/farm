@@ -1,0 +1,270 @@
+{
+  "schema_version": "farm-release-assets/1",
+  "version": "v0.6.0",
+  "repository": "No1dry/farm",
+  "assets": [
+    {
+      "name": "farm-v0.6.0-models.zip",
+      "bytes": 204087642,
+      "sha256": "81b533b5471ab17d38577a5e17ca84af146b170211dc3cad77b5f925162afdf9",
+      "files": [
+        {
+          "path": "public/models/detail-abcdef.glb",
+          "bytes": 61436736,
+          "sha256": "d06b0a95d8ac6abec09e985aa4d1f35cb25c36b4a033a219ef04d1946279a8fe"
+        },
+        {
+          "path": "public/models/detail-miaoxia.glb",
+          "bytes": 42389396,
+          "sha256": "c7d5b4528132599ba3a957241dd56ff8526195595669a6335414550353337446"
+        },
+        {
+          "path": "public/models/detail-tanshen.glb",
+          "bytes": 24719184,
+          "sha256": "4ed5cebfeeba9871846ca2b55e2370f93e3697494255f5384aca65a0e96f8e1d"
+        },
+        {
+          "path": "public/models/detail-xinwumao.glb",
+          "bytes": 32944788,
+          "sha256": "10e26a69efc9b939e400c7379a0986d4a734c5ab1dd71acb697971a4f802c254"
+        },
+        {
+          "path": "public/models/detail-zhangjia.glb",
+          "bytes": 25139844,
+          "sha256": "5e0c8b53c5c793cea79e349bf338bec152bb8354612c37744a492e1f71b62af1"
+        },
+        {
+          "path": "public/models/full-area-lod.glb",
+          "bytes": 22646908,
+          "sha256": "152aed86cef8b9431e410c071a9203f315d12e4be12b5a49772293e1b87d23f4"
+        },
+        {
+          "path": "public/models/full-area.glb",
+          "bytes": 135574212,
+          "sha256": "f842c8c148a17cbc76c8d21c505830909f914ffcf032d71025e68e01880a42c6"
+        },
+        {
+          "path": "public/models/manifest.json",
+          "bytes": 2003609,
+          "sha256": "2fc32f4cba5ef33e68eefa16e3d9ec41f8374f29ecfbdbd8f2ce68227d39c673"
+        }
+      ],
+      "id": "models",
+      "url": "https://github.com/No1dry/farm/releases/download/v0.6.0/farm-v0.6.0-models.zip"
+    },
+    {
+      "name": "farm-v0.6.0-blender.zip",
+      "bytes": 214242318,
+      "sha256": "4985f3a35c8a7c584e1a38eb023c38589b1271538718882bc7d5449b3be1d7b6",
+      "files": [
+        {
+          "path": "deliverables/blender/blender-dependencies.txt",
+          "bytes": 2450,
+          "sha256": "c371a6457f2a20735a92a030c41a1ee64db6128a9ebbe8a8eaffb3a65137f678"
+        },
+        {
+          "path": "deliverables/blender/build-report.json",
+          "bytes": 10853,
+          "sha256": "8db35600f6fe55a1ceaa518473dc69a5bb613efe6512707ba3fd71ba7f263e03"
+        },
+        {
+          "path": "deliverables/blender/correction-channel-clay.png",
+          "bytes": 1875611,
+          "sha256": "b846464240433ba175ce41a10068e541d4b5762d72722ec3489c43b0a9cb8ebc"
+        },
+        {
+          "path": "deliverables/blender/correction-channel-material.png",
+          "bytes": 2374720,
+          "sha256": "7dfbb84a7e6d71586254453c47355b096f3bb76a99a257d885876ec9b8f8f737"
+        },
+        {
+          "path": "deliverables/blender/correction-channel-sample-clay.png",
+          "bytes": 2007722,
+          "sha256": "d5ea95fcca840fd2a4bfcb1c9bda15bc93d5e3bf56bc930f64d8c30092bc966e"
+        },
+        {
+          "path": "deliverables/blender/correction-channel-sample-material.png",
+          "bytes": 2364984,
+          "sha256": "5e03aa0a410a8a94747a8b63af2f46c40a6a5bc06dbaf67acf9b7389cdb69f24"
+        },
+        {
+          "path": "deliverables/blender/correction-field-clay.png",
+          "bytes": 1577924,
+          "sha256": "dd915ae61eed672b8b2e0ad57ec72055cb471a67259045c88410826c8d61569f"
+        },
+        {
+          "path": "deliverables/blender/correction-field-material.png",
+          "bytes": 2321492,
+          "sha256": "fe4bcef2a1d9059580b06e3e4bf4039dfec1532d0147a87b355b8758abff12b1"
+        },
+        {
+          "path": "deliverables/blender/correction-full-no-shadow.png",
+          "bytes": 2160278,
+          "sha256": "6705db5624f4037181fbee7f99e2378bbed7fbc595429d1cbd217790f6835e3a"
+        },
+        {
+          "path": "deliverables/blender/correction-full-probe-clay.png",
+          "bytes": 1563464,
+          "sha256": "b40548f8614f0c90901afde266bd370e783bc9bf38d4efceca91367345d9d71a"
+        },
+        {
+          "path": "deliverables/blender/correction-full-probe-material.png",
+          "bytes": 2299849,
+          "sha256": "fd784367531dc4b55f75785fcf043f1db378dac3555a40decbbf984800f4643a"
+        },
+        {
+          "path": "deliverables/blender/correction-pond-clay.png",
+          "bytes": 1537214,
+          "sha256": "062b756b7f67784a5ee81f68311c25a1a28917f6972f7b199b4935328d129946"
+        },
+        {
+          "path": "deliverables/blender/correction-pond-material.png",
+          "bytes": 1679394,
+          "sha256": "a99705427c66768308e3e4a48d2c8d3e69c181cd3ae72f40ff8a5b8b4d367d1f"
+        },
+        {
+          "path": "deliverables/blender/detail-abcdef-review.png",
+          "bytes": 1645261,
+          "sha256": "4fa0f4003412f5fd2cc5d92e3280624775e0ef37a293de851c02e605bcaf66a1"
+        },
+        {
+          "path": "deliverables/blender/detail-miaoxia-review.png",
+          "bytes": 1856617,
+          "sha256": "4c2cd8b2cdfdece07fea4dabe9663267804f4bdd6295d2a6b5ebc6b456077dd3"
+        },
+        {
+          "path": "deliverables/blender/detail-review.png",
+          "bytes": 2332893,
+          "sha256": "a6edfef4c1436a93fb2e7be44e7c4fde9d35ecb780efd2d3f8480f0bd0cef53c"
+        },
+        {
+          "path": "deliverables/blender/detail-tanshen-review.png",
+          "bytes": 1743850,
+          "sha256": "0ef1eae6502460cbe3304b207169c3ac578cb16443e9d7926ceb5410b1097197"
+        },
+        {
+          "path": "deliverables/blender/detail-xinwumao-review.png",
+          "bytes": 1660299,
+          "sha256": "5a707e7aba5fa5d717a1cde8d3c1cc077e33970da728f90e2bcd7ddfdc0f142a"
+        },
+        {
+          "path": "deliverables/blender/detail-zhangjia-review.png",
+          "bytes": 1962120,
+          "sha256": "c9acd3cb0aed119b25ef1146a1c849c22601760aa7ade4244db3be921a0320a9"
+        },
+        {
+          "path": "deliverables/blender/farm-full.blend",
+          "bytes": 402815683,
+          "sha256": "f7ccc689f10180eff76775c685d1df4105381c8daab989afff375a094758802c"
+        },
+        {
+          "path": "deliverables/blender/full-area-review.png",
+          "bytes": 2076945,
+          "sha256": "0f6f47690d95e84032086e4089f8b30627ff9e969c94dfbb45c2b82b72c7c25f"
+        },
+        {
+          "path": "deliverables/blender/full-edge-channel-001-after.png",
+          "bytes": 2107558,
+          "sha256": "3619bd08d2d4b2d172f013159098be64a480a66e71d63dc9d9f3182cc2c74868"
+        },
+        {
+          "path": "deliverables/blender/full-inspection-SAT-CHANNEL-005.png",
+          "bytes": 2559560,
+          "sha256": "801e09366fb6a3e3342f7f0df12f0263d9e3a6bec03fdf5afb83231d244f6fe7"
+        },
+        {
+          "path": "deliverables/blender/full-inspection-SAT-POND-001.png",
+          "bytes": 1912847,
+          "sha256": "64e31700dd78f4a952f85ba5f937c273791745ed7541d270bba2af00367c506e"
+        },
+        {
+          "path": "deliverables/blender/full-inspection-SAT-POND-012.png",
+          "bytes": 1826500,
+          "sha256": "634e8112fd5cac91c763c9b3240bb6e8b668bf0d2aa41f029d9b08016ae32df3"
+        },
+        {
+          "path": "deliverables/blender/full-inspection-SAT-POND-025.png",
+          "bytes": 1817255,
+          "sha256": "f82a044dc78ab61cbe118908557e2868c04bf29507ba5bb400eba28710c2c125"
+        },
+        {
+          "path": "deliverables/blender/full-inspection-SAT-POND-034.png",
+          "bytes": 1837027,
+          "sha256": "5907dd7b41915c1c0f4ed64fb578f99df14b0230f3fed39f3f52d555003c02f4"
+        },
+        {
+          "path": "deliverables/blender/full-region-export-verification.json",
+          "bytes": 975,
+          "sha256": "163172878ffe4ba989a53e8ee99fe7ed809bb91997fdad8874f09c0ea874680f"
+        },
+        {
+          "path": "deliverables/blender/full-region-scene-verification.json",
+          "bytes": 461,
+          "sha256": "ad6ef37736c0d48a1f4d50fba32876a3a55345c235bcc0ee47daf5ac00e12f4a"
+        },
+        {
+          "path": "deliverables/blender/material-export-expectations.json",
+          "bytes": 11296,
+          "sha256": "9ac79bda0a6cecb6ec992bb7cb6b3e6d4ba97784d6f276cc7b000ebd8b229718"
+        },
+        {
+          "path": "deliverables/blender/material-export-verification.json",
+          "bytes": 1485,
+          "sha256": "bdc36d7404aa78ee05f3f0d7884bf32b595e4e2f27458bb45458d9eb9ea3665a"
+        },
+        {
+          "path": "deliverables/blender/pond-section-clay.png",
+          "bytes": 1526262,
+          "sha256": "37af9057ddb08b33c6e7961c937620d572aedb9fad2559abfa3860c7e5e64473"
+        },
+        {
+          "path": "deliverables/blender/pond-section-material.png",
+          "bytes": 1896790,
+          "sha256": "4bc991e5581121efe63943812d5da7ae959e0ce44d307ab4b28ef4c35df29cd4"
+        },
+        {
+          "path": "deliverables/blender/textures/dry-ground-stochastic.png",
+          "bytes": 5838774,
+          "sha256": "6b2419db86213397909e7fbcaa5f59953a8fc5d95596c8eca0dd082fb5707200"
+        },
+        {
+          "path": "deliverables/blender/textures/v06-crop-photo.png",
+          "bytes": 1032688,
+          "sha256": "acf10ec6a2a88f63733df7176569aeffedf5411b18f5887fa599d00ebd91362c"
+        },
+        {
+          "path": "deliverables/blender/textures/v06-roof-tiles.png",
+          "bytes": 283718,
+          "sha256": "6ba26a7e62ce3361f75e3f62600440287787e8ca19d353ba1a792ccf240275da"
+        },
+        {
+          "path": "deliverables/blender/textures/water-appearance.png",
+          "bytes": 35721,
+          "sha256": "d2dcb72460ea810cc58b5a8d2334255694d564c69ceb05d548f4c4cc542c66a3"
+        },
+        {
+          "path": "deliverables/blender/v06-field-preview.png",
+          "bytes": 2061870,
+          "sha256": "b937a14ea5da7ec3542503301d52f607247a4948c70522d2c82389a1d49e3b25"
+        },
+        {
+          "path": "deliverables/blender/v06-full-preview.png",
+          "bytes": 2076813,
+          "sha256": "6819430f471d4c87e7c2eec68e20c4dbbb01820b2aba81343f3e119cdff15678"
+        },
+        {
+          "path": "deliverables/blender/v06-village-preview.png",
+          "bytes": 2656456,
+          "sha256": "aef951a79cbe4892f5cdcc3dbc4e0276777c663e8cc6ae3907eb78fe1a941438"
+        },
+        {
+          "path": "deliverables/blender/verification.json",
+          "bytes": 3872,
+          "sha256": "35465c6e1016dbda504de245ed4c96a34760825169e803e0f9d757967c1d839d"
+        }
+      ],
+      "id": "blender",
+      "url": "https://github.com/No1dry/farm/releases/download/v0.6.0/farm-v0.6.0-blender.zip"
+    }
+  ]
+}

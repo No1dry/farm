@@ -1,0 +1,1085 @@
+{
+  "coordinate_system": "THREE_Y_UP",
+  "center_y": 3,
+  "model_revision": "v06",
+  "devices": [
+    {
+      "key": "SAT-BARE-001:sensor",
+      "parent_spatial_id": "SAT-BARE-001",
+      "parent_center": [
+        648.144,
+        3,
+        -37.343
+      ],
+      "offset": [
+        16.0,
+        -3,
+        -12.0
+      ],
+      "base_position": [
+        664.144,
+        0,
+        -49.343
+      ],
+      "reason": [
+        "ground or water level sampled from same model profile"
+      ]
+    },
+    {
+      "key": "SAT-CHANNEL-001:sensor",
+      "parent_spatial_id": "SAT-CHANNEL-001",
+      "parent_center": [
+        -1075.842,
+        3,
+        -94.455
+      ],
+      "offset": [
+        -36.91082,
+        -4.22,
+        -17.39906
+      ],
+      "base_position": [
+        -1112.75282,
+        -1.22,
+        -111.85406
+      ],
+      "reason": [
+        "small channel buoy at actual modeled drainage centerline and shallow water level"
+      ]
+    },
+    {
+      "key": "SAT-CHANNEL-002:sensor",
+      "parent_spatial_id": "SAT-CHANNEL-002",
+      "parent_center": [
+        286.337,
+        3,
+        -429.505
+      ],
+      "offset": [
+        21.26771,
+        -4.22,
+        -17.10809
+      ],
+      "base_position": [
+        307.60471,
+        -1.22,
+        -446.61309
+      ],
+      "reason": [
+        "small channel buoy at actual modeled drainage centerline and shallow water level"
+      ]
+    },
+    {
+      "key": "SAT-CHANNEL-003:sensor",
+      "parent_spatial_id": "SAT-CHANNEL-003",
+      "parent_center": [
+        582.178,
+        3,
+        263.762
+      ],
+      "offset": [
+        8.24295,
+        -4.22,
+        -13.32978
+      ],
+      "base_position": [
+        590.42095,
+        -1.22,
+        250.43222
+      ],
+      "reason": [
+        "small channel buoy at actual modeled drainage centerline and shallow water level"
+      ]
+    },
+    {
+      "key": "SAT-CHANNEL-004:sensor",
+      "parent_spatial_id": "SAT-CHANNEL-004",
+      "parent_center": [
+        366.337,
+        3,
+        830.198
+      ],
+      "offset": [
+        -27.09776,
+        -4.22,
+        -21.23523
+      ],
+      "base_position": [
+        339.23924,
+        -1.22,
+        808.96277
+      ],
+      "reason": [
+        "small channel buoy at actual modeled drainage centerline and shallow water level"
+      ]
+    },
+    {
+      "key": "SAT-CHANNEL-005:sensor",
+      "parent_spatial_id": "SAT-CHANNEL-005",
+      "parent_center": [
+        489.604,
+        3,
+        842.574
+      ],
+      "offset": [
+        -3.78987,
+        -4.22,
+        -9.52627
+      ],
+      "base_position": [
+        485.81413,
+        -1.22,
+        833.04773
+      ],
+      "reason": [
+        "small channel buoy at actual modeled drainage centerline and shallow water level"
+      ]
+    },
+    {
+      "key": "SAT-FIELD-001:sensor",
+      "parent_spatial_id": "SAT-FIELD-001",
+      "parent_center": [
+        -537.181,
+        3,
+        -927.821
+      ],
+      "offset": [
+        16.0,
+        -3,
+        -12.0
+      ],
+      "base_position": [
+        -521.181,
+        0,
+        -939.821
+      ],
+      "reason": [
+        "ground or water level sampled from same model profile"
+      ]
+    },
+    {
+      "key": "SAT-FIELD-005:sensor",
+      "parent_spatial_id": "SAT-FIELD-005",
+      "parent_center": [
+        96.189,
+        3,
+        -642.448
+      ],
+      "offset": [
+        16.0,
+        -3,
+        -12.0
+      ],
+      "base_position": [
+        112.189,
+        0,
+        -654.448
+      ],
+      "reason": [
+        "ground or water level sampled from same model profile"
+      ]
+    },
+    {
+      "key": "SAT-FIELD-009:sensor",
+      "parent_spatial_id": "SAT-FIELD-009",
+      "parent_center": [
+        532.946,
+        3,
+        -416.224
+      ],
+      "offset": [
+        16.0,
+        -3,
+        -12.0
+      ],
+      "base_position": [
+        548.946,
+        0,
+        -428.224
+      ],
+      "reason": [
+        "ground or water level sampled from same model profile"
+      ]
+    },
+    {
+      "key": "SAT-FIELD-013:sensor",
+      "parent_spatial_id": "SAT-FIELD-013",
+      "parent_center": [
+        399.317,
+        3,
+        -65.893
+      ],
+      "offset": [
+        16.0,
+        -3,
+        -12.0
+      ],
+      "base_position": [
+        415.317,
+        0,
+        -77.893
+      ],
+      "reason": [
+        "ground or water level sampled from same model profile"
+      ]
+    },
+    {
+      "key": "SAT-FIELD-017:sensor",
+      "parent_spatial_id": "SAT-FIELD-017",
+      "parent_center": [
+        519.056,
+        3,
+        213.458
+      ],
+      "offset": [
+        16.0,
+        -3,
+        -12.0
+      ],
+      "base_position": [
+        535.056,
+        0,
+        201.458
+      ],
+      "reason": [
+        "ground or water level sampled from same model profile"
+      ]
+    },
+    {
+      "key": "SAT-FIELD-021:sensor",
+      "parent_spatial_id": "SAT-FIELD-021",
+      "parent_center": [
+        263.328,
+        3,
+        674.808
+      ],
+      "offset": [
+        16.0,
+        -3,
+        -12.0
+      ],
+      "base_position": [
+        279.328,
+        0,
+        662.808
+      ],
+      "reason": [
+        "ground or water level sampled from same model profile"
+      ]
+    },
+    {
+      "key": "SAT-FIELD-025:sensor",
+      "parent_spatial_id": "SAT-FIELD-025",
+      "parent_center": [
+        -194.625,
+        3,
+        832.452
+      ],
+      "offset": [
+        16.0,
+        -3,
+        -12.0
+      ],
+      "base_position": [
+        -178.625,
+        0,
+        820.452
+      ],
+      "reason": [
+        "ground or water level sampled from same model profile"
+      ]
+    },
+    {
+      "key": "SAT-FIELD-029:sensor",
+      "parent_spatial_id": "SAT-FIELD-029",
+      "parent_center": [
+        -598.694,
+        3,
+        539.896
+      ],
+      "offset": [
+        16.0,
+        -3,
+        -12.0
+      ],
+      "base_position": [
+        -582.694,
+        0,
+        527.896
+      ],
+      "reason": [
+        "ground or water level sampled from same model profile"
+      ]
+    },
+    {
+      "key": "SAT-FIELD-033:sensor",
+      "parent_spatial_id": "SAT-FIELD-033",
+      "parent_center": [
+        -484.599,
+        3,
+        414.197
+      ],
+      "offset": [
+        16.0,
+        -3,
+        -12.0
+      ],
+      "base_position": [
+        -468.599,
+        0,
+        402.197
+      ],
+      "reason": [
+        "ground or water level sampled from same model profile"
+      ]
+    },
+    {
+      "key": "SAT-FIELD-037:sensor",
+      "parent_spatial_id": "SAT-FIELD-037",
+      "parent_center": [
+        194.723,
+        3,
+        900.093
+      ],
+      "offset": [
+        16.0,
+        -3,
+        -12.0
+      ],
+      "base_position": [
+        210.723,
+        0,
+        888.093
+      ],
+      "reason": [
+        "ground or water level sampled from same model profile"
+      ]
+    },
+    {
+      "key": "SAT-LAKE-001:sensor",
+      "parent_spatial_id": "SAT-LAKE-001",
+      "parent_center": [
+        -442.067,
+        3,
+        -147.045
+      ],
+      "offset": [
+        16.0,
+        -3.78,
+        -12.0
+      ],
+      "base_position": [
+        -426.067,
+        -0.78,
+        -159.045
+      ],
+      "reason": [
+        "ground or water level sampled from same model profile"
+      ]
+    },
+    {
+      "key": "SAT-LAKE-001:pump",
+      "parent_spatial_id": "SAT-LAKE-001",
+      "parent_center": [
+        -442.067,
+        3,
+        -147.045
+      ],
+      "offset": [
+        -18.0,
+        -3.78,
+        8.0
+      ],
+      "base_position": [
+        -460.067,
+        -0.78,
+        -139.045
+      ],
+      "reason": [
+        "ground or water level sampled from same model profile"
+      ]
+    },
+    {
+      "key": "SAT-POND-001:sensor",
+      "parent_spatial_id": "SAT-POND-001",
+      "parent_center": [
+        -791.146,
+        3,
+        -578.442
+      ],
+      "offset": [
+        16.0,
+        -3.78,
+        -12.0
+      ],
+      "base_position": [
+        -775.146,
+        -0.78,
+        -590.442
+      ],
+      "reason": [
+        "ground or water level sampled from same model profile"
+      ]
+    },
+    {
+      "key": "SAT-POND-001:pump",
+      "parent_spatial_id": "SAT-POND-001",
+      "parent_center": [
+        -791.146,
+        3,
+        -578.442
+      ],
+      "offset": [
+        -18.0,
+        -3.78,
+        8.0
+      ],
+      "base_position": [
+        -809.146,
+        -0.78,
+        -570.442
+      ],
+      "reason": [
+        "ground or water level sampled from same model profile"
+      ]
+    },
+    {
+      "key": "SAT-POND-005:sensor",
+      "parent_spatial_id": "SAT-POND-005",
+      "parent_center": [
+        -982.077,
+        3,
+        -337.215
+      ],
+      "offset": [
+        16.0,
+        -3.78,
+        -12.0
+      ],
+      "base_position": [
+        -966.077,
+        -0.78,
+        -349.215
+      ],
+      "reason": [
+        "ground or water level sampled from same model profile"
+      ]
+    },
+    {
+      "key": "SAT-POND-009:sensor",
+      "parent_spatial_id": "SAT-POND-009",
+      "parent_center": [
+        -933.83,
+        3,
+        -33.688
+      ],
+      "offset": [
+        16.0,
+        -3.78,
+        -12.0
+      ],
+      "base_position": [
+        -917.83,
+        -0.78,
+        -45.688
+      ],
+      "reason": [
+        "ground or water level sampled from same model profile"
+      ]
+    },
+    {
+      "key": "SAT-POND-009:pump",
+      "parent_spatial_id": "SAT-POND-009",
+      "parent_center": [
+        -933.83,
+        3,
+        -33.688
+      ],
+      "offset": [
+        -18.0,
+        -3.78,
+        8.0
+      ],
+      "base_position": [
+        -951.83,
+        -0.78,
+        -25.688
+      ],
+      "reason": [
+        "ground or water level sampled from same model profile"
+      ]
+    },
+    {
+      "key": "SAT-POND-013:sensor",
+      "parent_spatial_id": "SAT-POND-013",
+      "parent_center": [
+        -546.76,
+        3,
+        -466.734
+      ],
+      "offset": [
+        16.0,
+        -3.78,
+        -12.0
+      ],
+      "base_position": [
+        -530.76,
+        -0.78,
+        -478.734
+      ],
+      "reason": [
+        "ground or water level sampled from same model profile"
+      ]
+    },
+    {
+      "key": "SAT-POND-017:sensor",
+      "parent_spatial_id": "SAT-POND-017",
+      "parent_center": [
+        77.977,
+        3,
+        -475.957
+      ],
+      "offset": [
+        16.0,
+        -3.78,
+        -12.0
+      ],
+      "base_position": [
+        93.977,
+        -0.78,
+        -487.957
+      ],
+      "reason": [
+        "ground or water level sampled from same model profile"
+      ]
+    },
+    {
+      "key": "SAT-POND-017:pump",
+      "parent_spatial_id": "SAT-POND-017",
+      "parent_center": [
+        77.977,
+        3,
+        -475.957
+      ],
+      "offset": [
+        -18.0,
+        -3.78,
+        8.0
+      ],
+      "base_position": [
+        59.977,
+        -0.78,
+        -467.957
+      ],
+      "reason": [
+        "ground or water level sampled from same model profile"
+      ]
+    },
+    {
+      "key": "SAT-POND-021:sensor",
+      "parent_spatial_id": "SAT-POND-021",
+      "parent_center": [
+        -182.031,
+        3,
+        -192.303
+      ],
+      "offset": [
+        16.0,
+        -3.78,
+        -12.0
+      ],
+      "base_position": [
+        -166.031,
+        -0.78,
+        -204.303
+      ],
+      "reason": [
+        "ground or water level sampled from same model profile"
+      ]
+    },
+    {
+      "key": "SAT-POND-025:sensor",
+      "parent_spatial_id": "SAT-POND-025",
+      "parent_center": [
+        -55.121,
+        3,
+        -130.681
+      ],
+      "offset": [
+        16.0,
+        -3.78,
+        -12.0
+      ],
+      "base_position": [
+        -39.121,
+        -0.78,
+        -142.681
+      ],
+      "reason": [
+        "ground or water level sampled from same model profile"
+      ]
+    },
+    {
+      "key": "SAT-POND-025:pump",
+      "parent_spatial_id": "SAT-POND-025",
+      "parent_center": [
+        -55.121,
+        3,
+        -130.681
+      ],
+      "offset": [
+        -18.0,
+        -3.78,
+        8.0
+      ],
+      "base_position": [
+        -73.121,
+        -0.78,
+        -122.681
+      ],
+      "reason": [
+        "ground or water level sampled from same model profile"
+      ]
+    },
+    {
+      "key": "SAT-POND-029:sensor",
+      "parent_spatial_id": "SAT-POND-029",
+      "parent_center": [
+        579.459,
+        3,
+        291.856
+      ],
+      "offset": [
+        16.0,
+        -3.78,
+        -12.0
+      ],
+      "base_position": [
+        595.459,
+        -0.78,
+        279.856
+      ],
+      "reason": [
+        "ground or water level sampled from same model profile"
+      ]
+    },
+    {
+      "key": "SAT-POND-033:sensor",
+      "parent_spatial_id": "SAT-POND-033",
+      "parent_center": [
+        903.032,
+        3,
+        497.681
+      ],
+      "offset": [
+        16.0,
+        -3.78,
+        -12.0
+      ],
+      "base_position": [
+        919.032,
+        -0.78,
+        485.681
+      ],
+      "reason": [
+        "ground or water level sampled from same model profile"
+      ]
+    },
+    {
+      "key": "SAT-POND-033:pump",
+      "parent_spatial_id": "SAT-POND-033",
+      "parent_center": [
+        903.032,
+        3,
+        497.681
+      ],
+      "offset": [
+        -18.0,
+        -3.78,
+        8.0
+      ],
+      "base_position": [
+        885.032,
+        -0.78,
+        505.681
+      ],
+      "reason": [
+        "ground or water level sampled from same model profile"
+      ]
+    },
+    {
+      "key": "SAT-ROAD-001:sensor",
+      "parent_spatial_id": "SAT-ROAD-001",
+      "parent_center": [
+        356.436,
+        3,
+        -348.439
+      ],
+      "offset": [
+        16.0,
+        -3,
+        -12.0
+      ],
+      "base_position": [
+        372.436,
+        0,
+        -360.439
+      ],
+      "reason": [
+        "ground or water level sampled from same model profile"
+      ]
+    },
+    {
+      "key": "SAT-ROAD-005:sensor",
+      "parent_spatial_id": "SAT-ROAD-005",
+      "parent_center": [
+        -159.406,
+        3,
+        -270.627
+      ],
+      "offset": [
+        16.0,
+        -3,
+        -12.0
+      ],
+      "base_position": [
+        -143.406,
+        0,
+        -282.627
+      ],
+      "reason": [
+        "ground or water level sampled from same model profile"
+      ]
+    },
+    {
+      "key": "SAT-ROAD-009:sensor",
+      "parent_spatial_id": "SAT-ROAD-009",
+      "parent_center": [
+        470.657,
+        3,
+        542.754
+      ],
+      "offset": [
+        16.0,
+        -3,
+        -12.0
+      ],
+      "base_position": [
+        486.657,
+        0,
+        530.754
+      ],
+      "reason": [
+        "ground or water level sampled from same model profile"
+      ]
+    },
+    {
+      "key": "SAT-ROAD-013:sensor",
+      "parent_spatial_id": "SAT-ROAD-013",
+      "parent_center": [
+        718.812,
+        3,
+        749.109
+      ],
+      "offset": [
+        16.0,
+        -3,
+        -12.0
+      ],
+      "base_position": [
+        734.812,
+        0,
+        737.109
+      ],
+      "reason": [
+        "ground or water level sampled from same model profile"
+      ]
+    },
+    {
+      "key": "SAT-ROAD-017:sensor",
+      "parent_spatial_id": "SAT-ROAD-017",
+      "parent_center": [
+        -645.149,
+        3,
+        -768.119
+      ],
+      "offset": [
+        16.0,
+        -3,
+        -12.0
+      ],
+      "base_position": [
+        -629.149,
+        0,
+        -780.119
+      ],
+      "reason": [
+        "ground or water level sampled from same model profile"
+      ]
+    },
+    {
+      "key": "SAT-SETTLEMENT-001:sensor",
+      "parent_spatial_id": "SAT-SETTLEMENT-001",
+      "parent_center": [
+        -425.567,
+        3,
+        -867.79
+      ],
+      "offset": [
+        16.0,
+        -3,
+        -12.0
+      ],
+      "base_position": [
+        -409.567,
+        0,
+        -879.79
+      ],
+      "reason": [
+        "ground or water level sampled from same model profile"
+      ]
+    },
+    {
+      "key": "SAT-SETTLEMENT-002:sensor",
+      "parent_spatial_id": "SAT-SETTLEMENT-002",
+      "parent_center": [
+        206.19,
+        3,
+        -315.283
+      ],
+      "offset": [
+        16.0,
+        -3,
+        -12.0
+      ],
+      "base_position": [
+        222.19,
+        0,
+        -327.283
+      ],
+      "reason": [
+        "ground or water level sampled from same model profile"
+      ]
+    },
+    {
+      "key": "SAT-SETTLEMENT-003:sensor",
+      "parent_spatial_id": "SAT-SETTLEMENT-003",
+      "parent_center": [
+        189.111,
+        3,
+        -82.943
+      ],
+      "offset": [
+        20.33013,
+        -3,
+        -14.5
+      ],
+      "base_position": [
+        209.44113,
+        0,
+        -97.443
+      ],
+      "reason": [
+        "ground or water level sampled from same model profile"
+      ]
+    },
+    {
+      "key": "SAT-SETTLEMENT-004:sensor",
+      "parent_spatial_id": "SAT-SETTLEMENT-004",
+      "parent_center": [
+        -916.412,
+        3,
+        313.172
+      ],
+      "offset": [
+        16.0,
+        -3,
+        -12.0
+      ],
+      "base_position": [
+        -900.412,
+        0,
+        301.172
+      ],
+      "reason": [
+        "ground or water level sampled from same model profile"
+      ]
+    },
+    {
+      "key": "SAT-SETTLEMENT-005:sensor",
+      "parent_spatial_id": "SAT-SETTLEMENT-005",
+      "parent_center": [
+        -285.325,
+        3,
+        552.697
+      ],
+      "offset": [
+        16.0,
+        -3,
+        -12.0
+      ],
+      "base_position": [
+        -269.325,
+        0,
+        540.697
+      ],
+      "reason": [
+        "ground or water level sampled from same model profile"
+      ]
+    },
+    {
+      "key": "SAT-SETTLEMENT-006:sensor",
+      "parent_spatial_id": "SAT-SETTLEMENT-006",
+      "parent_center": [
+        -175.625,
+        3,
+        738.231
+      ],
+      "offset": [
+        16.0,
+        -3,
+        -12.0
+      ],
+      "base_position": [
+        -159.625,
+        0,
+        726.231
+      ],
+      "reason": [
+        "ground or water level sampled from same model profile"
+      ]
+    },
+    {
+      "key": "SAT-SETTLEMENT-007:sensor",
+      "parent_spatial_id": "SAT-SETTLEMENT-007",
+      "parent_center": [
+        429.163,
+        3,
+        444.389
+      ],
+      "offset": [
+        16.0,
+        -3,
+        -12.0
+      ],
+      "base_position": [
+        445.163,
+        0,
+        432.389
+      ],
+      "reason": [
+        "ground or water level sampled from same model profile"
+      ]
+    },
+    {
+      "key": "SAT-SETTLEMENT-008:sensor",
+      "parent_spatial_id": "SAT-SETTLEMENT-008",
+      "parent_center": [
+        898.854,
+        3,
+        310.675
+      ],
+      "offset": [
+        16.0,
+        -3,
+        -12.0
+      ],
+      "base_position": [
+        914.854,
+        0,
+        298.675
+      ],
+      "reason": [
+        "ground or water level sampled from same model profile"
+      ]
+    },
+    {
+      "key": "SAT-SETTLEMENT-009:sensor",
+      "parent_spatial_id": "SAT-SETTLEMENT-009",
+      "parent_center": [
+        117.093,
+        3,
+        617.808
+      ],
+      "offset": [
+        20.33013,
+        -3,
+        -14.5
+      ],
+      "base_position": [
+        137.42313,
+        0,
+        603.308
+      ],
+      "reason": [
+        "ground or water level sampled from same model profile"
+      ]
+    },
+    {
+      "key": "SAT-WOODLAND-001:sensor",
+      "parent_spatial_id": "SAT-WOODLAND-001",
+      "parent_center": [
+        -483.644,
+        3,
+        110.821
+      ],
+      "offset": [
+        16.0,
+        -1.01727,
+        -12.0
+      ],
+      "base_position": [
+        -467.644,
+        1.98273,
+        98.821
+      ],
+      "reason": [
+        "ground or water level sampled from same model profile"
+      ]
+    },
+    {
+      "key": "SAT-WOODLAND-005:sensor",
+      "parent_spatial_id": "SAT-WOODLAND-005",
+      "parent_center": [
+        -546.884,
+        3,
+        347.316
+      ],
+      "offset": [
+        16.0,
+        -2.92472,
+        -12.0
+      ],
+      "base_position": [
+        -530.884,
+        0.07528,
+        335.316
+      ],
+      "reason": [
+        "ground or water level sampled from same model profile"
+      ]
+    },
+    {
+      "key": "SAT-WOODLAND-009:sensor",
+      "parent_spatial_id": "SAT-WOODLAND-009",
+      "parent_center": [
+        -11.213,
+        3,
+        543.811
+      ],
+      "offset": [
+        16.0,
+        0.14498,
+        -12.0
+      ],
+      "base_position": [
+        4.787,
+        3.14498,
+        531.811
+      ],
+      "reason": [
+        "ground or water level sampled from same model profile"
+      ]
+    }
+  ]
+}

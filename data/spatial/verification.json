@@ -1,0 +1,21 @@
+{
+  "status": "pass",
+  "drawings": 5,
+  "verified_ledger_field_polygons": 100,
+  "representation_count": 163,
+  "by_kind": {
+    "field": 101,
+    "pond": 20,
+    "road": 17,
+    "channel": 5,
+    "facility": 20
+  },
+  "by_geometry": {
+    "Polygon": 120,
+    "Point": 21,
+    "LineString": 22
+  },
+  "source_hashes_verified": 5,
+  "e3_ambiguity_separated": true,
+  "metric_area_or_crs_fabricated": false
+}

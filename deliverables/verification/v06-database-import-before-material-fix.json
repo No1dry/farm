@@ -1,0 +1,123 @@
+{
+  "verified_at": "2026-10-29T05:14:07.924291+00:00",
+  "manifest": {
+    "path": "public/models/manifest.json",
+    "sha256": "2ac3bdcd10d578622bbb60b95ccb67069319e9ecda3d5a6254f7fd818a2b2417",
+    "model_revision": "v06",
+    "objects": 284,
+    "asset_hashes": {
+      "/models/full-area.glb": "e5733c51512d5e760941a36f44d8cb1617f7a64935be241f0e746869f1778366",
+      "/models/full-area-lod.glb": "cc2e6be09368e78ff4e85d450ec8694fb550712ea21b4ac7e755b7027ee4ea79",
+      "/models/detail-miaoxia.glb": "9c0504fc33ab1c10cc724f9156a8671312238403654709d0318fc08b4ed9f924",
+      "/models/detail-xinwumao.glb": "f0a15391f916a0340ca3a71d0e8918f9e86c258e6c7688ea58254ed2f2bf2e34",
+      "/models/detail-zhangjia.glb": "a6a43b571f6473af092390c41884996adc9263efb4f870b53930a0092b28da5b",
+      "/models/detail-tanshen.glb": "c822045368cad3b80527eef8bd3d98b5d0b1c4cecc447064cf41e9d3f0868877",
+      "/models/detail-abcdef.glb": "2288a040dc64fad80663040a837dd442894586b5e40cd13768b10ce0facef924"
+    }
+  },
+  "grounding": {
+    "path": "data/model/device-grounding-updates.json",
+    "sha256": "23c9c69c4e9c1f6faacc4e6b33c39df856ef7b14c4b1b89f58877be7537bfbe1",
+    "devices": 49,
+    "all_final_manifest_centers_match": true,
+    "all_db_anchor_positions_match": true,
+    "report_hash_recorded_in_frozen_layout": "5651d808fb767e3ebb94dfea461aa240db9b7239a78df4baa3668f54e1228c2e",
+    "numerically_equivalent_to_frozen_layout": true,
+    "report_revision_note": "Model author confirmed reason text changed on report rerun after collision offsets were already applied; all 49 center/offset/base vectors match final manifest and frozen layout."
+  },
+  "layout": {
+    "path": "data/demo/full-area-device-layout.json",
+    "sha256": "a287779cece83d60acab29c6b9e53eda431ae5737fa66b11fdb748f2f1aa70f8"
+  },
+  "backup_before": {
+    "path": "runtime/backups/farm-before-v06-import-20261029T051405Z.sqlite3",
+    "sha256": "1bce1a05dad9b2ef8be9c427325347a9bddcdc567c28fb474bc56d2239292281"
+  },
+  "backup_after": {
+    "path": "runtime/backups/farm-v06-verified-20261029T051405Z.sqlite3",
+    "sha256": "ce5b4adb883810d9c5777c9a7b56e897fb37e4d9a001cdf51211769f8c765981"
+  },
+  "restored": {
+    "path": "runtime/backups/farm-v06-restored-20261029T051405Z.sqlite3",
+    "sha256": "ce5b4adb883810d9c5777c9a7b56e897fb37e4d9a001cdf51211769f8c765981"
+  },
+  "database": {
+    "schema_version": 2,
+    "integrity": "ok",
+    "active_real_entities": 284,
+    "active_demo_entities": 189,
+    "active_real_spatial_ids": 284,
+    "ledger_count": 100,
+    "bound_ledger_count": 100,
+    "retired_identities": 9,
+    "saved_drafts": 8,
+    "full_demo_scene": {
+      "asset_id": "full",
+      "principal_count": 121,
+      "device_count": 49,
+      "counts": {
+        "device": 49,
+        "bare": 3,
+        "channel": 5,
+        "field": 38,
+        "lake": 1,
+        "pond": 36,
+        "road": 20,
+        "settlement": 9,
+        "woodland": 9
+      },
+      "observation_count": 265,
+      "business_alert_count": 20,
+      "reference_time": "2026-10-29T03:00:00Z",
+      "data_nature": "synthetic"
+    }
+  },
+  "preserved": {
+    "all_100_ledger_uuids_and_source_payloads": true,
+    "original_ledger_uuid_set_matches_first_backup": true,
+    "all_real_business_values_and_identities": true,
+    "unrelated_demo_fixtures": true,
+    "repeat_import_uuid_revision_unchanged": true,
+    "ledger_fingerprint": "13da1d5631e185cc171049663eda90af7f4d6a17d9dea0b0804d55bddd76ff15",
+    "real_business_fingerprint": "6ee5a01519ebbf2962fcfb03ecaab7bb1940b2832b8b5724fc5573b2c9643d22"
+  },
+  "semantic_validation": {
+    "real": {
+      "conforms": true,
+      "issues": [],
+      "upstream_commit": "5776ba8d656139d3fb8dfabd137d83dd6dbba11c",
+      "engine": "pyshacl",
+      "inference": "rdfs",
+      "data_triples": 284,
+      "scope": "Upstream DeviceShape requires exactly one Organization manager; no claim of biological safety validation"
+    },
+    "demo": {
+      "conforms": true,
+      "issues": [],
+      "upstream_commit": "5776ba8d656139d3fb8dfabd137d83dd6dbba11c",
+      "engine": "pyshacl",
+      "inference": "rdfs",
+      "data_triples": 428,
+      "scope": "Upstream DeviceShape requires exactly one Organization manager; no claim of biological safety validation"
+    }
+  },
+  "backup_restore_identical_tables": {
+    "audit_log": "f00fe679a39bc70ff909ee73af7def2cdf181174590920842fc1378d043fb11a",
+    "entities": "29a455a8b1c3c84ed37743825423f13d7d545a395286f54148c2cee3802840a7",
+    "entity_sources": "858bf55bb9ee35644e827a2e3ae3ebe7ee0edbb7a69687847b8a9b16f1d5dc69",
+    "entity_versions": "17d88b4d63f48906d0947454f4a91c45ead643b7ba8287e185cc2284677bd476",
+    "import_previews": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "knowledge_entries": "378f1b8fdab247eeb4384377847df9536ef20a962f5ff7f29756e7df633afaab",
+    "plans": "37ec4bb7484e393c4623afaec92390369d472b80661af959aff4e9a87c389ba3",
+    "relations": "d7d57c45a3b3990f91c2c0979650267b06b44990ad9cbca20216c98e355c1c10",
+    "schema_migrations": "a68a25fa48eb6eb0ffe96f6b045b9efdf5f2fa02ab617e483b433b5b136e95f5",
+    "source_systems": "cddd85736b952991b9202dbe91bc4967f32fa7d006d17592568d1224883b7888",
+    "sources": "91c06957eb79481bea187ec5c024b7d0329da5acf8b57204885b87760dcc3cf2",
+    "spatial_bindings": "0c9522fe4125b932e1fbd9775c7c144b3ef04f567e4bace6d064b395430daea6"
+  },
+  "exports": {
+    "entities": 473,
+    "area_records": 284,
+    "output_directory": "C:\\Users\\robot\\Desktop\\farm-main\\farm\\data\\audit"
+  }
+}

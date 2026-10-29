@@ -1,0 +1,51 @@
+{
+  "passed": true,
+  "assets": [
+    {
+      "path": "detail-abcdef.glb",
+      "verified_material_factors": 11,
+      "direct_texture_materials": []
+    },
+    {
+      "path": "detail-miaoxia.glb",
+      "verified_material_factors": 11,
+      "direct_texture_materials": []
+    },
+    {
+      "path": "detail-tanshen.glb",
+      "verified_material_factors": 10,
+      "direct_texture_materials": []
+    },
+    {
+      "path": "detail-xinwumao.glb",
+      "verified_material_factors": 12,
+      "direct_texture_materials": []
+    },
+    {
+      "path": "detail-zhangjia.glb",
+      "verified_material_factors": 10,
+      "direct_texture_materials": []
+    },
+    {
+      "path": "full-area-lod.glb",
+      "verified_material_factors": 38,
+      "direct_texture_materials": [
+        {
+          "name": "V06 CC0 photographic broadleaf sprays LOD.001",
+          "reason": "Direct photographic RGBA leaf texture; no multiplier in Blender shader."
+        }
+      ]
+    },
+    {
+      "path": "full-area.glb",
+      "verified_material_factors": 39,
+      "direct_texture_materials": [
+        {
+          "name": "V06 CC0 photographic broadleaf sprays",
+          "reason": "Direct photographic RGBA leaf texture; no multiplier in Blender shader."
+        }
+      ]
+    }
+  ],
+  "comparison": "Exported baseColorFactor equals the Blender BSDF or RGBA Multiply constant; absent glTF factor means white and fails when tint is expected."
+}

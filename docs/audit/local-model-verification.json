@@ -1,0 +1,725 @@
+{
+  "model": "qwen3-4b-local",
+  "base_url": "http://127.0.0.1:8081/v1",
+  "actual_inference": true,
+  "smoke": {
+    "response": "{\"answer\": \"不能确定。溶解氧观测缺失可能由设备故障、数据传输失败或未采集等原因引起，需结合其他指标（如水温、流量、历史数据）和现场判断综合分析，缺氧需通过实际测量或模型预测确认。\"}",
+    "usage": {
+      "completion_tokens": 58,
+      "prompt_tokens": 52,
+      "total_tokens": 110,
+      "prompt_tokens_details": {
+        "cached_tokens": 51
+      }
+    },
+    "elapsed_seconds": 3.391,
+    "accepted_as_advice": false,
+    "note": "原始模型诊断输出，未受应用证据校验；可能包含无依据阈值，不能作为建议。"
+  },
+  "assistant": {
+    "status": "ok",
+    "answer": "根据提供的资料，演示水塘的溶解氧观测已超过有效时限，且缺少鱼种和养殖阶段信息，无法生成物种专属建议。当前的缺氧风险预警基于历史演示观测和测试阈值，但这些数据未经过现场验证，不能作为生产决策依据。因此，需要进行现场核查以确认当前的溶解氧水平和养殖条件。",
+    "entity": {
+      "id": "40666cd6-bfc7-59e2-be49-fd5ad55450bd",
+      "resource_id": "40666cd6-bfc7-59e2-be49-fd5ad55450bd",
+      "iri": "urn:lzo:object:40666cd6-bfc7-59e2-be49-fd5ad55450bd",
+      "revision": 1,
+      "state": "active",
+      "code": "DEMO-POND-40666cd6",
+      "name": "演示水塘",
+      "display_name": "演示水塘",
+      "region": "上游演示样例",
+      "kind": "pond",
+      "dataset": "demo",
+      "data_nature": "synthetic",
+      "class_iris": [
+        "https://w3id.org/lzo/ontology/Pond"
+      ],
+      "spatial_ids": [],
+      "area": {
+        "value": null,
+        "unit": null,
+        "inferred_unit": null,
+        "verification": "unconfirmed",
+        "source_id": "src-c293b220885934733499e5ce",
+        "inference_basis": null
+      },
+      "geometry": null,
+      "model_area": null,
+      "model_areas": [],
+      "sources": [
+        {
+          "data_nature": "synthetic",
+          "dataset": "demo",
+          "description": "此测试仅设定溶解氧小于3 mg/L为命中条件；该阈值没有鱼种、养殖阶段或现场适用性依据，不可用于生产。观测超过24小时即标为过期，不触发当前处置。",
+          "file": "data/demo/oxygen-scenario.json",
+          "id": "knowledge-demo-oxygen-v1",
+          "inspection_steps": [
+            "核对水塘、鱼种和养殖阶段",
+            "采集并复核当前溶解氧、水温及设备状态",
+            "请现场负责人确认适用标准后另行制定处置方案"
+          ],
+          "kind": "knowledge",
+          "sha256": "b6f2d612b801871496945713b1291124a52c54a1d98c0f6787e3ff37201d9f47",
+          "title": "溶解氧历史预警演示规则",
+          "version": "demo-oxygen/v1"
+        },
+        {
+          "cell": null,
+          "data_nature": "synthetic",
+          "dataset": "demo",
+          "description": "上游合成语义对象；并非本地现场实体。",
+          "file": "deliverables/liangzihu-samples/original/ontology-platform/backend/tests/fixtures/semantic/pond.json",
+          "id": "src-c293b220885934733499e5ce",
+          "page": null,
+          "row": null,
+          "sha256": "3bb0a3bf2ce58a5283b652ee39c22c35d7717a80adb7d97aeb696084e2a2f2e2",
+          "sheet": null,
+          "source_key": "40666cd6-bfc7-59e2-be49-fd5ad55450bd",
+          "upstream_commit": "5776ba8d656139d3fb8dfabd137d83dd6dbba11c",
+          "version": "3bb0a3bf2ce58a5283b652ee39c22c35d7717a80adb7d97aeb696084e2a2f2e2"
+        },
+        {
+          "data_nature": "synthetic",
+          "dataset": "demo",
+          "description": "上游合成测试fixture",
+          "file": "deliverables/liangzihu-samples/original/ontology-platform/backend/tests/fixtures/semantic/pond.json",
+          "id": "upstream-pond-40666cd6-bfc7-59e2-be49-fd5ad55450bd",
+          "sha256": "3bb0a3bf2ce58a5283b652ee39c22c35d7717a80adb7d97aeb696084e2a2f2e2",
+          "upstream_commit": "5776ba8d656139d3fb8dfabd137d83dd6dbba11c"
+        }
+      ],
+      "source_key": {
+        "canonical_key": "40666cd6-bfc7-59e2-be49-fd5ad55450bd",
+        "collection": "upstream-semantic-fixtures",
+        "source_id": "ec7ec3f9-d8ec-4fc7-95e9-009d968d62c8",
+        "source_instance": "5776ba8d656139d3fb8dfabd137d83dd6dbba11c",
+        "source_system": "liangzihu-ontology-platform"
+      },
+      "devices": [
+        {
+          "data_nature": "synthetic",
+          "id": "e8bf39eb-022b-5c13-9dfc-49d0bad03696",
+          "kind": "device",
+          "live_status": null,
+          "name": "演示共享水泵"
+        },
+        {
+          "data_nature": "synthetic",
+          "id": "b4e0d4d0-2128-5639-98bc-18cc2e9c52fd",
+          "kind": "device",
+          "live_status": null,
+          "name": "演示传感器"
+        }
+      ],
+      "observations": [
+        {
+          "data_nature": "synthetic",
+          "id": "demo-oxygen-20260115",
+          "label": "溶解氧",
+          "metric": "dissolved_oxygen",
+          "observed_at": "2026-01-15T12:00:00Z",
+          "source_id": "knowledge-demo-oxygen-v1",
+          "stale_after_hours": 24,
+          "unit": "mg/L",
+          "value": 2.4
+        }
+      ],
+      "species": null,
+      "production_context": {},
+      "relations": [
+        {
+          "data_nature": "synthetic",
+          "id": "6a54cd0b-f8e6-5348-acb7-f8b74528c328",
+          "predicate_iri": "https://w3id.org/lzo/ontology/serves",
+          "state": "accepted",
+          "subject_id": "e8bf39eb-022b-5c13-9dfc-49d0bad03696",
+          "support": {
+            "raw_value": {
+              "seed": 20261020
+            },
+            "source_version": "synthetic-v1",
+            "support_id": "57b6fa35-40ad-5dd6-b16e-decf3b8e229c"
+          },
+          "target_id": "40666cd6-bfc7-59e2-be49-fd5ad55450bd"
+        },
+        {
+          "data_nature": "synthetic",
+          "id": "25c90f28-27b9-5724-897b-f9e2e33beee5",
+          "predicate_iri": "https://w3id.org/lzo/ontology/crop",
+          "state": "accepted",
+          "subject_id": "40666cd6-bfc7-59e2-be49-fd5ad55450bd",
+          "support": {
+            "raw_value": {
+              "seed": 20261020
+            },
+            "source_version": "synthetic-v1",
+            "support_id": "aef51e8c-689b-5caa-a325-f1c6636656b3"
+          },
+          "target_id": "dfd2da6e-c37b-530f-98ed-ee509252e61a"
+        },
+        {
+          "data_nature": "synthetic",
+          "id": "f5579840-9366-512e-b968-c861e09c4b5f",
+          "predicate_iri": "https://w3id.org/lzo/ontology/monitors",
+          "state": "accepted",
+          "subject_id": "b4e0d4d0-2128-5639-98bc-18cc2e9c52fd",
+          "support": {
+            "raw_value": {
+              "seed": 20261020
+            },
+            "source_version": "synthetic-v1",
+            "support_id": "5f0a0653-8768-57f3-8f7b-ef241c17abcb"
+          },
+          "target_id": "40666cd6-bfc7-59e2-be49-fd5ad55450bd"
+        }
+      ],
+      "updated_at": "2026-10-28T17:00:53.876941+00:00",
+      "knowledge": [
+        {
+          "data_nature": "synthetic",
+          "dataset": "demo",
+          "description": "此测试仅设定溶解氧小于3 mg/L为命中条件；该阈值没有鱼种、养殖阶段或现场适用性依据，不可用于生产。观测超过24小时即标为过期，不触发当前处置。",
+          "file": "data/demo/oxygen-scenario.json",
+          "id": "knowledge-demo-oxygen-v1",
+          "inspection_steps": [
+            "核对水塘、鱼种和养殖阶段",
+            "采集并复核当前溶解氧、水温及设备状态",
+            "请现场负责人确认适用标准后另行制定处置方案"
+          ],
+          "kind": "knowledge",
+          "sha256": "b6f2d612b801871496945713b1291124a52c54a1d98c0f6787e3ff37201d9f47",
+          "title": "溶解氧历史预警演示规则",
+          "version": "demo-oxygen/v1"
+        },
+        {
+          "data_nature": "imported_unverified",
+          "entity_kinds": [
+            "pond",
+            "lake"
+          ],
+          "evidence_type": "public_technical_guidance",
+          "id": "kb-fao-pond-oxygen-principles",
+          "keywords": [
+            "缺氧",
+            "溶解氧",
+            "水温",
+            "昼夜",
+            "浮头",
+            "监测"
+          ],
+          "kind": "knowledge",
+          "published_at": null,
+          "publisher": "FAO",
+          "reference_verified": true,
+          "retrieved_at": "2026-10-29T01:14:04.186888+00:00",
+          "retrieved_url": "https://www.fao.org/4/T0555E/T0555E02.htm",
+          "scope": {
+            "exclusions": [
+              "不将基础机理当成本塘阈值",
+              "不据单次旧观测推断当前趋势"
+            ],
+            "production": [
+              "freshwater_pond"
+            ],
+            "regions": [
+              "general"
+            ],
+            "requires": [
+              "淡水养殖条件",
+              "观测时间",
+              "水温",
+              "养殖品种和阶段"
+            ],
+            "season": [
+              "all"
+            ]
+          },
+          "site_fact": false,
+          "source_bytes": 22842,
+          "source_sha256": "ea504d9af80522f8e05493f4f7ffba1554ab9ed9c36ab2b9ad2eaa665a9e721f",
+          "source_title": "Fish culture in undrainable ponds — Principles of freshwater fish culture",
+          "status": "reference_not_site_fact",
+          "steps": [
+            {
+              "action": "保留采样时刻、水温和测点，比较具有可比条件的有效观测。",
+              "conditions": [
+                "传感器质量合格"
+              ],
+              "limitations": [
+                "未给定本地物种的统一安全阈值"
+              ],
+              "priority": 1
+            },
+            {
+              "action": "低氧风险评估同时核查生物负荷及水体条件。",
+              "conditions": [
+                "种养殖资料已确认"
+              ],
+              "limitations": [
+                "未知养殖密度不能用模型面积替代"
+              ],
+              "priority": 2
+            }
+          ],
+          "summary": "淡水池塘的溶解氧与水温有关，并受光合作用及水中生物呼吸影响而发生昼夜变化。因此解释观测必须带上时间和温度；养殖承载能力不能仅从塘面积确定。",
+          "title": "淡水池塘溶氧：温度、昼夜变化与承载能力",
+          "url": "https://www.fao.org/4/T0555E/T0555E02.htm",
+          "version": "T0555E/chapter-2/curated-v1",
+          "dataset": "demo",
+          "retrieval_score": 1,
+          "applicability": {
+            "status": "requires_site_confirmation",
+            "requires": [
+              "淡水养殖条件",
+              "观测时间",
+              "水温",
+              "养殖品种和阶段"
+            ],
+            "exclusions": [
+              "不将基础机理当成本塘阈值",
+              "不据单次旧观测推断当前趋势"
+            ]
+          }
+        }
+      ],
+      "representations": [],
+      "region_aliases": [
+        "上游演示样例"
+      ],
+      "aliases": [
+        "上游演示样例 DEMO-POND-40666cd6"
+      ],
+      "rules": [
+        {
+          "description": "固定历史演示观测命中测试规则；观测已过期，不能据此判断当前缺氧或执行增氧。",
+          "evidence_ids": [
+            "knowledge-demo-oxygen-v1"
+          ],
+          "id": "demo-low-oxygen",
+          "metric": "dissolved_oxygen",
+          "name": "缺氧风险 · 历史演示",
+          "operator": "lt",
+          "threshold": 3,
+          "unit": "mg/L",
+          "version": "demo-oxygen/v1"
+        }
+      ],
+      "quality_alerts": [
+        {
+          "code": "stale_observation",
+          "message": "dissolved_oxygen 观测已超过有效时限。",
+          "severity": "warning",
+          "entity_id": "40666cd6-bfc7-59e2-be49-fd5ad55450bd",
+          "data_nature": "synthetic",
+          "category": "quality",
+          "status": "needs_review",
+          "metric": "dissolved_oxygen"
+        },
+        {
+          "code": "missing_species",
+          "message": "缺少鱼种和养殖阶段，不能生成物种专属建议。",
+          "severity": "notice",
+          "entity_id": "40666cd6-bfc7-59e2-be49-fd5ad55450bd",
+          "data_nature": "synthetic",
+          "category": "quality",
+          "status": "needs_review",
+          "metric": null
+        }
+      ],
+      "business_alerts": [
+        {
+          "id": "demo-low-oxygen:40666cd6-bfc7-59e2-be49-fd5ad55450bd",
+          "code": "demo-low-oxygen",
+          "title": "缺氧风险 · 历史演示",
+          "message": "固定历史演示观测命中测试规则；观测已过期，不能据此判断当前缺氧或执行增氧。",
+          "category": "business",
+          "entity_id": "40666cd6-bfc7-59e2-be49-fd5ad55450bd",
+          "data_nature": "synthetic",
+          "status": "stale",
+          "severity": "notice",
+          "rule_id": "demo-low-oxygen",
+          "rule_version": "demo-oxygen/v1",
+          "triggered_at": "2026-01-15T12:00:00Z",
+          "condition_historically_met": true,
+          "evidence_ids": [
+            "knowledge-demo-oxygen-v1"
+          ],
+          "threshold": 3,
+          "unit": "mg/L",
+          "current_actionable": false,
+          "applicability": {
+            "production_approved": false,
+            "missing_context": [],
+            "unit_matches": true,
+            "site_fact_verified": false
+          }
+        }
+      ],
+      "alerts": [
+        {
+          "code": "stale_observation",
+          "message": "dissolved_oxygen 观测已超过有效时限。",
+          "severity": "warning",
+          "entity_id": "40666cd6-bfc7-59e2-be49-fd5ad55450bd",
+          "data_nature": "synthetic",
+          "category": "quality",
+          "status": "needs_review",
+          "metric": "dissolved_oxygen"
+        },
+        {
+          "code": "missing_species",
+          "message": "缺少鱼种和养殖阶段，不能生成物种专属建议。",
+          "severity": "notice",
+          "entity_id": "40666cd6-bfc7-59e2-be49-fd5ad55450bd",
+          "data_nature": "synthetic",
+          "category": "quality",
+          "status": "needs_review",
+          "metric": null
+        },
+        {
+          "id": "demo-low-oxygen:40666cd6-bfc7-59e2-be49-fd5ad55450bd",
+          "code": "demo-low-oxygen",
+          "title": "缺氧风险 · 历史演示",
+          "message": "固定历史演示观测命中测试规则；观测已过期，不能据此判断当前缺氧或执行增氧。",
+          "category": "business",
+          "entity_id": "40666cd6-bfc7-59e2-be49-fd5ad55450bd",
+          "data_nature": "synthetic",
+          "status": "stale",
+          "severity": "notice",
+          "rule_id": "demo-low-oxygen",
+          "rule_version": "demo-oxygen/v1",
+          "triggered_at": "2026-01-15T12:00:00Z",
+          "condition_historically_met": true,
+          "evidence_ids": [
+            "knowledge-demo-oxygen-v1"
+          ],
+          "threshold": 3,
+          "unit": "mg/L",
+          "current_actionable": false,
+          "applicability": {
+            "production_approved": false,
+            "missing_context": [],
+            "unit_matches": true,
+            "site_fact_verified": false
+          }
+        }
+      ],
+      "missing_fields": [
+        "dissolved_oxygen 观测已超过有效时限。",
+        "缺少鱼种和养殖阶段，不能生成物种专属建议。"
+      ]
+    },
+    "candidates": [],
+    "evidence": [
+      {
+        "data_nature": "synthetic",
+        "dataset": "demo",
+        "description": "此测试仅设定溶解氧小于3 mg/L为命中条件；该阈值没有鱼种、养殖阶段或现场适用性依据，不可用于生产。观测超过24小时即标为过期，不触发当前处置。",
+        "file": "data/demo/oxygen-scenario.json",
+        "id": "knowledge-demo-oxygen-v1",
+        "inspection_steps": [
+          "核对水塘、鱼种和养殖阶段",
+          "采集并复核当前溶解氧、水温及设备状态",
+          "请现场负责人确认适用标准后另行制定处置方案"
+        ],
+        "kind": "knowledge",
+        "sha256": "b6f2d612b801871496945713b1291124a52c54a1d98c0f6787e3ff37201d9f47",
+        "title": "溶解氧历史预警演示规则",
+        "version": "demo-oxygen/v1"
+      },
+      {
+        "cell": null,
+        "data_nature": "synthetic",
+        "dataset": "demo",
+        "description": "上游合成语义对象；并非本地现场实体。",
+        "file": "deliverables/liangzihu-samples/original/ontology-platform/backend/tests/fixtures/semantic/pond.json",
+        "id": "src-c293b220885934733499e5ce",
+        "page": null,
+        "row": null,
+        "sha256": "3bb0a3bf2ce58a5283b652ee39c22c35d7717a80adb7d97aeb696084e2a2f2e2",
+        "sheet": null,
+        "source_key": "40666cd6-bfc7-59e2-be49-fd5ad55450bd",
+        "upstream_commit": "5776ba8d656139d3fb8dfabd137d83dd6dbba11c",
+        "version": "3bb0a3bf2ce58a5283b652ee39c22c35d7717a80adb7d97aeb696084e2a2f2e2"
+      },
+      {
+        "data_nature": "synthetic",
+        "dataset": "demo",
+        "description": "上游合成测试fixture",
+        "file": "deliverables/liangzihu-samples/original/ontology-platform/backend/tests/fixtures/semantic/pond.json",
+        "id": "upstream-pond-40666cd6-bfc7-59e2-be49-fd5ad55450bd",
+        "sha256": "3bb0a3bf2ce58a5283b652ee39c22c35d7717a80adb7d97aeb696084e2a2f2e2",
+        "upstream_commit": "5776ba8d656139d3fb8dfabd137d83dd6dbba11c"
+      }
+    ],
+    "gaps": [
+      "dissolved_oxygen 观测已超过有效时限。",
+      "缺少鱼种和养殖阶段，不能生成物种专属建议。",
+      "演示观测和测试阈值不是生产事实；公开技术参考仍需确认现场适用性。"
+    ],
+    "actions": [],
+    "suggested_plan": {
+      "title": "演示水塘 · 资料核查草稿",
+      "content": "1. 核对对象编号、来源和面积单位。\n2. 核对鱼种/作物、生产阶段与现场设备。\n3. 获取带时间和单位的新观测，由现场负责人复核适用标准。",
+      "evidence_ids": [
+        "knowledge-demo-oxygen-v1",
+        "src-c293b220885934733499e5ce",
+        "upstream-pond-40666cd6-bfc7-59e2-be49-fd5ad55450bd"
+      ],
+      "conditions": [
+        "先补齐缺失资料；以下为现场核查草稿，不执行设备或生产处置。",
+        "仅资料核查，不执行灌排、施肥、用药或设备控制。"
+      ],
+      "gaps": [
+        "dissolved_oxygen 观测已超过有效时限。",
+        "缺少鱼种和养殖阶段，不能生成物种专属建议。",
+        "演示观测和测试阈值不是生产事实；公开技术参考仍需确认现场适用性。",
+        "知识和阈值为合成测试设定，未验证生产适用性。"
+      ],
+      "kind": "inspection_only"
+    },
+    "saved_plans": [
+      {
+        "conditions": [
+          "仅资料核查，不执行灌排、施肥、用药或设备控制。"
+        ],
+        "content": "1. 核对对象编号、来源和面积单位。\n2. 核对鱼种/作物、生产阶段与现场设备。\n3. 获取带时间和单位的新观测，由现场负责人复核适用标准。",
+        "created_at": "2026-10-28T17:17:35.186880+00:00",
+        "data_nature": "synthetic",
+        "dataset": "demo",
+        "device_control": false,
+        "entity_id": "40666cd6-bfc7-59e2-be49-fd5ad55450bd",
+        "entity_revision": 1,
+        "evidence_ids": [
+          "knowledge-demo-oxygen-v1",
+          "src-c293b220885934733499e5ce",
+          "upstream-pond-40666cd6-bfc7-59e2-be49-fd5ad55450bd"
+        ],
+        "gaps": [
+          "dissolved_oxygen 观测已超过有效时限。",
+          "缺少鱼种和养殖阶段，不能生成物种专属建议。",
+          "知识和阈值为合成测试设定，未验证生产适用性。"
+        ],
+        "id": "c7a48109-27b0-46f5-8c5d-0e5984ae5d3e",
+        "status": "draft",
+        "title": "演示水塘 · 资料核查草稿"
+      },
+      {
+        "conditions": [
+          "仅资料核查，不执行灌排、施肥、用药或设备控制。"
+        ],
+        "content": "1. 核对对象编号、来源和面积单位。\n2. 核对鱼种/作物、生产阶段与现场设备。\n3. 获取带时间和单位的新观测，由现场负责人复核适用标准。",
+        "created_at": "2026-10-28T17:07:39.232936+00:00",
+        "data_nature": "synthetic",
+        "dataset": "demo",
+        "device_control": false,
+        "entity_id": "40666cd6-bfc7-59e2-be49-fd5ad55450bd",
+        "entity_revision": 1,
+        "evidence_ids": [
+          "knowledge-demo-oxygen-v1",
+          "src-c293b220885934733499e5ce",
+          "upstream-pond-40666cd6-bfc7-59e2-be49-fd5ad55450bd"
+        ],
+        "gaps": [
+          "dissolved_oxygen 观测已超过有效时限。",
+          "缺少鱼种和养殖阶段，不能生成物种专属建议。",
+          "知识和阈值为合成测试设定，未验证生产适用性。"
+        ],
+        "id": "393b79ad-bb9c-4963-b85d-6a0faf944fb8",
+        "status": "draft",
+        "title": "演示水塘 · 资料核查草稿"
+      }
+    ],
+    "model": {
+      "configured": true,
+      "model": "qwen3-4b-local",
+      "provider": "openai-compatible",
+      "actual_inference": true,
+      "elapsed_ms": 2687,
+      "usage": {
+        "completion_tokens": 393,
+        "prompt_tokens": 2965,
+        "total_tokens": 3358,
+        "prompt_tokens_details": {
+          "cached_tokens": 4
+        }
+      }
+    },
+    "audit_id": "582dfa50-2218-4ab6-95fe-6eff0f1088ef",
+    "profile_sources": [
+      {
+        "data_nature": "synthetic",
+        "dataset": "demo",
+        "description": "此测试仅设定溶解氧小于3 mg/L为命中条件；该阈值没有鱼种、养殖阶段或现场适用性依据，不可用于生产。观测超过24小时即标为过期，不触发当前处置。",
+        "file": "data/demo/oxygen-scenario.json",
+        "id": "knowledge-demo-oxygen-v1",
+        "inspection_steps": [
+          "核对水塘、鱼种和养殖阶段",
+          "采集并复核当前溶解氧、水温及设备状态",
+          "请现场负责人确认适用标准后另行制定处置方案"
+        ],
+        "kind": "knowledge",
+        "sha256": "b6f2d612b801871496945713b1291124a52c54a1d98c0f6787e3ff37201d9f47",
+        "title": "溶解氧历史预警演示规则",
+        "version": "demo-oxygen/v1"
+      },
+      {
+        "cell": null,
+        "data_nature": "synthetic",
+        "dataset": "demo",
+        "description": "上游合成语义对象；并非本地现场实体。",
+        "file": "deliverables/liangzihu-samples/original/ontology-platform/backend/tests/fixtures/semantic/pond.json",
+        "id": "src-c293b220885934733499e5ce",
+        "page": null,
+        "row": null,
+        "sha256": "3bb0a3bf2ce58a5283b652ee39c22c35d7717a80adb7d97aeb696084e2a2f2e2",
+        "sheet": null,
+        "source_key": "40666cd6-bfc7-59e2-be49-fd5ad55450bd",
+        "upstream_commit": "5776ba8d656139d3fb8dfabd137d83dd6dbba11c",
+        "version": "3bb0a3bf2ce58a5283b652ee39c22c35d7717a80adb7d97aeb696084e2a2f2e2"
+      },
+      {
+        "data_nature": "synthetic",
+        "dataset": "demo",
+        "description": "上游合成测试fixture",
+        "file": "deliverables/liangzihu-samples/original/ontology-platform/backend/tests/fixtures/semantic/pond.json",
+        "id": "upstream-pond-40666cd6-bfc7-59e2-be49-fd5ad55450bd",
+        "sha256": "3bb0a3bf2ce58a5283b652ee39c22c35d7717a80adb7d97aeb696084e2a2f2e2",
+        "upstream_commit": "5776ba8d656139d3fb8dfabd137d83dd6dbba11c"
+      }
+    ],
+    "facts": {
+      "area": {
+        "value": null,
+        "unit": null,
+        "inferred_unit": null,
+        "verification": "unconfirmed",
+        "source_id": "src-c293b220885934733499e5ce",
+        "inference_basis": null
+      },
+      "observations": [
+        {
+          "data_nature": "synthetic",
+          "id": "demo-oxygen-20260115",
+          "label": "溶解氧",
+          "metric": "dissolved_oxygen",
+          "observed_at": "2026-01-15T12:00:00Z",
+          "source_id": "knowledge-demo-oxygen-v1",
+          "stale_after_hours": 24,
+          "unit": "mg/L",
+          "value": 2.4
+        }
+      ],
+      "devices": [
+        {
+          "data_nature": "synthetic",
+          "id": "e8bf39eb-022b-5c13-9dfc-49d0bad03696",
+          "kind": "device",
+          "live_status": null,
+          "name": "演示共享水泵"
+        },
+        {
+          "data_nature": "synthetic",
+          "id": "b4e0d4d0-2128-5639-98bc-18cc2e9c52fd",
+          "kind": "device",
+          "live_status": null,
+          "name": "演示传感器"
+        }
+      ],
+      "alerts": [
+        {
+          "code": "stale_observation",
+          "message": "dissolved_oxygen 观测已超过有效时限。",
+          "severity": "warning",
+          "entity_id": "40666cd6-bfc7-59e2-be49-fd5ad55450bd",
+          "data_nature": "synthetic",
+          "category": "quality",
+          "status": "needs_review",
+          "metric": "dissolved_oxygen"
+        },
+        {
+          "code": "missing_species",
+          "message": "缺少鱼种和养殖阶段，不能生成物种专属建议。",
+          "severity": "notice",
+          "entity_id": "40666cd6-bfc7-59e2-be49-fd5ad55450bd",
+          "data_nature": "synthetic",
+          "category": "quality",
+          "status": "needs_review",
+          "metric": null
+        },
+        {
+          "id": "demo-low-oxygen:40666cd6-bfc7-59e2-be49-fd5ad55450bd",
+          "code": "demo-low-oxygen",
+          "title": "缺氧风险 · 历史演示",
+          "message": "固定历史演示观测命中测试规则；观测已过期，不能据此判断当前缺氧或执行增氧。",
+          "category": "business",
+          "entity_id": "40666cd6-bfc7-59e2-be49-fd5ad55450bd",
+          "data_nature": "synthetic",
+          "status": "stale",
+          "severity": "notice",
+          "rule_id": "demo-low-oxygen",
+          "rule_version": "demo-oxygen/v1",
+          "triggered_at": "2026-01-15T12:00:00Z",
+          "condition_historically_met": true,
+          "evidence_ids": [
+            "knowledge-demo-oxygen-v1"
+          ],
+          "threshold": 3,
+          "unit": "mg/L",
+          "current_actionable": false,
+          "applicability": {
+            "production_approved": false,
+            "missing_context": [],
+            "unit_matches": true,
+            "site_fact_verified": false
+          }
+        }
+      ],
+      "species": null,
+      "data_nature": "synthetic"
+    },
+    "limitations": [
+      "事实卡来自数据库；模型自由文本的语义不能由引用ID完全证明，需人工复核。"
+    ],
+    "analysis_sections": [
+      {
+        "title": "对象",
+        "content": "上游演示样例 · 演示水塘 / 40666cd6-bfc7-59e2-be49-fd5ad55450bd\n缺氧风险 · 历史演示 / stale：固定历史演示观测命中测试规则；观测已过期，不能据此判断当前缺氧或执行增氧。"
+      },
+      {
+        "title": "事实与证据",
+        "content": "溶解氧 2.4 mg/L / 2026-01-15T12:00:00Z\n已登记设备 2 项，本体关系 3 条；鱼种/作物：未记录；阶段：未记录。"
+      },
+      {
+        "title": "判断边界",
+        "content": "dissolved_oxygen 观测已超过有效时限。\n缺少鱼种和养殖阶段，不能生成物种专属建议。\n演示观测和测试阈值不是生产事实；公开技术参考仍需确认现场适用性。"
+      },
+      {
+        "title": "处理建议",
+        "content": "1. 核对对象编号、来源和面积单位。\n2. 核对鱼种/作物、生产阶段与现场设备。\n3. 获取带时间和单位的新观测，由现场负责人复核适用标准。\n先补齐缺失资料；以下为现场核查草稿，不执行设备或生产处置。\n仅资料核查，不执行灌排、施肥、用药或设备控制。"
+      },
+      {
+        "title": "设备需求",
+        "content": "演示共享水泵（运行状态待核验）；演示传感器（运行状态待核验）\n登记关系不能证明设备在线可用。缺少容量、现场条件和适用规则，暂无新增设备的充分依据。"
+      },
+      {
+        "title": "复测与跟踪",
+        "content": "按现场批准的指标与频次复测。记录对象、指标、数值、单位、采样时间、设备和校准信息；新观测入库后重新评估过期与单位冲突。当前服务未连接现场设备。"
+      },
+      {
+        "title": "来源",
+        "content": "knowledge-demo-oxygen-v1 | data/demo/oxygen-scenario.json | demo-oxygen/v1 | 来源时间未提供 | synthetic\nsrc-c293b220885934733499e5ce | deliverables/liangzihu-samples/original/ontology-platform/backend/tests/fixtures/semantic/pond.json | 3bb0a3bf2ce58a5283b652ee39c22c35d7717a80adb7d97aeb696084e2a2f2e2 | 来源时间未提供 | synthetic\nupstream-pond-40666cd6-bfc7-59e2-be49-fd5ad55450bd | deliverables/liangzihu-samples/original/ontology-platform/backend/tests/fixtures/semantic/pond.json | 3bb0a3bf2ce58a5283b652ee39c22c35d7717a80adb7d97aeb696084e2a2f2e2 | 来源时间未提供 | synthetic\nkb-fao-pond-oxygen-principles | https://www.fao.org/4/T0555E/T0555E02.htm | T0555E/chapter-2/curated-v1 | 2026-10-29T01:14:04.186888+00:00 | imported_unverified\n规则：demo-low-oxygen / demo-oxygen/v1"
+      }
+    ],
+    "analysis_kind": "model_assisted_evidence_review",
+    "production_plan_accepted": false,
+    "retrieval": {
+      "knowledge_ids": [
+        "kb-fao-pond-oxygen-principles"
+      ],
+      "method": "kind_scope_and_keyword",
+      "site_applicability": "requires_confirmation"
+    }
+  }
+}

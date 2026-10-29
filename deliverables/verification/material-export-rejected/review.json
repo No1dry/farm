@@ -1,0 +1,1418 @@
+{
+  "captured_at": "2026-10-29T05:15:43.571Z",
+  "manifestSHA256": "2ac3bdcd10d578622bbb60b95ccb67069319e9ecda3d5a6254f7fd818a2b2417",
+  "records": [
+    {
+      "dataset": "demo",
+      "asset": "full",
+      "lod": "overview",
+      "selected": "79901252-f7e1-5331-a953-dd045f809f2a",
+      "selectedSpatial": "SAT-FIELD-001",
+      "camera": [
+        1269.1485148514848,
+        2175.6831683168316,
+        3131.999999999998
+      ],
+      "target": [
+        0,
+        0,
+        4.455445544554436
+      ],
+      "labels": [
+        {
+          "id": "0a8c7247-6282-5f4a-ae0e-434fc48629ec",
+          "kind": "device",
+          "text": "◎水情监测仪Sensor · 演示"
+        },
+        {
+          "id": "0888e071-e2db-5459-9156-780ce7d1f908",
+          "kind": "device",
+          "text": "◎视频巡查点Camera · 演示"
+        },
+        {
+          "id": "f327549e-976d-533a-a291-9f075b5f6e64",
+          "kind": "channel",
+          "text": "≋沟渠 01SpatialAsset · 演示"
+        },
+        {
+          "id": "79901252-f7e1-5331-a953-dd045f809f2a",
+          "kind": "alert",
+          "text": "⚠样例条件 · 田块 01固定快照 / 非生产预警"
+        },
+        {
+          "id": "bc4b9bcd-1b63-5482-b357-1d699a6dac03",
+          "kind": "field",
+          "text": "▱田块 11Field · 演示"
+        },
+        {
+          "id": "82252362-d743-5eef-be2c-4e45691064b6",
+          "kind": "field",
+          "text": "▱田块 21Field · 演示"
+        },
+        {
+          "id": "b9c4ee7b-4153-5be5-a53f-77208f651bea",
+          "kind": "pond",
+          "text": "≈水塘 25Pond · 演示"
+        },
+        {
+          "id": "42af1e59-cd64-584f-96ce-b53f4cd685b8",
+          "kind": "alert",
+          "text": "⚠样例条件 · 水塘 33固定快照 / 非生产预警"
+        },
+        {
+          "id": "fb7fa173-fca5-5fc1-bc76-75bd42fb2ed6",
+          "kind": "road",
+          "text": "╱道路 18SpatialAsset · 演示"
+        },
+        {
+          "id": "cc981a6a-e010-5265-99bb-85ae94772f1d",
+          "kind": "settlement",
+          "text": "⌂毛家村李家村SpatialAsset · 演示"
+        },
+        {
+          "id": "12c4bd94-36db-526a-ae10-2882c148e04e",
+          "kind": "woodland",
+          "text": "♧林地 07SpatialAsset · 演示"
+        }
+      ],
+      "profile": "UUID 79901252-f7e1-5331-a953-dd045f809f2a演示数据田块 01本体分类Field来源全域样例配置 v1模型估算面积33,032 m²（演示）◎ 定位此本体对象",
+      "relations": "田块 01 → 管理 → 全域演示管理组 · 演示土壤监测仪 → 监测 → 田块 01 · 演示⚠ 土壤偏干条件样例 · 演示条件满足仅合成规则，不是现场处置指令。",
+      "metrics": {
+        "viewport": [
+          1600,
+          1000
+        ],
+        "pixelRatio": 1,
+        "asset": "full",
+        "lod": "overview",
+        "loadedAssets": 1,
+        "loadMs": 136.2999999821186,
+        "assetLoadMs": 111.7000000178814,
+        "hardware": {
+          "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5070 Ti (0x00002C05) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "logicalProcessors": 20,
+          "deviceMemoryGiB": 32
+        },
+        "samples": 254,
+        "medianFrameMs": 7,
+        "p95FrameMs": 7.5999999940395355,
+        "drawCalls": 865,
+        "triangles": 2910554,
+        "geometries": 715,
+        "textures": 13
+      },
+      "visibleReferences": [],
+      "frameWindow": {
+        "samples": 120,
+        "median": 6.900000000000091,
+        "p95": 7.399999999999636
+      },
+      "file": "deliverables/verification/full-region/whole-region-default.png"
+    },
+    {
+      "dataset": "demo",
+      "asset": "full",
+      "lod": "overview",
+      "selected": "dbdada91-7f1d-5918-8a57-bd2dc9023b37",
+      "selectedSpatial": "SAT-SETTLEMENT-001",
+      "camera": [
+        -638.0974426269531,
+        121.83197555541986,
+        -570.7388000488281
+      ],
+      "target": [
+        -438.44818115234375,
+        5.672405242919922,
+        -879.2876586914062
+      ],
+      "labels": [
+        {
+          "id": "79901252-f7e1-5331-a953-dd045f809f2a",
+          "kind": "field",
+          "text": "▱田块 01Field · 演示"
+        },
+        {
+          "id": "79901252-f7e1-5331-a953-dd045f809f2a",
+          "kind": "alert",
+          "text": "⚠样例条件 · 田块 01固定快照 / 非生产预警"
+        },
+        {
+          "id": "557f853d-ba1f-5dde-b1ad-f47c28c05230",
+          "kind": "pond",
+          "text": "≈水塘 14Pond · 演示"
+        },
+        {
+          "id": "dbdada91-7f1d-5918-8a57-bd2dc9023b37",
+          "kind": "settlement",
+          "text": "⌂团墩村SpatialAsset · 演示"
+        }
+      ],
+      "profile": "UUID dbdada91-7f1d-5918-8a57-bd2dc9023b37演示数据团墩村本体分类SpatialAsset来源全域样例配置 v1模型估算面积36,380 m²（演示）◎ 定位此本体对象",
+      "relations": "团墩村 → 管理 → 全域演示管理组 · 演示视频巡查点 → 监测 → 团墩村 · 演示",
+      "metrics": {
+        "viewport": [
+          1600,
+          1000
+        ],
+        "pixelRatio": 1,
+        "asset": "full",
+        "lod": "overview",
+        "loadedAssets": 1,
+        "loadMs": 136.2999999821186,
+        "assetLoadMs": 111.7000000178814,
+        "hardware": {
+          "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5070 Ti (0x00002C05) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "logicalProcessors": 20,
+          "deviceMemoryGiB": 32
+        },
+        "samples": 300,
+        "medianFrameMs": 7,
+        "p95FrameMs": 9.200000017881393,
+        "drawCalls": 109,
+        "triangles": 1505837,
+        "geometries": 715,
+        "textures": 13
+      },
+      "visibleReferences": [],
+      "frameWindow": {
+        "samples": 120,
+        "median": 7,
+        "p95": 13.899999999999636
+      },
+      "file": "deliverables/verification/full-region/sat-settlement-001.png"
+    },
+    {
+      "dataset": "demo",
+      "asset": "full",
+      "lod": "detail",
+      "selected": "f8a32fb1-876b-58a5-9303-807273bd6a60",
+      "selectedSpatial": "SAT-SETTLEMENT-002",
+      "camera": [
+        -5.719598388671898,
+        107.36641575558663,
+        -90.52640991210939
+      ],
+      "target": [
+        167.87677001953125,
+        6.364892318086616,
+        -358.81170654296875
+      ],
+      "labels": [
+        {
+          "id": "b50bf32f-cbbf-5224-885f-db4a891ae723",
+          "kind": "device",
+          "text": "◎水情监测仪Sensor · 演示"
+        },
+        {
+          "id": "fe8f4a4d-3289-5281-b708-991d4306201b",
+          "kind": "field",
+          "text": "▱田块 06Field · 演示"
+        },
+        {
+          "id": "c7f279c7-19d7-5372-8e65-3f10b28973db",
+          "kind": "field",
+          "text": "▱田块 07Field · 演示"
+        },
+        {
+          "id": "e76035f1-e924-537e-883a-258f1f296db1",
+          "kind": "pond",
+          "text": "≈水塘 17Pond · 演示"
+        },
+        {
+          "id": "a4646acb-2e87-5d7c-ab95-260d57e2b1f2",
+          "kind": "road",
+          "text": "╱道路 04SpatialAsset · 演示"
+        },
+        {
+          "id": "f4c86c38-934d-5065-9e74-710d36e9dbc2",
+          "kind": "road",
+          "text": "╱道路 20SpatialAsset · 演示"
+        },
+        {
+          "id": "f8a32fb1-876b-58a5-9303-807273bd6a60",
+          "kind": "settlement",
+          "text": "⌂新屋湾北侧SpatialAsset · 演示"
+        }
+      ],
+      "profile": "UUID f8a32fb1-876b-58a5-9303-807273bd6a60演示数据新屋湾北侧本体分类SpatialAsset来源全域样例配置 v1模型估算面积30,273 m²（演示）◎ 定位此本体对象",
+      "relations": "新屋湾北侧 → 管理 → 全域演示管理组 · 演示视频巡查点 → 监测 → 新屋湾北侧 · 演示",
+      "metrics": {
+        "viewport": [
+          1600,
+          1000
+        ],
+        "pixelRatio": 1,
+        "asset": "full",
+        "lod": "detail",
+        "loadedAssets": 2,
+        "loadMs": 136.2999999821186,
+        "assetLoadMs": 438.5,
+        "hardware": {
+          "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5070 Ti (0x00002C05) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "logicalProcessors": 20,
+          "deviceMemoryGiB": 32
+        },
+        "samples": 300,
+        "medianFrameMs": 6.9000000059604645,
+        "p95FrameMs": 7.300000011920929,
+        "drawCalls": 205,
+        "triangles": 2214687,
+        "geometries": 1025,
+        "textures": 32
+      },
+      "visibleReferences": [],
+      "frameWindow": {
+        "samples": 120,
+        "median": 7,
+        "p95": 7.299999999999272
+      },
+      "file": "deliverables/verification/full-region/sat-settlement-002.png"
+    },
+    {
+      "dataset": "demo",
+      "asset": "full",
+      "lod": "detail",
+      "selected": "fec946e0-68f8-58d6-b8b5-4d78d40e6446",
+      "selectedSpatial": "SAT-SETTLEMENT-003",
+      "camera": [
+        101.15471956729888,
+        55.48422775242907,
+        50.040719199180586
+      ],
+      "target": [
+        185.85168075561523,
+        6.205995788317751,
+        -80.85458445549011
+      ],
+      "labels": [
+        {
+          "id": "0e399daa-3ff1-59ec-8353-d89acffb9533",
+          "kind": "device",
+          "text": "◎土壤监测仪Sensor · 演示"
+        },
+        {
+          "id": "37572715-b613-5af4-be00-975b46200afd",
+          "kind": "channel",
+          "text": "≋沟渠 02SpatialAsset · 演示"
+        },
+        {
+          "id": "3dc6f795-cc79-5297-95e6-607c7f128e60",
+          "kind": "field",
+          "text": "▱田块 08Field · 演示"
+        },
+        {
+          "id": "fec946e0-68f8-58d6-b8b5-4d78d40e6446",
+          "kind": "settlement",
+          "text": "⌂新屋湾南侧SpatialAsset · 演示"
+        },
+        {
+          "id": "1b545571-fd77-57d8-8aa7-3a5eb0164071",
+          "kind": "woodland",
+          "text": "♧林地 06SpatialAsset · 演示"
+        }
+      ],
+      "profile": "UUID fec946e0-68f8-58d6-b8b5-4d78d40e6446演示数据新屋湾南侧本体分类SpatialAsset来源全域样例配置 v1模型估算面积14,515 m²（演示）◎ 定位此本体对象",
+      "relations": "新屋湾南侧 → 管理 → 全域演示管理组 · 演示视频巡查点 → 监测 → 新屋湾南侧 · 演示",
+      "metrics": {
+        "viewport": [
+          1600,
+          1000
+        ],
+        "pixelRatio": 1,
+        "asset": "full",
+        "lod": "detail",
+        "loadedAssets": 2,
+        "loadMs": 136.2999999821186,
+        "assetLoadMs": 438.5,
+        "hardware": {
+          "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5070 Ti (0x00002C05) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "logicalProcessors": 20,
+          "deviceMemoryGiB": 32
+        },
+        "samples": 300,
+        "medianFrameMs": 6.9000000059604645,
+        "p95FrameMs": 7.4000000059604645,
+        "drawCalls": 208,
+        "triangles": 2200882,
+        "geometries": 1056,
+        "textures": 32
+      },
+      "visibleReferences": [],
+      "frameWindow": {
+        "samples": 120,
+        "median": 6.900000000001455,
+        "p95": 7.399999999999636
+      },
+      "file": "deliverables/verification/full-region/sat-settlement-003.png"
+    },
+    {
+      "dataset": "demo",
+      "asset": "full",
+      "lod": "detail",
+      "selected": "40d190d5-2c5e-5b9c-ad51-43ef5c8a353a",
+      "selectedSpatial": "SAT-SETTLEMENT-004",
+      "camera": [
+        -971.4225250244141,
+        40.24896558761596,
+        403.9255554199218
+      ],
+      "target": [
+        -911.6545715332031,
+        5.474883556365967,
+        311.55690002441406
+      ],
+      "labels": [
+        {
+          "id": "40d190d5-2c5e-5b9c-ad51-43ef5c8a353a",
+          "kind": "settlement",
+          "text": "⌂西侧SpatialAsset · 演示"
+        },
+        {
+          "id": "f20b8668-b063-52cf-bb77-71839abd5562",
+          "kind": "woodland",
+          "text": "♧林地 04SpatialAsset · 演示"
+        }
+      ],
+      "profile": "UUID 40d190d5-2c5e-5b9c-ad51-43ef5c8a353a演示数据西侧本体分类SpatialAsset来源全域样例配置 v1模型估算面积4,335 m²（演示）◎ 定位此本体对象",
+      "relations": "西侧 → 管理 → 全域演示管理组 · 演示视频巡查点 → 监测 → 西侧 · 演示",
+      "metrics": {
+        "viewport": [
+          1600,
+          1000
+        ],
+        "pixelRatio": 1,
+        "asset": "full",
+        "lod": "detail",
+        "loadedAssets": 2,
+        "loadMs": 136.2999999821186,
+        "assetLoadMs": 438.5,
+        "hardware": {
+          "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5070 Ti (0x00002C05) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "logicalProcessors": 20,
+          "deviceMemoryGiB": 32
+        },
+        "samples": 300,
+        "medianFrameMs": 6.9000000059604645,
+        "p95FrameMs": 7.9000000059604645,
+        "drawCalls": 638,
+        "triangles": 3970527,
+        "geometries": 1246,
+        "textures": 32
+      },
+      "visibleReferences": [],
+      "frameWindow": {
+        "samples": 120,
+        "median": 6.900000000001455,
+        "p95": 7.5
+      },
+      "file": "deliverables/verification/full-region/sat-settlement-004.png"
+    },
+    {
+      "dataset": "demo",
+      "asset": "full",
+      "lod": "detail",
+      "selected": "cc981a6a-e010-5265-99bb-85ae94772f1d",
+      "selectedSpatial": "SAT-SETTLEMENT-005",
+      "camera": [
+        -510.8028305053711,
+        133.39002319344095,
+        887.3791671752929
+      ],
+      "target": [
+        -292.54368591308594,
+        6.402884521565966,
+        550.069580078125
+      ],
+      "labels": [
+        {
+          "id": "e8319824-4532-5faf-94b2-2dcdca4b6ba1",
+          "kind": "device",
+          "text": "◎水情监测仪Sensor · 演示"
+        },
+        {
+          "id": "f1c00424-5094-5cf1-9856-93f7d0da7861",
+          "kind": "field",
+          "text": "▱田块 09Field · 演示"
+        },
+        {
+          "id": "3cddab94-8527-5f99-8f96-78097086b74e",
+          "kind": "field",
+          "text": "▱田块 27Field · 演示"
+        },
+        {
+          "id": "e76035f1-e924-537e-883a-258f1f296db1",
+          "kind": "alert",
+          "text": "⚠样例条件 · 水塘 17固定快照 / 非生产预警"
+        },
+        {
+          "id": "5fbddc72-5521-56e7-aa22-6a2bfa67c420",
+          "kind": "pond",
+          "text": "≈水塘 26Pond · 演示"
+        },
+        {
+          "id": "cc981a6a-e010-5265-99bb-85ae94772f1d",
+          "kind": "settlement",
+          "text": "⌂毛家村李家村SpatialAsset · 演示"
+        },
+        {
+          "id": "12c4bd94-36db-526a-ae10-2882c148e04e",
+          "kind": "woodland",
+          "text": "♧林地 07SpatialAsset · 演示"
+        }
+      ],
+      "profile": "UUID cc981a6a-e010-5265-99bb-85ae94772f1d演示数据毛家村李家村本体分类SpatialAsset来源全域样例配置 v1模型估算面积59,130 m²（演示）◎ 定位此本体对象",
+      "relations": "毛家村李家村 → 管理 → 全域演示管理组 · 演示视频巡查点 → 监测 → 毛家村李家村 · 演示",
+      "metrics": {
+        "viewport": [
+          1600,
+          1000
+        ],
+        "pixelRatio": 1,
+        "asset": "full",
+        "lod": "detail",
+        "loadedAssets": 2,
+        "loadMs": 136.2999999821186,
+        "assetLoadMs": 438.5,
+        "hardware": {
+          "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5070 Ti (0x00002C05) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "logicalProcessors": 20,
+          "deviceMemoryGiB": 32
+        },
+        "samples": 300,
+        "medianFrameMs": 7,
+        "p95FrameMs": 9.599999994039536,
+        "drawCalls": 794,
+        "triangles": 4447750,
+        "geometries": 1507,
+        "textures": 32
+      },
+      "visibleReferences": [],
+      "frameWindow": {
+        "samples": 120,
+        "median": 6.900000000001455,
+        "p95": 7.299999999999272
+      },
+      "file": "deliverables/verification/full-region/sat-settlement-005.png"
+    },
+    {
+      "dataset": "demo",
+      "asset": "full",
+      "lod": "detail",
+      "selected": "37c32216-1ea6-5a25-b4bc-b88446e6cf21",
+      "selectedSpatial": "SAT-SETTLEMENT-006",
+      "camera": [
+        -301.38612937927246,
+        81.53014297485352,
+        941.4999599456787
+      ],
+      "target": [
+        -171.22650527954102,
+        5.800907135009766,
+        740.3441772460938
+      ],
+      "labels": [
+        {
+          "id": "a3c731d2-9f68-5eac-ab2a-df6ddcc7f656",
+          "kind": "device",
+          "text": "◎土壤监测仪Sensor · 演示"
+        },
+        {
+          "id": "c0ff4de2-8ed3-55f4-a6b5-d0f109584ce5",
+          "kind": "device",
+          "text": "◎视频巡查点Camera · 演示"
+        },
+        {
+          "id": "263b0b45-8495-58ab-b10c-6a38c21f1307",
+          "kind": "device",
+          "text": "◎土壤监测仪Sensor · 演示"
+        },
+        {
+          "id": "2dc1655d-18ff-56cd-98ed-bc55f3874531",
+          "kind": "channel",
+          "text": "≋沟渠 03SpatialAsset · 演示"
+        },
+        {
+          "id": "9406242f-0fa7-53fa-bf89-46752ba67078",
+          "kind": "field",
+          "text": "▱田块 18Field · 演示"
+        },
+        {
+          "id": "780f63e5-a214-58d4-8c9a-cac35af1ee71",
+          "kind": "alert",
+          "text": "⚠样例条件 · 田块 25固定快照 / 非生产预警"
+        },
+        {
+          "id": "381010a8-77ce-5e96-a942-9e374e897939",
+          "kind": "pond",
+          "text": "≈水塘 27Pond · 演示"
+        },
+        {
+          "id": "a4646acb-2e87-5d7c-ab95-260d57e2b1f2",
+          "kind": "road",
+          "text": "╱道路 04SpatialAsset · 演示"
+        },
+        {
+          "id": "7aa27b09-53da-5900-86b4-8f55668cb9a2",
+          "kind": "road",
+          "text": "╱道路 07SpatialAsset · 演示"
+        },
+        {
+          "id": "37c32216-1ea6-5a25-b4bc-b88446e6cf21",
+          "kind": "settlement",
+          "text": "⌂张家村SpatialAsset · 演示"
+        }
+      ],
+      "profile": "UUID 37c32216-1ea6-5a25-b4bc-b88446e6cf21演示数据张家村本体分类SpatialAsset来源全域样例配置 v1模型估算面积29,816 m²（演示）◎ 定位此本体对象",
+      "relations": "张家村 → 管理 → 全域演示管理组 · 演示视频巡查点 → 监测 → 张家村 · 演示",
+      "metrics": {
+        "viewport": [
+          1600,
+          1000
+        ],
+        "pixelRatio": 1,
+        "asset": "full",
+        "lod": "detail",
+        "loadedAssets": 2,
+        "loadMs": 136.2999999821186,
+        "assetLoadMs": 438.5,
+        "hardware": {
+          "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5070 Ti (0x00002C05) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "logicalProcessors": 20,
+          "deviceMemoryGiB": 32
+        },
+        "samples": 300,
+        "medianFrameMs": 6.9000000059604645,
+        "p95FrameMs": 7.399999976158142,
+        "drawCalls": 734,
+        "triangles": 4155828,
+        "geometries": 1540,
+        "textures": 32
+      },
+      "visibleReferences": [],
+      "frameWindow": {
+        "samples": 120,
+        "median": 6.900000000001455,
+        "p95": 7.30000000000291
+      },
+      "file": "deliverables/verification/full-region/sat-settlement-006.png"
+    },
+    {
+      "dataset": "demo",
+      "asset": "full",
+      "lod": "detail",
+      "selected": "f9eac1b6-003b-57ed-8815-9ac33545fe3d",
+      "selectedSpatial": "SAT-SETTLEMENT-007",
+      "camera": [
+        239.67303466796864,
+        116.61421176725518,
+        756.2813720703125
+      ],
+      "target": [
+        429.48010253906244,
+        6.181008642255164,
+        462.9431762695312
+      ],
+      "labels": [
+        {
+          "id": "6525e25e-f70d-5a92-a58c-bf26f4f769a0",
+          "kind": "device",
+          "text": "◎视频巡查点Camera · 演示"
+        },
+        {
+          "id": "1355b6b8-716f-5732-b0bb-f7975fc418ce",
+          "kind": "bare",
+          "text": "◇待用地 01SpatialAsset · 演示"
+        },
+        {
+          "id": "f1c00424-5094-5cf1-9856-93f7d0da7861",
+          "kind": "alert",
+          "text": "⚠样例条件 · 田块 09固定快照 / 非生产预警"
+        },
+        {
+          "id": "8fbf26ac-8790-56d5-b6a1-6fe76fac7ab9",
+          "kind": "field",
+          "text": "▱田块 17Field · 演示"
+        },
+        {
+          "id": "38bf3c0a-dcd0-552b-8fe3-364d02794ae2",
+          "kind": "field",
+          "text": "▱田块 20Field · 演示"
+        },
+        {
+          "id": "91083efc-88ac-562d-97ed-c17ca2ecf2b4",
+          "kind": "pond",
+          "text": "≈水塘 29Pond · 演示"
+        },
+        {
+          "id": "3a97f042-c580-5951-9e5a-17b388c32911",
+          "kind": "pond",
+          "text": "≈水塘 30Pond · 演示"
+        },
+        {
+          "id": "f9eac1b6-003b-57ed-8815-9ac33545fe3d",
+          "kind": "settlement",
+          "text": "⌂庙下刘SpatialAsset · 演示"
+        }
+      ],
+      "profile": "UUID f9eac1b6-003b-57ed-8815-9ac33545fe3d演示数据庙下刘本体分类SpatialAsset来源全域样例配置 v1模型估算面积41,493 m²（演示）◎ 定位此本体对象",
+      "relations": "庙下刘 → 管理 → 全域演示管理组 · 演示视频巡查点 → 监测 → 庙下刘 · 演示",
+      "metrics": {
+        "viewport": [
+          1600,
+          1000
+        ],
+        "pixelRatio": 1,
+        "asset": "full",
+        "lod": "detail",
+        "loadedAssets": 2,
+        "loadMs": 136.2999999821186,
+        "assetLoadMs": 438.5,
+        "hardware": {
+          "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5070 Ti (0x00002C05) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "logicalProcessors": 20,
+          "deviceMemoryGiB": 32
+        },
+        "samples": 300,
+        "medianFrameMs": 6.9000000059604645,
+        "p95FrameMs": 7.4000000059604645,
+        "drawCalls": 414,
+        "triangles": 2675012,
+        "geometries": 1574,
+        "textures": 32
+      },
+      "visibleReferences": [],
+      "frameWindow": {
+        "samples": 120,
+        "median": 6.900000000001455,
+        "p95": 7.399999999997817
+      },
+      "file": "deliverables/verification/full-region/sat-settlement-007.png"
+    },
+    {
+      "dataset": "demo",
+      "asset": "full",
+      "lod": "detail",
+      "selected": "f51759d2-2edf-5240-8992-a6002e45f246",
+      "selectedSpatial": "SAT-SETTLEMENT-008",
+      "camera": [
+        690.2642402648926,
+        121.86192579766289,
+        641.1339683532715
+      ],
+      "target": [
+        888.7856140136719,
+        6.358581071100389,
+        334.32820892333984
+      ],
+      "labels": [
+        {
+          "id": "88358408-10af-51ed-aa91-049bca53b023",
+          "kind": "device",
+          "text": "◎增氧设备登记Pump · 演示"
+        },
+        {
+          "id": "c38daf13-ab61-5f6b-9140-f07570e64c63",
+          "kind": "pond",
+          "text": "≈水塘 32Pond · 演示"
+        },
+        {
+          "id": "f6790068-2e9c-516d-96ae-6de6bb51b21c",
+          "kind": "road",
+          "text": "╱道路 12SpatialAsset · 演示"
+        },
+        {
+          "id": "f51759d2-2edf-5240-8992-a6002e45f246",
+          "kind": "settlement",
+          "text": "⌂沙湾SpatialAsset · 演示"
+        }
+      ],
+      "profile": "UUID f51759d2-2edf-5240-8992-a6002e45f246演示数据沙湾本体分类SpatialAsset来源全域样例配置 v1模型估算面积64,104 m²（演示）◎ 定位此本体对象",
+      "relations": "沙湾 → 管理 → 全域演示管理组 · 演示视频巡查点 → 监测 → 沙湾 · 演示",
+      "metrics": {
+        "viewport": [
+          1600,
+          1000
+        ],
+        "pixelRatio": 1,
+        "asset": "full",
+        "lod": "detail",
+        "loadedAssets": 2,
+        "loadMs": 136.2999999821186,
+        "assetLoadMs": 438.5,
+        "hardware": {
+          "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5070 Ti (0x00002C05) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "logicalProcessors": 20,
+          "deviceMemoryGiB": 32
+        },
+        "samples": 300,
+        "medianFrameMs": 6.9000000059604645,
+        "p95FrameMs": 7.4000000059604645,
+        "drawCalls": 172,
+        "triangles": 2082242,
+        "geometries": 1579,
+        "textures": 32
+      },
+      "visibleReferences": [],
+      "frameWindow": {
+        "samples": 120,
+        "median": 6.900000000001455,
+        "p95": 7.399999999997817
+      },
+      "file": "deliverables/verification/full-region/sat-settlement-008.png"
+    },
+    {
+      "dataset": "demo",
+      "asset": "full",
+      "lod": "detail",
+      "selected": "d59b1ff9-8f55-5fc7-a593-746ffd4c2184",
+      "selectedSpatial": "SAT-SETTLEMENT-009",
+      "camera": [
+        -84.18329544067385,
+        91.59486352423629,
+        834.8727363586426
+      ],
+      "target": [
+        62.36304473876955,
+        6.331538328923785,
+        608.3920288085938
+      ],
+      "labels": [
+        {
+          "id": "8fa93451-bd66-515b-888c-271206bc22ac",
+          "kind": "device",
+          "text": "◎土壤监测仪Sensor · 演示"
+        },
+        {
+          "id": "b0e60b0d-223e-5d89-bf05-afbf38049c27",
+          "kind": "device",
+          "text": "◎视频巡查点Camera · 演示"
+        },
+        {
+          "id": "263b0b45-8495-58ab-b10c-6a38c21f1307",
+          "kind": "device",
+          "text": "◎土壤监测仪Sensor · 演示"
+        },
+        {
+          "id": "2c6f0bdb-0e71-5f87-8cd4-a4e3e618e220",
+          "kind": "field",
+          "text": "▱田块 35Field · 演示"
+        },
+        {
+          "id": "74f8b9a6-e0f1-542e-9350-f3c5c323dbe4",
+          "kind": "pond",
+          "text": "≈水塘 28Pond · 演示"
+        },
+        {
+          "id": "d59b1ff9-8f55-5fc7-a593-746ffd4c2184",
+          "kind": "settlement",
+          "text": "⌂南部SpatialAsset · 演示"
+        },
+        {
+          "id": "1b545571-fd77-57d8-8aa7-3a5eb0164071",
+          "kind": "woodland",
+          "text": "♧林地 06SpatialAsset · 演示"
+        }
+      ],
+      "profile": "UUID d59b1ff9-8f55-5fc7-a593-746ffd4c2184演示数据南部本体分类SpatialAsset来源全域样例配置 v1模型估算面积18,910 m²（演示）◎ 定位此本体对象",
+      "relations": "南部 → 管理 → 全域演示管理组 · 演示视频巡查点 → 监测 → 南部 · 演示",
+      "metrics": {
+        "viewport": [
+          1600,
+          1000
+        ],
+        "pixelRatio": 1,
+        "asset": "full",
+        "lod": "detail",
+        "loadedAssets": 2,
+        "loadMs": 136.2999999821186,
+        "assetLoadMs": 438.5,
+        "hardware": {
+          "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5070 Ti (0x00002C05) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "logicalProcessors": 20,
+          "deviceMemoryGiB": 32
+        },
+        "samples": 300,
+        "medianFrameMs": 6.9000000059604645,
+        "p95FrameMs": 7.5,
+        "drawCalls": 611,
+        "triangles": 3500180,
+        "geometries": 1579,
+        "textures": 32
+      },
+      "visibleReferences": [],
+      "frameWindow": {
+        "samples": 120,
+        "median": 6.900000000001455,
+        "p95": 7.400000000001455
+      },
+      "file": "deliverables/verification/full-region/sat-settlement-009.png"
+    },
+    {
+      "dataset": "demo",
+      "asset": "full",
+      "lod": "detail",
+      "selected": "5fb101e8-07bd-5be1-a1b5-231074a0435f",
+      "selectedSpatial": "SAT-LAKE-001",
+      "camera": [
+        -889.3701127052309,
+        262.3564556014539,
+        456.6783524513247
+      ],
+      "target": [
+        -434.2512044906617,
+        -2.440000087022781,
+        -246.68723297119143
+      ],
+      "labels": [
+        {
+          "id": "953eda7e-0f1d-510e-a3cc-8db46e77a4f8",
+          "kind": "device",
+          "text": "◎土壤监测仪Sensor · 演示"
+        },
+        {
+          "id": "e09f458b-c41f-597f-947d-bc32a99e6e8c",
+          "kind": "device",
+          "text": "◎土壤监测仪Sensor · 演示"
+        },
+        {
+          "id": "37572715-b613-5af4-be00-975b46200afd",
+          "kind": "channel",
+          "text": "≋沟渠 02SpatialAsset · 演示"
+        },
+        {
+          "id": "5972b90c-21ed-5870-af45-f60c605887e6",
+          "kind": "field",
+          "text": "▱田块 03Field · 演示"
+        },
+        {
+          "id": "5fb101e8-07bd-5be1-a1b5-231074a0435f",
+          "kind": "alert",
+          "text": "⚠样例条件 · 湖面 01固定快照 / 非生产预警"
+        },
+        {
+          "id": "78d58f3f-be64-5734-b294-dc595a89a142",
+          "kind": "alert",
+          "text": "⚠样例条件 · 水塘 13固定快照 / 非生产预警"
+        },
+        {
+          "id": "21e803b9-5829-562f-8022-a9e3fea9e8b8",
+          "kind": "alert",
+          "text": "⚠样例条件 · 水塘 21固定快照 / 非生产预警"
+        },
+        {
+          "id": "3e592b01-4175-5d84-8aa1-45088bfaf19a",
+          "kind": "pond",
+          "text": "≈水塘 23Pond · 演示"
+        },
+        {
+          "id": "57fd4cdb-f1c0-54d6-8a7c-05dfcbd782cf",
+          "kind": "pond",
+          "text": "≈水塘 24Pond · 演示"
+        },
+        {
+          "id": "a571b90d-e1a2-5ee5-8555-e4ce72ebdf52",
+          "kind": "road",
+          "text": "╱道路 06SpatialAsset · 演示"
+        },
+        {
+          "id": "dbdada91-7f1d-5918-8a57-bd2dc9023b37",
+          "kind": "settlement",
+          "text": "⌂团墩村SpatialAsset · 演示"
+        },
+        {
+          "id": "b59ec52d-4c51-5e32-9f16-c719bf2b71bc",
+          "kind": "woodland",
+          "text": "♧林地 03SpatialAsset · 演示"
+        }
+      ],
+      "profile": "UUID 5fb101e8-07bd-5be1-a1b5-231074a0435f演示数据湖面 01本体分类Pond来源全域样例配置 v1模型估算面积175,000 m²（演示）◎ 定位此本体对象",
+      "relations": "湖面 01 → 管理 → 全域演示管理组 · 演示水情监测仪 → 监测 → 湖面 01 · 演示增氧设备登记 → 服务 → 湖面 01 · 演示⚠ 水域观测条件样例 · 演示条件满足仅合成规则，不是现场处置指令。",
+      "metrics": {
+        "viewport": [
+          1600,
+          1000
+        ],
+        "pixelRatio": 1,
+        "asset": "full",
+        "lod": "detail",
+        "loadedAssets": 2,
+        "loadMs": 136.2999999821186,
+        "assetLoadMs": 438.5,
+        "hardware": {
+          "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5070 Ti (0x00002C05) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "logicalProcessors": 20,
+          "deviceMemoryGiB": 32
+        },
+        "samples": 300,
+        "medianFrameMs": 6.9000000059604645,
+        "p95FrameMs": 7.5999999940395355,
+        "drawCalls": 660,
+        "triangles": 4064905,
+        "geometries": 1584,
+        "textures": 32
+      },
+      "visibleReferences": [],
+      "frameWindow": {
+        "samples": 120,
+        "median": 6.900000000001455,
+        "p95": 7.30000000000291
+      },
+      "file": "deliverables/verification/full-region/whole-region-lake.png"
+    },
+    {
+      "dataset": "demo",
+      "asset": "full",
+      "lod": "detail",
+      "selected": "8cfb699b-da8b-5106-ad90-66406c7bc42a",
+      "selectedSpatial": "SAT-POND-001",
+      "camera": [
+        -968.9386764526367,
+        104.53012700915336,
+        -297.2696426391602
+      ],
+      "target": [
+        -786.7595520019531,
+        -1.4649999439716352,
+        -578.8191986083984
+      ],
+      "labels": [
+        {
+          "id": "79901252-f7e1-5331-a953-dd045f809f2a",
+          "kind": "field",
+          "text": "▱田块 01Field · 演示"
+        },
+        {
+          "id": "8cfb699b-da8b-5106-ad90-66406c7bc42a",
+          "kind": "pond",
+          "text": "≈水塘 01Pond · 演示"
+        },
+        {
+          "id": "8cfb699b-da8b-5106-ad90-66406c7bc42a",
+          "kind": "alert",
+          "text": "⚠样例条件 · 水塘 01固定快照 / 非生产预警"
+        },
+        {
+          "id": "8b551cbf-2f94-571c-b276-5c0fde1c9616",
+          "kind": "pond",
+          "text": "≈水塘 02Pond · 演示"
+        },
+        {
+          "id": "8cfc11f2-d1ba-5ec1-b42f-47022aa117a8",
+          "kind": "road",
+          "text": "╱道路 03SpatialAsset · 演示"
+        },
+        {
+          "id": "dbdada91-7f1d-5918-8a57-bd2dc9023b37",
+          "kind": "settlement",
+          "text": "⌂团墩村SpatialAsset · 演示"
+        }
+      ],
+      "profile": "UUID 8cfb699b-da8b-5106-ad90-66406c7bc42a演示数据水塘 01本体分类Pond来源全域样例配置 v1模型估算面积35,175 m²（演示）◎ 定位此本体对象",
+      "relations": "水塘 01 → 管理 → 全域演示管理组 · 演示水情监测仪 → 监测 → 水塘 01 · 演示增氧设备登记 → 服务 → 水塘 01 · 演示⚠ 缺氧条件样例 · 演示条件满足仅合成规则，不是现场处置指令。",
+      "metrics": {
+        "viewport": [
+          1600,
+          1000
+        ],
+        "pixelRatio": 1,
+        "asset": "full",
+        "lod": "detail",
+        "loadedAssets": 2,
+        "loadMs": 136.2999999821186,
+        "assetLoadMs": 438.5,
+        "hardware": {
+          "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5070 Ti (0x00002C05) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "logicalProcessors": 20,
+          "deviceMemoryGiB": 32
+        },
+        "samples": 300,
+        "medianFrameMs": 6.9000000059604645,
+        "p95FrameMs": 7.5,
+        "drawCalls": 270,
+        "triangles": 2215471,
+        "geometries": 1584,
+        "textures": 32
+      },
+      "visibleReferences": [],
+      "frameWindow": {
+        "samples": 120,
+        "median": 6.900000000001455,
+        "p95": 7.30000000000291
+      },
+      "file": "deliverables/verification/full-region/whole-region-pond.png"
+    },
+    {
+      "dataset": "demo",
+      "asset": "full",
+      "lod": "detail",
+      "selected": "79901252-f7e1-5331-a953-dd045f809f2a",
+      "selectedSpatial": "SAT-FIELD-001",
+      "camera": [
+        -755.7693527221679,
+        119.84065424919126,
+        -608.3817276000977
+      ],
+      "target": [
+        -550.7385406494141,
+        0.5499999523162842,
+        -925.2475280761719
+      ],
+      "labels": [
+        {
+          "id": "9a0e9e9f-e39c-5714-a362-860665af8a75",
+          "kind": "device",
+          "text": "◎视频巡查点Camera · 演示"
+        },
+        {
+          "id": "79901252-f7e1-5331-a953-dd045f809f2a",
+          "kind": "field",
+          "text": "▱田块 01Field · 演示"
+        },
+        {
+          "id": "79901252-f7e1-5331-a953-dd045f809f2a",
+          "kind": "alert",
+          "text": "⚠样例条件 · 田块 01固定快照 / 非生产预警"
+        },
+        {
+          "id": "89a7c835-7fd2-552c-b0b3-77bbc92ee989",
+          "kind": "field",
+          "text": "▱田块 02Field · 演示"
+        },
+        {
+          "id": "dbdada91-7f1d-5918-8a57-bd2dc9023b37",
+          "kind": "settlement",
+          "text": "⌂团墩村SpatialAsset · 演示"
+        }
+      ],
+      "profile": "UUID 79901252-f7e1-5331-a953-dd045f809f2a演示数据田块 01本体分类Field来源全域样例配置 v1模型估算面积33,032 m²（演示）◎ 定位此本体对象",
+      "relations": "田块 01 → 管理 → 全域演示管理组 · 演示土壤监测仪 → 监测 → 田块 01 · 演示⚠ 土壤偏干条件样例 · 演示条件满足仅合成规则，不是现场处置指令。",
+      "metrics": {
+        "viewport": [
+          1600,
+          1000
+        ],
+        "pixelRatio": 1,
+        "asset": "full",
+        "lod": "detail",
+        "loadedAssets": 2,
+        "loadMs": 136.2999999821186,
+        "assetLoadMs": 438.5,
+        "hardware": {
+          "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5070 Ti (0x00002C05) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "logicalProcessors": 20,
+          "deviceMemoryGiB": 32
+        },
+        "samples": 300,
+        "medianFrameMs": 6.9000000059604645,
+        "p95FrameMs": 7.5,
+        "drawCalls": 173,
+        "triangles": 2116964,
+        "geometries": 1583,
+        "textures": 32
+      },
+      "visibleReferences": [],
+      "frameWindow": {
+        "samples": 120,
+        "median": 6.900000000001455,
+        "p95": 7.400000000001455
+      },
+      "file": "deliverables/verification/full-region/whole-region-field.png"
+    },
+    {
+      "dataset": "demo",
+      "asset": "full",
+      "lod": "detail",
+      "selected": "f327549e-976d-533a-a291-9f075b5f6e64",
+      "selectedSpatial": "SAT-CHANNEL-001",
+      "camera": [
+        -1403.2754051208499,
+        192.72168454110633,
+        424.76864852905294
+      ],
+      "target": [
+        -1070.771728515625,
+        -0.7350000292062759,
+        -89.10066986083984
+      ],
+      "labels": [
+        {
+          "id": "be9d65f1-ac43-536a-b751-b25dbfcd78d5",
+          "kind": "device",
+          "text": "◎增氧设备登记Pump · 演示"
+        },
+        {
+          "id": "65fd7a83-43e6-599f-9b5b-df5ead93f9e3",
+          "kind": "device",
+          "text": "◎增氧设备登记Pump · 演示"
+        },
+        {
+          "id": "f327549e-976d-533a-a291-9f075b5f6e64",
+          "kind": "channel",
+          "text": "≋沟渠 01SpatialAsset · 演示"
+        },
+        {
+          "id": "79901252-f7e1-5331-a953-dd045f809f2a",
+          "kind": "field",
+          "text": "▱田块 01Field · 演示"
+        },
+        {
+          "id": "d24c2334-c588-5f3d-88b7-43cf13e8df22",
+          "kind": "pond",
+          "text": "≈水塘 06Pond · 演示"
+        },
+        {
+          "id": "78d58f3f-be64-5734-b294-dc595a89a142",
+          "kind": "alert",
+          "text": "⚠样例条件 · 水塘 13固定快照 / 非生产预警"
+        },
+        {
+          "id": "a8b75235-0c96-54e0-a977-1de4dabadb66",
+          "kind": "pond",
+          "text": "≈水塘 15Pond · 演示"
+        },
+        {
+          "id": "c84f8ec6-a41f-5bf8-8a4c-bd7b15921993",
+          "kind": "road",
+          "text": "╱道路 16SpatialAsset · 演示"
+        }
+      ],
+      "profile": "UUID f327549e-976d-533a-a291-9f075b5f6e64演示数据沟渠 01本体分类SpatialAsset来源全域样例配置 v1模型估算面积1,848 m²（演示）◎ 定位此本体对象",
+      "relations": "沟渠 01 → 管理 → 全域演示管理组 · 演示水情监测仪 → 监测 → 沟渠 01 · 演示",
+      "metrics": {
+        "viewport": [
+          1600,
+          1000
+        ],
+        "pixelRatio": 1,
+        "asset": "full",
+        "lod": "detail",
+        "loadedAssets": 2,
+        "loadMs": 136.2999999821186,
+        "assetLoadMs": 438.5,
+        "hardware": {
+          "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5070 Ti (0x00002C05) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "logicalProcessors": 20,
+          "deviceMemoryGiB": 32
+        },
+        "samples": 300,
+        "medianFrameMs": 7,
+        "p95FrameMs": 10.299999982118607,
+        "drawCalls": 599,
+        "triangles": 3503114,
+        "geometries": 1583,
+        "textures": 32
+      },
+      "visibleReferences": [],
+      "frameWindow": {
+        "samples": 120,
+        "median": 6.900000000001455,
+        "p95": 7.400000000001455
+      },
+      "file": "deliverables/verification/full-region/whole-region-channel.png"
+    },
+    {
+      "dataset": "demo",
+      "asset": "full",
+      "lod": "overview",
+      "selected": "f327549e-976d-533a-a291-9f075b5f6e64",
+      "selectedSpatial": "SAT-CHANNEL-001",
+      "camera": [
+        1269.1485148514848,
+        2175.6831683168316,
+        3131.999999999998
+      ],
+      "target": [
+        0,
+        0,
+        4.455445544554436
+      ],
+      "labels": [
+        {
+          "id": "0a8c7247-6282-5f4a-ae0e-434fc48629ec",
+          "kind": "device",
+          "text": "◎水情监测仪Sensor · 演示"
+        },
+        {
+          "id": "f327549e-976d-533a-a291-9f075b5f6e64",
+          "kind": "channel",
+          "text": "≋沟渠 01SpatialAsset · 演示"
+        },
+        {
+          "id": "f1c00424-5094-5cf1-9856-93f7d0da7861",
+          "kind": "alert",
+          "text": "⚠样例条件 · 田块 09固定快照 / 非生产预警"
+        },
+        {
+          "id": "8fbf26ac-8790-56d5-b6a1-6fe76fac7ab9",
+          "kind": "alert",
+          "text": "⚠样例条件 · 田块 17固定快照 / 非生产预警"
+        },
+        {
+          "id": "82252362-d743-5eef-be2c-4e45691064b6",
+          "kind": "field",
+          "text": "▱田块 21Field · 演示"
+        },
+        {
+          "id": "b9c4ee7b-4153-5be5-a53f-77208f651bea",
+          "kind": "pond",
+          "text": "≈水塘 25Pond · 演示"
+        },
+        {
+          "id": "42af1e59-cd64-584f-96ce-b53f4cd685b8",
+          "kind": "alert",
+          "text": "⚠样例条件 · 水塘 33固定快照 / 非生产预警"
+        },
+        {
+          "id": "78375141-63e6-5ec0-9e06-27a7886ab2f1",
+          "kind": "road",
+          "text": "╱道路 10SpatialAsset · 演示"
+        },
+        {
+          "id": "dbdada91-7f1d-5918-8a57-bd2dc9023b37",
+          "kind": "settlement",
+          "text": "⌂团墩村SpatialAsset · 演示"
+        },
+        {
+          "id": "0bd270b4-5172-5c46-8e59-58ce6b7a1298",
+          "kind": "woodland",
+          "text": "♧林地 05SpatialAsset · 演示"
+        }
+      ],
+      "profile": "UUID f327549e-976d-533a-a291-9f075b5f6e64演示数据沟渠 01本体分类SpatialAsset来源全域样例配置 v1模型估算面积1,848 m²（演示）◎ 定位此本体对象",
+      "relations": "沟渠 01 → 管理 → 全域演示管理组 · 演示水情监测仪 → 监测 → 沟渠 01 · 演示",
+      "metrics": {
+        "viewport": [
+          1600,
+          1000
+        ],
+        "pixelRatio": 1,
+        "asset": "full",
+        "lod": "overview",
+        "loadedAssets": 2,
+        "loadMs": 136.2999999821186,
+        "assetLoadMs": 111.7000000178814,
+        "hardware": {
+          "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5070 Ti (0x00002C05) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "logicalProcessors": 20,
+          "deviceMemoryGiB": 32
+        },
+        "samples": 300,
+        "medianFrameMs": 7.399999976158142,
+        "p95FrameMs": 12.900000005960464,
+        "drawCalls": 865,
+        "triangles": 2910554,
+        "geometries": 1587,
+        "textures": 32
+      },
+      "visibleReferences": [],
+      "frameWindow": {
+        "samples": 120,
+        "median": 7,
+        "p95": 14.099999999998545
+      },
+      "file": "deliverables/verification/full-region/whole-region-return.png"
+    },
+    {
+      "dataset": "real",
+      "asset": "full",
+      "lod": "overview",
+      "selectedSpatial": null,
+      "camera": [
+        1269.1485148514848,
+        2175.6831683168316,
+        3131.999999999998
+      ],
+      "target": [
+        0,
+        0,
+        4.455445544554436
+      ],
+      "labels": [
+        {
+          "id": "f3bfb792-2779-490a-badf-e7f5c51b0343",
+          "kind": "field",
+          "text": "▱东北部耕作纹理片区 09Field · 资料"
+        },
+        {
+          "id": "edc8ef46-969a-47ae-a002-f31404061de4",
+          "kind": "settlement",
+          "text": "⌂沙湾可见聚落纹理SpatialAsset · 资料"
+        },
+        {
+          "id": "909f2a1a-fdfd-4707-9b9b-335c61cf4703",
+          "kind": "woodland",
+          "text": "♧东部林木覆盖片区 07SpatialAsset · 资料"
+        },
+        {
+          "id": "804b13a7-1f0e-4db2-93c1-bc4629097598",
+          "kind": "pond",
+          "text": "≈中部塘状水面 25Pond · 资料"
+        },
+        {
+          "id": "dd2ea2c8-d284-43e8-8ca8-17088faf04d2",
+          "kind": "woodland",
+          "text": "♧中部林木覆盖片区 03SpatialAsset · 资料"
+        },
+        {
+          "id": "a182f626-2238-4ce5-ab49-cd37049f1cca",
+          "kind": "channel",
+          "text": "≋东南窄水线（判读待核）SpatialAsset · 资料"
+        },
+        {
+          "id": "6f61d65e-9c83-488c-bbae-66d201669085",
+          "kind": "road",
+          "text": "╱中南村路（概略）SpatialAsset · 资料"
+        },
+        {
+          "id": "08241684-0c71-49a2-8879-080c4c2943e8",
+          "kind": "settlement",
+          "text": "⌂团墩村可见聚落纹理SpatialAsset · 资料"
+        },
+        {
+          "id": "a586dc95-f5ed-4827-8344-b52fc1e7fc58",
+          "kind": "field",
+          "text": "▱南部耕作纹理片区 21Field · 资料"
+        },
+        {
+          "id": "d3fa799c-292d-44c7-9ce9-d9b34b79897c",
+          "kind": "pond",
+          "text": "≈西部塘状水面 05Pond · 资料"
+        }
+      ],
+      "profile": "全域本体待选择点击图中对象身份 / 类型数据库查询数据性质来源资料设备与关系点击图标查看",
+      "relations": "点击图中实体、设备或预警标记。",
+      "metrics": {
+        "viewport": [
+          1600,
+          1000
+        ],
+        "pixelRatio": 1,
+        "asset": "full",
+        "lod": "overview",
+        "loadedAssets": 2,
+        "loadMs": 136.2999999821186,
+        "assetLoadMs": 111.7000000178814,
+        "hardware": {
+          "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5070 Ti (0x00002C05) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "logicalProcessors": 20,
+          "deviceMemoryGiB": 32
+        },
+        "samples": 300,
+        "medianFrameMs": 6.9000000059604645,
+        "p95FrameMs": 7.4000000059604645,
+        "drawCalls": 694,
+        "triangles": 2904356,
+        "geometries": 1586,
+        "textures": 32
+      },
+      "visibleReferences": [],
+      "frameWindow": {
+        "samples": 120,
+        "median": 6.900000000001455,
+        "p95": 7.400000000001455
+      },
+      "file": "deliverables/verification/full-region/whole-region-source-data.png"
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,26 @@
+Captured 2026-10-29T05:47:27.800Z
+Command: npm run build
+Exit code: 0
+
+> tongtie-farm-twin@0.6.0 build
+> vite build
+
+vite v7.3.7 building client environment for production...
+transforming...
+✓ 27 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/overview-v01.html                            0.72 kB │ gzip:   0.47 kB
+dist/index.html                                   0.72 kB │ gzip:   0.48 kB
+dist/assets/overview-CaPHfWHy.css                13.46 kB │ gzip:   3.84 kB
+dist/assets/main-q-QJd5EE.css                    29.29 kB │ gzip:   7.35 kB
+dist/assets/modulepreload-polyfill-B5Qt9EMX.js    0.71 kB │ gzip:   0.40 kB
+dist/assets/overview-BcNNbCMy.js                 70.52 kB │ gzip:  25.52 kB
+dist/assets/main-CZ3ezMaq.js                     79.51 kB │ gzip:  29.91 kB
+dist/assets/three-6FIjAlqV.js                   638.87 kB │ gzip: 165.16 kB
+✓ built in 1.18s
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.

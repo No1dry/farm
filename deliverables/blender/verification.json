@@ -1,0 +1,114 @@
+{
+  "revision": "v06",
+  "verified": true,
+  "manifest_sha256": "2fc32f4cba5ef33e68eefa16e3d9ec41f8374f29ecfbdbd8f2ce68227d39c673",
+  "blend_sha256": "f7ccc689f10180eff76775c685d1df4105381c8daab989afff375a094758802c",
+  "reopened_source": {
+    "passed": true,
+    "reopened_blend": "C:\\Users\\robot\\Desktop\\farm-main\\farm\\deliverables\\blender\\farm-full.blend",
+    "terrain_area_expected": 2497652.106747787,
+    "terrain_area_actual": 2497652.0654790755,
+    "unoccluded_water_triangles": 6919,
+    "editable_buildings": 249,
+    "tree_component_instances": 13479,
+    "unique_tree_mesh_datablocks": 9,
+    "channel_crest_faces_up": 5055,
+    "packed_images": 27,
+    "embedded_manifest_exact": true
+  },
+  "exported_bytes": {
+    "model_revision": "v06",
+    "source_owners": 121,
+    "assets": [
+      {
+        "file": "full-area.glb",
+        "bytes": 135574212,
+        "sha256": "f842c8c148a17cbc76c8d21c505830909f914ffcf032d71025e68e01880a42c6",
+        "nodes": 591,
+        "meshes": 301,
+        "gpu_instance_batches": 147,
+        "gpu_component_instances": 13467,
+        "device_nodes": 49,
+        "leaf_alpha_mask": true,
+        "embedded_images": 17
+      },
+      {
+        "file": "full-area-lod.glb",
+        "bytes": 22646908,
+        "sha256": "152aed86cef8b9431e410c071a9203f315d12e4be12b5a49772293e1b87d23f4",
+        "nodes": 516,
+        "meshes": 226,
+        "gpu_instance_batches": 147,
+        "gpu_component_instances": 13467,
+        "device_nodes": 49,
+        "leaf_alpha_mask": true,
+        "embedded_images": 9
+      }
+    ],
+    "passed": true,
+    "limits": "Checks identity, self-containment and instance/material contracts; appearance is separately reviewed in actual rendered images."
+  },
+  "source_geometry_and_identity_checks": {
+    "blender_verify": true,
+    "blender_drawing_verify": true,
+    "verify_model_correction_all_seven": true,
+    "exact_per_asset_id_sets": true
+  },
+  "visual_review_is_separate": true,
+  "canonical_reports": [
+    "deliverables/blender/full-region-scene-verification.json",
+    "deliverables/blender/full-region-export-verification.json",
+    "deliverables/verification/model-correction-guard.json"
+  ],
+  "material_export_factors": {
+    "passed": true,
+    "assets": [
+      {
+        "path": "detail-abcdef.glb",
+        "verified_material_factors": 11,
+        "direct_texture_materials": []
+      },
+      {
+        "path": "detail-miaoxia.glb",
+        "verified_material_factors": 11,
+        "direct_texture_materials": []
+      },
+      {
+        "path": "detail-tanshen.glb",
+        "verified_material_factors": 10,
+        "direct_texture_materials": []
+      },
+      {
+        "path": "detail-xinwumao.glb",
+        "verified_material_factors": 12,
+        "direct_texture_materials": []
+      },
+      {
+        "path": "detail-zhangjia.glb",
+        "verified_material_factors": 10,
+        "direct_texture_materials": []
+      },
+      {
+        "path": "full-area-lod.glb",
+        "verified_material_factors": 38,
+        "direct_texture_materials": [
+          {
+            "name": "V06 CC0 photographic broadleaf sprays LOD.001",
+            "reason": "Direct photographic RGBA leaf texture; no multiplier in Blender shader."
+          }
+        ]
+      },
+      {
+        "path": "full-area.glb",
+        "verified_material_factors": 39,
+        "direct_texture_materials": [
+          {
+            "name": "V06 CC0 photographic broadleaf sprays",
+            "reason": "Direct photographic RGBA leaf texture; no multiplier in Blender shader."
+          }
+        ]
+      }
+    ],
+    "comparison": "Exported baseColorFactor equals the Blender BSDF or RGBA Multiply constant; absent glTF factor means white and fails when tint is expected."
+  }
+}

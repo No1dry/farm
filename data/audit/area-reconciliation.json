@@ -1,0 +1,185 @@
+{
+  "unit_status": "source-unit-unspecified",
+  "detail_count": 100,
+  "unique_original_codes": 100,
+  "detail_range": "全域田块面积汇总!A4:D103",
+  "total_cell": "全域田块面积汇总!C104",
+  "detail_sum_original": 1010.99,
+  "source_total_cached": 1010.9900000000001,
+  "rounded_source_total": 1010.99,
+  "difference_at_source_precision": 0,
+  "total_row_excluded_from_details": true,
+  "duplicate_codes": [],
+  "regions": [
+    {
+      "region": "A区",
+      "count": 4,
+      "sum_original": 69.34,
+      "area_unit": null,
+      "source_rows": [
+        4,
+        7
+      ]
+    },
+    {
+      "region": "B区",
+      "count": 5,
+      "sum_original": 86.0,
+      "area_unit": null,
+      "source_rows": [
+        8,
+        12
+      ]
+    },
+    {
+      "region": "C区",
+      "count": 11,
+      "sum_original": 137.85,
+      "area_unit": null,
+      "source_rows": [
+        13,
+        23
+      ]
+    },
+    {
+      "region": "D区",
+      "count": 3,
+      "sum_original": 35.98,
+      "area_unit": null,
+      "source_rows": [
+        24,
+        26
+      ]
+    },
+    {
+      "region": "E区",
+      "count": 3,
+      "sum_original": 59.73,
+      "area_unit": null,
+      "source_rows": [
+        27,
+        29
+      ]
+    },
+    {
+      "region": "F区",
+      "count": 12,
+      "sum_original": 257.28,
+      "area_unit": null,
+      "source_rows": [
+        30,
+        41
+      ]
+    },
+    {
+      "region": "新屋湾",
+      "count": 5,
+      "sum_original": 51.62,
+      "area_unit": null,
+      "source_rows": [
+        42,
+        46
+      ]
+    },
+    {
+      "region": "庙下刘",
+      "count": 25,
+      "sum_original": 151.76,
+      "area_unit": null,
+      "source_rows": [
+        47,
+        71
+      ]
+    },
+    {
+      "region": "毛家湾",
+      "count": 19,
+      "sum_original": 72.87,
+      "area_unit": null,
+      "source_rows": [
+        72,
+        90
+      ]
+    },
+    {
+      "region": "张家湾",
+      "count": 8,
+      "sum_original": 47.87,
+      "area_unit": null,
+      "source_rows": [
+        91,
+        98
+      ]
+    },
+    {
+      "region": "谭湾沈湾",
+      "count": 5,
+      "sum_original": 40.69,
+      "area_unit": null,
+      "source_rows": [
+        99,
+        103
+      ]
+    }
+  ],
+  "empty_sheets": [
+    "Sheet1",
+    "Sheet2",
+    "Sheet3"
+  ],
+  "calculation_method": "Decimal sum of the 100 numeric detail rows; source total is a cached value, no Excel recalculation performed.",
+  "drawing_comparisons": [
+    {
+      "region": "庙下刘",
+      "source_sum_original": 151.76,
+      "drawing_leveled_area_mu": 151.45,
+      "numeric_delta_if_unit_mu_and_scope_equal": 0.31,
+      "status": "unresolved-unit-version-scope",
+      "drawing_construction_area_mu": 262.79
+    },
+    {
+      "region": "新屋湾",
+      "source_sum_original": 51.62,
+      "drawing_leveled_area_mu": 69.92,
+      "status": "not-directly-comparable",
+      "reason": "The drawing also shows D2 and D3, and an E3 label. Workbook region and drawing scope differ.",
+      "drawing_construction_area_mu": 122.9
+    },
+    {
+      "region": "毛家湾",
+      "source_sum_original": 72.87,
+      "drawing_leveled_area_mu": 74.13,
+      "numeric_delta_if_unit_mu_and_scope_equal": -1.26,
+      "status": "unresolved-unit-version-scope",
+      "drawing_construction_area_mu": 144.17
+    },
+    {
+      "region": "张家湾",
+      "source_sum_original": 47.87,
+      "drawing_construction_area_mu": 61.2,
+      "status": "different-area-definitions"
+    },
+    {
+      "region": "谭湾沈湾",
+      "source_sum_original": 40.69,
+      "drawing_construction_area_mu": 54.8,
+      "status": "different-area-definitions"
+    }
+  ],
+  "repeated_land_acceptance_table": {
+    "pdf_slugs": [
+      "pdf-01",
+      "pdf-02",
+      "pdf-03",
+      "pdf-04"
+    ],
+    "unit": "公顷",
+    "table_title": "验收明细表 / 土地利用现状表",
+    "total_area_ha": 44.1193,
+    "water_field_after_ha": 23.1558,
+    "dry_land_after_ha": 20.96349,
+    "new_water_field_area_ha": 23.15581,
+    "add_across_pdfs": false,
+    "reason": "Same project-level table is repeated; it is not four separate region totals."
+  }
+}

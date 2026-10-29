@@ -1,0 +1,19 @@
+{
+  "schema_version": "synthetic-inspection-scenario/1",
+  "id": "independent-pond-review-20261029",
+  "data_nature": "synthetic",
+  "reference_time": "2026-10-29T01:00:00Z",
+  "description": "独立合成核查情景，不对应用户田塘、不证明生产阈值或设备实际在线。时间固定，超过有效时限会自动提示过期。",
+  "objects": [
+    {"key":"organization","code":"DEMO-CHECK-ORG","name":"合成演示管理组","kind":"ontology","class":"Organization"},
+    {"key":"pond","code":"DEMO-CHECK-POND","name":"独立合成核查塘","kind":"pond","class":"Pond",
+      "species":"鲫鱼（合成演示）",
+      "production_context":{"stage":"成鱼阶段（合成）","production":"freshwater_pond","region":"湖北（合成）","season":"hot_weather","weather":"高温情境（合成，不代表当前实况）","scenario_status":"fixed_time_synthetic_review","conditions_confirmed_in_scenario":["鱼种与生产阶段已有合成记录","设备管理与对象关系明确","观测带时间、单位和模拟采样设备"],"site_applicability":"must_reconfirm_in_real_field"},
+      "observations":[
+        {"metric":"dissolved_oxygen","label":"溶解氧（合成观测）","value":6.1,"unit":"mg/L","observed_at":"2026-10-29T01:00:00Z","stale_after_hours":24,"device_key":"sensor","data_nature":"synthetic","calibration":"合成校准记录；无现场校准证书"},
+        {"metric":"water_temperature","label":"水温（合成观测）","value":26,"unit":"°C","observed_at":"2026-10-29T01:00:00Z","stale_after_hours":24,"device_key":"sensor","data_nature":"synthetic","calibration":"合成校准记录；无现场校准证书"}
+      ]},
+    {"key":"sensor","code":"DEMO-CHECK-SENSOR","name":"合成水质监测仪","kind":"device","class":"Sensor","relations":[{"predicate":"managedBy","target":"organization"},{"predicate":"monitors","target":"pond"}],"readiness":"模拟记录为可读；无现场设备连接"},
+    {"key":"pump","code":"DEMO-CHECK-PUMP","name":"合成备用水泵","kind":"device","class":"Pump","relations":[{"predicate":"managedBy","target":"organization"},{"predicate":"serves","target":"pond"}],"readiness":"模拟资产登记；电气、容量、水源适用性仍须核查"}
+  ]
+}

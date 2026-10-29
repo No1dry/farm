@@ -1,0 +1,164 @@
+{
+  "schema_version": "appearance-roof-footprints/1",
+  "purpose": "Small, source-traced appearance children of existing satellite settlement coverage; not new business entities or verified building inventory.",
+  "source_file": "参考图/卫星图.png",
+  "source_hash": "99217e959c5e448d376ff448c4ce00c6abd4065a1243ccbb0af9e2403b22189a",
+  "source_native_size_px": [
+    2940,
+    1912
+  ],
+  "source_reference_size_px": [
+    1952,
+    1269
+  ],
+  "coordinate_system": "SATELLITE_SCREENSHOT_NATIVE_PIXELS",
+  "coordinate_origin": "top_left",
+  "native_to_reference": {
+    "x_scale": "1952/2940",
+    "y_scale": "1269/1912"
+  },
+  "crs": null,
+  "georeferenced": false,
+  "identity_policy": "Render only as children of parent_spatial_id. Do not create building resources, UUIDs, asset counts, or merge into frozen drawing-entities.json.",
+  "limitations": [
+    "Most roofs are only 5–12 native pixels wide and cannot be traced confidently. No whole-village footprint extraction is claimed.",
+    "These two larger coloured roof-like surfaces have visible coarse boundaries. Their interpretation as roofs is visual and has not been confirmed on site.",
+    "The central pale area is ambiguous courtyard/roof and is deliberately excluded.",
+    "Corners have about 2–3 native pixel visual uncertainty; wall base, floor count, roof structure and building use are unknown.",
+    "Height, wall construction, roof pitch and eaves must remain explicitly labelled rendering assumptions. No metric area or measured elevation is supplied."
+  ],
+  "records": [
+    {
+      "appearance_id": "APPEARANCE-ROOF-S005-A",
+      "parent_spatial_id": "SAT-SETTLEMENT-005",
+      "label": "毛家村李家村聚落内蓝色长条屋顶状表面",
+      "interpretation": "visually_interpreted_roof_like_surface",
+      "verification_status": "visual_approximation_not_surveyed",
+      "confidence": "moderate_coarse_outline",
+      "source_bbox_native_px": [
+        1478,
+        1344,
+        1491,
+        1376
+      ],
+      "points_native_px": [
+        [
+          1481,
+          1347
+        ],
+        [
+          1488,
+          1348
+        ],
+        [
+          1488,
+          1373
+        ],
+        [
+          1481,
+          1373
+        ],
+        [
+          1481,
+          1347
+        ]
+      ],
+      "points_reference_px": [
+        [
+          983.3034,
+          894.00785
+        ],
+        [
+          987.95102,
+          894.67155
+        ],
+        [
+          987.95102,
+          911.26412
+        ],
+        [
+          983.3034,
+          911.26412
+        ],
+        [
+          983.3034,
+          894.00785
+        ]
+      ],
+      "observed_color": "blue",
+      "height_m": null,
+      "roof_type": null,
+      "wall_footprint": null,
+      "model_area_m2": null,
+      "add_business_entity": false,
+      "entity_uuid": null,
+      "evidence": "Original screenshot crop (1465,1335,1530,1385); long blue surface with distinguishable left/right boundaries, visually reviewed at nearest-neighbour magnification."
+    },
+    {
+      "appearance_id": "APPEARANCE-ROOF-S005-B",
+      "parent_spatial_id": "SAT-SETTLEMENT-005",
+      "label": "毛家村李家村聚落内红色短条屋顶状表面",
+      "interpretation": "visually_interpreted_roof_like_surface",
+      "verification_status": "visual_approximation_not_surveyed",
+      "confidence": "moderate_coarse_outline",
+      "source_bbox_native_px": [
+        1487,
+        1345,
+        1511,
+        1360
+      ],
+      "points_native_px": [
+        [
+          1490,
+          1348
+        ],
+        [
+          1508,
+          1348
+        ],
+        [
+          1507,
+          1356
+        ],
+        [
+          1490,
+          1357
+        ],
+        [
+          1490,
+          1348
+        ]
+      ],
+      "points_reference_px": [
+        [
+          989.27891,
+          894.67155
+        ],
+        [
+          1001.22993,
+          894.67155
+        ],
+        [
+          1000.56599,
+          899.98117
+        ],
+        [
+          989.27891,
+          900.64487
+        ],
+        [
+          989.27891,
+          894.67155
+        ]
+      ],
+      "observed_color": "red",
+      "height_m": null,
+      "roof_type": null,
+      "wall_footprint": null,
+      "model_area_m2": null,
+      "add_business_entity": false,
+      "entity_uuid": null,
+      "evidence": "Original screenshot crop (1465,1335,1530,1385); red elongated surface north of ambiguous pale interior; the pale interior is not included."
+    }
+  ]
+}

@@ -1,1 +1,21 @@
-{"name":"tongtie-farm-twin","version":"0.1.0","private":true,"type":"module","scripts":{"dev":"vite --host 127.0.0.1","build":"vite build","preview":"vite preview --host 127.0.0.1"},"dependencies":{"polygon-clipping":"^0.15.7","three":"^0.180.0"},"devDependencies":{"vite":"^7.1.0"}}
+{
+    "name": "tongtie-farm-twin",
+    "version": "0.6.0",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite --host 127.0.0.1",
+        "build": "vite build",
+        "preview": "vite preview --host 127.0.0.1",
+        "test": "node --test tests/scene-contract.test.js tests/focus-adapter.test.js tests/focus-assistant-races.test.js tests/full-scene-ontology.test.js",
+        "test:e2e": "playwright test"
+    },
+    "dependencies": {
+        "polygon-clipping": "^0.15.7",
+        "three": "^0.180.0"
+    },
+    "devDependencies": {
+        "@playwright/test": "^1.64.1",
+        "vite": "^7.1.0"
+    }
+}

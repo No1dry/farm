@@ -1,0 +1,212 @@
+﻿
+> tongtie-farm-twin@0.6.0 test
+> node --test tests/scene-contract.test.js tests/focus-adapter.test.js tests/focus-assistant-races.test.js tests/full-scene-ontology.test.js
+
+TAP version 13
+# Subtest: original focus stylesheet stays byte-identical and entry uses focus
+ok 1 - original focus stylesheet stays byte-identical and entry uses focus
+  ---
+  duration_ms: 4.5921
+  type: 'test'
+  ...
+# Subtest: ambiguous spatial identities never become selectable business bindings
+ok 2 - ambiguous spatial identities never become selectable business bindings
+  ---
+  duration_ms: 0.5978
+  type: 'test'
+  ...
+# Subtest: late detail loading cannot replace a newer overview navigation
+ok 3 - late detail loading cannot replace a newer overview navigation
+  ---
+  duration_ms: 2.0685
+  type: 'test'
+  ...
+# Subtest: explicit cancellation prevents a late asset commit
+ok 4 - explicit cancellation prevents a late asset commit
+  ---
+  duration_ms: 0.2475
+  type: 'test'
+  ...
+# Subtest: LOD swaps preserve identity and selection without moving the camera
+ok 5 - LOD swaps preserve identity and selection without moving the camera
+  ---
+  duration_ms: 2.5
+  type: 'test'
+  ...
+# Subtest: hidden reference meshes do not enter the selectable business mesh index
+ok 6 - hidden reference meshes do not enter the selectable business mesh index
+  ---
+  duration_ms: 0.4149
+  type: 'test'
+  ...
+# Subtest: selection preserves shader materials used by reflection surfaces
+ok 7 - selection preserves shader materials used by reflection surfaces
+  ---
+  duration_ms: 1.2963
+  type: 'test'
+  ...
+# Subtest: many water meshes sharing a Blender material retain its authored color across asset and LOD loads
+ok 8 - many water meshes sharing a Blender material retain its authored color across asset and LOD loads
+  ---
+  duration_ms: 2.511
+  type: 'test'
+  ...
+# Subtest: camera presets without a selected object stay in the current region asset
+ok 9 - camera presets without a selected object stay in the current region asset
+  ---
+  duration_ms: 0.5791
+  type: 'test'
+  ...
+# Subtest: unverified source anchors start hidden and appear only on selection or explicit layer enable
+ok 10 - unverified source anchors start hidden and appear only on selection or explicit layer enable
+  ---
+  duration_ms: 0.8414
+  type: 'test'
+  ...
+# Subtest: initial default camera uses focus while explicit overview uses the whole-region preset
+ok 11 - initial default camera uses focus while explicit overview uses the whole-region preset
+  ---
+  duration_ms: 0.5546
+  type: 'test'
+  ...
+# Subtest: sample device meshes resolve to their own UUID and disappear in real data mode
+ok 12 - sample device meshes resolve to their own UUID and disappear in real data mode
+  ---
+  duration_ms: 0.9789
+  type: 'test'
+  ...
+# Subtest: dataset switch releases the send button while the old assistant request remains pending
+ok 13 - dataset switch releases the send button while the old assistant request remains pending
+  ---
+  duration_ms: 2226.0769
+  type: 'test'
+  ...
+# Subtest: manual camera navigation during assistant entity hydration prevents a late focus action
+ok 14 - manual camera navigation during assistant entity hydration prevents a late focus action
+  ---
+  duration_ms: 2117.0756
+  type: 'test'
+  ...
+# Subtest: asset selection clears the displayed business context immediately
+ok 15 - asset selection clears the displayed business context immediately
+  ---
+  duration_ms: 2023.8024
+  type: 'test'
+  ...
+# Subtest: real ledger search preserves source-asset navigation and the unconfirmed area unit
+ok 16 - real ledger search preserves source-asset navigation and the unconfirmed area unit
+  ---
+  duration_ms: 3514.6478
+  type: 'test'
+  ...
+# Subtest: late local authentication cannot replace an object selected during initialization
+ok 17 - late local authentication cannot replace an object selected during initialization
+  ---
+  duration_ms: 3292.2939
+  type: 'test'
+  ...
+# Subtest: selecting an unbound object cancels a pending asset navigation
+ok 18 - selecting an unbound object cancels a pending asset navigation
+  ---
+  duration_ms: 2298.1204
+  type: 'test'
+  ...
+# Subtest: database text in the original details modal is rendered as text rather than markup
+ok 19 - database text in the original details modal is rendered as text rather than markup
+  ---
+  duration_ms: 2012.2861
+  type: 'test'
+  ...
+# Subtest: fullscreen catalog and original photo modal remain inside the visible fullscreen layer
+ok 20 - fullscreen catalog and original photo modal remain inside the visible fullscreen layer
+  ---
+  duration_ms: 2121.8521
+  type: 'test'
+  ...
+# Subtest: a demo not-found reply offers an explicit switch to real L18 instead of fabricating a binding
+ok 21 - a demo not-found reply offers an explicit switch to real L18 instead of fabricating a binding
+  ---
+  duration_ms: 2980.1432
+  type: 'test'
+  ...
+# Subtest: late relation graphs cannot restore demo lines after a real-data switch
+ok 22 - late relation graphs cannot restore demo lines after a real-data switch
+  ---
+  duration_ms: 3016.0326
+  type: 'test'
+  ...
+# Subtest: a failed relation lookup is visibly unavailable rather than claiming there are no relations
+ok 23 - a failed relation lookup is visibly unavailable rather than claiming there are no relations
+  ---
+  duration_ms: 1919.6991
+  type: 'test'
+  ...
+# Subtest: a selected pond shows its incoming sensor relation in subject-predicate-object order
+ok 24 - a selected pond shows its incoming sensor relation in subject-predicate-object order
+  ---
+  duration_ms: 2854.0711
+  type: 'test'
+  ...
+# Subtest: demo devices locate by explicit scenario anchor without claiming the parent business identity
+ok 25 - demo devices locate by explicit scenario anchor without claiming the parent business identity
+  ---
+  duration_ms: 1.2535
+  type: 'test'
+  ...
+# Subtest: real labels require an explicit current-asset spatial identity
+ok 26 - real labels require an explicit current-asset spatial identity
+  ---
+  duration_ms: 0.1498
+  type: 'test'
+  ...
+# Subtest: marker placement keeps selected labels and avoids overlapping side panels or labels
+ok 27 - marker placement keeps selected labels and avoids overlapping side panels or labels
+  ---
+  duration_ms: 0.3145
+  type: 'test'
+  ...
+# Subtest: scene action only resolves an exact mapped identity and rejects executable payloads
+ok 28 - scene action only resolves an exact mapped identity and rejects executable payloads
+  ---
+  duration_ms: 0.6746
+  type: 'test'
+  ...
+# Subtest: untrusted record text is escaped before insertion in cards
+ok 29 - untrusted record text is escaped before insertion in cards
+  ---
+  duration_ms: 0.1585
+  type: 'test'
+  ...
+# Subtest: data quality preserves demonstration and missing-source status
+ok 30 - data quality preserves demonstration and missing-source status
+  ---
+  duration_ms: 0.1487
+  type: 'test'
+  ...
+# Subtest: conflicting spatial identity is rejected rather than taking first or last
+ok 31 - conflicting spatial identity is rejected rather than taking first or last
+  ---
+  duration_ms: 0.2397
+  type: 'test'
+  ...
+# Subtest: source cards never turn executable or protocol-relative data into links
+ok 32 - source cards never turn executable or protocol-relative data into links
+  ---
+  duration_ms: 0.2932
+  type: 'test'
+  ...
+# Subtest: parcel location prefers confirmed outline then explicit drawing anchor, never unrelated satellite name
+ok 33 - parcel location prefers confirmed outline then explicit drawing anchor, never unrelated satellite name
+  ---
+  duration_ms: 0.1021
+  type: 'test'
+  ...
+1..33
+# tests 33
+# suites 0
+# pass 33
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 30681.8465

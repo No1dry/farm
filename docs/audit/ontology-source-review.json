@@ -1,0 +1,159 @@
+{
+  "audit_date": "2026-10-29",
+  "repository": "https://github.com/lianggeming14/liangzihu-ontology-traceability",
+  "commit": "5776ba8d656139d3fb8dfabd137d83dd6dbba11c",
+  "source_commit": "8ee79416073ce91d9eb5e724fefb04241e6187b5",
+  "local_sample_checks": [
+    {
+      "path": "ontology-platform/backend/tests/fixtures/semantic/field.json",
+      "match": true,
+      "bytes": 7861
+    },
+    {
+      "path": "ontology-platform/backend/tests/fixtures/semantic/pond.json",
+      "match": true,
+      "bytes": 7856
+    },
+    {
+      "path": "ontology-platform/backend/tests/fixtures/semantic/orchard.json",
+      "match": true,
+      "bytes": 7871
+    },
+    {
+      "path": "ontology-platform/tests/fixtures/telemetry/field.csv",
+      "match": true,
+      "bytes": 305
+    },
+    {
+      "path": "ontology-platform/tests/fixtures/telemetry/pond.json",
+      "match": true,
+      "bytes": 496
+    },
+    {
+      "path": "ontology-platform/tests/fixtures/telemetry/orchard.geojson",
+      "match": true,
+      "bytes": 570
+    },
+    {
+      "path": "ontology-platform/tests/fixtures/telemetry/README.md",
+      "match": true,
+      "bytes": 5024
+    },
+    {
+      "path": "ontology-platform/tests/fixtures/telemetry/legacy-professional-contract.json",
+      "match": true,
+      "bytes": 4019
+    },
+    {
+      "path": "implementation/integrations/liangzihu/synthetic-core-example.json",
+      "match": true,
+      "bytes": 3942
+    },
+    {
+      "path": "implementation/agri/seed.py",
+      "match": true,
+      "bytes": 9042
+    },
+    {
+      "path": "设计草案/canonical-record.examples.json",
+      "match": true,
+      "bytes": 20562
+    },
+    {
+      "path": "ontology-platform/tests/fixtures/maps/synthetic-mvt.mbtiles",
+      "match": true,
+      "bytes": 24576
+    },
+    {
+      "path": "ontology-platform/tests/fixtures/maps/synthetic-mvt.pmtiles",
+      "match": true,
+      "bytes": 5985
+    },
+    {
+      "path": "ontology-platform/tests/fixtures/maps/synthetic-raster.mbtiles",
+      "match": true,
+      "bytes": 110592
+    },
+    {
+      "path": "ontology-platform/tests/fixtures/maps/synthetic-raster.pmtiles",
+      "match": true,
+      "bytes": 82068
+    },
+    {
+      "path": "ontology-platform/tests/fixtures/maps/manifest.json",
+      "match": true,
+      "bytes": 18825
+    },
+    {
+      "path": "ontology-platform/tests/fixtures/maps/LICENSES.md",
+      "match": true,
+      "bytes": 3439
+    },
+    {
+      "path": "ontology-platform/tests/fixtures/maps/LICENSE-PMTILES.txt",
+      "match": true,
+      "bytes": 1713
+    },
+    {
+      "path": "ontology-platform/tests/fixtures/maps/style-mvt.json",
+      "match": true,
+      "bytes": 1081
+    },
+    {
+      "path": "ontology-platform/tests/fixtures/maps/style-raster.json",
+      "match": true,
+      "bytes": 526
+    }
+  ],
+  "reviewed_code_files": [
+    {
+      "path": "ontology-platform/SYNC_ORIGIN.json",
+      "sha256": "99f09fb936ad06120dea4d9ccfe37daeb93a31c7b119167ea5c7edda7871de49"
+    },
+    {
+      "path": "ontology-platform/backend/src/lzo/ingestion/identity.py",
+      "sha256": "703673e22be4e23c8ec6999d04dd19c62b06b3898f27afde22a4b95edc795e2f"
+    },
+    {
+      "path": "ontology-platform/backend/src/lzo/ingestion/schemas.py",
+      "sha256": "5381ff2df7d3d14b70888e83cc5cfad296c1fd439f190045a82e4ffc6a3b6202"
+    },
+    {
+      "path": "ontology-platform/backend/src/lzo/semantic/facts.py",
+      "sha256": "c566b7d3d4a2a761e3ecfb36af99cfd5ece47213549e69c86c8933eec321ae80"
+    },
+    {
+      "path": "ontology-platform/backend/src/lzo/semantic/schemas.py",
+      "sha256": "e10fed0272c36215a668cdd131587923cdf08dfad48b96eda694e6d40562a191"
+    },
+    {
+      "path": "ontology-platform/backend/src/lzo/semantic/router.py",
+      "sha256": "751a7937d94b88983b92d42785fbf083dfab684ce04eb568e6ccd9af54774c53"
+    },
+    {
+      "path": "ontology-platform/backend/src/lzo/ingestion/router.py",
+      "sha256": "37e7a2db1e59e7332a6918f57c1e91d811363fa11516e444bfaf10642a1e22b2"
+    },
+    {
+      "path": "ontology-platform/backend/src/lzo/config.py",
+      "sha256": "ab182de68b92804c4e304d18dedc5f2039a8bb36b91483cace3c8fd55c5af5ef"
+    },
+    {
+      "path": "ontology-platform/backend/src/lzo/main.py",
+      "sha256": "6139f21642a6ee9c38ba423ceca732629b429ec7c29777623af09432970e6cce"
+    },
+    {
+      "path": "ontology-platform/backend/pyproject.toml",
+      "sha256": "b37ac803c4eeb020470527d97b7e0c1317d007ca8ed07bed3475197ff39569d2"
+    },
+    {
+      "path": "ontology-platform/backend/requirements.lock",
+      "sha256": "defc982bf81947167d12b12c439ef38ce4ec9248b19dda249f9b42468d31582f"
+    },
+    {
+      "path": "ontology-platform/docs/database/acceptance.md",
+      "sha256": "52652f14461b4bc81af4320a94e61be39a5c6f344c3aafb5c24c142654f841ff"
+    }
+  ],
+  "full_upstream_runtime_tested": false
+}

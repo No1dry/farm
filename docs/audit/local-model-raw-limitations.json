@@ -1,0 +1,18 @@
+{
+  "purpose": "Raw ungrounded smoke output retained as a limitation, not an application recommendation",
+  "accepted_as_advice": false,
+  "model": "qwen3-4b-local",
+  "smoke": {
+    "response": "{\n  \"answer\": \"不能确定当前缺氧。溶解氧观测缺失可能由多种原因引起，如设备故障、数据传输中断或未进行测量。缺氧需结合其他指标（如溶氧浓度、水体浑浊度、生物指标等）综合判断，且需明确判断边界（如溶氧浓度低于3mg/L视为缺氧）。\"\n}",
+    "usage": {
+      "completion_tokens": 80,
+      "prompt_tokens": 52,
+      "total_tokens": 132,
+      "prompt_tokens_details": {
+        "cached_tokens": 51
+      }
+    },
+    "elapsed_seconds": 3.609
+  },
+  "finding": "The unconstrained raw-model answer introduced a numeric oxygen threshold without supplied evidence. The application uses evidence validation and constrained decoding and must not expose this smoke output as an instruction."
+}

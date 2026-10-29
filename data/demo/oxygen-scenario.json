@@ -1,0 +1,37 @@
+{
+  "schema_version": "farm-demo-scenario/1",
+  "data_nature": "synthetic",
+  "purpose": "本地端到端交互验证；数值、阈值和核查步骤是测试设定，不是现场事实或通用养殖标准。",
+  "knowledge": {
+    "id": "knowledge-demo-oxygen-v1",
+    "kind": "knowledge",
+    "title": "溶解氧历史预警演示规则",
+    "version": "demo-oxygen/v1",
+    "description": "此测试仅设定溶解氧小于3 mg/L为命中条件；该阈值没有鱼种、养殖阶段或现场适用性依据，不可用于生产。观测超过24小时即标为过期，不触发当前处置。",
+    "file": "data/demo/oxygen-scenario.json",
+    "data_nature": "synthetic",
+    "inspection_steps": ["核对水塘、鱼种和养殖阶段", "采集并复核当前溶解氧、水温及设备状态", "请现场负责人确认适用标准后另行制定处置方案"]
+  },
+  "observation": {
+    "id": "demo-oxygen-20260115",
+    "metric": "dissolved_oxygen",
+    "label": "溶解氧",
+    "value": 2.4,
+    "unit": "mg/L",
+    "observed_at": "2026-01-15T12:00:00Z",
+    "stale_after_hours": 24,
+    "data_nature": "synthetic",
+    "source_id": "knowledge-demo-oxygen-v1"
+  },
+  "rule": {
+    "id": "demo-low-oxygen",
+    "name": "缺氧风险 · 历史演示",
+    "version": "demo-oxygen/v1",
+    "description": "固定历史演示观测命中测试规则；观测已过期，不能据此判断当前缺氧或执行增氧。",
+    "metric": "dissolved_oxygen",
+    "operator": "lt",
+    "threshold": 3,
+    "unit": "mg/L",
+    "evidence_ids": ["knowledge-demo-oxygen-v1"]
+  }
+}

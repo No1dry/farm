@@ -1,0 +1,87 @@
+{
+  "review_scope": "All 5 supplied PDF pages visually reviewed, title blocks and selected dimensions enlarged; not a complete transcription of every CAD annotation.",
+  "pages_reviewed": 5,
+  "georeferenced_pages": 0,
+  "common_title": "2022年度梁子湖区梁子镇沙湾村提质改造旱改水项目（2022年度梁子湖区梁子镇全域国土综合整治项目子项目）竣工图",
+  "measurement_organization": "北京跨时空国土规划设计院有限公司",
+  "pages": [
+    {
+      "slug": "pdf-01",
+      "source_file": "现场竣工图pdf版本/2026.4.16竣工图（庙下流）.pdf",
+      "page": 1,
+      "drawing_date": "2025.11",
+      "title_suffix": "分割二",
+      "map_labels": ["庙下刘", "L1–L23", "L10-1", "L10-2", "清-15", "清-16", "清-17"],
+      "workbook_region": "庙下刘",
+      "construction_area_mu": 262.79,
+      "leveled_field_area_mu": 151.45,
+      "survey_scale": "1:1000",
+      "print_scale": "1:4000",
+      "content": ["田块及地形轮廓", "田间道路", "沟渠与涵管", "太阳能智能闸", "抽水平台", "坑塘", "预留田地和不动工范围", "工程数量表", "重复的项目验收明细表", "图例及指北针"],
+      "confirmed_focus_labels": {"L18": {"level_design_id": "平-42", "level_annotation": 22.75}, "L19": {"level_design_id": "平-43", "level_annotation": 22.30}, "L20": {"level_design_id": "平-44", "level_annotation": 22.30}},
+      "warnings": ["文件名庙下流与图内/XLS庙下刘异名，保留两种写法", "平-42等框内数值不是田块种植面积", "现有样板照片尚未定位到这些田块", "图纸标高未提供可用于全域模型的高程基准或连续地形"]
+    },
+    {
+      "slug": "pdf-02",
+      "source_file": "现场竣工图pdf版本/2026.4.16竣工图（新屋湾、毛家湾）.pdf",
+      "page": 1,
+      "drawing_date": "2025.11",
+      "title_suffix": "分割二",
+      "map_labels": ["新屋湾", "X1–X4", "X3-1", "D2", "D3", "E3", "M1–M15", "旱地M16–M19", "清-5–清-14"],
+      "workbook_regions": ["新屋湾", "毛家湾", "D区", "E区"],
+      "area_notes": [{"region": "新屋湾及邻接田块", "construction_area_mu": 122.90, "leveled_field_area_mu": 69.92}, {"region": "毛家湾", "construction_area_mu": 144.17, "leveled_field_area_mu": 74.13}, {"region": "独立小范围标注", "construction_area_mu": 1.29}],
+      "survey_scale": "1:1000",
+      "print_scale": "1:4000",
+      "content": ["两组分离田块平面", "旱地田块", "塘群", "道路及灌排系统", "沉砂池和沉砂井", "工程数量表", "重复的项目验收明细表", "图例"],
+      "warnings": ["新屋湾绘图范围含D2与D3，不能按文件名等同XLS新屋湾分区", "E3又出现在A–F图中，不能按同名自动合并或计算两次", "旱地-M16等XLS编号有连字符，图上旱地M16无连字符，属于候选别名"]
+    },
+    {
+      "slug": "pdf-03",
+      "source_file": "现场竣工图pdf版本/2026.8.10竣工图（张家湾）.pdf",
+      "page": 1,
+      "drawing_date": "2025.11",
+      "title_suffix": "分割二",
+      "map_labels": ["Z1–Z8"],
+      "workbook_region": "张家湾",
+      "construction_area_mu": 61.2,
+      "survey_scale": "1:1000",
+      "print_scale": "1:4000",
+      "content": ["8个Z编号田块", "地形和居民点底图", "生产路及碎石路", "一体化泵和PE管", "沉沙池", "工程数量表", "重复的项目验收明细表", "图例及指北针"],
+      "warnings": ["61.2亩是施工面积，不能直接当成XLS种植面积", "文件名2026.8.10与图签2025.11应分别保存"]
+    },
+    {
+      "slug": "pdf-04",
+      "source_file": "现场竣工图pdf版本/2026.8.10竣工图（谭湾沈湾）.pdf",
+      "page": 1,
+      "drawing_date": "2026.6",
+      "title_suffix": "分割二",
+      "map_labels": ["T1–T5"],
+      "workbook_region": "谭湾沈湾",
+      "construction_area_mu": 54.8,
+      "survey_scale": "1:1000",
+      "print_scale": "1:4000",
+      "content": ["5个T编号田块", "地形居民点底图", "生产路及农渠", "PE管和过路涵", "沉沙池", "工程数量表", "重复的项目验收明细表", "图例及指北针"],
+      "warnings": ["54.8亩是施工面积，不能直接当成XLS种植面积", "文件名日期与图签日期不一致"]
+    },
+    {
+      "slug": "pdf-05",
+      "source_file": "现场竣工图pdf版本/ABCDEFD区竣工图.pdf",
+      "page": 1,
+      "drawing_date": "2024.12",
+      "title_suffix": "竣工图-1",
+      "map_labels": ["A1–A4", "B1–B5", "C1–C11", "D1", "E1–E3", "F1–F10", "F5-1", "F9-1", "占补已验收地块"],
+      "workbook_regions": ["A区", "B区", "C区", "D区", "E区", "F区"],
+      "survey_scale": "1:1000",
+      "print_scale": "1:4000",
+      "additional_visible_scale": "1:2000",
+      "content": ["A–F编号田块平面", "占补已验收地块", "坑塘及清淤编号", "道路与沟渠", "涵管及井", "工程量汇总表", "图例及指北针"],
+      "warnings": ["文件名ABCDEFD末尾重复D，不能当作7个不同分区", "图签打印比例1:4000与图面1:2000同时存在，不宜直接从渲染像素定标", "D2、D3在新屋湾图出现", "E3在两图出现的同名关系尚待确认", "占补施工面积9.48亩是局部引线标注，不能当成A–F总面积"]
+    }
+  ],
+  "shared_limitations": [
+    "PDF仅部分标注有可提取文字，许多数值和编号为CAD轮廓，文本提取不是完整设施清单。",
+    "图例中的X 3285837.364 / Y 611974.308属于注记坐标样例，不是已经识别到地面特征的控制点。",
+    "尚无统一坐标系、控制点对、测量高程基准、配准残差或原始CAD/GIS矢量。",
+    "图纸文件支持文档中的设施存在与规格证据，不能证明当前在线、已安装设备身份或传感器实时数值。"
+  ]
+}

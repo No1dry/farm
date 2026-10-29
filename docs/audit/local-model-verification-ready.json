@@ -1,0 +1,770 @@
+{
+  "model": "qwen3-4b-local",
+  "base_url": "http://127.0.0.1:8081/v1",
+  "actual_inference": true,
+  "smoke": {
+    "response": "{\"answer\": \"不能确定。溶解氧是判断水体是否缺氧的依据，但若未进行观测，无法获取具体数据，因此无法判断是否缺氧。判断边界需依赖实际测量值与临界溶解氧浓度（通常为4mg/L）的比较。\"}",
+    "usage": {
+      "completion_tokens": 62,
+      "prompt_tokens": 52,
+      "total_tokens": 114,
+      "prompt_tokens_details": {
+        "cached_tokens": 51
+      }
+    },
+    "elapsed_seconds": 3.391,
+    "accepted_as_advice": false,
+    "note": "原始模型诊断输出，未受应用证据校验；可能包含无依据阈值，不能作为建议。"
+  },
+  "assistant": {
+    "status": "ok",
+    "answer": "根据现有资料，独立合成核查塘的溶解氧（6.1 mg/L）和水温（26°C）均符合淡水池塘溶氧与水温相关的基本原理，但需进一步核查现场实际条件以确认其适用性。由于该塘为合成数据，无法直接判断其是否符合实际生产阈值或设备运行状态。建议优先复测溶解氧和水温，并结合湖北夏季高温池塘管理指导，确认养殖品种、水温分层及设备状态，以制定后续管理措施。",
+    "entity": {
+      "id": "04f4784c-003a-5af1-9516-25c1a6473e96",
+      "resource_id": "04f4784c-003a-5af1-9516-25c1a6473e96",
+      "iri": "urn:lzo:object:04f4784c-003a-5af1-9516-25c1a6473e96",
+      "revision": 2,
+      "state": "active",
+      "code": "DEMO-CHECK-POND",
+      "name": "独立合成核查塘",
+      "display_name": "独立合成核查塘",
+      "region": "独立合成情景",
+      "kind": "pond",
+      "dataset": "demo",
+      "data_nature": "synthetic",
+      "class_iris": [
+        "https://w3id.org/lzo/ontology/Pond"
+      ],
+      "spatial_ids": [],
+      "area": {
+        "value": null,
+        "unit": null,
+        "inferred_unit": null,
+        "verification": "unconfirmed",
+        "source_id": "src-b0d358aebbae882e0e436361",
+        "inference_basis": null
+      },
+      "geometry": null,
+      "model_area": null,
+      "model_areas": [],
+      "sources": [
+        {
+          "cell": null,
+          "data_nature": "synthetic",
+          "dataset": "demo",
+          "description": "独立合成核查情景，不对应用户田塘、不证明生产阈值或设备实际在线。时间固定，超过有效时限会自动提示过期。",
+          "file": "data/demo/inspection-ready-scenario.json",
+          "id": "src-417546a8eac39c28a2a9bd11",
+          "page": null,
+          "row": null,
+          "sha256": "f63d2cdd5ccca1b05a4b82fab735f862411d8d205659cc0399888647509d676e",
+          "sheet": null,
+          "source_key": "independent-pond-review-20261029:pond",
+          "upstream_commit": null,
+          "version": "f63d2cdd5ccca1b05a4b82fab735f862411d8d205659cc0399888647509d676e"
+        },
+        {
+          "cell": null,
+          "data_nature": "synthetic",
+          "dataset": "demo",
+          "description": "独立合成核查情景，不对应用户田塘、不证明生产阈值或设备实际在线。时间固定，超过有效时限会自动提示过期。",
+          "file": "data/demo/inspection-ready-scenario.json",
+          "id": "src-b0d358aebbae882e0e436361",
+          "page": null,
+          "row": null,
+          "sha256": "1035bf31e9c035bb7201c515b645af89e40ad51931ceba67109f401872719158",
+          "sheet": null,
+          "source_key": "independent-pond-review-20261029:pond",
+          "upstream_commit": null,
+          "version": "1035bf31e9c035bb7201c515b645af89e40ad51931ceba67109f401872719158"
+        }
+      ],
+      "source_key": {
+        "canonical_key": "independent-pond-review-20261029:pond",
+        "collection": "farm-synthetic-scenarios",
+        "source_id": "17a34726-8b17-4a84-a57f-39802f971e9a",
+        "source_instance": "farm-synthetic-scenarios",
+        "source_system": "farm-twin"
+      },
+      "devices": [
+        {
+          "data_nature": "synthetic",
+          "id": "1c40e5e6-2690-5ebc-8f65-1bfa6b654adf",
+          "kind": "device",
+          "live_status": null,
+          "name": "合成水质监测仪",
+          "scenario_readiness": "模拟记录为可读；无现场设备连接"
+        },
+        {
+          "data_nature": "synthetic",
+          "id": "b20ddf24-e8c7-51a5-92bd-c2cbb6dcee8e",
+          "kind": "device",
+          "live_status": null,
+          "name": "合成备用水泵",
+          "scenario_readiness": "模拟资产登记；电气、容量、水源适用性仍须核查"
+        }
+      ],
+      "observations": [
+        {
+          "calibration": "合成校准记录；无现场校准证书",
+          "data_nature": "synthetic",
+          "device_id": "1c40e5e6-2690-5ebc-8f65-1bfa6b654adf",
+          "device_key": "sensor",
+          "label": "溶解氧（合成观测）",
+          "metric": "dissolved_oxygen",
+          "observed_at": "2026-10-29T01:00:00Z",
+          "stale_after_hours": 24,
+          "unit": "mg/L",
+          "value": 6.1
+        },
+        {
+          "calibration": "合成校准记录；无现场校准证书",
+          "data_nature": "synthetic",
+          "device_id": "1c40e5e6-2690-5ebc-8f65-1bfa6b654adf",
+          "device_key": "sensor",
+          "label": "水温（合成观测）",
+          "metric": "water_temperature",
+          "observed_at": "2026-10-29T01:00:00Z",
+          "stale_after_hours": 24,
+          "unit": "°C",
+          "value": 26
+        }
+      ],
+      "species": "鲫鱼（合成演示）",
+      "production_context": {
+        "conditions_confirmed_in_scenario": [
+          "鱼种与生产阶段已有合成记录",
+          "设备管理与对象关系明确",
+          "观测带时间、单位和模拟采样设备"
+        ],
+        "production": "freshwater_pond",
+        "region": "湖北（合成）",
+        "scenario_status": "fixed_time_synthetic_review",
+        "season": "hot_weather",
+        "site_applicability": "must_reconfirm_in_real_field",
+        "stage": "成鱼阶段（合成）",
+        "weather": "高温情境（合成，不代表当前实况）"
+      },
+      "relations": [
+        {
+          "data_nature": "synthetic",
+          "external_id": null,
+          "id": "rel-514b9ff7e1aa17d812d7f2ba733ca21a7c2a21bfc5649957bae8e20566320dbe",
+          "predicate_iri": "https://w3id.org/lzo/ontology/monitors",
+          "source_id": "17a34726-8b17-4a84-a57f-39802f971e9a",
+          "source_key": "independent-pond-review-20261029:sensor",
+          "state": "accepted",
+          "subject_id": "1c40e5e6-2690-5ebc-8f65-1bfa6b654adf",
+          "support": {
+            "source_file": "data/demo/inspection-ready-scenario.json"
+          },
+          "target_id": "04f4784c-003a-5af1-9516-25c1a6473e96"
+        },
+        {
+          "data_nature": "synthetic",
+          "external_id": null,
+          "id": "rel-218e642aa61d2fb15a5d19d7d28e8a4dce5e1b2748f1369edce7292738a1d8f0",
+          "predicate_iri": "https://w3id.org/lzo/ontology/serves",
+          "source_id": "17a34726-8b17-4a84-a57f-39802f971e9a",
+          "source_key": "independent-pond-review-20261029:pump",
+          "state": "accepted",
+          "subject_id": "b20ddf24-e8c7-51a5-92bd-c2cbb6dcee8e",
+          "support": {
+            "source_file": "data/demo/inspection-ready-scenario.json"
+          },
+          "target_id": "04f4784c-003a-5af1-9516-25c1a6473e96"
+        }
+      ],
+      "updated_at": "2026-10-29T01:32:11.306296+00:00",
+      "knowledge": [
+        {
+          "data_nature": "imported_unverified",
+          "entity_kinds": [
+            "pond",
+            "lake"
+          ],
+          "evidence_type": "public_technical_guidance",
+          "id": "kb-fao-pond-oxygen-principles",
+          "keywords": [
+            "缺氧",
+            "溶解氧",
+            "水温",
+            "昼夜",
+            "浮头",
+            "监测"
+          ],
+          "kind": "knowledge",
+          "published_at": null,
+          "publisher": "FAO",
+          "reference_verified": true,
+          "retrieved_at": "2026-10-29T01:14:04.186888+00:00",
+          "retrieved_url": "https://www.fao.org/4/T0555E/T0555E02.htm",
+          "scope": {
+            "exclusions": [
+              "不将基础机理当成本塘阈值",
+              "不据单次旧观测推断当前趋势"
+            ],
+            "production": [
+              "freshwater_pond"
+            ],
+            "regions": [
+              "general"
+            ],
+            "requires": [
+              "淡水养殖条件",
+              "观测时间",
+              "水温",
+              "养殖品种和阶段"
+            ],
+            "season": [
+              "all"
+            ]
+          },
+          "site_fact": false,
+          "source_bytes": 22842,
+          "source_sha256": "ea504d9af80522f8e05493f4f7ffba1554ab9ed9c36ab2b9ad2eaa665a9e721f",
+          "source_title": "Fish culture in undrainable ponds — Principles of freshwater fish culture",
+          "status": "reference_not_site_fact",
+          "steps": [
+            {
+              "action": "保留采样时刻、水温和测点，比较具有可比条件的有效观测。",
+              "conditions": [
+                "传感器质量合格"
+              ],
+              "limitations": [
+                "未给定本地物种的统一安全阈值"
+              ],
+              "priority": 1
+            },
+            {
+              "action": "低氧风险评估同时核查生物负荷及水体条件。",
+              "conditions": [
+                "种养殖资料已确认"
+              ],
+              "limitations": [
+                "未知养殖密度不能用模型面积替代"
+              ],
+              "priority": 2
+            }
+          ],
+          "summary": "淡水池塘的溶解氧与水温有关，并受光合作用及水中生物呼吸影响而发生昼夜变化。因此解释观测必须带上时间和温度；养殖承载能力不能仅从塘面积确定。",
+          "title": "淡水池塘溶氧：温度、昼夜变化与承载能力",
+          "url": "https://www.fao.org/4/T0555E/T0555E02.htm",
+          "version": "T0555E/chapter-2/curated-v1",
+          "dataset": "demo",
+          "retrieval_score": 2,
+          "applicability": {
+            "status": "requires_site_confirmation",
+            "requires": [
+              "淡水养殖条件",
+              "观测时间",
+              "水温",
+              "养殖品种和阶段"
+            ],
+            "exclusions": [
+              "不将基础机理当成本塘阈值",
+              "不据单次旧观测推断当前趋势"
+            ]
+          }
+        },
+        {
+          "data_nature": "imported_unverified",
+          "entity_kinds": [
+            "pond",
+            "lake"
+          ],
+          "evidence_type": "public_technical_guidance",
+          "id": "kb-hubei-pond-hot-weather-2024",
+          "keywords": [
+            "缺氧",
+            "溶解氧",
+            "增氧",
+            "高温",
+            "水温",
+            "浮头",
+            "水质"
+          ],
+          "kind": "knowledge",
+          "published_at": "2024-06-21",
+          "publisher": "湖北省水产技术推广总站",
+          "reference_verified": true,
+          "retrieved_at": "2026-10-29T01:14:07.258450+00:00",
+          "retrieved_url": "https://hbnysy.hubei.gov.cn/zfxxgk/zc/qtzdgkwj/202406/t20240621_5244783.shtml",
+          "scope": {
+            "exclusions": [
+              "不得由日期推定正在高温",
+              "不得把鱼塘的开机时段用于有水草的虾蟹塘"
+            ],
+            "production": [
+              "pond_fish",
+              "pond_crustacean"
+            ],
+            "regions": [
+              "湖北"
+            ],
+            "requires": [
+              "养殖类别",
+              "水温及分层",
+              "当前溶解氧",
+              "天气",
+              "设备可用状态"
+            ],
+            "season": [
+              "hot_weather"
+            ]
+          },
+          "site_fact": false,
+          "source_bytes": 51217,
+          "source_sha256": "7ea0a59f7d076846a4f30540dc9572b844e1df61d2a6e33cc994cf3647d96038",
+          "source_title": "省水产技术推广总站关于印发2024年湖北省夏季高温水产养殖生产管理措施的通知",
+          "status": "reference_not_site_fact",
+          "steps": [
+            {
+              "action": "先核实养殖类别，复测溶氧与不同水层的水温，观察浮头情况。",
+              "conditions": [
+                "确认是池塘养殖"
+              ],
+              "limitations": [
+                "本条未提供本塘实测值"
+              ],
+              "priority": 1
+            },
+            {
+              "action": "由现场人员结合天气、分层及设备状态制定增氧和水质调控措施。",
+              "conditions": [
+                "观测有效",
+                "设备经安全检查"
+              ],
+              "limitations": [
+                "未评估容量时不指定设备数量、运行时长或新增采购"
+              ],
+              "priority": 2
+            }
+          ],
+          "summary": "该指导强调高温期水环境监测及增氧管理，同时区分鱼塘与虾蟹塘。搅动水体可能改变温度分层；品种、天气和分层情况不清楚时，不能直接给出统一开机时段。",
+          "title": "湖北夏季高温池塘管理：溶氧与水温核查",
+          "url": "https://hbnysy.hubei.gov.cn/zfxxgk/zc/qtzdgkwj/202406/t20240621_5244783.shtml",
+          "version": "2024-06-21/curated-v1",
+          "dataset": "demo",
+          "retrieval_score": 2,
+          "applicability": {
+            "status": "requires_site_confirmation",
+            "requires": [
+              "养殖类别",
+              "水温及分层",
+              "当前溶解氧",
+              "天气",
+              "设备可用状态"
+            ],
+            "exclusions": [
+              "不得由日期推定正在高温",
+              "不得把鱼塘的开机时段用于有水草的虾蟹塘"
+            ]
+          }
+        }
+      ],
+      "representations": [],
+      "region_aliases": [
+        "独立合成情景"
+      ],
+      "aliases": [
+        "独立合成情景 DEMO-CHECK-POND"
+      ],
+      "rules": [],
+      "quality_alerts": [],
+      "business_alerts": [],
+      "alerts": [],
+      "missing_fields": []
+    },
+    "candidates": [],
+    "evidence": [
+      {
+        "cell": null,
+        "data_nature": "synthetic",
+        "dataset": "demo",
+        "description": "独立合成核查情景，不对应用户田塘、不证明生产阈值或设备实际在线。时间固定，超过有效时限会自动提示过期。",
+        "file": "data/demo/inspection-ready-scenario.json",
+        "id": "src-417546a8eac39c28a2a9bd11",
+        "page": null,
+        "row": null,
+        "sha256": "f63d2cdd5ccca1b05a4b82fab735f862411d8d205659cc0399888647509d676e",
+        "sheet": null,
+        "source_key": "independent-pond-review-20261029:pond",
+        "upstream_commit": null,
+        "version": "f63d2cdd5ccca1b05a4b82fab735f862411d8d205659cc0399888647509d676e"
+      },
+      {
+        "cell": null,
+        "data_nature": "synthetic",
+        "dataset": "demo",
+        "description": "独立合成核查情景，不对应用户田塘、不证明生产阈值或设备实际在线。时间固定，超过有效时限会自动提示过期。",
+        "file": "data/demo/inspection-ready-scenario.json",
+        "id": "src-b0d358aebbae882e0e436361",
+        "page": null,
+        "row": null,
+        "sha256": "1035bf31e9c035bb7201c515b645af89e40ad51931ceba67109f401872719158",
+        "sheet": null,
+        "source_key": "independent-pond-review-20261029:pond",
+        "upstream_commit": null,
+        "version": "1035bf31e9c035bb7201c515b645af89e40ad51931ceba67109f401872719158"
+      },
+      {
+        "data_nature": "imported_unverified",
+        "entity_kinds": [
+          "pond",
+          "lake"
+        ],
+        "evidence_type": "public_technical_guidance",
+        "id": "kb-fao-pond-oxygen-principles",
+        "keywords": [
+          "缺氧",
+          "溶解氧",
+          "水温",
+          "昼夜",
+          "浮头",
+          "监测"
+        ],
+        "kind": "knowledge",
+        "published_at": null,
+        "publisher": "FAO",
+        "reference_verified": true,
+        "retrieved_at": "2026-10-29T01:14:04.186888+00:00",
+        "retrieved_url": "https://www.fao.org/4/T0555E/T0555E02.htm",
+        "scope": {
+          "exclusions": [
+            "不将基础机理当成本塘阈值",
+            "不据单次旧观测推断当前趋势"
+          ],
+          "production": [
+            "freshwater_pond"
+          ],
+          "regions": [
+            "general"
+          ],
+          "requires": [
+            "淡水养殖条件",
+            "观测时间",
+            "水温",
+            "养殖品种和阶段"
+          ],
+          "season": [
+            "all"
+          ]
+        },
+        "site_fact": false,
+        "source_bytes": 22842,
+        "source_sha256": "ea504d9af80522f8e05493f4f7ffba1554ab9ed9c36ab2b9ad2eaa665a9e721f",
+        "source_title": "Fish culture in undrainable ponds — Principles of freshwater fish culture",
+        "status": "reference_not_site_fact",
+        "steps": [
+          {
+            "action": "保留采样时刻、水温和测点，比较具有可比条件的有效观测。",
+            "conditions": [
+              "传感器质量合格"
+            ],
+            "limitations": [
+              "未给定本地物种的统一安全阈值"
+            ],
+            "priority": 1
+          },
+          {
+            "action": "低氧风险评估同时核查生物负荷及水体条件。",
+            "conditions": [
+              "种养殖资料已确认"
+            ],
+            "limitations": [
+              "未知养殖密度不能用模型面积替代"
+            ],
+            "priority": 2
+          }
+        ],
+        "summary": "淡水池塘的溶解氧与水温有关，并受光合作用及水中生物呼吸影响而发生昼夜变化。因此解释观测必须带上时间和温度；养殖承载能力不能仅从塘面积确定。",
+        "title": "淡水池塘溶氧：温度、昼夜变化与承载能力",
+        "url": "https://www.fao.org/4/T0555E/T0555E02.htm",
+        "version": "T0555E/chapter-2/curated-v1",
+        "dataset": "demo",
+        "retrieval_score": 2,
+        "applicability": {
+          "status": "requires_site_confirmation",
+          "requires": [
+            "淡水养殖条件",
+            "观测时间",
+            "水温",
+            "养殖品种和阶段"
+          ],
+          "exclusions": [
+            "不将基础机理当成本塘阈值",
+            "不据单次旧观测推断当前趋势"
+          ]
+        }
+      },
+      {
+        "data_nature": "imported_unverified",
+        "entity_kinds": [
+          "pond",
+          "lake"
+        ],
+        "evidence_type": "public_technical_guidance",
+        "id": "kb-hubei-pond-hot-weather-2024",
+        "keywords": [
+          "缺氧",
+          "溶解氧",
+          "增氧",
+          "高温",
+          "水温",
+          "浮头",
+          "水质"
+        ],
+        "kind": "knowledge",
+        "published_at": "2024-06-21",
+        "publisher": "湖北省水产技术推广总站",
+        "reference_verified": true,
+        "retrieved_at": "2026-10-29T01:14:07.258450+00:00",
+        "retrieved_url": "https://hbnysy.hubei.gov.cn/zfxxgk/zc/qtzdgkwj/202406/t20240621_5244783.shtml",
+        "scope": {
+          "exclusions": [
+            "不得由日期推定正在高温",
+            "不得把鱼塘的开机时段用于有水草的虾蟹塘"
+          ],
+          "production": [
+            "pond_fish",
+            "pond_crustacean"
+          ],
+          "regions": [
+            "湖北"
+          ],
+          "requires": [
+            "养殖类别",
+            "水温及分层",
+            "当前溶解氧",
+            "天气",
+            "设备可用状态"
+          ],
+          "season": [
+            "hot_weather"
+          ]
+        },
+        "site_fact": false,
+        "source_bytes": 51217,
+        "source_sha256": "7ea0a59f7d076846a4f30540dc9572b844e1df61d2a6e33cc994cf3647d96038",
+        "source_title": "省水产技术推广总站关于印发2024年湖北省夏季高温水产养殖生产管理措施的通知",
+        "status": "reference_not_site_fact",
+        "steps": [
+          {
+            "action": "先核实养殖类别，复测溶氧与不同水层的水温，观察浮头情况。",
+            "conditions": [
+              "确认是池塘养殖"
+            ],
+            "limitations": [
+              "本条未提供本塘实测值"
+            ],
+            "priority": 1
+          },
+          {
+            "action": "由现场人员结合天气、分层及设备状态制定增氧和水质调控措施。",
+            "conditions": [
+              "观测有效",
+              "设备经安全检查"
+            ],
+            "limitations": [
+              "未评估容量时不指定设备数量、运行时长或新增采购"
+            ],
+            "priority": 2
+          }
+        ],
+        "summary": "该指导强调高温期水环境监测及增氧管理，同时区分鱼塘与虾蟹塘。搅动水体可能改变温度分层；品种、天气和分层情况不清楚时，不能直接给出统一开机时段。",
+        "title": "湖北夏季高温池塘管理：溶氧与水温核查",
+        "url": "https://hbnysy.hubei.gov.cn/zfxxgk/zc/qtzdgkwj/202406/t20240621_5244783.shtml",
+        "version": "2024-06-21/curated-v1",
+        "dataset": "demo",
+        "retrieval_score": 2,
+        "applicability": {
+          "status": "requires_site_confirmation",
+          "requires": [
+            "养殖类别",
+            "水温及分层",
+            "当前溶解氧",
+            "天气",
+            "设备可用状态"
+          ],
+          "exclusions": [
+            "不得由日期推定正在高温",
+            "不得把鱼塘的开机时段用于有水草的虾蟹塘"
+          ]
+        }
+      }
+    ],
+    "gaps": [
+      "演示观测和测试阈值不是生产事实；公开技术参考仍需确认现场适用性。"
+    ],
+    "actions": [],
+    "suggested_plan": {
+      "title": "独立合成核查塘现场核查方案",
+      "content": "1. 复测溶解氧和水温，确保数据与当前环境条件一致。\n2. 核查养殖品种和阶段，确认是否符合湖北夏季高温池塘管理要求。\n3. 检查水温分层及设备状态，确保溶氧监测和增氧措施的适用性。\n4. 根据现场情况，制定后续水质调控和增氧管理措施。",
+      "evidence_ids": [
+        "kb-fao-pond-oxygen-principles",
+        "kb-hubei-pond-hot-weather-2024",
+        "src-b0d358aebbae882e0e436361"
+      ],
+      "conditions": [
+        "先补齐缺失资料；以下为现场核查草稿，不执行设备或生产处置。",
+        "养殖品种和阶段已确认",
+        "水温分层及设备状态已核查",
+        "溶解氧和水温复测有效"
+      ],
+      "gaps": [
+        "演示观测和测试阈值不是生产事实；公开技术参考仍需确认现场适用性。"
+      ],
+      "kind": "inspection_only"
+    },
+    "saved_plans": [],
+    "model": {
+      "configured": true,
+      "model": "qwen3-4b-local",
+      "provider": "openai-compatible",
+      "actual_inference": true,
+      "elapsed_ms": 2656,
+      "usage": {
+        "completion_tokens": 417,
+        "prompt_tokens": 2506,
+        "total_tokens": 2923,
+        "prompt_tokens_details": {
+          "cached_tokens": 891
+        }
+      }
+    },
+    "audit_id": "f03edbbb-9ead-4773-91d9-671247706588",
+    "profile_sources": [
+      {
+        "cell": null,
+        "data_nature": "synthetic",
+        "dataset": "demo",
+        "description": "独立合成核查情景，不对应用户田塘、不证明生产阈值或设备实际在线。时间固定，超过有效时限会自动提示过期。",
+        "file": "data/demo/inspection-ready-scenario.json",
+        "id": "src-417546a8eac39c28a2a9bd11",
+        "page": null,
+        "row": null,
+        "sha256": "f63d2cdd5ccca1b05a4b82fab735f862411d8d205659cc0399888647509d676e",
+        "sheet": null,
+        "source_key": "independent-pond-review-20261029:pond",
+        "upstream_commit": null,
+        "version": "f63d2cdd5ccca1b05a4b82fab735f862411d8d205659cc0399888647509d676e"
+      },
+      {
+        "cell": null,
+        "data_nature": "synthetic",
+        "dataset": "demo",
+        "description": "独立合成核查情景，不对应用户田塘、不证明生产阈值或设备实际在线。时间固定，超过有效时限会自动提示过期。",
+        "file": "data/demo/inspection-ready-scenario.json",
+        "id": "src-b0d358aebbae882e0e436361",
+        "page": null,
+        "row": null,
+        "sha256": "1035bf31e9c035bb7201c515b645af89e40ad51931ceba67109f401872719158",
+        "sheet": null,
+        "source_key": "independent-pond-review-20261029:pond",
+        "upstream_commit": null,
+        "version": "1035bf31e9c035bb7201c515b645af89e40ad51931ceba67109f401872719158"
+      }
+    ],
+    "facts": {
+      "area": {
+        "value": null,
+        "unit": null,
+        "inferred_unit": null,
+        "verification": "unconfirmed",
+        "source_id": "src-b0d358aebbae882e0e436361",
+        "inference_basis": null
+      },
+      "observations": [
+        {
+          "calibration": "合成校准记录；无现场校准证书",
+          "data_nature": "synthetic",
+          "device_id": "1c40e5e6-2690-5ebc-8f65-1bfa6b654adf",
+          "device_key": "sensor",
+          "label": "溶解氧（合成观测）",
+          "metric": "dissolved_oxygen",
+          "observed_at": "2026-10-29T01:00:00Z",
+          "stale_after_hours": 24,
+          "unit": "mg/L",
+          "value": 6.1
+        },
+        {
+          "calibration": "合成校准记录；无现场校准证书",
+          "data_nature": "synthetic",
+          "device_id": "1c40e5e6-2690-5ebc-8f65-1bfa6b654adf",
+          "device_key": "sensor",
+          "label": "水温（合成观测）",
+          "metric": "water_temperature",
+          "observed_at": "2026-10-29T01:00:00Z",
+          "stale_after_hours": 24,
+          "unit": "°C",
+          "value": 26
+        }
+      ],
+      "devices": [
+        {
+          "data_nature": "synthetic",
+          "id": "1c40e5e6-2690-5ebc-8f65-1bfa6b654adf",
+          "kind": "device",
+          "live_status": null,
+          "name": "合成水质监测仪",
+          "scenario_readiness": "模拟记录为可读；无现场设备连接"
+        },
+        {
+          "data_nature": "synthetic",
+          "id": "b20ddf24-e8c7-51a5-92bd-c2cbb6dcee8e",
+          "kind": "device",
+          "live_status": null,
+          "name": "合成备用水泵",
+          "scenario_readiness": "模拟资产登记；电气、容量、水源适用性仍须核查"
+        }
+      ],
+      "alerts": [],
+      "species": "鲫鱼（合成演示）",
+      "data_nature": "synthetic"
+    },
+    "limitations": [
+      "事实卡来自数据库；模型自由文本的语义不能由引用ID完全证明，需人工复核。"
+    ],
+    "analysis_sections": [
+      {
+        "title": "对象",
+        "content": "独立合成情景 · 独立合成核查塘 / 04f4784c-003a-5af1-9516-25c1a6473e96\n未登记适用业务规则；缺少观测不等于风险正常。"
+      },
+      {
+        "title": "事实与证据",
+        "content": "溶解氧（合成观测） 6.1 mg/L / 2026-10-29T01:00:00Z；水温（合成观测） 26 °C / 2026-10-29T01:00:00Z\n已登记设备 2 项，本体关系 2 条；鱼种/作物：鲫鱼（合成演示）；阶段：成鱼阶段（合成）。"
+      },
+      {
+        "title": "判断边界",
+        "content": "演示观测和测试阈值不是生产事实；公开技术参考仍需确认现场适用性。"
+      },
+      {
+        "title": "处理建议",
+        "content": "1. 复测溶解氧和水温，确保数据与当前环境条件一致。\n2. 核查养殖品种和阶段，确认是否符合湖北夏季高温池塘管理要求。\n3. 检查水温分层及设备状态，确保溶氧监测和增氧措施的适用性。\n4. 根据现场情况，制定后续水质调控和增氧管理措施。\n先补齐缺失资料；以下为现场核查草稿，不执行设备或生产处置。\n养殖品种和阶段已确认\n水温分层及设备状态已核查\n溶解氧和水温复测有效"
+      },
+      {
+        "title": "设备需求",
+        "content": "合成水质监测仪（运行状态待核验）；合成备用水泵（运行状态待核验）\n登记关系不能证明设备在线可用。缺少容量、现场条件和适用规则，暂无新增设备的充分依据。"
+      },
+      {
+        "title": "复测与跟踪",
+        "content": "按现场批准的指标与频次复测。记录对象、指标、数值、单位、采样时间、设备和校准信息；新观测入库后重新评估过期与单位冲突。当前服务未连接现场设备。"
+      },
+      {
+        "title": "来源",
+        "content": "src-417546a8eac39c28a2a9bd11 | data/demo/inspection-ready-scenario.json | f63d2cdd5ccca1b05a4b82fab735f862411d8d205659cc0399888647509d676e | 来源时间未提供 | synthetic\nsrc-b0d358aebbae882e0e436361 | data/demo/inspection-ready-scenario.json | 1035bf31e9c035bb7201c515b645af89e40ad51931ceba67109f401872719158 | 来源时间未提供 | synthetic\nkb-fao-pond-oxygen-principles | https://www.fao.org/4/T0555E/T0555E02.htm | T0555E/chapter-2/curated-v1 | 2026-10-29T01:14:04.186888+00:00 | imported_unverified\nkb-hubei-pond-hot-weather-2024 | https://hbnysy.hubei.gov.cn/zfxxgk/zc/qtzdgkwj/202406/t20240621_5244783.shtml | 2024-06-21/curated-v1 | 2026-10-29T01:14:07.258450+00:00 | imported_unverified\n规则：未配置"
+      }
+    ],
+    "analysis_kind": "model_assisted_evidence_review",
+    "production_plan_accepted": false,
+    "retrieval": {
+      "knowledge_ids": [
+        "kb-fao-pond-oxygen-principles",
+        "kb-hubei-pond-hot-weather-2024"
+      ],
+      "method": "kind_scope_and_keyword",
+      "site_applicability": "requires_confirmation"
+    }
+  }
+}

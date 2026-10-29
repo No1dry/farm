@@ -1,0 +1,2032 @@
+{
+  "timestamp": "2026-10-29T05:50:54.913156+00:00",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.7",
+  "files": [
+    {
+      "path": ".env.example",
+      "bytes": 1087,
+      "sha256": "68765ee31d995fbb85a6522b876de75331b836987865e99d85c8486efc1642ee"
+    },
+    {
+      "path": "backend/__init__.py",
+      "bytes": 78,
+      "sha256": "f58546aa3d7e09c31408605d719c56d1735bba77eddabfc904771e6613f07c83"
+    },
+    {
+      "path": "backend/__main__.py",
+      "bytes": 123,
+      "sha256": "5d82532121cf2ebb1d95c0c92dff8ab273b0f56c64c24d9c2f359c50265b867b"
+    },
+    {
+      "path": "backend/admin.py",
+      "bytes": 4189,
+      "sha256": "ddb098e3d3c2951c3611def1cd2f1789fa5670e45bfaab9540359ffe9509ae43"
+    },
+    {
+      "path": "backend/app.py",
+      "bytes": 7884,
+      "sha256": "c27212a06b9c00c870a2de7563d9271a1b4b4fab093f100377eff16de72056de"
+    },
+    {
+      "path": "backend/assistant.py",
+      "bytes": 19241,
+      "sha256": "e58eb0f532cfac82a3ff4af06e883917d70d752c8d30ef14d82dd191034b7f6f"
+    },
+    {
+      "path": "backend/auth.py",
+      "bytes": 3071,
+      "sha256": "bbf417437291d09d85bae55a6be7748c2b72b912c1097c37f028861d4771547e"
+    },
+    {
+      "path": "backend/config.py",
+      "bytes": 2195,
+      "sha256": "5a4b24c154790253e4ab73b9807cece15d3cb58786c0aa9877263f7894953a98"
+    },
+    {
+      "path": "backend/contracts.py",
+      "bytes": 1366,
+      "sha256": "5fb5bc53b5da9f152622aed0f4982a9e7113250fa51b7ee4907e4eef31b38233"
+    },
+    {
+      "path": "backend/importer.py",
+      "bytes": 8744,
+      "sha256": "ed4fb7b9b02ec1e36bddc11f92906a757f385da17e456f4d4b2e05c805bec58e"
+    },
+    {
+      "path": "backend/local-model-manifest.json",
+      "bytes": 1698,
+      "sha256": "901abae6ca1570231d6108ea353829dedea2fcbbb4d9a4a8857f85e0041d7222"
+    },
+    {
+      "path": "backend/migrations.py",
+      "bytes": 1231,
+      "sha256": "4c9c67f7461028db8fd7148af81b782fd8a0f37776ac2998e815597657cf5580"
+    },
+    {
+      "path": "backend/ontology/agriculture/agriculture.ttl",
+      "bytes": 813,
+      "sha256": "557768bbc94260e98740801df916197003f0b5f800109c4a781030af00e47217"
+    },
+    {
+      "path": "backend/ontology/core/core.ttl",
+      "bytes": 955,
+      "sha256": "c46358b966b6785da70fd0b28a3727bbdd6826fcdb1325767bfd510b892a458f"
+    },
+    {
+      "path": "backend/ontology/devices/devices.ttl",
+      "bytes": 1138,
+      "sha256": "4aad19890ade5aaed5bab9f4c0a0c0daa60a027155e82441d0eeb679975f5182"
+    },
+    {
+      "path": "backend/ontology/rules/finite-profile.json",
+      "bytes": 181,
+      "sha256": "1c06e818778628b6902609eba01397c8ae7d2d1b275a3ce83913b561063fd2dc"
+    },
+    {
+      "path": "backend/ontology/shapes/core.shacl.ttl",
+      "bytes": 250,
+      "sha256": "1c201bf7b485a383697bbc0f0b02da94a07fd437a02ee56dc384a87a5e58aaa1"
+    },
+    {
+      "path": "backend/ontology/source-manifest.json",
+      "bytes": 990,
+      "sha256": "7b916b066b3aa1715cf3229ee6f2b797041a15f574a4cdc90a8ef96006e5cf50"
+    },
+    {
+      "path": "backend/reporting.py",
+      "bytes": 3007,
+      "sha256": "103d5cc125bd3c40a3bbbfbb122a8e6e64fd38c1316ed4c3cb2d22934b5e0950"
+    },
+    {
+      "path": "backend/scenario.py",
+      "bytes": 15623,
+      "sha256": "14a7c002e034bf0fcfba39af5a190b7a1f41eee4cb396e096b3a43dcc1cdfe0f"
+    },
+    {
+      "path": "backend/semantics.py",
+      "bytes": 4949,
+      "sha256": "cc51a48348cc411e1bff2a0f597a7af48af928558acfd7dd32bcd34a4ecce934"
+    },
+    {
+      "path": "backend/store.py",
+      "bytes": 40781,
+      "sha256": "a632f588c5bdf311c42f8c8201c431a73d507a75f358342b8cbd4c428887b7a1"
+    },
+    {
+      "path": "backend/validation.py",
+      "bytes": 6387,
+      "sha256": "56372657e4f9dcaf6d8338b6d78c04943fc6683ed65eab98d4d3c394453cf200"
+    },
+    {
+      "path": "data/audit/area-reconciliation.json",
+      "bytes": 4362,
+      "sha256": "6a022244b9cf8ec7462ed8700c179de64ebc84660a3190f4dd03d8f311232b07"
+    },
+    {
+      "path": "data/audit/entities.csv",
+      "bytes": 25165,
+      "sha256": "e657ebc79bc78899f606d97fec949873896fef361e8625005e005ff4aed04a98"
+    },
+    {
+      "path": "data/audit/entities.json",
+      "bytes": 132925,
+      "sha256": "b1b5ce6350a7d7dd952cd14f1ffffc65bbfbdedceeadda5b347720560999439b"
+    },
+    {
+      "path": "data/audit/entity-mapping.json",
+      "bytes": 474430,
+      "sha256": "a5f10c30ef3cc1c44834042dbe477cc972fc79fcaf01097550fe2c74b7ec8120"
+    },
+    {
+      "path": "data/audit/ledger-model-area-reconciliation.csv",
+      "bytes": 65790,
+      "sha256": "ce9329b27fe92287a4850eaa6deef372bd23f02e5e979f04500cdbd6b710dd90"
+    },
+    {
+      "path": "data/audit/ledger-model-area-reconciliation.json",
+      "bytes": 178158,
+      "sha256": "6f6c475ab1ba51c3a5c50a63507cab9a766f8bdf012aada76011bcabdedb8c06"
+    },
+    {
+      "path": "data/audit/pdf-01-page-01.txt",
+      "bytes": 2640,
+      "sha256": "3de112f099bd9ff4b8b7fe1cc074fbc91e9c00a8c5c44ad1073917adcf8a9c0d"
+    },
+    {
+      "path": "data/audit/pdf-02-page-01.txt",
+      "bytes": 2251,
+      "sha256": "baa0308d24f51a35435ffc9bb167850860fb38e92de1f0d309857e1013de3b09"
+    },
+    {
+      "path": "data/audit/pdf-03-page-01.txt",
+      "bytes": 1756,
+      "sha256": "addcefef4fe5a7f66198da4d5751377eb39c6ebaa055dc7b57cc2623b21fe6f3"
+    },
+    {
+      "path": "data/audit/pdf-04-page-01.txt",
+      "bytes": 1448,
+      "sha256": "c8b1c5359e745cb7dc80d99f427d44e0c3717dc3f351cf70f9e1d7430bcd28dc"
+    },
+    {
+      "path": "data/audit/pdf-05-page-01.txt",
+      "bytes": 1147,
+      "sha256": "a512005df1264423cf470a26709801038c740e4be9f20e58c48f130f16d55d5c"
+    },
+    {
+      "path": "data/audit/pdf-coverage.json",
+      "bytes": 5868,
+      "sha256": "90ab1ee09dc9102557148e47077721c72af66026ef677e001c49025db1e64d55"
+    },
+    {
+      "path": "data/audit/reference-review.json",
+      "bytes": 2524,
+      "sha256": "5d1f04f01cb154e01df54765f48b47e4ac2d04b6b8d512f3ef876e2709b567aa"
+    },
+    {
+      "path": "data/audit/source-manifest.json",
+      "bytes": 5996,
+      "sha256": "5231a945855ef055829d1e721c29d331d7cbf9824c229faf7079ad86fd8264be"
+    },
+    {
+      "path": "data/audit/workbook-raw.json",
+      "bytes": 17756,
+      "sha256": "6985fa05a2b27d1ceab40bb4265e01b378ed6b54c94eea4406030484b82373a0"
+    },
+    {
+      "path": "data/demo/full-area-device-layout.json",
+      "bytes": 19023,
+      "sha256": "a287779cece83d60acab29c6b9e53eda431ae5737fa66b11fdb748f2f1aa70f8"
+    },
+    {
+      "path": "data/demo/full-area-scenario.json",
+      "bytes": 4847,
+      "sha256": "e527aac8f22689e8f579b28d256c3c22b9e018cec41b31ddfcdaa42cff583d33"
+    },
+    {
+      "path": "data/demo/inspection-ready-scenario.json",
+      "bytes": 2248,
+      "sha256": "1035bf31e9c035bb7201c515b645af89e40ad51931ceba67109f401872719158"
+    },
+    {
+      "path": "data/demo/oxygen-scenario.json",
+      "bytes": 1582,
+      "sha256": "b6f2d612b801871496945713b1291124a52c54a1d98c0f6787e3ff37201d9f47"
+    },
+    {
+      "path": "data/knowledge/curated.json",
+      "bytes": 10722,
+      "sha256": "1ce255378e2520868286f9badae16c9b5c4d39ce9e9e52d68fb9a0a62ae34c48"
+    },
+    {
+      "path": "data/model/device-grounding-updates.json",
+      "bytes": 21653,
+      "sha256": "23c9c69c4e9c1f6faacc4e6b33c39df856ef7b14c4b1b89f58877be7537bfbe1"
+    },
+    {
+      "path": "data/model/full-region-generated-instances.json",
+      "bytes": 240144,
+      "sha256": "89f4dcb37aeded0bdb7ba1cb8c62ad7159ea3d5f7c734d08f46301648c47ef31"
+    },
+    {
+      "path": "data/model/full-region-parameters.json",
+      "bytes": 1136,
+      "sha256": "41dc40a561d432952d4902d617395d2c8c490cd8af6d83644ffa388c2b0ec728"
+    },
+    {
+      "path": "data/spatial/appearance-roof-footprints.json",
+      "bytes": 4683,
+      "sha256": "6d35c0601659e10c628d5f02ed0f923510f3f27d13d103dfca120a3bb4e05d58"
+    },
+    {
+      "path": "data/spatial/drawing-entities.json",
+      "bytes": 893300,
+      "sha256": "8353749c4105c8fadf2944e1140e06e91a7f9843d76e877a159eaea5de8cfaff"
+    },
+    {
+      "path": "data/spatial/drawings/pdf-01-landscape.png",
+      "bytes": 3277740,
+      "sha256": "c166cb62f9cd26f63c3f6af13a49b654fdb4604b8e3b670d3cde653a70ec9ba2"
+    },
+    {
+      "path": "data/spatial/drawings/pdf-02-landscape.png",
+      "bytes": 2293901,
+      "sha256": "09f954e49d06d57f01312912e08b9510dcf9a38f7d4f10b3cd1768558c87fb12"
+    },
+    {
+      "path": "data/spatial/drawings/pdf-03-landscape.png",
+      "bytes": 3201587,
+      "sha256": "52643b39544e1ac23e9f8a82d39de03bfa2e59a8b85ba6452dc83e186e770996"
+    },
+    {
+      "path": "data/spatial/drawings/pdf-04-landscape.png",
+      "bytes": 3437794,
+      "sha256": "8bf0a76c0120bb6e7236767f4489a320d0bf44740c9a3d74f5a4d3f7b68e9ecb"
+    },
+    {
+      "path": "data/spatial/drawings/pdf-05-landscape.png",
+      "bytes": 2783374,
+      "sha256": "049d3f73bab4f9fc9207d19af908ee10314a4a8e19817064d777275f84d8f899"
+    },
+    {
+      "path": "data/spatial/facility-evidence.json",
+      "bytes": 344613,
+      "sha256": "70e172ca02e2797826b27d2871175c41925d42e48f1f1ef933e7d8bcbcb4104d"
+    },
+    {
+      "path": "data/spatial/facility-features.json",
+      "bytes": 16410,
+      "sha256": "e3a4d602be64c0bc4758ab02722bc14f4f71ace7bec3e2c972a6e8b059499a4a"
+    },
+    {
+      "path": "data/spatial/full-region-enrichment.json",
+      "bytes": 1949520,
+      "sha256": "941f7ddd74709ef88082588473f5f6667dd19ee5e07ee591f949bc41554dc1db"
+    },
+    {
+      "path": "data/spatial/label-anchors.json",
+      "bytes": 1954,
+      "sha256": "446c5c5c62d0a9131087ef6f6e7c8f2bb198bc736b6572cde68aa2d1a4583e53"
+    },
+    {
+      "path": "data/spatial/native-annotations.json",
+      "bytes": 343745,
+      "sha256": "e9bac6ed2f1c832a93627d19fa5990c788e6187d77fcfac3c1576e65e9556cb6"
+    },
+    {
+      "path": "data/spatial/verification.json",
+      "bytes": 427,
+      "sha256": "644aba6b6c54523a33a5013834028a7980d0ebaa3b0842f7854d31b34c90c279"
+    },
+    {
+      "path": "deliverables/blender/blender-dependencies.txt",
+      "bytes": 2450,
+      "sha256": "c371a6457f2a20735a92a030c41a1ee64db6128a9ebbe8a8eaffb3a65137f678"
+    },
+    {
+      "path": "deliverables/blender/build-report.json",
+      "bytes": 10853,
+      "sha256": "8db35600f6fe55a1ceaa518473dc69a5bb613efe6512707ba3fd71ba7f263e03"
+    },
+    {
+      "path": "deliverables/blender/correction-channel-clay.png",
+      "bytes": 1875611,
+      "sha256": "b846464240433ba175ce41a10068e541d4b5762d72722ec3489c43b0a9cb8ebc"
+    },
+    {
+      "path": "deliverables/blender/correction-channel-material.png",
+      "bytes": 2374720,
+      "sha256": "7dfbb84a7e6d71586254453c47355b096f3bb76a99a257d885876ec9b8f8f737"
+    },
+    {
+      "path": "deliverables/blender/correction-channel-sample-clay.png",
+      "bytes": 2007722,
+      "sha256": "d5ea95fcca840fd2a4bfcb1c9bda15bc93d5e3bf56bc930f64d8c30092bc966e"
+    },
+    {
+      "path": "deliverables/blender/correction-channel-sample-material.png",
+      "bytes": 2364984,
+      "sha256": "5e03aa0a410a8a94747a8b63af2f46c40a6a5bc06dbaf67acf9b7389cdb69f24"
+    },
+    {
+      "path": "deliverables/blender/correction-channel-sample.blend",
+      "bytes": 50578382,
+      "sha256": "2c4b121ff9937be050c2b2d3b2525a59e5a8bf59b3322017084be37b64e7bf29"
+    },
+    {
+      "path": "deliverables/blender/correction-field-clay.png",
+      "bytes": 1577924,
+      "sha256": "dd915ae61eed672b8b2e0ad57ec72055cb471a67259045c88410826c8d61569f"
+    },
+    {
+      "path": "deliverables/blender/correction-field-material.png",
+      "bytes": 2321492,
+      "sha256": "fe4bcef2a1d9059580b06e3e4bf4039dfec1532d0147a87b355b8758abff12b1"
+    },
+    {
+      "path": "deliverables/blender/correction-full-no-shadow.png",
+      "bytes": 2160278,
+      "sha256": "6705db5624f4037181fbee7f99e2378bbed7fbc595429d1cbd217790f6835e3a"
+    },
+    {
+      "path": "deliverables/blender/correction-full-probe-clay.png",
+      "bytes": 1563464,
+      "sha256": "b40548f8614f0c90901afde266bd370e783bc9bf38d4efceca91367345d9d71a"
+    },
+    {
+      "path": "deliverables/blender/correction-full-probe-material.png",
+      "bytes": 2299849,
+      "sha256": "fd784367531dc4b55f75785fcf043f1db378dac3555a40decbbf984800f4643a"
+    },
+    {
+      "path": "deliverables/blender/correction-pond-clay.png",
+      "bytes": 1537214,
+      "sha256": "062b756b7f67784a5ee81f68311c25a1a28917f6972f7b199b4935328d129946"
+    },
+    {
+      "path": "deliverables/blender/correction-pond-material.png",
+      "bytes": 1679394,
+      "sha256": "a99705427c66768308e3e4a48d2c8d3e69c181cd3ae72f40ff8a5b8b4d367d1f"
+    },
+    {
+      "path": "deliverables/blender/detail-abcdef-review.png",
+      "bytes": 1645261,
+      "sha256": "4fa0f4003412f5fd2cc5d92e3280624775e0ef37a293de851c02e605bcaf66a1"
+    },
+    {
+      "path": "deliverables/blender/detail-miaoxia-review.png",
+      "bytes": 1856617,
+      "sha256": "4c2cd8b2cdfdece07fea4dabe9663267804f4bdd6295d2a6b5ebc6b456077dd3"
+    },
+    {
+      "path": "deliverables/blender/detail-review.png",
+      "bytes": 2332893,
+      "sha256": "a6edfef4c1436a93fb2e7be44e7c4fde9d35ecb780efd2d3f8480f0bd0cef53c"
+    },
+    {
+      "path": "deliverables/blender/detail-tanshen-review.png",
+      "bytes": 1743850,
+      "sha256": "0ef1eae6502460cbe3304b207169c3ac578cb16443e9d7926ceb5410b1097197"
+    },
+    {
+      "path": "deliverables/blender/detail-xinwumao-review.png",
+      "bytes": 1660299,
+      "sha256": "5a707e7aba5fa5d717a1cde8d3c1cc077e33970da728f90e2bcd7ddfdc0f142a"
+    },
+    {
+      "path": "deliverables/blender/detail-zhangjia-review.png",
+      "bytes": 1962120,
+      "sha256": "c9acd3cb0aed119b25ef1146a1c849c22601760aa7ade4244db3be921a0320a9"
+    },
+    {
+      "path": "deliverables/blender/farm-full.blend",
+      "bytes": 402815683,
+      "sha256": "f7ccc689f10180eff76775c685d1df4105381c8daab989afff375a094758802c"
+    },
+    {
+      "path": "deliverables/blender/full-area-review.png",
+      "bytes": 2076945,
+      "sha256": "0f6f47690d95e84032086e4089f8b30627ff9e969c94dfbb45c2b82b72c7c25f"
+    },
+    {
+      "path": "deliverables/blender/full-edge-channel-001-after.png",
+      "bytes": 2107558,
+      "sha256": "3619bd08d2d4b2d172f013159098be64a480a66e71d63dc9d9f3182cc2c74868"
+    },
+    {
+      "path": "deliverables/blender/full-inspection-SAT-CHANNEL-005.png",
+      "bytes": 2559560,
+      "sha256": "801e09366fb6a3e3342f7f0df12f0263d9e3a6bec03fdf5afb83231d244f6fe7"
+    },
+    {
+      "path": "deliverables/blender/full-inspection-SAT-POND-001.png",
+      "bytes": 1912847,
+      "sha256": "64e31700dd78f4a952f85ba5f937c273791745ed7541d270bba2af00367c506e"
+    },
+    {
+      "path": "deliverables/blender/full-inspection-SAT-POND-012.png",
+      "bytes": 1826500,
+      "sha256": "634e8112fd5cac91c763c9b3240bb6e8b668bf0d2aa41f029d9b08016ae32df3"
+    },
+    {
+      "path": "deliverables/blender/full-inspection-SAT-POND-025.png",
+      "bytes": 1817255,
+      "sha256": "f82a044dc78ab61cbe118908557e2868c04bf29507ba5bb400eba28710c2c125"
+    },
+    {
+      "path": "deliverables/blender/full-inspection-SAT-POND-034.png",
+      "bytes": 1837027,
+      "sha256": "5907dd7b41915c1c0f4ed64fb578f99df14b0230f3fed39f3f52d555003c02f4"
+    },
+    {
+      "path": "deliverables/blender/full-region-export-verification.json",
+      "bytes": 975,
+      "sha256": "163172878ffe4ba989a53e8ee99fe7ed809bb91997fdad8874f09c0ea874680f"
+    },
+    {
+      "path": "deliverables/blender/full-region-scene-verification.json",
+      "bytes": 461,
+      "sha256": "ad6ef37736c0d48a1f4d50fba32876a3a55345c235bcc0ee47daf5ac00e12f4a"
+    },
+    {
+      "path": "deliverables/blender/material-export-expectations.json",
+      "bytes": 11296,
+      "sha256": "9ac79bda0a6cecb6ec992bb7cb6b3e6d4ba97784d6f276cc7b000ebd8b229718"
+    },
+    {
+      "path": "deliverables/blender/material-export-verification.json",
+      "bytes": 1485,
+      "sha256": "bdc36d7404aa78ee05f3f0d7884bf32b595e4e2f27458bb45458d9eb9ea3665a"
+    },
+    {
+      "path": "deliverables/blender/pond-section-clay.png",
+      "bytes": 1526262,
+      "sha256": "37af9057ddb08b33c6e7961c937620d572aedb9fad2559abfa3860c7e5e64473"
+    },
+    {
+      "path": "deliverables/blender/pond-section-material.png",
+      "bytes": 1896790,
+      "sha256": "4bc991e5581121efe63943812d5da7ae959e0ce44d307ab4b28ef4c35df29cd4"
+    },
+    {
+      "path": "deliverables/blender/textures/dry-ground-stochastic.png",
+      "bytes": 5838774,
+      "sha256": "6b2419db86213397909e7fbcaa5f59953a8fc5d95596c8eca0dd082fb5707200"
+    },
+    {
+      "path": "deliverables/blender/textures/v06-crop-photo.png",
+      "bytes": 1032688,
+      "sha256": "acf10ec6a2a88f63733df7176569aeffedf5411b18f5887fa599d00ebd91362c"
+    },
+    {
+      "path": "deliverables/blender/textures/v06-roof-tiles.png",
+      "bytes": 283718,
+      "sha256": "6ba26a7e62ce3361f75e3f62600440287787e8ca19d353ba1a792ccf240275da"
+    },
+    {
+      "path": "deliverables/blender/textures/water-appearance.png",
+      "bytes": 35721,
+      "sha256": "d2dcb72460ea810cc58b5a8d2334255694d564c69ceb05d548f4c4cc542c66a3"
+    },
+    {
+      "path": "deliverables/blender/v06-field-preview.png",
+      "bytes": 2061870,
+      "sha256": "b937a14ea5da7ec3542503301d52f607247a4948c70522d2c82389a1d49e3b25"
+    },
+    {
+      "path": "deliverables/blender/v06-full-preview.blend",
+      "bytes": 229746553,
+      "sha256": "45336c8e858a7cbfd98f62115e0f105454f3152e51da273587b093e5809de34f"
+    },
+    {
+      "path": "deliverables/blender/v06-full-preview.png",
+      "bytes": 2076813,
+      "sha256": "6819430f471d4c87e7c2eec68e20c4dbbb01820b2aba81343f3e119cdff15678"
+    },
+    {
+      "path": "deliverables/blender/v06-village-preview.png",
+      "bytes": 2656456,
+      "sha256": "aef951a79cbe4892f5cdcc3dbc4e0276777c663e8cc6ae3907eb78fe1a941438"
+    },
+    {
+      "path": "deliverables/blender/verification.json",
+      "bytes": 3872,
+      "sha256": "35465c6e1016dbda504de245ed4c96a34760825169e803e0f9d757967c1d839d"
+    },
+    {
+      "path": "deliverables/verification/backend-junit.xml",
+      "bytes": 10957,
+      "sha256": "11ac542be3418ebe048d40218065d364dedee59e6665705452d5ec0211198aa8"
+    },
+    {
+      "path": "deliverables/verification/browser-performance.json",
+      "bytes": 802,
+      "sha256": "1a3b2a7b2e4f1f8b7b02c1dee3931b5f80ae35a20d9004d1e3ba15f7e5c95c71"
+    },
+    {
+      "path": "deliverables/verification/browser-tests.json",
+      "bytes": 28520,
+      "sha256": "f8466b635b79db9e4a2c45c3fda103070681d9e4ef3f8a488886f4ada3fd6d56"
+    },
+    {
+      "path": "deliverables/verification/camera-framing/closer.png",
+      "bytes": 1562107,
+      "sha256": "65934aa373d93a14054aed6ff8f2c97af8f013843a925a00af6e127ae9500e0f"
+    },
+    {
+      "path": "deliverables/verification/camera-framing/lower.png",
+      "bytes": 1567159,
+      "sha256": "5d02b1cd32afac65dd7cf2b76f5cfb2093bf9cec896c13e472a24b30233d97cf"
+    },
+    {
+      "path": "deliverables/verification/camera-framing/wide.png",
+      "bytes": 1558462,
+      "sha256": "03f0b077a4dac71dd25b83d0becb57a4aeba513961493e8895f7256ee2015404"
+    },
+    {
+      "path": "deliverables/verification/dashboard-current.png",
+      "bytes": 1833850,
+      "sha256": "51ece38e5430350ee7a877627487a5ea7efaef42b8584e8581c71564c9eba044"
+    },
+    {
+      "path": "deliverables/verification/debug-coverage-click.png",
+      "bytes": 1778668,
+      "sha256": "202f343b33698259e417a3163d5bc0a782ad16bf75b649a825c5ccfb75d6cf5a"
+    },
+    {
+      "path": "deliverables/verification/demo-warning-inspection.png",
+      "bytes": 1675730,
+      "sha256": "76335829217583dd19bbbdacca64f1ffff3b80a7387055f98285de3408f7d2f1"
+    },
+    {
+      "path": "deliverables/verification/detail-abcdef.png",
+      "bytes": 1447860,
+      "sha256": "83e76482f8b9e1e84a2bb56c09cc4ac852410b3a07741d1d6aa19d986df48382"
+    },
+    {
+      "path": "deliverables/verification/detail-miaoxia.png",
+      "bytes": 1656024,
+      "sha256": "5a74ee85ad10fc3fa5bd671019ae43b57d02df15762c26bad52d0701dff6e0b5"
+    },
+    {
+      "path": "deliverables/verification/detail-tanshen.png",
+      "bytes": 1618125,
+      "sha256": "0b172dde11b87fbe337456d9dead7a5e40c5811bb1f748db9caa75b99c9d7905"
+    },
+    {
+      "path": "deliverables/verification/detail-xinwumao.png",
+      "bytes": 1539341,
+      "sha256": "f963e1adbf3794ffbace49cef355b291dbaf324906d33d32f4be0fdefe61f779"
+    },
+    {
+      "path": "deliverables/verification/detail-zhangjia.png",
+      "bytes": 1476919,
+      "sha256": "3d20b97a3610f34b018b60afed0513fe56c77e320de3cdce461d37bfc50dfeef"
+    },
+    {
+      "path": "deliverables/verification/device-grounding-sync.json",
+      "bytes": 1489,
+      "sha256": "1b4336ac811bfbe13c02b322c863ff47eaa47349026ad9e8f61d9ac4c9a973a8"
+    },
+    {
+      "path": "deliverables/verification/device-layout-before-v06.json",
+      "bytes": 18785,
+      "sha256": "2f03bdc2fea22629c20235931d3b74c952a9601b8b49470f5aee258679915453"
+    },
+    {
+      "path": "deliverables/verification/drawing-browser-coverage.json",
+      "bytes": 3393,
+      "sha256": "2ef304e7dbcd2c73f8c0bc1a45437086e016d29d96381850013af1d1995f4d20"
+    },
+    {
+      "path": "deliverables/verification/final-backup.json",
+      "bytes": 2206,
+      "sha256": "2d9b5535acc12e899210f830547662dba223650ec535526abf1d3cb058cf4a6a"
+    },
+    {
+      "path": "deliverables/verification/focus-restore/layout-comparison.json",
+      "bytes": 1931,
+      "sha256": "31a37f7304804fa7c0c470561af9336b100f6cae9764810bd4dbf431607b2926"
+    },
+    {
+      "path": "deliverables/verification/focus-restore/original-desktop.png",
+      "bytes": 1719449,
+      "sha256": "a415edb9510a35eaa8e24449cd77b5ea9b0fc8c98282f3540af06539a5844ef7"
+    },
+    {
+      "path": "deliverables/verification/focus-restore/original-layout.json",
+      "bytes": 1045,
+      "sha256": "bcf11313522bb99b5e776ad87ef96b5c8d62818092f18294cf58c2d919b304dc"
+    },
+    {
+      "path": "deliverables/verification/focus-restore/original-mobile.png",
+      "bytes": 352397,
+      "sha256": "169a55a7e043888c902e6d62f18c48813505b34c5c48d47098d7cf301ee2fd6b"
+    },
+    {
+      "path": "deliverables/verification/focus-restore/original-source/data.js",
+      "bytes": 3876,
+      "sha256": "844812f518196f6ca11d75b407f3d30f9676f20037a0ef3ad3a047dbeebf4b57"
+    },
+    {
+      "path": "deliverables/verification/focus-restore/original-source/main.js",
+      "bytes": 24565,
+      "sha256": "e301d5969d34ac9c3012fb86bf4bb35580c0ba9487557d5f20a3e57914c52ada"
+    },
+    {
+      "path": "deliverables/verification/focus-restore/original-source/model.js",
+      "bytes": 18996,
+      "sha256": "234bbf20983d0f3d695e6b75ca424385491d7f05d752b782cbf5318cbda3ad6c"
+    },
+    {
+      "path": "deliverables/verification/focus-restore/original-source/style.css",
+      "bytes": 24705,
+      "sha256": "874531436ffa156b232ca89766c1acfdd1f715ef22b4b2eba473cb5702a7c1cd"
+    },
+    {
+      "path": "deliverables/verification/focus-restore/restored-desktop-adapter.png",
+      "bytes": 1749459,
+      "sha256": "852a27d4c59e59be85ddc8c151c3245e5647d68c3bf464a05627540b0482ec07"
+    },
+    {
+      "path": "deliverables/verification/focus-restore/restored-desktop.png",
+      "bytes": 1905598,
+      "sha256": "524a1f678a8a30a92fcd1b85a7cb5ed5fc59d95bd5c75ba8f206651eb3cae684"
+    },
+    {
+      "path": "deliverables/verification/focus-restore/restored-drawer-760.png",
+      "bytes": 642156,
+      "sha256": "03ba5583d28a81d292777c8a62abe7360c68c58cc01259b7d773f5f926d6835c"
+    },
+    {
+      "path": "deliverables/verification/focus-restore/restored-layout.json",
+      "bytes": 1594,
+      "sha256": "7a0ee1f2dfe9746844c0522d9cc7c661b30963d1b7da41c4010298467ae87aaf"
+    },
+    {
+      "path": "deliverables/verification/focus-restore/restored-mobile-390.png",
+      "bytes": 306778,
+      "sha256": "8b697503abaefaa44d69acbfebfdbb9040ec3e362bfc97bf83a3eb27459791e8"
+    },
+    {
+      "path": "deliverables/verification/focus-restore/restored-mobile.png",
+      "bytes": 620556,
+      "sha256": "75f49dc04a3016b4ce14b1f9844ded6fb39dca13a7dccc9ca9502fd7cf70f6d4"
+    },
+    {
+      "path": "deliverables/verification/focus-restore/restored-view-channel-adapter.png",
+      "bytes": 1585896,
+      "sha256": "96424fcd3e65682981b53229e4e810d91f66da2c638c1c16a1cab456ce892d51"
+    },
+    {
+      "path": "deliverables/verification/focus-restore/restored-view-field-adapter.png",
+      "bytes": 1398738,
+      "sha256": "9e740b1b751640f314c179c51dc9265c7c4bd47faa925fcf578aeff1f63ebaa2"
+    },
+    {
+      "path": "deliverables/verification/focus-restore/restored-view-overview-adapter.png",
+      "bytes": 1317217,
+      "sha256": "f2e7873828cfe85a1798d7299f2ae2b2dc22f296e468b556fe64969b07b4c5a7"
+    },
+    {
+      "path": "deliverables/verification/focus-restore/restored-view-pond-adapter.png",
+      "bytes": 1013830,
+      "sha256": "c9f870f6080f029c4d6418ba71e17bc0e4f986acf04b7da2f52ebdd11110a25d"
+    },
+    {
+      "path": "deliverables/verification/focus-restore/restored-views-adapter.json",
+      "bytes": 4317,
+      "sha256": "59eeccc3bc32cae3b2adcd0469cb06e13450dad8dfc71d342739babbc2382c77"
+    },
+    {
+      "path": "deliverables/verification/full-area.png",
+      "bytes": 1663326,
+      "sha256": "a7050ef19012db2841e99f117dcc28d8ddaccf5ed16cab5a40147a7ff5355d21"
+    },
+    {
+      "path": "deliverables/verification/full-region/review.json",
+      "bytes": 48764,
+      "sha256": "997b7a60f9733ac08b70156489c24606c787f658d34361adf0c7d84af148b97e"
+    },
+    {
+      "path": "deliverables/verification/full-region/sat-settlement-001.png",
+      "bytes": 1635204,
+      "sha256": "31f8fd272d64061de3e60dfe567b81e9b438f8c1625c58741c14d25b6afcd703"
+    },
+    {
+      "path": "deliverables/verification/full-region/sat-settlement-002.png",
+      "bytes": 1674747,
+      "sha256": "8f68808ca5a12f0f259b19975629ab634273d4cee1fbb2ad2d3f6974e41d6a7d"
+    },
+    {
+      "path": "deliverables/verification/full-region/sat-settlement-003.png",
+      "bytes": 1734991,
+      "sha256": "b3e05c6c1fd2f1dde9ea3380b6044b3a1c1d4efc1d35ef100fb985973ec2eafe"
+    },
+    {
+      "path": "deliverables/verification/full-region/sat-settlement-004.png",
+      "bytes": 1866796,
+      "sha256": "9aed0c517e0f41fcbe2170801ed704a5236bf3661cf15cad3d5b853a75304abb"
+    },
+    {
+      "path": "deliverables/verification/full-region/sat-settlement-005.png",
+      "bytes": 1863541,
+      "sha256": "f63b1ed537f0dd49a6c14ee5bdd563090b57241caa6e54567df27eb03b041042"
+    },
+    {
+      "path": "deliverables/verification/full-region/sat-settlement-006.png",
+      "bytes": 1825573,
+      "sha256": "032e8db0b904fc7fec780ca4c5904f06e47d3b4bc2ab450e467b511f3d572c3d"
+    },
+    {
+      "path": "deliverables/verification/full-region/sat-settlement-007.png",
+      "bytes": 1732463,
+      "sha256": "bbb1fef30475de6a0c7cbbaf7336dabcd8c1003c08e89b824418837feeeade95"
+    },
+    {
+      "path": "deliverables/verification/full-region/sat-settlement-008.png",
+      "bytes": 1559304,
+      "sha256": "e2736c9c6382b123d4f1aa2864b8d80b1ff1c4edede677be37c17ed3a443cef6"
+    },
+    {
+      "path": "deliverables/verification/full-region/sat-settlement-009.png",
+      "bytes": 1803745,
+      "sha256": "7de87654951f53e27d6f0a32bffe70e4bcc07ffceedd717564343a24ee77d5f8"
+    },
+    {
+      "path": "deliverables/verification/full-region/whole-region-channel.png",
+      "bytes": 1593800,
+      "sha256": "886e47131f3da26e804acb096cd6ae381e94d3d6f157d51c0bfaa9a338117da6"
+    },
+    {
+      "path": "deliverables/verification/full-region/whole-region-default.png",
+      "bytes": 1670205,
+      "sha256": "84d6a511de0c5dc8b683996a5fb7fd77e24eae21e49ab79dc8f3cef48ba84bc9"
+    },
+    {
+      "path": "deliverables/verification/full-region/whole-region-field.png",
+      "bytes": 1607738,
+      "sha256": "54211d2062fed4faee5f932e148973976b9fc4448d1c5c20389f88b501344752"
+    },
+    {
+      "path": "deliverables/verification/full-region/whole-region-lake.png",
+      "bytes": 1908944,
+      "sha256": "826ba51b91dfec7e8138c1b13d07d862d866f218d4c3871bc3bd408c5b2af503"
+    },
+    {
+      "path": "deliverables/verification/full-region/whole-region-pond.png",
+      "bytes": 1467714,
+      "sha256": "e653860be07497df275722530c017da5a03106d39abacfeb054e9468466bf20b"
+    },
+    {
+      "path": "deliverables/verification/full-region/whole-region-return.png",
+      "bytes": 1671318,
+      "sha256": "ed8fe501c8b2a9cb382ca5bfc8367964eb1c5947c36875ad94162d610e418381"
+    },
+    {
+      "path": "deliverables/verification/full-region/whole-region-source-data.png",
+      "bytes": 1665068,
+      "sha256": "860c6f9978ff40bc4cc0d7af4d619c1719501813513b5fa9885ab450772ac863"
+    },
+    {
+      "path": "deliverables/verification/full-region-device-mesh.png",
+      "bytes": 1262732,
+      "sha256": "8936048b22f35b0b592db9102f03ed1986d7bd370d58c0446316ed2aee882a45"
+    },
+    {
+      "path": "deliverables/verification/full-scene-import.json",
+      "bytes": 1174,
+      "sha256": "5af929b0f76c01738a1506972ea4ff683745b1b4944be37253d87354a49276a0"
+    },
+    {
+      "path": "deliverables/verification/full-scene-ui-first.json",
+      "bytes": 5489,
+      "sha256": "f1656280c93da068720d05d3c22270625f49a59d24a884d385f91630f944594f"
+    },
+    {
+      "path": "deliverables/verification/full-scene-ui-first.png",
+      "bytes": 980278,
+      "sha256": "343d7cafebf252b3b638357e739ad09ec79fef7b961cecdc2cccbd49846d39ad"
+    },
+    {
+      "path": "deliverables/verification/lod-browser-performance.json",
+      "bytes": 1238,
+      "sha256": "493708dcadcaac462e4e2d8325c0054f0310953aa2c2e26e13e5ccf18cae4c3f"
+    },
+    {
+      "path": "deliverables/verification/material-export-fixed/full-camera.png",
+      "bytes": 1670909,
+      "sha256": "f06a4e21463dce66a55fad74fec3d5dddf9abe6cf0a2f6978152132790e13bd8"
+    },
+    {
+      "path": "deliverables/verification/material-export-fixed/full.png",
+      "bytes": 1291981,
+      "sha256": "ea61bb53ad033e1a6585e04e47bc5a54dbcd2dedb786a1bc06216cea719fb063"
+    },
+    {
+      "path": "deliverables/verification/material-export-fixed/preview.json",
+      "bytes": 54,
+      "sha256": "e61cb0d9aaee36b50de6dd080e6d2fea333cd5fce122f41b4712b4b6b1ab8f1c"
+    },
+    {
+      "path": "deliverables/verification/material-export-fixed/SAT-SETTLEMENT-001.png",
+      "bytes": 1635425,
+      "sha256": "d75c62b84407f405e043c8b7fdaa87221cae79d293979497b14518bb3bfbf879"
+    },
+    {
+      "path": "deliverables/verification/material-export-fixed/SAT-SETTLEMENT-007.png",
+      "bytes": 1738801,
+      "sha256": "6a781e3ad90be1452b410914a74db95c29bf93ed058ab5cd62465d97ec93fe30"
+    },
+    {
+      "path": "deliverables/verification/material-export-rejected/review.json",
+      "bytes": 45973,
+      "sha256": "dbeb9ff1183f65b386d687ad28fb17c05660c3f191da7a46e4ef9b5f4a83f929"
+    },
+    {
+      "path": "deliverables/verification/material-export-rejected/sat-settlement-001.png",
+      "bytes": 1581238,
+      "sha256": "9cf1eb2e72dab4ddfa06764f11d496556833ac2b6b5c0d9c437cd9e3b21a86f9"
+    },
+    {
+      "path": "deliverables/verification/material-export-rejected/whole-region-default.png",
+      "bytes": 1209317,
+      "sha256": "624e44cf62ad2a91615886eee8e596637c58302fbcc325cbea44077b612b777a"
+    },
+    {
+      "path": "deliverables/verification/material-fix-data-baseline.json",
+      "bytes": 680,
+      "sha256": "c410f830604e4af925ab93c4d59527fd5a467ed7e4d60074ce0ed0282c2d58b7"
+    },
+    {
+      "path": "deliverables/verification/model-correction-guard.json",
+      "bytes": 14197,
+      "sha256": "5ce3a4413e45721e47bb820dd967c8e7f0f06fbe0b21ac1aba460fc6f23c29e4"
+    },
+    {
+      "path": "deliverables/verification/model-review/default-focus.png",
+      "bytes": 1561987,
+      "sha256": "0f6cb1268fe0fb560306331a7760c3b03d332b6235605cfd0dfde3d660a94748"
+    },
+    {
+      "path": "deliverables/verification/model-review/detail-abcdef-field.png",
+      "bytes": 1508633,
+      "sha256": "8e5a0b28943859cb22225e0587d5d1d00414cb7208142242df5437ac89eb03bf"
+    },
+    {
+      "path": "deliverables/verification/model-review/detail-abcdef-overview.png",
+      "bytes": 1031930,
+      "sha256": "b7addcec5d21c53157ac6c64351e54863cba79781e1c25d532c00a0c4d7a712d"
+    },
+    {
+      "path": "deliverables/verification/model-review/detail-tanshen-field.png",
+      "bytes": 1742939,
+      "sha256": "a234cbb3c7ddbe4c0ea992b318d7a1a5fb8ae709b1af71f7796ac7b8059251bd"
+    },
+    {
+      "path": "deliverables/verification/model-review/detail-tanshen-overview.png",
+      "bytes": 1226829,
+      "sha256": "1820d3facd267ec4cfcdc102eeaebcb5856cf17d48d28dc7e195c4806c58b36c"
+    },
+    {
+      "path": "deliverables/verification/model-review/detail-xinwumao-field.png",
+      "bytes": 1893442,
+      "sha256": "15d291ffa056e2ceb181f79bbef113c20b69595a89b255a25d1180634384fca3"
+    },
+    {
+      "path": "deliverables/verification/model-review/detail-xinwumao-overview.png",
+      "bytes": 1016024,
+      "sha256": "80c24d1b56c9ac99ab7d3bcb73656250eefed789ea52204fcf5ce4bd45dffe0c"
+    },
+    {
+      "path": "deliverables/verification/model-review/detail-zhangjia-field.png",
+      "bytes": 1870103,
+      "sha256": "416be457b31b28db0d94d5a0cc59bf931490264891b79ead7f32e508d5db70ce"
+    },
+    {
+      "path": "deliverables/verification/model-review/detail-zhangjia-overview.png",
+      "bytes": 1553419,
+      "sha256": "40ee44641dced8d8f45eb6f34804e84e6d483d517fd20423dac0e51404bde3a8"
+    },
+    {
+      "path": "deliverables/verification/model-review/full-channel.png",
+      "bytes": 2115627,
+      "sha256": "5437b8e64ea3fbd9b806d7236b49f39ec63765e134c0769028dbedd4a2a7a3df"
+    },
+    {
+      "path": "deliverables/verification/model-review/full-field.png",
+      "bytes": 1479002,
+      "sha256": "6aaab3d41601deafde50fdf8b0f85f580f2f1215aa71965d58774f6cf1808315"
+    },
+    {
+      "path": "deliverables/verification/model-review/full-overview.png",
+      "bytes": 947849,
+      "sha256": "f779cf3de4d711ba2a652f949dd0cda9c22ea4f09404effe5eff7631e7827c80"
+    },
+    {
+      "path": "deliverables/verification/model-review/full-pond.png",
+      "bytes": 1572827,
+      "sha256": "1389c0433c99c0673485aad63e5afceae24ec6a39519588698b8ec96784bb410"
+    },
+    {
+      "path": "deliverables/verification/model-review/miaoxia-channel.png",
+      "bytes": 1893796,
+      "sha256": "eb7517e38454b37143c90e20ee5efc586b0b3c26e4e3d105971c069afcb6fe02"
+    },
+    {
+      "path": "deliverables/verification/model-review/miaoxia-field.png",
+      "bytes": 1825011,
+      "sha256": "d4898776bca344641bb53568b689a84c159925d54ee49338f0c0552d704024c5"
+    },
+    {
+      "path": "deliverables/verification/model-review/miaoxia-overview.png",
+      "bytes": 1247716,
+      "sha256": "a1ce5d932b01d6eb6a1c9d265f341610151a3d5c2b440b51e3dfa83483018daa"
+    },
+    {
+      "path": "deliverables/verification/model-review/miaoxia-pond.png",
+      "bytes": 1322064,
+      "sha256": "486fb032478ef029fdb51b139eff651b20682a5efae169d874bf7d119a85f1be"
+    },
+    {
+      "path": "deliverables/verification/model-review/review-views.json",
+      "bytes": 20678,
+      "sha256": "56987bfb9160ad5efd1849ae65519717b4317532431deff2ff37f36c7e2456be"
+    },
+    {
+      "path": "deliverables/verification/narrow-layout.png",
+      "bytes": 516659,
+      "sha256": "dfb4714286ebf1f42589f095ed61da09643684678e446fcd640ffeb7068cd362"
+    },
+    {
+      "path": "deliverables/verification/ontology-incoming-relation.json",
+      "bytes": 299,
+      "sha256": "b0fecd26b7c4b854754bd718c9946b3d37266bc7507288efd9db8268cd4fc916"
+    },
+    {
+      "path": "deliverables/verification/ontology-incoming-relation.png",
+      "bytes": 2144866,
+      "sha256": "9948eb51bf8989b326b5bb604fcf6161a0498348ce902ef4c60e0c5f69310976"
+    },
+    {
+      "path": "deliverables/verification/original-source-integrity.json",
+      "bytes": 1403,
+      "sha256": "aa0d7030c6ea32bcd8a88bdb55cc938b8504d4ae01ad45b405045c1a27088ab9"
+    },
+    {
+      "path": "deliverables/verification/parcel-assistant.png",
+      "bytes": 1530878,
+      "sha256": "b08e61f543aa668f760a9cc9baca9dbb0b9ad5489038aa3e2c13bc03e70a7323"
+    },
+    {
+      "path": "deliverables/verification/v06-backend-tests.log",
+      "bytes": 719,
+      "sha256": "e0bd9a93299c1b162e0d4f2922cb341887708a2a4def41c24c9156b58060fa71"
+    },
+    {
+      "path": "deliverables/verification/v06-build.log",
+      "bytes": 1237,
+      "sha256": "38c758dcc5927de779c31763e5ee4a885f32bae984eec137a668d4e060cff66a"
+    },
+    {
+      "path": "deliverables/verification/v06-database-import-before-material-fix.json",
+      "bytes": 5643,
+      "sha256": "4e1e16ced7879d962cf4d531c29fbbd5ec5882dac7896c10942b5cffcc2b33c4"
+    },
+    {
+      "path": "deliverables/verification/v06-database-import.json",
+      "bytes": 6914,
+      "sha256": "b662cf796901b110552737918bd956dd7cd4b27fd224e519526e71a5b360c94e"
+    },
+    {
+      "path": "deliverables/verification/v06-node-tests.log",
+      "bytes": 7914,
+      "sha256": "7c8e2e2a99bfcbd7e64d136fd7177df3a971e54a96a40fabed5258abc4347372"
+    },
+    {
+      "path": "deliverables/verification/v06-summary.json",
+      "bytes": 1129,
+      "sha256": "f3d83b8b0db8e30eb740f0b202a4411fc1bfad14e96e2973d9022589ca9a9cbf"
+    },
+    {
+      "path": "dist/assets/main-CZ3ezMaq.js",
+      "bytes": 79511,
+      "sha256": "9806a720f4100150615dcbe02f00f4423952a1ba2e7a9f1700ccba8af3ea8b10"
+    },
+    {
+      "path": "dist/assets/main-q-QJd5EE.css",
+      "bytes": 29292,
+      "sha256": "2b0c41d1a93620ba4ba32b3e2e6dcd829cec07615e2076887f4034a33551807b"
+    },
+    {
+      "path": "dist/assets/modulepreload-polyfill-B5Qt9EMX.js",
+      "bytes": 711,
+      "sha256": "d2a32840421496e872ade591618d2fa5c33797605d1aec04301717e5a90757d0"
+    },
+    {
+      "path": "dist/assets/overview-BcNNbCMy.js",
+      "bytes": 70520,
+      "sha256": "d53627cdbf6d606f0a63fafa0eaf57f0c147477e2e6a730fe2748e16cf84b8dc"
+    },
+    {
+      "path": "dist/assets/overview-CaPHfWHy.css",
+      "bytes": 13455,
+      "sha256": "0345590533711c7edbf2d2154a541fc68b167d8f42952f51d3a6eb4446132391"
+    },
+    {
+      "path": "dist/assets/three-6FIjAlqV.js",
+      "bytes": 638866,
+      "sha256": "da7d892e9211b4f6b27d28d5f5149b2213b4b94f3c1d4e647804237097eda3b6"
+    },
+    {
+      "path": "dist/focus/as-built.png",
+      "bytes": 3518238,
+      "sha256": "0556630145e5750d4da9af1b15f43307d1a6363eece1af7f40d7ea8ac25cdc4e"
+    },
+    {
+      "path": "dist/focus/ASSET-SOURCES.md",
+      "bytes": 1416,
+      "sha256": "c326e85bd95ec1cb9bd2fe674ad7aa817ed0d405ea9d4b136e25e7a57fe34491"
+    },
+    {
+      "path": "dist/focus/photos/channel-02.jpg",
+      "bytes": 228535,
+      "sha256": "083377f48bf2cc88a01b422e1417f2ecb0cdc8203cc5ec4b5d6284cff6e296a5"
+    },
+    {
+      "path": "dist/focus/photos/field-01.jpg",
+      "bytes": 311355,
+      "sha256": "688df18a918675f3d5fba261f7bd3ae28beadc72cd1e0638066195b4ff25bbfd"
+    },
+    {
+      "path": "dist/focus/photos/field-03.jpg",
+      "bytes": 227403,
+      "sha256": "853ed2ed611a6c03125f68984453f0d79dee94cfdc7fa92f928e6d88cc153f94"
+    },
+    {
+      "path": "dist/focus/photos/pond-05.jpg",
+      "bytes": 218932,
+      "sha256": "03554208530b095da9b36c6b5ac4e4a2cd747d31286f04799c86d13bee30031c"
+    },
+    {
+      "path": "dist/focus/photos/road-04.jpg",
+      "bytes": 248337,
+      "sha256": "abbdce4c048d3857a8d4c7cedd399cb49ae29b01cffc07f20795811e8cfd39d9"
+    },
+    {
+      "path": "dist/focus/textures/concrete-diff.jpg",
+      "bytes": 776097,
+      "sha256": "6db84a6d87dc50508b9d134d6fbd2b7e876b8081a5f43a118a249ca18de73af5"
+    },
+    {
+      "path": "dist/focus/textures/concrete-nor_gl.jpg",
+      "bytes": 192757,
+      "sha256": "fcda391b57a816d646ae15544688be53790478da5cd48dbe514b3c6901415e61"
+    },
+    {
+      "path": "dist/focus/textures/concrete-rough.jpg",
+      "bytes": 318550,
+      "sha256": "c7f026a611b7859903c61ec7fd4574944157223e9e7796413dd6e2a66eaeac7a"
+    },
+    {
+      "path": "dist/focus/textures/daylight-sky.hdr",
+      "bytes": 1173154,
+      "sha256": "206c67e3a1b992282821cf06662bdd69bbb4915c1c4444a66338a40d6a7d4e34"
+    },
+    {
+      "path": "dist/focus/textures/foliage/branch_diff.jpg",
+      "bytes": 449977,
+      "sha256": "a71b768e330c0c6cca097e30314f6b4e842ef724a1370f6aab14b4434eec64cb"
+    },
+    {
+      "path": "dist/focus/textures/foliage/leaves_alpha.png",
+      "bytes": 264711,
+      "sha256": "4f143e2dda8a6a572f427ac378b92255d21761e4611de0d26e21816c01aa533b"
+    },
+    {
+      "path": "dist/focus/textures/foliage/leaves_diff.png",
+      "bytes": 2338424,
+      "sha256": "d3fc48522c76aa1f91076c6b86f302669822ebe4e2acabd67d42c4d57eaa5ba0"
+    },
+    {
+      "path": "dist/focus/textures/foliage/leaves_nor_gl.jpg",
+      "bytes": 681604,
+      "sha256": "8c72e04fb23e16ae1df79c01385a638473d1dd4dede3d51e83d70153c129f09b"
+    },
+    {
+      "path": "dist/focus/textures/foliage/source-manifest.json",
+      "bytes": 2240,
+      "sha256": "2988ecaa3e0dd59a24e7483ef49002abe655b375ff8307bc488ef164853a8cf3"
+    },
+    {
+      "path": "dist/focus/textures/grass-diff.jpg",
+      "bytes": 666655,
+      "sha256": "57b8041bfe0d0f01430e4dbaad45e7ddddf0a9fc97317f90dbc51f7b0d9e1b5d"
+    },
+    {
+      "path": "dist/focus/textures/grass-nor_gl.jpg",
+      "bytes": 904956,
+      "sha256": "1aa3e23bff453f152e089b9f83aa36b4901651e019f7e2ca01d5331a9bbbda78"
+    },
+    {
+      "path": "dist/focus/textures/grass-rough.jpg",
+      "bytes": 362214,
+      "sha256": "b9f3f76aba74007f708333c0dbe73c52eb83ea0c4187a13e2e994f888a25114a"
+    },
+    {
+      "path": "dist/focus/textures/gravel-diff.jpg",
+      "bytes": 1327302,
+      "sha256": "4e6ff82988506676cfd8a79ac3e2964af239764c0064d4566040167704c4838d"
+    },
+    {
+      "path": "dist/focus/textures/gravel-nor_gl.jpg",
+      "bytes": 1538430,
+      "sha256": "a3544e4aa7612a0bf0ea4890093b60c9f360234855d389bb9d408d29b90a7131"
+    },
+    {
+      "path": "dist/focus/textures/gravel-rough.jpg",
+      "bytes": 697340,
+      "sha256": "acf3c8607bcf943ac9f9871e4f57961ce46ea0635232d78af68eebbbf5f62b4b"
+    },
+    {
+      "path": "dist/focus/textures/soil-diff.jpg",
+      "bytes": 920456,
+      "sha256": "a56281b644de614787340f3db45e28d2f72ec32fc19a442f99002bae0ab11398"
+    },
+    {
+      "path": "dist/focus/textures/soil-nor_gl.jpg",
+      "bytes": 1539092,
+      "sha256": "4dd82ecb3e810d4de49d34c7d6cc30152129434a58b3bd786bc9952bc8874877"
+    },
+    {
+      "path": "dist/focus/textures/soil-rough.jpg",
+      "bytes": 390385,
+      "sha256": "31fb99629f533924b1150a7dac8d9432de85450bb45cda5033e3eb723f8dda04"
+    },
+    {
+      "path": "dist/focus/textures/water-normal.jpg",
+      "bytes": 248813,
+      "sha256": "add9912b158a4fe9c12421745babe68c44c8af75631ac4837236cb2a03bc373f"
+    },
+    {
+      "path": "dist/index.html",
+      "bytes": 721,
+      "sha256": "d6ce2365162f563649a8bdf6c006367afb6f763e29fd95e54be39c5730f43a3d"
+    },
+    {
+      "path": "dist/models/detail-abcdef.glb",
+      "bytes": 61436736,
+      "sha256": "d06b0a95d8ac6abec09e985aa4d1f35cb25c36b4a033a219ef04d1946279a8fe"
+    },
+    {
+      "path": "dist/models/detail-miaoxia.glb",
+      "bytes": 42389396,
+      "sha256": "c7d5b4528132599ba3a957241dd56ff8526195595669a6335414550353337446"
+    },
+    {
+      "path": "dist/models/detail-tanshen.glb",
+      "bytes": 24719184,
+      "sha256": "4ed5cebfeeba9871846ca2b55e2370f93e3697494255f5384aca65a0e96f8e1d"
+    },
+    {
+      "path": "dist/models/detail-xinwumao.glb",
+      "bytes": 32944788,
+      "sha256": "10e26a69efc9b939e400c7379a0986d4a734c5ab1dd71acb697971a4f802c254"
+    },
+    {
+      "path": "dist/models/detail-zhangjia.glb",
+      "bytes": 25139844,
+      "sha256": "5e0c8b53c5c793cea79e349bf338bec152bb8354612c37744a492e1f71b62af1"
+    },
+    {
+      "path": "dist/models/full-area-lod.glb",
+      "bytes": 22646908,
+      "sha256": "152aed86cef8b9431e410c071a9203f315d12e4be12b5a49772293e1b87d23f4"
+    },
+    {
+      "path": "dist/models/full-area.glb",
+      "bytes": 135574212,
+      "sha256": "f842c8c148a17cbc76c8d21c505830909f914ffcf032d71025e68e01880a42c6"
+    },
+    {
+      "path": "dist/models/manifest.json",
+      "bytes": 2003609,
+      "sha256": "2fc32f4cba5ef33e68eefa16e3d9ec41f8374f29ecfbdbd8f2ce68227d39c673"
+    },
+    {
+      "path": "dist/models/parcels.local.json",
+      "bytes": 69755,
+      "sha256": "9b902967009909160510943ec8d88128a85420072c2f044e7535754462b4b6b6"
+    },
+    {
+      "path": "dist/models/tongtiehai-farm-v01.glb",
+      "bytes": 7604492,
+      "sha256": "728a51b9cc78f760ee30eb754e692d22d110425de162290be1d8c0bab1a93f53"
+    },
+    {
+      "path": "dist/overview-v01.html",
+      "bytes": 717,
+      "sha256": "c0ec9270c38eb3531e92fa4ce51bc14c05b46f4b47f7c7acfde08253fdd72975"
+    },
+    {
+      "path": "dist/references/plan.jpg",
+      "bytes": 689461,
+      "sha256": "a63de271e9cfb18b46445c7213fd4967bd304864621ff3374dd11a4440c9fd6e"
+    },
+    {
+      "path": "dist/references/satellite.png",
+      "bytes": 6463123,
+      "sha256": "99217e959c5e448d376ff448c4ce00c6abd4065a1243ccbb0af9e2403b22189a"
+    },
+    {
+      "path": "docs/acceptance-v03.md",
+      "bytes": 5796,
+      "sha256": "8856aa9948792574aa612139bc770cb29cc7f78ad56ab175314fd0e7bf8fbb60"
+    },
+    {
+      "path": "docs/acceptance-v04-rejected.md",
+      "bytes": 7883,
+      "sha256": "8a5a9fb2969835dd758093c447a00b1837adfbfd183603f7b62cba099cc3ebf9"
+    },
+    {
+      "path": "docs/acceptance-v05-rejected.md",
+      "bytes": 6851,
+      "sha256": "5e7cc21926d3e208a631dc7d884d363c76ab4ac6d4a8e5588518783e085a34ac"
+    },
+    {
+      "path": "docs/acceptance.md",
+      "bytes": 8952,
+      "sha256": "60cdaa3da344f6e085d472d6cb33422bf15d0bb797282317f1d41e86a249ff21"
+    },
+    {
+      "path": "docs/audit/backend-verification.json",
+      "bytes": 6818,
+      "sha256": "5ae03a9e4bdb657e6cf9c672dc85074b889ef0c870f8e320ab135291762c26d1"
+    },
+    {
+      "path": "docs/audit/correction-code-review.md",
+      "bytes": 5674,
+      "sha256": "334e878798c5409fd7c8c81a89c078027370e7aeddd1585711c2733c9c9dd4d6"
+    },
+    {
+      "path": "docs/audit/drawing-spatial-audit.md",
+      "bytes": 5547,
+      "sha256": "4e133b6007d0bf64b32523801acf7f10d1172ae7d296a4585bdbcecea4243d96"
+    },
+    {
+      "path": "docs/audit/final-review-v03.md",
+      "bytes": 8379,
+      "sha256": "a3e1628eb6607f17977c5ff0c09f79c4baa7801c110f5d1a7af807ef9e6737fb"
+    },
+    {
+      "path": "docs/audit/final-review.md",
+      "bytes": 3146,
+      "sha256": "8c85e7331c2b2fcdee9dafbaa2ee86523976f5fbea9a390acd38da12fde4bae8"
+    },
+    {
+      "path": "docs/audit/focus-restoration-adapter.md",
+      "bytes": 4830,
+      "sha256": "d42a18534e54f7542dcc9adc9a1e0aad45234c392afbbfe3095cea10506c116f"
+    },
+    {
+      "path": "docs/audit/full-region-enrichment-review.md",
+      "bytes": 12500,
+      "sha256": "f62ccdf648020b3bff1f544d09ef74c0f096856b4db6b7f474d263b168df28cd"
+    },
+    {
+      "path": "docs/audit/local-model-assets.json",
+      "bytes": 1766,
+      "sha256": "0930c3f9b1a0ac437abf02d48323c1b6e42a73edaa24224873c4903f78de5c0a"
+    },
+    {
+      "path": "docs/audit/local-model-raw-limitations.json",
+      "bytes": 996,
+      "sha256": "77c0424ab4dd2933cd09a82e0cacdff36041933b8808f3b737682c8a63f37d97"
+    },
+    {
+      "path": "docs/audit/local-model-verification-ready.json",
+      "bytes": 31459,
+      "sha256": "296b98236823133b5a9f376c694c404a0fa000a79155090c8c00bacb0adbe2db"
+    },
+    {
+      "path": "docs/audit/local-model-verification.json",
+      "bytes": 30893,
+      "sha256": "eb9539de2fb91e193dd44134ddbca4814bf5211d2a51ea3830b15d2969b6ffd8"
+    },
+    {
+      "path": "docs/audit/model-correction-criteria.md",
+      "bytes": 10937,
+      "sha256": "bf865ad8a0ac08fbac1bd46bc0b6b1e9c17bb37da9ef1f385eb3a4291b5569ac"
+    },
+    {
+      "path": "docs/audit/model-correction-review.md",
+      "bytes": 7796,
+      "sha256": "4d0ad180afadd0ee66ba7706e5f4f72dd148060e7f05308e038abb0ffa599c39"
+    },
+    {
+      "path": "docs/audit/model-scope-regression.json",
+      "bytes": 1195,
+      "sha256": "b40370d1c9cab2ef3bed6483ed76189918da5554fad0a0d092cf3b46fe88e8f5"
+    },
+    {
+      "path": "docs/audit/ontology-audit.md",
+      "bytes": 10186,
+      "sha256": "8d89179d29564db66c306e6577c4dccd69beca75c7ba4aa77a5766c01f0cbb07"
+    },
+    {
+      "path": "docs/audit/ontology-source-review.json",
+      "bytes": 4984,
+      "sha256": "e0ba1642df5e0cada47b6fd1ecaafa97de9a369bc4940f4af5f9a4e2233fe109"
+    },
+    {
+      "path": "docs/audit/release-review-v04.md",
+      "bytes": 16241,
+      "sha256": "a2545b25abc234b1d9adb3b35001b1d3941d61370341b7f8f90aaa4a82094b30"
+    },
+    {
+      "path": "docs/audit/source-audit.md",
+      "bytes": 12397,
+      "sha256": "57ad716473c3c8e5dc07964c6305d6ff3484bd16457959c31e5fa78152908f32"
+    },
+    {
+      "path": "docs/backend-full-scene.md",
+      "bytes": 6825,
+      "sha256": "b2a276e5a6a11c0d186c3fb72df35502717d4f4ba34943faff594dcfdc3bb165"
+    },
+    {
+      "path": "docs/backend-operations.md",
+      "bytes": 15518,
+      "sha256": "e5371761a74a2e2d91317ffe69c22b5cceb73b5addc8f006c9d80990fb2ec0ae"
+    },
+    {
+      "path": "docs/data-gaps.md",
+      "bytes": 3220,
+      "sha256": "2e1bc7463fb7948489f0ce56cf52420bf9a94a620d3ff3c18a2b32dfecb389b2"
+    },
+    {
+      "path": "docs/model-expansion-plan.md",
+      "bytes": 2294,
+      "sha256": "72324c599dad71b607febf53d9b127f1244ac47959cc087cee3089b4864bdc07"
+    },
+    {
+      "path": "docs/model-methodology.md",
+      "bytes": 9736,
+      "sha256": "d236b5bab379fafe86d963e9e67830a7a2753ee0ef0d4d4f4dc3057db1f0797c"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-10-29-farm-twin.md",
+      "bytes": 3447,
+      "sha256": "cde9f250f8bbaa446f7a663e6a6561eee1fac01512eb59b45efe1b4d94c6e054"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-10-29-full-region.md",
+      "bytes": 3550,
+      "sha256": "4ce60965295cb2162b357815d9da61c0ef79e6ce454bf33a4b4e9d413231b7df"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-10-29-model-ui-correction.md",
+      "bytes": 3053,
+      "sha256": "011338832ff7793b309a705595ceed0b8cf9320411d35b8f14bd2246a50d3b54"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-10-29-farm-twin-design.md",
+      "bytes": 2250,
+      "sha256": "7f9c47b1a75060148cce089f31be51a69e27001cf969f610fa253b7d03aaf50c"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-10-29-full-region-design.md",
+      "bytes": 2991,
+      "sha256": "f75590be4a3778ebbeb72fb7457213b016a6e1c99ca1a265a10e6b4978b07665"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-10-29-model-ui-correction.md",
+      "bytes": 2165,
+      "sha256": "12956f605c5fc762302be9ba1a11e65e17fbb64403380d2496d890301cae7bf4"
+    },
+    {
+      "path": "docs/user-guide.md",
+      "bytes": 4934,
+      "sha256": "fac70f5b000ec8bc9c60d03f77fc2ca6a7a65bd0dbc43c6c3bb2236f2a505379"
+    },
+    {
+      "path": "index.html",
+      "bytes": 464,
+      "sha256": "e5a863f1d45cd00523decf1724e76e64ae9cbd11d0bd4de2d93be4b8b8b428dc"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 46435,
+      "sha256": "8e0b22794ab8c2bdfd15f645b9a7d4cb7d03911646fb272e2ee15e6ac4b65023"
+    },
+    {
+      "path": "package.json",
+      "bytes": 659,
+      "sha256": "8c6d567862dc3d1d5caca888e43d17b5a72876a45231a105a960e83c42817a49"
+    },
+    {
+      "path": "playwright.config.js",
+      "bytes": 439,
+      "sha256": "d588f5182176ca56906394d846da682d88fa85b107af8734396816e834a1c058"
+    },
+    {
+      "path": "public/focus/as-built.png",
+      "bytes": 3518238,
+      "sha256": "0556630145e5750d4da9af1b15f43307d1a6363eece1af7f40d7ea8ac25cdc4e"
+    },
+    {
+      "path": "public/focus/ASSET-SOURCES.md",
+      "bytes": 1416,
+      "sha256": "c326e85bd95ec1cb9bd2fe674ad7aa817ed0d405ea9d4b136e25e7a57fe34491"
+    },
+    {
+      "path": "public/focus/photos/channel-02.jpg",
+      "bytes": 228535,
+      "sha256": "083377f48bf2cc88a01b422e1417f2ecb0cdc8203cc5ec4b5d6284cff6e296a5"
+    },
+    {
+      "path": "public/focus/photos/field-01.jpg",
+      "bytes": 311355,
+      "sha256": "688df18a918675f3d5fba261f7bd3ae28beadc72cd1e0638066195b4ff25bbfd"
+    },
+    {
+      "path": "public/focus/photos/field-03.jpg",
+      "bytes": 227403,
+      "sha256": "853ed2ed611a6c03125f68984453f0d79dee94cfdc7fa92f928e6d88cc153f94"
+    },
+    {
+      "path": "public/focus/photos/pond-05.jpg",
+      "bytes": 218932,
+      "sha256": "03554208530b095da9b36c6b5ac4e4a2cd747d31286f04799c86d13bee30031c"
+    },
+    {
+      "path": "public/focus/photos/road-04.jpg",
+      "bytes": 248337,
+      "sha256": "abbdce4c048d3857a8d4c7cedd399cb49ae29b01cffc07f20795811e8cfd39d9"
+    },
+    {
+      "path": "public/focus/textures/concrete-diff.jpg",
+      "bytes": 776097,
+      "sha256": "6db84a6d87dc50508b9d134d6fbd2b7e876b8081a5f43a118a249ca18de73af5"
+    },
+    {
+      "path": "public/focus/textures/concrete-nor_gl.jpg",
+      "bytes": 192757,
+      "sha256": "fcda391b57a816d646ae15544688be53790478da5cd48dbe514b3c6901415e61"
+    },
+    {
+      "path": "public/focus/textures/concrete-rough.jpg",
+      "bytes": 318550,
+      "sha256": "c7f026a611b7859903c61ec7fd4574944157223e9e7796413dd6e2a66eaeac7a"
+    },
+    {
+      "path": "public/focus/textures/daylight-sky.hdr",
+      "bytes": 1173154,
+      "sha256": "206c67e3a1b992282821cf06662bdd69bbb4915c1c4444a66338a40d6a7d4e34"
+    },
+    {
+      "path": "public/focus/textures/foliage/branch_diff.jpg",
+      "bytes": 449977,
+      "sha256": "a71b768e330c0c6cca097e30314f6b4e842ef724a1370f6aab14b4434eec64cb"
+    },
+    {
+      "path": "public/focus/textures/foliage/leaves_alpha.png",
+      "bytes": 264711,
+      "sha256": "4f143e2dda8a6a572f427ac378b92255d21761e4611de0d26e21816c01aa533b"
+    },
+    {
+      "path": "public/focus/textures/foliage/leaves_diff.png",
+      "bytes": 2338424,
+      "sha256": "d3fc48522c76aa1f91076c6b86f302669822ebe4e2acabd67d42c4d57eaa5ba0"
+    },
+    {
+      "path": "public/focus/textures/foliage/leaves_nor_gl.jpg",
+      "bytes": 681604,
+      "sha256": "8c72e04fb23e16ae1df79c01385a638473d1dd4dede3d51e83d70153c129f09b"
+    },
+    {
+      "path": "public/focus/textures/foliage/source-manifest.json",
+      "bytes": 2240,
+      "sha256": "2988ecaa3e0dd59a24e7483ef49002abe655b375ff8307bc488ef164853a8cf3"
+    },
+    {
+      "path": "public/focus/textures/grass-diff.jpg",
+      "bytes": 666655,
+      "sha256": "57b8041bfe0d0f01430e4dbaad45e7ddddf0a9fc97317f90dbc51f7b0d9e1b5d"
+    },
+    {
+      "path": "public/focus/textures/grass-nor_gl.jpg",
+      "bytes": 904956,
+      "sha256": "1aa3e23bff453f152e089b9f83aa36b4901651e019f7e2ca01d5331a9bbbda78"
+    },
+    {
+      "path": "public/focus/textures/grass-rough.jpg",
+      "bytes": 362214,
+      "sha256": "b9f3f76aba74007f708333c0dbe73c52eb83ea0c4187a13e2e994f888a25114a"
+    },
+    {
+      "path": "public/focus/textures/gravel-diff.jpg",
+      "bytes": 1327302,
+      "sha256": "4e6ff82988506676cfd8a79ac3e2964af239764c0064d4566040167704c4838d"
+    },
+    {
+      "path": "public/focus/textures/gravel-nor_gl.jpg",
+      "bytes": 1538430,
+      "sha256": "a3544e4aa7612a0bf0ea4890093b60c9f360234855d389bb9d408d29b90a7131"
+    },
+    {
+      "path": "public/focus/textures/gravel-rough.jpg",
+      "bytes": 697340,
+      "sha256": "acf3c8607bcf943ac9f9871e4f57961ce46ea0635232d78af68eebbbf5f62b4b"
+    },
+    {
+      "path": "public/focus/textures/soil-diff.jpg",
+      "bytes": 920456,
+      "sha256": "a56281b644de614787340f3db45e28d2f72ec32fc19a442f99002bae0ab11398"
+    },
+    {
+      "path": "public/focus/textures/soil-nor_gl.jpg",
+      "bytes": 1539092,
+      "sha256": "4dd82ecb3e810d4de49d34c7d6cc30152129434a58b3bd786bc9952bc8874877"
+    },
+    {
+      "path": "public/focus/textures/soil-rough.jpg",
+      "bytes": 390385,
+      "sha256": "31fb99629f533924b1150a7dac8d9432de85450bb45cda5033e3eb723f8dda04"
+    },
+    {
+      "path": "public/focus/textures/water-normal.jpg",
+      "bytes": 248813,
+      "sha256": "add9912b158a4fe9c12421745babe68c44c8af75631ac4837236cb2a03bc373f"
+    },
+    {
+      "path": "public/models/detail-abcdef.glb",
+      "bytes": 61436736,
+      "sha256": "d06b0a95d8ac6abec09e985aa4d1f35cb25c36b4a033a219ef04d1946279a8fe"
+    },
+    {
+      "path": "public/models/detail-miaoxia.glb",
+      "bytes": 42389396,
+      "sha256": "c7d5b4528132599ba3a957241dd56ff8526195595669a6335414550353337446"
+    },
+    {
+      "path": "public/models/detail-tanshen.glb",
+      "bytes": 24719184,
+      "sha256": "4ed5cebfeeba9871846ca2b55e2370f93e3697494255f5384aca65a0e96f8e1d"
+    },
+    {
+      "path": "public/models/detail-xinwumao.glb",
+      "bytes": 32944788,
+      "sha256": "10e26a69efc9b939e400c7379a0986d4a734c5ab1dd71acb697971a4f802c254"
+    },
+    {
+      "path": "public/models/detail-zhangjia.glb",
+      "bytes": 25139844,
+      "sha256": "5e0c8b53c5c793cea79e349bf338bec152bb8354612c37744a492e1f71b62af1"
+    },
+    {
+      "path": "public/models/full-area-lod.glb",
+      "bytes": 22646908,
+      "sha256": "152aed86cef8b9431e410c071a9203f315d12e4be12b5a49772293e1b87d23f4"
+    },
+    {
+      "path": "public/models/full-area.glb",
+      "bytes": 135574212,
+      "sha256": "f842c8c148a17cbc76c8d21c505830909f914ffcf032d71025e68e01880a42c6"
+    },
+    {
+      "path": "public/models/manifest.json",
+      "bytes": 2003609,
+      "sha256": "2fc32f4cba5ef33e68eefa16e3d9ec41f8374f29ecfbdbd8f2ce68227d39c673"
+    },
+    {
+      "path": "public/models/parcels.local.json",
+      "bytes": 69755,
+      "sha256": "9b902967009909160510943ec8d88128a85420072c2f044e7535754462b4b6b6"
+    },
+    {
+      "path": "public/models/tongtiehai-farm-v01.glb",
+      "bytes": 7604492,
+      "sha256": "728a51b9cc78f760ee30eb754e692d22d110425de162290be1d8c0bab1a93f53"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6876,
+      "sha256": "75d139a58bba584e5061482afaaf9129685386fd9bff25d37905de3c980aea2f"
+    },
+    {
+      "path": "requirements-audit.txt",
+      "bytes": 41,
+      "sha256": "1cee3b6ae46bbbf558161fcb462e3170794551f06a15e7028fc5895fbb7ea61b"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 112,
+      "sha256": "8600eee89490d6a3c10378b4049e7ae44572eeabd9746e27100d6ec5e3c72378"
+    },
+    {
+      "path": "scripts/audit_drawing_geometry.py",
+      "bytes": 8429,
+      "sha256": "134730b5530934e219780a24806d4c6617d3263d0524c7976b9d924775a03be7"
+    },
+    {
+      "path": "scripts/audit_facility_annotations.py",
+      "bytes": 1117,
+      "sha256": "6c8d46a31e77678e1e72358fb28788710154f1ff907d06c6ea1a66cd6ad3636d"
+    },
+    {
+      "path": "scripts/audit_facility_geometry.py",
+      "bytes": 16138,
+      "sha256": "60026e9c41d5861a485cbcd2d371d3b61cb7c7c62cadfca5ba047b1e74b0934a"
+    },
+    {
+      "path": "scripts/audit_ledger.py",
+      "bytes": 5843,
+      "sha256": "82d289d68e61b35cbf1a4ff75ff50e8abedbe4481664781026b0c3445ea7c560"
+    },
+    {
+      "path": "scripts/audit_match_vectors.py",
+      "bytes": 1078,
+      "sha256": "c00ab1a2cb45adc3062804fc7a8ccf38af88b3ba3fd9b86259722c5c23486423"
+    },
+    {
+      "path": "scripts/audit_pdf_vectors.py",
+      "bytes": 2700,
+      "sha256": "f024e7eeeb09154b714e8963986a8ae03bf45221ed099071799ca07faeebe9e6"
+    },
+    {
+      "path": "scripts/audit_render_drawings.py",
+      "bytes": 941,
+      "sha256": "570ff2bfedf97c7ad60e43a76bbd0f6bcc3cbc3aa73074c81184f26061b1e84f"
+    },
+    {
+      "path": "scripts/audit_sources.py",
+      "bytes": 4616,
+      "sha256": "22a0863f059cdde2563fa9ba53fb9d307675069d3ea70fa984d03984d8090c0b"
+    },
+    {
+      "path": "scripts/blender-requirements.txt",
+      "bytes": 94,
+      "sha256": "3b6a200f7a19e811d7ad36c06859e226f33e2dfbc73da1cf8cae98963da6a0cd"
+    },
+    {
+      "path": "scripts/blender_build.py",
+      "bytes": 34400,
+      "sha256": "857e64e7ec9ad4af26957e6ee7805610dd6cdb9324d3cc449a0b5624d5d57271"
+    },
+    {
+      "path": "scripts/blender_drawing_verify.py",
+      "bytes": 5403,
+      "sha256": "081795d17800775bb0e41199216c148ba3a72703ef05e6b1f6f11024e541adb9"
+    },
+    {
+      "path": "scripts/blender_drawings.py",
+      "bytes": 16227,
+      "sha256": "8ad2b9cb011c0a7c3c0c81a9a8389dc0459cf28420c7e789b8f3538c2802587e"
+    },
+    {
+      "path": "scripts/blender_finalize_v06.py",
+      "bytes": 1100,
+      "sha256": "93cf62d38a0724b2cee30d92ec57859dd6fd35531e84a14902cd073dd3a9a624"
+    },
+    {
+      "path": "scripts/blender_full_region.py",
+      "bytes": 50333,
+      "sha256": "979eb9b7d67a51b3f8abe34614d74d89e4af1dbe78369f754fe154eae6b2e937"
+    },
+    {
+      "path": "scripts/blender_full_region_verify.py",
+      "bytes": 4023,
+      "sha256": "348d9df287f2aa1486d8e42e053b7b1ac5dcf4467a1d33df32cf1feab2e9aef9"
+    },
+    {
+      "path": "scripts/blender_full_scene_verify.py",
+      "bytes": 3602,
+      "sha256": "884ad3caeafdf7021c0fa45e2e96c398b1467f137faebd95703aa85e29ac332a"
+    },
+    {
+      "path": "scripts/blender_material_repair.py",
+      "bytes": 4198,
+      "sha256": "5b4f2c23e502094215b0ef45b2ffbb57d1ce22f2dbfbbae2c4ce253446f08e50"
+    },
+    {
+      "path": "scripts/blender_material_verify.py",
+      "bytes": 3354,
+      "sha256": "8129342288bab1805eaf07a253f477beed07f97b2c35d33f043c363bfabb03a4"
+    },
+    {
+      "path": "scripts/blender_preview_full.py",
+      "bytes": 573,
+      "sha256": "d4327a4d5248e938568aabffb6da19f897dca3d15d4e1ce7e3465b939833fc41"
+    },
+    {
+      "path": "scripts/blender_probe.py",
+      "bytes": 614,
+      "sha256": "7a9c50272a92b4dca28053b0d226ee042cb80003e84c03bafb0ad44695cae3d1"
+    },
+    {
+      "path": "scripts/blender_review_sections.py",
+      "bytes": 3540,
+      "sha256": "e479961421209cb97971c9005d817be06bf36df6847a3412cee764396741d3e6"
+    },
+    {
+      "path": "scripts/blender_scene_verify.py",
+      "bytes": 4917,
+      "sha256": "12492a87ee6988fc1b24c98eed0708a7c94f36aea0c6aa1b5338ceb2ca74d0ed"
+    },
+    {
+      "path": "scripts/blender_traces.py",
+      "bytes": 13490,
+      "sha256": "93576ad66d737965019bd86f82ae41c7e5a29cfdbd91bdb609fecc6d7f930075"
+    },
+    {
+      "path": "scripts/blender_verify.py",
+      "bytes": 3137,
+      "sha256": "598275c167cb5d4f2ac093818ae8d837642bb7717f4fe80dd1f7068ba2c7cfac"
+    },
+    {
+      "path": "scripts/blender_volume.py",
+      "bytes": 30987,
+      "sha256": "dca8b00d83d2d41103e972743e77878ffeec276a87488d8ea2096c1aaf268ce5"
+    },
+    {
+      "path": "scripts/blender_volume_sample.py",
+      "bytes": 2210,
+      "sha256": "97ef5d99983bd5e3b19ae56c5cebc0cd7aa91e0c701b9383a22c1a608e51b8ce"
+    },
+    {
+      "path": "scripts/browser-full-region-review.mjs",
+      "bytes": 4504,
+      "sha256": "889ab9e7a17db1928e80fb014a0a868682e0f31f69ab083ab3691e3eb37998f7"
+    },
+    {
+      "path": "scripts/browser-model-review.mjs",
+      "bytes": 3549,
+      "sha256": "b2f1a555e610f2a76104ab3102131ab383a6be7e0951963888c86fc96b2f3857"
+    },
+    {
+      "path": "scripts/browser-smoke.mjs",
+      "bytes": 837,
+      "sha256": "ea1c76f7b3c08570d209f05fa33b61c30ccf6e2886f4286e9341d6de5984a7fc"
+    },
+    {
+      "path": "scripts/configure_local_model.py",
+      "bytes": 879,
+      "sha256": "91e2f97de3bf66cf32db58f1124c1627f5acf2ef15892f0dd72e2ac8d8ee4032"
+    },
+    {
+      "path": "scripts/db_backup.py",
+      "bytes": 589,
+      "sha256": "a09022c74089c4453e6ed35c144d16125421daae3ecdb67b2bf3f3a77d31e91b"
+    },
+    {
+      "path": "scripts/db_export.py",
+      "bytes": 603,
+      "sha256": "a38dfdb3b8e72eb8c1addb6e172752844644d0ce55da018e15022cfe4abbb49a"
+    },
+    {
+      "path": "scripts/db_import_api.py",
+      "bytes": 1594,
+      "sha256": "4ff9f146842368e52bedd403ab4533e872a8973e0680ef3829a0990417013b29"
+    },
+    {
+      "path": "scripts/db_init.py",
+      "bytes": 644,
+      "sha256": "a24883a77cd36bb35e33bd60cd305f692149e7ebe56cf27e9c30279682c84f2a"
+    },
+    {
+      "path": "scripts/db_migrate.py",
+      "bytes": 865,
+      "sha256": "4a72dbd130be927425ac5f03cd16e7cd6424b4eaa60a6d10d3c2da5d3ca0f861"
+    },
+    {
+      "path": "scripts/db_refresh_scenario.py",
+      "bytes": 2092,
+      "sha256": "31f50c155a0349decfee07a96f8b48cdf74dd40a4f7e3ee968b71909eebf2629"
+    },
+    {
+      "path": "scripts/db_restore.py",
+      "bytes": 1027,
+      "sha256": "68adf21dcda565103207bfe5d44ba404bf7ceb145ac8f119e663ff24ae4fef20"
+    },
+    {
+      "path": "scripts/db_restore_spatial.py",
+      "bytes": 538,
+      "sha256": "3a60ed32e075853a1b0c040ba87cba355e512e70da8425ae9d62f0f564b863d8"
+    },
+    {
+      "path": "scripts/db_retire_spatial.py",
+      "bytes": 650,
+      "sha256": "86afd29fedd19c5ca7713dfe07253246f1fcb74cba2838d38c93a8b7643170f0"
+    },
+    {
+      "path": "scripts/db_verify_deployment.py",
+      "bytes": 5516,
+      "sha256": "fd7f3f5d6583ca6cd0edaeba9e6e641500b805dcf05d5e88e02923737ae117ed"
+    },
+    {
+      "path": "scripts/deploy_backend.ps1",
+      "bytes": 1329,
+      "sha256": "91472e6cd83b70391a948dc7244639fcdfed26d5ef1acf3767be71684da80420"
+    },
+    {
+      "path": "scripts/export-model.mjs",
+      "bytes": 1879,
+      "sha256": "e97a2bee8c4b5db8a4f660134c98db0a9299ee4be79b9d15155467ae79ff0e87"
+    },
+    {
+      "path": "scripts/setup_local_model.py",
+      "bytes": 4293,
+      "sha256": "53f96e4423bac1e5a790f04a7f4b3df446aedd983f6d9ac275b6f3f7d09d47ee"
+    },
+    {
+      "path": "scripts/start-local-model.ps1",
+      "bytes": 1841,
+      "sha256": "cd2034555d754c521d9c807f1e532476b25e3105b0c367d5fd058711aa8fec12"
+    },
+    {
+      "path": "scripts/start.ps1",
+      "bytes": 2976,
+      "sha256": "9dcc61c893853f0a76274fe5ee1609be5cd91572499c3fe4103e9c17755508d6"
+    },
+    {
+      "path": "scripts/verification_manifest.py",
+      "bytes": 1438,
+      "sha256": "e683cf5fab3bd02c1d6b0606ea3210557327eff7c848cf3c11ebbfe38c85c489"
+    },
+    {
+      "path": "scripts/verification_summary.py",
+      "bytes": 3584,
+      "sha256": "3ca259868650b7fa56e4e8254775a52b71f311aba17d92dcd050fd828922bf93"
+    },
+    {
+      "path": "scripts/verify_backup_restore.py",
+      "bytes": 4313,
+      "sha256": "943cf9dedc589bcb116f8b22e7c5668eccaf056b486e893176e52f0cdd00fdce"
+    },
+    {
+      "path": "scripts/verify_knowledge_sources.py",
+      "bytes": 1290,
+      "sha256": "4fc2efc301206623eeda614b8e1db1144fda3c1b9455028866e9e40a26590911"
+    },
+    {
+      "path": "scripts/verify_local_model.py",
+      "bytes": 3539,
+      "sha256": "d7c258e3bcb0e22371386e73d974ca06925c97bbd8ff2482dbcfcb33868b6355"
+    },
+    {
+      "path": "scripts/verify_model_correction.py",
+      "bytes": 5983,
+      "sha256": "9d89c382ecb890231c30967c4dba7d4f8ac977f498007a7ae57722f64ed727a0"
+    },
+    {
+      "path": "scripts/verify_spatial_audit.py",
+      "bytes": 3685,
+      "sha256": "39ae8cbf3d48d7513451587777ff05b7cfae23f8549011dff6c049f36054da42"
+    },
+    {
+      "path": "src/focus/assistant.css",
+      "bytes": 2229,
+      "sha256": "9c3527735fb980b8c7ffbb938271f82f305386a9dbefb977bb4c3dadfd88ae1b"
+    },
+    {
+      "path": "src/focus/assistant.js",
+      "bytes": 16704,
+      "sha256": "6527e6c235a93ca6868e03f5d97929bebefe158f962a246685dbafb13074d941"
+    },
+    {
+      "path": "src/focus/data.js",
+      "bytes": 3876,
+      "sha256": "844812f518196f6ca11d75b407f3d30f9676f20037a0ef3ad3a047dbeebf4b57"
+    },
+    {
+      "path": "src/focus/main.js",
+      "bytes": 30873,
+      "sha256": "df7e971f4cfe31595da0d8c819396f3f57d3c9a22ac91e6d1c5cfe9bda8524b6"
+    },
+    {
+      "path": "src/focus/model.js",
+      "bytes": 18996,
+      "sha256": "234bbf20983d0f3d695e6b75ca424385491d7f05d752b782cbf5318cbda3ad6c"
+    },
+    {
+      "path": "src/focus/ontology-contracts.js",
+      "bytes": 2587,
+      "sha256": "118ec12c2517ba09ee9fb26b1c6f7cd485d8c817f67324a4ec8afb16b9f99c83"
+    },
+    {
+      "path": "src/focus/ontology.css",
+      "bytes": 2340,
+      "sha256": "289fb2d1a89ba1dd96e3b62cbe8c062aa22dbbbb40c109f41dd49a42e23a9a15"
+    },
+    {
+      "path": "src/focus/ontology.js",
+      "bytes": 13484,
+      "sha256": "586bead099c3c503c32c507e8b10e975d50533c77f2e146cdb8e7652d57e2efb"
+    },
+    {
+      "path": "src/focus/style.css",
+      "bytes": 24705,
+      "sha256": "874531436ffa156b232ca89766c1acfdd1f715ef22b4b2eba473cb5702a7c1cd"
+    },
+    {
+      "path": "src/focus/twin-adapter.js",
+      "bytes": 17476,
+      "sha256": "8ff423364d10f00de5ef263f8d95256723850c6f85dcde9743125d51bd06340c"
+    },
+    {
+      "path": "src/twin/contracts.js",
+      "bytes": 1443,
+      "sha256": "32b4a2e2aa97e06cf93c51a501c9139381b6659c2b37574b1003193bbe9ef470"
+    },
+    {
+      "path": "src/twin/main.js",
+      "bytes": 26982,
+      "sha256": "a709a317834a601a34d4a614fa70c6997f8fbb23e84260c1af5fc4779ae8ced3"
+    },
+    {
+      "path": "src/twin/scene.js",
+      "bytes": 12068,
+      "sha256": "e58e322c7fe97002861ef116acc185d34d73acffd860d83a05fa7c7dd6dc27ad"
+    },
+    {
+      "path": "src/twin/style.css",
+      "bytes": 10360,
+      "sha256": "2b4807a27f53aa636fccf1d67aea29548f17e49f7e7fac5ee0c7494eb8a27e87"
+    },
+    {
+      "path": "tests/browser-acceptance.spec.js",
+      "bytes": 5617,
+      "sha256": "2a2be09a4ef3d9c3aa5e37b116c2221691986ee264591cd137363c6c9a906870"
+    },
+    {
+      "path": "tests/browser-coverage.spec.js",
+      "bytes": 6796,
+      "sha256": "fcbdcfb4d93886576d755f80f1e249beacb4e8c6101d162e4341a18a0be06b5f"
+    },
+    {
+      "path": "tests/browser-focus-layout.spec.js",
+      "bytes": 3508,
+      "sha256": "f62cf331afca46b545f5e9b79151c8bd85bf817bb2375c86087f46cf3c4c29b8"
+    },
+    {
+      "path": "tests/browser-full-region.spec.js",
+      "bytes": 9607,
+      "sha256": "13044b676d26117b525cb684f7b4a875e5c511927fb291249a01d4bc8425e9e2"
+    },
+    {
+      "path": "tests/browser-isolation.spec.js",
+      "bytes": 4706,
+      "sha256": "b4d7af17883320ccf8df2802c91509dfe06a56206f19e70252b67b17972c9a50"
+    },
+    {
+      "path": "tests/browser-navigation.spec.js",
+      "bytes": 3909,
+      "sha256": "d8ad25989786f54964f5d8faf1a2d5d6c90cb91b9f82cecbe56cc680f5cd84dd"
+    },
+    {
+      "path": "tests/focus-adapter.test.js",
+      "bytes": 9919,
+      "sha256": "623f658c081ec24165b573f3b691364d35050f9cb5763654e60b8b194b54a476"
+    },
+    {
+      "path": "tests/focus-assistant-races.test.js",
+      "bytes": 11010,
+      "sha256": "c678d4cdac5e3666f1c1c2787ecc10c98fe5dd99b328b72d094478a8a1967cc2"
+    },
+    {
+      "path": "tests/focus-browser-helpers.js",
+      "bytes": 1960,
+      "sha256": "4502f4235a7d788591702271317c9b96c74dfd381e5a54275703516dcbeeb96a"
+    },
+    {
+      "path": "tests/full-scene-ontology.test.js",
+      "bytes": 1780,
+      "sha256": "4af3be844ced683cc86ec777a3740e5280e7c411161e146231bfc351aff8a246"
+    },
+    {
+      "path": "tests/scene-contract.test.js",
+      "bytes": 2337,
+      "sha256": "a4681244e53cad4082b85a17970b67e21d8e76a14fb0e812f9749efc4c21b6d6"
+    },
+    {
+      "path": "tests/test_assistant_current_scope.py",
+      "bytes": 1487,
+      "sha256": "35258b4f054a53f338a383ad261eb5d1a7ca47e8f643e965edc46c60ce4fa508"
+    },
+    {
+      "path": "tests/test_backend.py",
+      "bytes": 45141,
+      "sha256": "b8ded91d7a41209ec36dcd9c4d44269944dae4b943a9dbbb914e0c9965d02fb2"
+    },
+    {
+      "path": "tests/test_full_scene.py",
+      "bytes": 6950,
+      "sha256": "b99b5069bc3de46876e48a4a8c45abec1f7bdd08d804b5d669d70907bd4910c3"
+    },
+    {
+      "path": "vite.config.js",
+      "bytes": 398,
+      "sha256": "c4a75aeb04138ae3010df63944490c57c94ada8fb187b0213e417b5b655edea0"
+    }
+  ]
+}

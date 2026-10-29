@@ -1,0 +1,11 @@
+{
+  "observed_at": "2026-10-29",
+  "accepted_as_production_advice": false,
+  "case": "independent synthetic hot-weather pond",
+  "initial_retrieved_ids": ["kb-hubei-aquaculture-freezing-2024", "kb-fao-pond-oxygen-principles", "kb-hubei-pond-hot-weather-2024"],
+  "observed_failure": "The initial real model draft reused the freezing-weather guidance's supply/alarm/backup checks in a hot-weather scenario, while listing only the FAO and hot-weather references. Valid citation IDs alone did not prove step-level applicability.",
+  "correction": "Assistant retrieval now applies the entity's explicitly recorded production_context.season. Season-specific guidance is excluded when season is unknown or incompatible; no season is inferred from the current date. The generic knowledge browser still exposes public references with applicability conditions.",
+  "regression_test": "test_assistant_does_not_mix_hot_weather_and_freezing_references",
+  "reverification": "local-model-verification-ready.json",
+  "limitation": "This targeted regression is not proof of all free-text facts or agronomic effectiveness. Public guidance and synthetic observations remain distinct from verified site facts."
+}

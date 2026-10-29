@@ -1,0 +1,25 @@
+{
+  "reviewed_files": 6,
+  "satellite": {
+    "source_file": "参考图/卫星图.png",
+    "pixel_size": [2940, 1912],
+    "source_type": "天地图网页截图",
+    "visible_scale_bar": "300 m",
+    "visible_coordinate_readout": [114.63, 30.26],
+    "red_line_review": "可见一个连续手绘红线范围，围绕铜铁海及周边田地、塘群和村落；西、北、东、南侧红线均可辨认。",
+    "visible_structure": ["中心不规则湖水面", "西侧较规整塘群", "中部与东侧小塘/田块混合", "南侧农田与居民点", "环绕及穿行道路", "中心及南侧林地和绿化"],
+    "georeferenced": false,
+    "precise_boundary": false,
+    "acquisition_date": null,
+    "warnings": ["截图红线是概略范围证据，未给确权边界或坐标点表", "300m标尺只支持视觉粗估，像素尺度需同时注明显示/原图尺寸", "底部经纬度读数不是已匹配控制点", "影像纹理不能自动确定当前作物、土地权属或水塘养殖用途", "DOM浏览器界面和侧栏不属于地面影像"]
+  },
+  "photos": [
+    {"source_file": "参考图/农田现场参考照片.jpg", "observations": ["收获后/裸土田面", "田埂", "砌块护坡沟渠", "电杆和远处标识牌"], "location_matched": false, "gps_exif": null, "capture_date": null},
+    {"source_file": "参考图/农田现场参考照片2.jpg", "observations": ["碎石田间道路", "仿木护栏", "电杆", "田面及沟渠"], "location_matched": false, "gps_exif": null, "capture_date": null},
+    {"source_file": "参考图/农田现场参考照片3.jpg", "observations": ["田面", "转角砌块护坡沟渠", "沟底水面", "远处房屋"], "location_matched": false, "gps_exif": null, "capture_date": null},
+    {"source_file": "参考图/农田现场参考照片4.jpg", "observations": ["田埂转角", "砌块护坡沟渠", "地面机箱", "电杆"], "location_matched": false, "gps_exif": null, "capture_date": null},
+    {"source_file": "参考图/水塘现场参考照片.jpg", "observations": ["水塘水面", "土坡草岸", "岸边景石", "水面机械状物体但型号未知"], "location_matched": false, "gps_exif": null, "capture_date": null}
+  ],
+  "modeling_use": "照片仅支持土色、植被、护坡、道路、护栏、岸线和水面等外观；不能把任一照片自动挂为L18或清-17的已证实实景。",
+  "unknowns": ["拍摄点与朝向", "现场准确尺寸", "实测高程", "照片日期", "设备型号与资产编号", "当前运行状态"]
+}

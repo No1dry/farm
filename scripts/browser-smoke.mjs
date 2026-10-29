@@ -1,0 +1,11 @@
+import {chromium} from '@playwright/test';
+import {mkdir,writeFile} from 'node:fs/promises';
+const out='deliverables/verification';await mkdir(out,{recursive:true});
+const browser=await chromium.launch({headless:true,channel:'chrome',args:['--enable-webgl','--ignore-gpu-blocklist']});
+const page=await browser.newPage({viewport:{width:1600,height:1000}});const errors=[];
+page.on('pageerror',error=>errors.push(error.message));
+await page.goto('http://127.0.0.1:5173',{waitUntil:'networkidle'});
+await page.waitForFunction(()=>!window.farmTwin?.scene.flight);
+await page.screenshot({path:`${out}/dashboard-current.png`});
+console.log(JSON.stringify({title:await page.title(),body:(await page.locator('body').innerText()).slice(0,1800),errors,metrics:await page.evaluate(()=>window.farmTwin?.metrics())},null,2));
+await browser.close();

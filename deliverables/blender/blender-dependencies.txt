@@ -1,0 +1,36 @@
+Editable asset builder dependencies
+
+Blender 4.5.15 LTS, Windows x64 portable (official release)
+Download: https://download.blender.org/release/Blender4.5/blender-4.5.15-windows-x64.zip
+Archive SHA256: 52dd02fd74877fa08e74b67d7854cf32468a232c02aaa19b6844c91285574f8d
+Bundled Python: 3.11
+Shapely: 2.1.2 (install into Blender bundled Python)
+NumPy: 1.26.4 (already bundled in Blender)
+
+Build requirements file: scripts/blender-requirements.txt
+Builder: scripts/blender_build.py
+Independent satellite traces: scripts/blender_traces.py
+Five-PDF source assembler: scripts/blender_drawings.py
+Volumetric landscape geometry and PBR builder: scripts/blender_volume.py
+Full-region V0.6 enrichment/sample/instancing builder: scripts/blender_full_region.py
+Full-region appearance inputs: data/spatial/full-region-enrichment.json
+Replaceable appearance parameters: data/model/full-region-parameters.json
+Shared synthetic device layout: data/demo/full-area-device-layout.json
+V0.6 byte and reopened-source checks: scripts/blender_full_region_verify.py / blender_full_scene_verify.py
+Source drawing data: data/spatial/drawing-entities.json
+Saved-source verifier: scripts/blender_scene_verify.py
+GLB/manifest verifier: scripts/blender_verify.py (system Python with Pillow)
+Drawing/LOD verifier: scripts/blender_drawing_verify.py (system Python with Pillow)
+
+All image dependencies are packed inside farm-full.blend; exact count is recorded in verification.json.
+Stochastic photographic ground material bake: textures/dry-ground-stochastic.png.
+Source satellite/PDF references are hidden in Blend only; no source screenshot planes or colors are exported in the primary GLBs.
+Six independently selectable Blender Scenes: whole area and all five source PDFs.
+Builder scripts, spatial manifest and source drawing JSON are embedded as Text datablocks.
+All GLB textures are embedded; no runtime external texture downloads.
+Tree geometry uses glTF EXT_mesh_gpu_instancing, supported by the installed Three GLTFLoader.
+Generic CC0 leaf/branch appearance: public/focus/textures/foliage/source-manifest.json (Poly Haven Tree Small 02, Rico Cilliers).
+Leaf material uses alpha MASK; crops/roof procedural material bakes are packed.
+Rebuilding uses project public/focus/textures and reference satellite PNG.
+Supplemental low-angle inspection: scripts/blender_review_sections.py (does not rewrite assets).
+See docs/model-methodology.md for exact commands and data limitations.

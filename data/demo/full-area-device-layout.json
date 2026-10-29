@@ -1,0 +1,752 @@
+{
+  "schema_version": "farm-scene-device-layout/1",
+  "scenario_id": "full-area-demo-v1",
+  "data_nature": "synthetic",
+  "coordinate_system": "THREE_Y_UP",
+  "units": "metres_illustrative",
+  "position_rule": "manifest.objects[parent_spatial_id].center + offset",
+  "description": "可替换合成设备位置；非现场测绘。模型与浏览器标签读取相同偏移，标签可另抬高便于阅读。",
+  "devices": [
+    {
+      "key": "SAT-BARE-001:sensor",
+      "parent_spatial_id": "SAT-BARE-001",
+      "asset_id": "full",
+      "offset": [
+        16.0,
+        -3,
+        -12.0
+      ],
+      "class": "Sensor",
+      "device_type": "soil_sensor",
+      "name": "土壤监测仪 · 演示",
+      "predicate": "monitors",
+      "data_nature": "synthetic"
+    },
+    {
+      "key": "SAT-CHANNEL-001:sensor",
+      "parent_spatial_id": "SAT-CHANNEL-001",
+      "asset_id": "full",
+      "offset": [
+        -36.91082,
+        -4.22,
+        -17.39906
+      ],
+      "class": "Sensor",
+      "device_type": "water_sensor",
+      "name": "水情监测仪 · 演示",
+      "predicate": "monitors",
+      "data_nature": "synthetic"
+    },
+    {
+      "key": "SAT-CHANNEL-002:sensor",
+      "parent_spatial_id": "SAT-CHANNEL-002",
+      "asset_id": "full",
+      "offset": [
+        21.26771,
+        -4.22,
+        -17.10809
+      ],
+      "class": "Sensor",
+      "device_type": "water_sensor",
+      "name": "水情监测仪 · 演示",
+      "predicate": "monitors",
+      "data_nature": "synthetic"
+    },
+    {
+      "key": "SAT-CHANNEL-003:sensor",
+      "parent_spatial_id": "SAT-CHANNEL-003",
+      "asset_id": "full",
+      "offset": [
+        8.24295,
+        -4.22,
+        -13.32978
+      ],
+      "class": "Sensor",
+      "device_type": "water_sensor",
+      "name": "水情监测仪 · 演示",
+      "predicate": "monitors",
+      "data_nature": "synthetic"
+    },
+    {
+      "key": "SAT-CHANNEL-004:sensor",
+      "parent_spatial_id": "SAT-CHANNEL-004",
+      "asset_id": "full",
+      "offset": [
+        -27.09776,
+        -4.22,
+        -21.23523
+      ],
+      "class": "Sensor",
+      "device_type": "water_sensor",
+      "name": "水情监测仪 · 演示",
+      "predicate": "monitors",
+      "data_nature": "synthetic"
+    },
+    {
+      "key": "SAT-CHANNEL-005:sensor",
+      "parent_spatial_id": "SAT-CHANNEL-005",
+      "asset_id": "full",
+      "offset": [
+        -3.78987,
+        -4.22,
+        -9.52627
+      ],
+      "class": "Sensor",
+      "device_type": "water_sensor",
+      "name": "水情监测仪 · 演示",
+      "predicate": "monitors",
+      "data_nature": "synthetic"
+    },
+    {
+      "key": "SAT-FIELD-001:sensor",
+      "parent_spatial_id": "SAT-FIELD-001",
+      "asset_id": "full",
+      "offset": [
+        16.0,
+        -3,
+        -12.0
+      ],
+      "class": "Sensor",
+      "device_type": "soil_sensor",
+      "name": "土壤监测仪 · 演示",
+      "predicate": "monitors",
+      "data_nature": "synthetic"
+    },
+    {
+      "key": "SAT-FIELD-005:sensor",
+      "parent_spatial_id": "SAT-FIELD-005",
+      "asset_id": "full",
+      "offset": [
+        16.0,
+        -3,
+        -12.0
+      ],
+      "class": "Sensor",
+      "device_type": "soil_sensor",
+      "name": "土壤监测仪 · 演示",
+      "predicate": "monitors",
+      "data_nature": "synthetic"
+    },
+    {
+      "key": "SAT-FIELD-009:sensor",
+      "parent_spatial_id": "SAT-FIELD-009",
+      "asset_id": "full",
+      "offset": [
+        16.0,
+        -3,
+        -12.0
+      ],
+      "class": "Sensor",
+      "device_type": "soil_sensor",
+      "name": "土壤监测仪 · 演示",
+      "predicate": "monitors",
+      "data_nature": "synthetic"
+    },
+    {
+      "key": "SAT-FIELD-013:sensor",
+      "parent_spatial_id": "SAT-FIELD-013",
+      "asset_id": "full",
+      "offset": [
+        16.0,
+        -3,
+        -12.0
+      ],
+      "class": "Sensor",
+      "device_type": "soil_sensor",
+      "name": "土壤监测仪 · 演示",
+      "predicate": "monitors",
+      "data_nature": "synthetic"
+    },
+    {
+      "key": "SAT-FIELD-017:sensor",
+      "parent_spatial_id": "SAT-FIELD-017",
+      "asset_id": "full",
+      "offset": [
+        16.0,
+        -3,
+        -12.0
+      ],
+      "class": "Sensor",
+      "device_type": "soil_sensor",
+      "name": "土壤监测仪 · 演示",
+      "predicate": "monitors",
+      "data_nature": "synthetic"
+    },
+    {
+      "key": "SAT-FIELD-021:sensor",
+      "parent_spatial_id": "SAT-FIELD-021",
+      "asset_id": "full",
+      "offset": [
+        16.0,
+        -3,
+        -12.0
+      ],
+      "class": "Sensor",
+      "device_type": "soil_sensor",
+      "name": "土壤监测仪 · 演示",
+      "predicate": "monitors",
+      "data_nature": "synthetic"
+    },
+    {
+      "key": "SAT-FIELD-025:sensor",
+      "parent_spatial_id": "SAT-FIELD-025",
+      "asset_id": "full",
+      "offset": [
+        16.0,
+        -3,
+        -12.0
+      ],
+      "class": "Sensor",
+      "device_type": "soil_sensor",
+      "name": "土壤监测仪 · 演示",
+      "predicate": "monitors",
+      "data_nature": "synthetic"
+    },
+    {
+      "key": "SAT-FIELD-029:sensor",
+      "parent_spatial_id": "SAT-FIELD-029",
+      "asset_id": "full",
+      "offset": [
+        16.0,
+        -3,
+        -12.0
+      ],
+      "class": "Sensor",
+      "device_type": "soil_sensor",
+      "name": "土壤监测仪 · 演示",
+      "predicate": "monitors",
+      "data_nature": "synthetic"
+    },
+    {
+      "key": "SAT-FIELD-033:sensor",
+      "parent_spatial_id": "SAT-FIELD-033",
+      "asset_id": "full",
+      "offset": [
+        16.0,
+        -3,
+        -12.0
+      ],
+      "class": "Sensor",
+      "device_type": "soil_sensor",
+      "name": "土壤监测仪 · 演示",
+      "predicate": "monitors",
+      "data_nature": "synthetic"
+    },
+    {
+      "key": "SAT-FIELD-037:sensor",
+      "parent_spatial_id": "SAT-FIELD-037",
+      "asset_id": "full",
+      "offset": [
+        16.0,
+        -3,
+        -12.0
+      ],
+      "class": "Sensor",
+      "device_type": "soil_sensor",
+      "name": "土壤监测仪 · 演示",
+      "predicate": "monitors",
+      "data_nature": "synthetic"
+    },
+    {
+      "key": "SAT-LAKE-001:sensor",
+      "parent_spatial_id": "SAT-LAKE-001",
+      "asset_id": "full",
+      "offset": [
+        16.0,
+        -3.78,
+        -12.0
+      ],
+      "class": "Sensor",
+      "device_type": "water_sensor",
+      "name": "水情监测仪 · 演示",
+      "predicate": "monitors",
+      "data_nature": "synthetic"
+    },
+    {
+      "key": "SAT-LAKE-001:pump",
+      "parent_spatial_id": "SAT-LAKE-001",
+      "asset_id": "full",
+      "offset": [
+        -18.0,
+        -3.78,
+        8.0
+      ],
+      "class": "Pump",
+      "device_type": "aerator",
+      "name": "增氧设备登记 · 演示",
+      "predicate": "serves",
+      "data_nature": "synthetic"
+    },
+    {
+      "key": "SAT-POND-001:sensor",
+      "parent_spatial_id": "SAT-POND-001",
+      "asset_id": "full",
+      "offset": [
+        16.0,
+        -3.78,
+        -12.0
+      ],
+      "class": "Sensor",
+      "device_type": "water_sensor",
+      "name": "水情监测仪 · 演示",
+      "predicate": "monitors",
+      "data_nature": "synthetic"
+    },
+    {
+      "key": "SAT-POND-001:pump",
+      "parent_spatial_id": "SAT-POND-001",
+      "asset_id": "full",
+      "offset": [
+        -18.0,
+        -3.78,
+        8.0
+      ],
+      "class": "Pump",
+      "device_type": "aerator",
+      "name": "增氧设备登记 · 演示",
+      "predicate": "serves",
+      "data_nature": "synthetic"
+    },
+    {
+      "key": "SAT-POND-005:sensor",
+      "parent_spatial_id": "SAT-POND-005",
+      "asset_id": "full",
+      "offset": [
+        16.0,
+        -3.78,
+        -12.0
+      ],
+      "class": "Sensor",
+      "device_type": "water_sensor",
+      "name": "水情监测仪 · 演示",
+      "predicate": "monitors",
+      "data_nature": "synthetic"
+    },
+    {
+      "key": "SAT-POND-009:sensor",
+      "parent_spatial_id": "SAT-POND-009",
+      "asset_id": "full",
+      "offset": [
+        16.0,
+        -3.78,
+        -12.0
+      ],
+      "class": "Sensor",
+      "device_type": "water_sensor",
+      "name": "水情监测仪 · 演示",
+      "predicate": "monitors",
+      "data_nature": "synthetic"
+    },
+    {
+      "key": "SAT-POND-009:pump",
+      "parent_spatial_id": "SAT-POND-009",
+      "asset_id": "full",
+      "offset": [
+        -18.0,
+        -3.78,
+        8.0
+      ],
+      "class": "Pump",
+      "device_type": "aerator",
+      "name": "增氧设备登记 · 演示",
+      "predicate": "serves",
+      "data_nature": "synthetic"
+    },
+    {
+      "key": "SAT-POND-013:sensor",
+      "parent_spatial_id": "SAT-POND-013",
+      "asset_id": "full",
+      "offset": [
+        16.0,
+        -3.78,
+        -12.0
+      ],
+      "class": "Sensor",
+      "device_type": "water_sensor",
+      "name": "水情监测仪 · 演示",
+      "predicate": "monitors",
+      "data_nature": "synthetic"
+    },
+    {
+      "key": "SAT-POND-017:sensor",
+      "parent_spatial_id": "SAT-POND-017",
+      "asset_id": "full",
+      "offset": [
+        16.0,
+        -3.78,
+        -12.0
+      ],
+      "class": "Sensor",
+      "device_type": "water_sensor",
+      "name": "水情监测仪 · 演示",
+      "predicate": "monitors",
+      "data_nature": "synthetic"
+    },
+    {
+      "key": "SAT-POND-017:pump",
+      "parent_spatial_id": "SAT-POND-017",
+      "asset_id": "full",
+      "offset": [
+        -18.0,
+        -3.78,
+        8.0
+      ],
+      "class": "Pump",
+      "device_type": "aerator",
+      "name": "增氧设备登记 · 演示",
+      "predicate": "serves",
+      "data_nature": "synthetic"
+    },
+    {
+      "key": "SAT-POND-021:sensor",
+      "parent_spatial_id": "SAT-POND-021",
+      "asset_id": "full",
+      "offset": [
+        16.0,
+        -3.78,
+        -12.0
+      ],
+      "class": "Sensor",
+      "device_type": "water_sensor",
+      "name": "水情监测仪 · 演示",
+      "predicate": "monitors",
+      "data_nature": "synthetic"
+    },
+    {
+      "key": "SAT-POND-025:sensor",
+      "parent_spatial_id": "SAT-POND-025",
+      "asset_id": "full",
+      "offset": [
+        16.0,
+        -3.78,
+        -12.0
+      ],
+      "class": "Sensor",
+      "device_type": "water_sensor",
+      "name": "水情监测仪 · 演示",
+      "predicate": "monitors",
+      "data_nature": "synthetic"
+    },
+    {
+      "key": "SAT-POND-025:pump",
+      "parent_spatial_id": "SAT-POND-025",
+      "asset_id": "full",
+      "offset": [
+        -18.0,
+        -3.78,
+        8.0
+      ],
+      "class": "Pump",
+      "device_type": "aerator",
+      "name": "增氧设备登记 · 演示",
+      "predicate": "serves",
+      "data_nature": "synthetic"
+    },
+    {
+      "key": "SAT-POND-029:sensor",
+      "parent_spatial_id": "SAT-POND-029",
+      "asset_id": "full",
+      "offset": [
+        16.0,
+        -3.78,
+        -12.0
+      ],
+      "class": "Sensor",
+      "device_type": "water_sensor",
+      "name": "水情监测仪 · 演示",
+      "predicate": "monitors",
+      "data_nature": "synthetic"
+    },
+    {
+      "key": "SAT-POND-033:sensor",
+      "parent_spatial_id": "SAT-POND-033",
+      "asset_id": "full",
+      "offset": [
+        16.0,
+        -3.78,
+        -12.0
+      ],
+      "class": "Sensor",
+      "device_type": "water_sensor",
+      "name": "水情监测仪 · 演示",
+      "predicate": "monitors",
+      "data_nature": "synthetic"
+    },
+    {
+      "key": "SAT-POND-033:pump",
+      "parent_spatial_id": "SAT-POND-033",
+      "asset_id": "full",
+      "offset": [
+        -18.0,
+        -3.78,
+        8.0
+      ],
+      "class": "Pump",
+      "device_type": "aerator",
+      "name": "增氧设备登记 · 演示",
+      "predicate": "serves",
+      "data_nature": "synthetic"
+    },
+    {
+      "key": "SAT-ROAD-001:sensor",
+      "parent_spatial_id": "SAT-ROAD-001",
+      "asset_id": "full",
+      "offset": [
+        16.0,
+        -3,
+        -12.0
+      ],
+      "class": "Camera",
+      "device_type": "camera_pole",
+      "name": "视频巡查点 · 演示",
+      "predicate": "monitors",
+      "data_nature": "synthetic"
+    },
+    {
+      "key": "SAT-ROAD-005:sensor",
+      "parent_spatial_id": "SAT-ROAD-005",
+      "asset_id": "full",
+      "offset": [
+        16.0,
+        -3,
+        -12.0
+      ],
+      "class": "Camera",
+      "device_type": "camera_pole",
+      "name": "视频巡查点 · 演示",
+      "predicate": "monitors",
+      "data_nature": "synthetic"
+    },
+    {
+      "key": "SAT-ROAD-009:sensor",
+      "parent_spatial_id": "SAT-ROAD-009",
+      "asset_id": "full",
+      "offset": [
+        16.0,
+        -3,
+        -12.0
+      ],
+      "class": "Camera",
+      "device_type": "camera_pole",
+      "name": "视频巡查点 · 演示",
+      "predicate": "monitors",
+      "data_nature": "synthetic"
+    },
+    {
+      "key": "SAT-ROAD-013:sensor",
+      "parent_spatial_id": "SAT-ROAD-013",
+      "asset_id": "full",
+      "offset": [
+        16.0,
+        -3,
+        -12.0
+      ],
+      "class": "Camera",
+      "device_type": "camera_pole",
+      "name": "视频巡查点 · 演示",
+      "predicate": "monitors",
+      "data_nature": "synthetic"
+    },
+    {
+      "key": "SAT-ROAD-017:sensor",
+      "parent_spatial_id": "SAT-ROAD-017",
+      "asset_id": "full",
+      "offset": [
+        16.0,
+        -3,
+        -12.0
+      ],
+      "class": "Camera",
+      "device_type": "camera_pole",
+      "name": "视频巡查点 · 演示",
+      "predicate": "monitors",
+      "data_nature": "synthetic"
+    },
+    {
+      "key": "SAT-SETTLEMENT-001:sensor",
+      "parent_spatial_id": "SAT-SETTLEMENT-001",
+      "asset_id": "full",
+      "offset": [
+        16.0,
+        -3,
+        -12.0
+      ],
+      "class": "Camera",
+      "device_type": "camera_pole",
+      "name": "视频巡查点 · 演示",
+      "predicate": "monitors",
+      "data_nature": "synthetic"
+    },
+    {
+      "key": "SAT-SETTLEMENT-002:sensor",
+      "parent_spatial_id": "SAT-SETTLEMENT-002",
+      "asset_id": "full",
+      "offset": [
+        16.0,
+        -3,
+        -12.0
+      ],
+      "class": "Camera",
+      "device_type": "camera_pole",
+      "name": "视频巡查点 · 演示",
+      "predicate": "monitors",
+      "data_nature": "synthetic"
+    },
+    {
+      "key": "SAT-SETTLEMENT-003:sensor",
+      "parent_spatial_id": "SAT-SETTLEMENT-003",
+      "asset_id": "full",
+      "offset": [
+        20.33013,
+        -3,
+        -14.5
+      ],
+      "class": "Camera",
+      "device_type": "camera_pole",
+      "name": "视频巡查点 · 演示",
+      "predicate": "monitors",
+      "data_nature": "synthetic"
+    },
+    {
+      "key": "SAT-SETTLEMENT-004:sensor",
+      "parent_spatial_id": "SAT-SETTLEMENT-004",
+      "asset_id": "full",
+      "offset": [
+        16.0,
+        -3,
+        -12.0
+      ],
+      "class": "Camera",
+      "device_type": "camera_pole",
+      "name": "视频巡查点 · 演示",
+      "predicate": "monitors",
+      "data_nature": "synthetic"
+    },
+    {
+      "key": "SAT-SETTLEMENT-005:sensor",
+      "parent_spatial_id": "SAT-SETTLEMENT-005",
+      "asset_id": "full",
+      "offset": [
+        16.0,
+        -3,
+        -12.0
+      ],
+      "class": "Camera",
+      "device_type": "camera_pole",
+      "name": "视频巡查点 · 演示",
+      "predicate": "monitors",
+      "data_nature": "synthetic"
+    },
+    {
+      "key": "SAT-SETTLEMENT-006:sensor",
+      "parent_spatial_id": "SAT-SETTLEMENT-006",
+      "asset_id": "full",
+      "offset": [
+        16.0,
+        -3,
+        -12.0
+      ],
+      "class": "Camera",
+      "device_type": "camera_pole",
+      "name": "视频巡查点 · 演示",
+      "predicate": "monitors",
+      "data_nature": "synthetic"
+    },
+    {
+      "key": "SAT-SETTLEMENT-007:sensor",
+      "parent_spatial_id": "SAT-SETTLEMENT-007",
+      "asset_id": "full",
+      "offset": [
+        16.0,
+        -3,
+        -12.0
+      ],
+      "class": "Camera",
+      "device_type": "camera_pole",
+      "name": "视频巡查点 · 演示",
+      "predicate": "monitors",
+      "data_nature": "synthetic"
+    },
+    {
+      "key": "SAT-SETTLEMENT-008:sensor",
+      "parent_spatial_id": "SAT-SETTLEMENT-008",
+      "asset_id": "full",
+      "offset": [
+        16.0,
+        -3,
+        -12.0
+      ],
+      "class": "Camera",
+      "device_type": "camera_pole",
+      "name": "视频巡查点 · 演示",
+      "predicate": "monitors",
+      "data_nature": "synthetic"
+    },
+    {
+      "key": "SAT-SETTLEMENT-009:sensor",
+      "parent_spatial_id": "SAT-SETTLEMENT-009",
+      "asset_id": "full",
+      "offset": [
+        20.33013,
+        -3,
+        -14.5
+      ],
+      "class": "Camera",
+      "device_type": "camera_pole",
+      "name": "视频巡查点 · 演示",
+      "predicate": "monitors",
+      "data_nature": "synthetic"
+    },
+    {
+      "key": "SAT-WOODLAND-001:sensor",
+      "parent_spatial_id": "SAT-WOODLAND-001",
+      "asset_id": "full",
+      "offset": [
+        16.0,
+        -1.01727,
+        -12.0
+      ],
+      "class": "Sensor",
+      "device_type": "soil_sensor",
+      "name": "土壤监测仪 · 演示",
+      "predicate": "monitors",
+      "data_nature": "synthetic"
+    },
+    {
+      "key": "SAT-WOODLAND-005:sensor",
+      "parent_spatial_id": "SAT-WOODLAND-005",
+      "asset_id": "full",
+      "offset": [
+        16.0,
+        -2.92472,
+        -12.0
+      ],
+      "class": "Sensor",
+      "device_type": "soil_sensor",
+      "name": "土壤监测仪 · 演示",
+      "predicate": "monitors",
+      "data_nature": "synthetic"
+    },
+    {
+      "key": "SAT-WOODLAND-009:sensor",
+      "parent_spatial_id": "SAT-WOODLAND-009",
+      "asset_id": "full",
+      "offset": [
+        16.0,
+        0.14498,
+        -12.0
+      ],
+      "class": "Sensor",
+      "device_type": "soil_sensor",
+      "name": "土壤监测仪 · 演示",
+      "predicate": "monitors",
+      "data_nature": "synthetic"
+    }
+  ],
+  "grounding": {
+    "model_revision": "v06",
+    "source": "data/model/device-grounding-updates.json",
+    "source_sha256": "5651d808fb767e3ebb94dfea461aa240db9b7239a78df4baa3668f54e1228c2e",
+    "status": "synthetic_model_surface_alignment_not_field_survey"
+  }
+}

@@ -1,0 +1,2 @@
+import {defineConfig} from '@playwright/test';
+export default defineConfig({testDir:'tests',testMatch:'browser-*.spec.js',timeout:150000,workers:1,reporter:[['list'],['json',{outputFile:'deliverables/verification/browser-tests.json'}]],use:{baseURL:process.env.FARM_TEST_BASE_URL||'http://127.0.0.1:5173',viewport:{width:1600,height:1000},channel:'chrome',headless:true,launchOptions:{args:['--enable-webgl','--ignore-gpu-blocklist']}}});

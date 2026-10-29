@@ -1,0 +1,206 @@
+{
+  "sources": [
+    {
+      "path": "参考图/农田现场参考照片.jpg",
+      "bytes": 227403,
+      "sha256": "853ed2ed611a6c03125f68984453f0d79dee94cfdc7fa92f928e6d88cc153f94",
+      "evidenceClass": "user-supplied-source",
+      "width": 1440,
+      "height": 1080,
+      "exifPresent": true
+    },
+    {
+      "path": "参考图/农田现场参考照片2.jpg",
+      "bytes": 248337,
+      "sha256": "abbdce4c048d3857a8d4c7cedd399cb49ae29b01cffc07f20795811e8cfd39d9",
+      "evidenceClass": "user-supplied-source",
+      "width": 1440,
+      "height": 1080,
+      "exifPresent": false
+    },
+    {
+      "path": "参考图/农田现场参考照片3.jpg",
+      "bytes": 228535,
+      "sha256": "083377f48bf2cc88a01b422e1417f2ecb0cdc8203cc5ec4b5d6284cff6e296a5",
+      "evidenceClass": "user-supplied-source",
+      "width": 1440,
+      "height": 1080,
+      "exifPresent": true
+    },
+    {
+      "path": "参考图/农田现场参考照片4.jpg",
+      "bytes": 311355,
+      "sha256": "688df18a918675f3d5fba261f7bd3ae28beadc72cd1e0638066195b4ff25bbfd",
+      "evidenceClass": "user-supplied-source",
+      "width": 1440,
+      "height": 1080,
+      "exifPresent": true
+    },
+    {
+      "path": "参考图/卫星图.png",
+      "bytes": 6463123,
+      "sha256": "99217e959c5e448d376ff448c4ce00c6abd4065a1243ccbb0af9e2403b22189a",
+      "evidenceClass": "user-supplied-source",
+      "width": 2940,
+      "height": 1912,
+      "exifPresent": true
+    },
+    {
+      "path": "参考图/水塘现场参考照片.jpg",
+      "bytes": 218932,
+      "sha256": "03554208530b095da9b36c6b5ac4e4a2cd747d31286f04799c86d13bee30031c",
+      "evidenceClass": "user-supplied-source",
+      "width": 1440,
+      "height": 1080,
+      "exifPresent": true
+    },
+    {
+      "path": "梁湖情田块面积汇总202607.xls",
+      "bytes": 26624,
+      "sha256": "3d0fa70fa6e332f17f86320d952a720ce4a109bec9d13e8fcee25b4561fbe3ae",
+      "evidenceClass": "user-supplied-source",
+      "sheets": [
+        {
+          "name": "全域田块面积汇总",
+          "nrows": 104,
+          "ncols": 4
+        },
+        {
+          "name": "Sheet1",
+          "nrows": 0,
+          "ncols": 0
+        },
+        {
+          "name": "Sheet2",
+          "nrows": 0,
+          "ncols": 0
+        },
+        {
+          "name": "Sheet3",
+          "nrows": 0,
+          "ncols": 0
+        }
+      ]
+    },
+    {
+      "path": "现场竣工图pdf版本/2026.4.16竣工图（庙下流）.pdf",
+      "bytes": 2659595,
+      "sha256": "9258ee26b29860579c900aeb1dbf3a4ca6d2cef6c02ec2d317e3349f4157c91a",
+      "evidenceClass": "user-supplied-source",
+      "pages": [
+        {
+          "page": 1,
+          "mediaBoxPoints": [
+            0.0,
+            0.0,
+            1190.52002,
+            1683.71997
+          ],
+          "rotation": 0,
+          "extractedTextCharacters": 1317,
+          "textPath": "data/audit/pdf-01-page-01.txt",
+          "previewPath": "tmp/audit/pdf-01-page-01.png"
+        }
+      ],
+      "pageCount": 1,
+      "slug": "pdf-01"
+    },
+    {
+      "path": "现场竣工图pdf版本/2026.4.16竣工图（新屋湾、毛家湾）.pdf",
+      "bytes": 2352795,
+      "sha256": "56847eb506216516e30e0ad5a33d3550d905ed9a9dd923456bbbd899c376c5ef",
+      "evidenceClass": "user-supplied-source",
+      "pages": [
+        {
+          "page": 1,
+          "mediaBoxPoints": [
+            0.0,
+            0.0,
+            1190.52002,
+            1683.71997
+          ],
+          "rotation": 0,
+          "extractedTextCharacters": 1053,
+          "textPath": "data/audit/pdf-02-page-01.txt",
+          "previewPath": "tmp/audit/pdf-02-page-01.png"
+        }
+      ],
+      "pageCount": 1,
+      "slug": "pdf-02"
+    },
+    {
+      "path": "现场竣工图pdf版本/2026.8.10竣工图（张家湾）.pdf",
+      "bytes": 2258009,
+      "sha256": "2c1f84927f1d4ff3678aed2804569e43b9272f95744c5364696a857d640edd6d",
+      "evidenceClass": "user-supplied-source",
+      "pages": [
+        {
+          "page": 1,
+          "mediaBoxPoints": [
+            0.0,
+            0.0,
+            1190.52002,
+            1683.71997
+          ],
+          "rotation": 0,
+          "extractedTextCharacters": 789,
+          "textPath": "data/audit/pdf-03-page-01.txt",
+          "previewPath": "tmp/audit/pdf-03-page-01.png"
+        }
+      ],
+      "pageCount": 1,
+      "slug": "pdf-03"
+    },
+    {
+      "path": "现场竣工图pdf版本/2026.8.10竣工图（谭湾沈湾）.pdf",
+      "bytes": 3458409,
+      "sha256": "0805f1a484b099ed69c6fc0056420a645d6fa2fb09bae03cdca486fe0976a0d0",
+      "evidenceClass": "user-supplied-source",
+      "pages": [
+        {
+          "page": 1,
+          "mediaBoxPoints": [
+            0.0,
+            0.0,
+            1190.52002,
+            1683.71997
+          ],
+          "rotation": 0,
+          "extractedTextCharacters": 673,
+          "textPath": "data/audit/pdf-04-page-01.txt",
+          "previewPath": "tmp/audit/pdf-04-page-01.png"
+        }
+      ],
+      "pageCount": 1,
+      "slug": "pdf-04"
+    },
+    {
+      "path": "现场竣工图pdf版本/ABCDEFD区竣工图.pdf",
+      "bytes": 2424209,
+      "sha256": "5345f24a15514dd14dd64ee58d62abdfb3f8874126c6a82a7f2860397da1e55d",
+      "evidenceClass": "user-supplied-source",
+      "pages": [
+        {
+          "page": 1,
+          "mediaBoxPoints": [
+            0.0,
+            0.0,
+            1190.52002,
+            1683.71997
+          ],
+          "rotation": 0,
+          "extractedTextCharacters": 540,
+          "textPath": "data/audit/pdf-05-page-01.txt",
+          "previewPath": "tmp/audit/pdf-05-page-01.png"
+        }
+      ],
+      "pageCount": 1,
+      "slug": "pdf-05"
+    }
+  ],
+  "coverage": {
+    "sourceFiles": 12,
+    "pdfFiles": 5,
+    "pdfPages": 5
+  }
+}

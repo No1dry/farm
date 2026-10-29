@@ -1,0 +1,33 @@
+{
+  "scenario_id": "full-area-demo-v1",
+  "principal_count": 121,
+  "record_count": 171,
+  "timestamp": "2026-10-29T04:41:34.946892+00:00",
+  "backup": "runtime\\backups\\farm-before-scenario-refresh-20261029T044134Z.sqlite3",
+  "backup_sha256": "c34b554e48edc3a64f5e07fde9661c5bc00212d97bd446e6b467ed503429b2c1",
+  "real_unchanged": true,
+  "real_entity_payload_sha256": "6c86fe0f9d9c3d062e3ed65aafa0e20b19535da31a98046526a248938a6ff03c",
+  "recipe_sha256": "e527aac8f22689e8f579b28d256c3c22b9e018cec41b31ddfcdaa42cff583d33",
+  "layout_sha256": "2f03bdc2fea22629c20235931d3b74c952a9601b8b49470f5aee258679915453",
+  "scene_summary": {
+    "asset_id": "full",
+    "principal_count": 121,
+    "device_count": 49,
+    "counts": {
+      "device": 49,
+      "bare": 3,
+      "channel": 5,
+      "field": 38,
+      "lake": 1,
+      "pond": 36,
+      "road": 20,
+      "settlement": 9,
+      "woodland": 9
+    },
+    "observation_count": 265,
+    "business_alert_count": 20,
+    "reference_time": "2026-10-29T03:00:00Z",
+    "data_nature": "synthetic"
+  },
+  "superseded_by_spatial_revision": "deliverables/verification/v06-database-import.json"
+}

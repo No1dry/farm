@@ -1,0 +1,793 @@
+{
+  "timestamp": "2026-10-29T03:43:20.131Z",
+  "manifestSHA256": "051e6fc30ad3943844053c84937cce9b89e3e83d9f80599abf6f8d7181200270",
+  "viewport": [
+    1600,
+    1000
+  ],
+  "records": [
+    {
+      "asset": "detail-miaoxia",
+      "lod": "detail",
+      "position": [
+        -280,
+        90,
+        400
+      ],
+      "target": [
+        20,
+        0,
+        145.00000000000003
+      ],
+      "metrics": {
+        "viewport": [
+          1600,
+          1000
+        ],
+        "pixelRatio": 1,
+        "asset": "detail-miaoxia",
+        "lod": "detail",
+        "loadedAssets": 1,
+        "loadMs": 223,
+        "assetLoadMs": 200,
+        "hardware": {
+          "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5070 Ti (0x00002C05) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "logicalProcessors": 20,
+          "deviceMemoryGiB": 32
+        },
+        "samples": 273,
+        "medianFrameMs": 7,
+        "p95FrameMs": 7.4000000059604645,
+        "drawCalls": 150,
+        "triangles": 146567,
+        "geometries": 194,
+        "textures": 19
+      },
+      "visibleReferences": [],
+      "selected": "DETAIL-L19",
+      "stableFrameWindow": {
+        "samples": 120,
+        "medianFrameMs": 7,
+        "p95FrameMs": 7.299999999999727
+      },
+      "file": "deliverables/verification/model-review/default-focus.png"
+    },
+    {
+      "asset": "detail-miaoxia",
+      "lod": "detail",
+      "position": [
+        -152,
+        6.499999999999998,
+        182
+      ],
+      "target": [
+        -118.99999999999999,
+        0.10000000000000002,
+        151
+      ],
+      "metrics": {
+        "viewport": [
+          1600,
+          1000
+        ],
+        "pixelRatio": 1,
+        "asset": "detail-miaoxia",
+        "lod": "detail",
+        "loadedAssets": 1,
+        "loadMs": 223,
+        "assetLoadMs": 200,
+        "hardware": {
+          "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5070 Ti (0x00002C05) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "logicalProcessors": 20,
+          "deviceMemoryGiB": 32
+        },
+        "samples": 300,
+        "medianFrameMs": 7,
+        "p95FrameMs": 7.300000011920929,
+        "drawCalls": 81,
+        "triangles": 93229,
+        "geometries": 194,
+        "textures": 19
+      },
+      "visibleReferences": [],
+      "selected": "DETAIL-L19",
+      "stableFrameWindow": {
+        "samples": 120,
+        "medianFrameMs": 7,
+        "p95FrameMs": 7.300000000000182
+      },
+      "file": "deliverables/verification/model-review/miaoxia-field.png"
+    },
+    {
+      "asset": "detail-miaoxia",
+      "lod": "detail",
+      "position": [
+        -451.06327761815277,
+        3.5000000000000027,
+        211.40010068105374
+      ],
+      "target": [
+        -459.8423375735633,
+        -0.599999999999998,
+        231.8197504897425
+      ],
+      "metrics": {
+        "viewport": [
+          1600,
+          1000
+        ],
+        "pixelRatio": 1,
+        "asset": "detail-miaoxia",
+        "lod": "detail",
+        "loadedAssets": 1,
+        "loadMs": 223,
+        "assetLoadMs": 200,
+        "hardware": {
+          "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5070 Ti (0x00002C05) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "logicalProcessors": 20,
+          "deviceMemoryGiB": 32
+        },
+        "samples": 300,
+        "medianFrameMs": 7,
+        "p95FrameMs": 7.300000011920929,
+        "drawCalls": 53,
+        "triangles": 97897,
+        "geometries": 244,
+        "textures": 20
+      },
+      "visibleReferences": [],
+      "selected": "DETAIL-L19",
+      "stableFrameWindow": {
+        "samples": 120,
+        "medianFrameMs": 7,
+        "p95FrameMs": 7.200000000000728
+      },
+      "file": "deliverables/verification/model-review/miaoxia-channel.png"
+    },
+    {
+      "asset": "detail-miaoxia",
+      "lod": "detail",
+      "position": [
+        107.00000000000006,
+        5.200000000000001,
+        189
+      ],
+      "target": [
+        137,
+        -0.6000000000000001,
+        161
+      ],
+      "metrics": {
+        "viewport": [
+          1600,
+          1000
+        ],
+        "pixelRatio": 1,
+        "asset": "detail-miaoxia",
+        "lod": "detail",
+        "loadedAssets": 1,
+        "loadMs": 223,
+        "assetLoadMs": 200,
+        "hardware": {
+          "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5070 Ti (0x00002C05) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "logicalProcessors": 20,
+          "deviceMemoryGiB": 32
+        },
+        "samples": 300,
+        "medianFrameMs": 7,
+        "p95FrameMs": 7.399999976158142,
+        "drawCalls": 19,
+        "triangles": 38135,
+        "geometries": 244,
+        "textures": 20
+      },
+      "visibleReferences": [],
+      "selected": "DETAIL-QING17",
+      "stableFrameWindow": {
+        "samples": 120,
+        "medianFrameMs": 7,
+        "p95FrameMs": 7.299999999999272
+      },
+      "file": "deliverables/verification/model-review/miaoxia-pond.png"
+    },
+    {
+      "asset": "detail-miaoxia",
+      "lod": "detail",
+      "position": [
+        461.9172914999999,
+        897.4279755000001,
+        1282.101313
+      ],
+      "target": [
+        -93.63336000000004,
+        0,
+        171.00001000000003
+      ],
+      "metrics": {
+        "viewport": [
+          1600,
+          1000
+        ],
+        "pixelRatio": 1,
+        "asset": "detail-miaoxia",
+        "lod": "detail",
+        "loadedAssets": 1,
+        "loadMs": 223,
+        "assetLoadMs": 200,
+        "hardware": {
+          "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5070 Ti (0x00002C05) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "logicalProcessors": 20,
+          "deviceMemoryGiB": 32
+        },
+        "samples": 300,
+        "medianFrameMs": 7,
+        "p95FrameMs": 7.4000000059604645,
+        "drawCalls": 262,
+        "triangles": 291774,
+        "geometries": 247,
+        "textures": 20
+      },
+      "visibleReferences": [],
+      "selected": "DETAIL-QING17",
+      "stableFrameWindow": {
+        "samples": 120,
+        "medianFrameMs": 7,
+        "p95FrameMs": 7.300000000001091
+      },
+      "file": "deliverables/verification/model-review/miaoxia-overview.png"
+    },
+    {
+      "asset": "full",
+      "lod": "overview",
+      "position": [
+        1473.118811881188,
+        2379.6534653465346,
+        2950.6930693069307
+      ],
+      "target": [
+        0,
+        0,
+        4.455445544554436
+      ],
+      "metrics": {
+        "viewport": [
+          1600,
+          1000
+        ],
+        "pixelRatio": 1,
+        "asset": "full",
+        "lod": "overview",
+        "loadedAssets": 2,
+        "loadMs": 223,
+        "assetLoadMs": 125.7999999821186,
+        "hardware": {
+          "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5070 Ti (0x00002C05) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "logicalProcessors": 20,
+          "deviceMemoryGiB": 32
+        },
+        "samples": 300,
+        "medianFrameMs": 7,
+        "p95FrameMs": 7.4000000059604645,
+        "drawCalls": 609,
+        "triangles": 78545,
+        "geometries": 855,
+        "textures": 24
+      },
+      "visibleReferences": [],
+      "selected": null,
+      "stableFrameWindow": {
+        "samples": 120,
+        "medianFrameMs": 7,
+        "p95FrameMs": 7.299999999999272
+      },
+      "file": "deliverables/verification/model-review/full-overview.png"
+    },
+    {
+      "asset": "full",
+      "lod": "detail",
+      "position": [
+        -576.2758711552538,
+        3.8000000000001863,
+        -797.8102220529698
+      ],
+      "target": [
+        -558.7927480078998,
+        0.1499999999999999,
+        -836.5960494260511
+      ],
+      "metrics": {
+        "viewport": [
+          1600,
+          1000
+        ],
+        "pixelRatio": 1,
+        "asset": "full",
+        "lod": "detail",
+        "loadedAssets": 3,
+        "loadMs": 223,
+        "assetLoadMs": 155.5,
+        "hardware": {
+          "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5070 Ti (0x00002C05) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "logicalProcessors": 20,
+          "deviceMemoryGiB": 32
+        },
+        "samples": 300,
+        "medianFrameMs": 7,
+        "p95FrameMs": 7.4000000059604645,
+        "drawCalls": 53,
+        "triangles": 7133,
+        "geometries": 1225,
+        "textures": 35
+      },
+      "visibleReferences": [],
+      "selected": null,
+      "stableFrameWindow": {
+        "samples": 120,
+        "medianFrameMs": 7,
+        "p95FrameMs": 7.400000000001455
+      },
+      "file": "deliverables/verification/model-review/full-field.png"
+    },
+    {
+      "asset": "full",
+      "lod": "detail",
+      "position": [
+        503.04644008362993,
+        3.4999999999999996,
+        726.5460290962727
+      ],
+      "target": [
+        493.86966983505533,
+        -0.6,
+        746.8985937455958
+      ],
+      "metrics": {
+        "viewport": [
+          1600,
+          1000
+        ],
+        "pixelRatio": 1,
+        "asset": "full",
+        "lod": "detail",
+        "loadedAssets": 3,
+        "loadMs": 223,
+        "assetLoadMs": 155.5,
+        "hardware": {
+          "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5070 Ti (0x00002C05) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "logicalProcessors": 20,
+          "deviceMemoryGiB": 32
+        },
+        "samples": 300,
+        "medianFrameMs": 7,
+        "p95FrameMs": 7.4000000059604645,
+        "drawCalls": 69,
+        "triangles": 10015,
+        "geometries": 1369,
+        "textures": 35
+      },
+      "visibleReferences": [],
+      "selected": null,
+      "stableFrameWindow": {
+        "samples": 120,
+        "medianFrameMs": 7,
+        "p95FrameMs": 7.200000000000728
+      },
+      "file": "deliverables/verification/model-review/full-channel.png"
+    },
+    {
+      "asset": "full",
+      "lod": "detail",
+      "position": [
+        -757.1215602105153,
+        3.8,
+        -407.1800531611333
+      ],
+      "target": [
+        -748.0701829087171,
+        -0.5,
+        -435.46560722925244
+      ],
+      "metrics": {
+        "viewport": [
+          1600,
+          1000
+        ],
+        "pixelRatio": 1,
+        "asset": "full",
+        "lod": "detail",
+        "loadedAssets": 3,
+        "loadMs": 223,
+        "assetLoadMs": 155.5,
+        "hardware": {
+          "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5070 Ti (0x00002C05) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "logicalProcessors": 20,
+          "deviceMemoryGiB": 32
+        },
+        "samples": 300,
+        "medianFrameMs": 7,
+        "p95FrameMs": 7.300000011920929,
+        "drawCalls": 100,
+        "triangles": 9350,
+        "geometries": 1392,
+        "textures": 36
+      },
+      "visibleReferences": [],
+      "selected": null,
+      "stableFrameWindow": {
+        "samples": 120,
+        "medianFrameMs": 6.900000000001455,
+        "p95FrameMs": 7.30000000000291
+      },
+      "file": "deliverables/verification/model-review/full-pond.png"
+    },
+    {
+      "asset": "detail-xinwumao",
+      "lod": "detail",
+      "position": [
+        608.6400625,
+        1208.3400525000002,
+        1514.340064999999
+      ],
+      "target": [
+        -139.37997000000007,
+        0,
+        18.300000000000068
+      ],
+      "metrics": {
+        "viewport": [
+          1600,
+          1000
+        ],
+        "pixelRatio": 1,
+        "asset": "detail-xinwumao",
+        "lod": "detail",
+        "loadedAssets": 4,
+        "loadMs": 223,
+        "assetLoadMs": 218.09999999403954,
+        "hardware": {
+          "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5070 Ti (0x00002C05) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "logicalProcessors": 20,
+          "deviceMemoryGiB": 32
+        },
+        "samples": 300,
+        "medianFrameMs": 7,
+        "p95FrameMs": 7.4000000059604645,
+        "drawCalls": 312,
+        "triangles": 158765,
+        "geometries": 1703,
+        "textures": 51
+      },
+      "visibleReferences": [],
+      "selected": null,
+      "stableFrameWindow": {
+        "samples": 120,
+        "medianFrameMs": 6.900000000001455,
+        "p95FrameMs": 7.299999999999272
+      },
+      "file": "deliverables/verification/model-review/detail-xinwumao-overview.png"
+    },
+    {
+      "asset": "detail-xinwumao",
+      "lod": "detail",
+      "position": [
+        237.2682554625535,
+        3.7999999999999523,
+        -129.67429320200972
+      ],
+      "target": [
+        262.6872589747458,
+        0.15,
+        -163.78989462492413
+      ],
+      "metrics": {
+        "viewport": [
+          1600,
+          1000
+        ],
+        "pixelRatio": 1,
+        "asset": "detail-xinwumao",
+        "lod": "detail",
+        "loadedAssets": 4,
+        "loadMs": 223,
+        "assetLoadMs": 218.09999999403954,
+        "hardware": {
+          "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5070 Ti (0x00002C05) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "logicalProcessors": 20,
+          "deviceMemoryGiB": 32
+        },
+        "samples": 300,
+        "medianFrameMs": 6.9000000059604645,
+        "p95FrameMs": 7.4000000059604645,
+        "drawCalls": 38,
+        "triangles": 19205,
+        "geometries": 1703,
+        "textures": 51
+      },
+      "visibleReferences": [],
+      "selected": null,
+      "stableFrameWindow": {
+        "samples": 120,
+        "medianFrameMs": 7,
+        "p95FrameMs": 7.299999999999272
+      },
+      "file": "deliverables/verification/model-review/detail-xinwumao-field.png"
+    },
+    {
+      "asset": "detail-zhangjia",
+      "lod": "detail",
+      "position": [
+        24.375368736894927,
+        473.32338237712344,
+        469.58055210193515
+      ],
+      "target": [
+        -268.6343441632292,
+        0,
+        -116.43887369831305
+      ],
+      "metrics": {
+        "viewport": [
+          1600,
+          1000
+        ],
+        "pixelRatio": 1,
+        "asset": "detail-zhangjia",
+        "lod": "detail",
+        "loadedAssets": 5,
+        "loadMs": 223,
+        "assetLoadMs": 158.09999999403954,
+        "hardware": {
+          "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5070 Ti (0x00002C05) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "logicalProcessors": 20,
+          "deviceMemoryGiB": 32
+        },
+        "samples": 300,
+        "medianFrameMs": 7,
+        "p95FrameMs": 7.4000000059604645,
+        "drawCalls": 95,
+        "triangles": 93399,
+        "geometries": 1797,
+        "textures": 62
+      },
+      "visibleReferences": [],
+      "selected": null,
+      "stableFrameWindow": {
+        "samples": 120,
+        "medianFrameMs": 7,
+        "p95FrameMs": 7.30000000000291
+      },
+      "file": "deliverables/verification/model-review/detail-zhangjia-overview.png"
+    },
+    {
+      "asset": "detail-zhangjia",
+      "lod": "detail",
+      "position": [
+        -349.3156712861445,
+        3.8000000000000087,
+        -82.84925833023783
+      ],
+      "target": [
+        -328.42787241082146,
+        0.15,
+        -119.91271551037765
+      ],
+      "metrics": {
+        "viewport": [
+          1600,
+          1000
+        ],
+        "pixelRatio": 1,
+        "asset": "detail-zhangjia",
+        "lod": "detail",
+        "loadedAssets": 5,
+        "loadMs": 223,
+        "assetLoadMs": 158.09999999403954,
+        "hardware": {
+          "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5070 Ti (0x00002C05) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "logicalProcessors": 20,
+          "deviceMemoryGiB": 32
+        },
+        "samples": 300,
+        "medianFrameMs": 7,
+        "p95FrameMs": 7.300000011920929,
+        "drawCalls": 66,
+        "triangles": 68227,
+        "geometries": 1797,
+        "textures": 62
+      },
+      "visibleReferences": [],
+      "selected": null,
+      "stableFrameWindow": {
+        "samples": 120,
+        "medianFrameMs": 6.900000000001455,
+        "p95FrameMs": 7.30000000000291
+      },
+      "file": "deliverables/verification/model-review/detail-zhangjia-field.png"
+    },
+    {
+      "asset": "detail-tanshen",
+      "lod": "detail",
+      "position": [
+        191.10651366098045,
+        897.9630042846997,
+        1104.3051202023419
+      ],
+      "target": [
+        -364.77534613430964,
+        0,
+        -7.458599388238269
+      ],
+      "metrics": {
+        "viewport": [
+          1600,
+          1000
+        ],
+        "pixelRatio": 1,
+        "asset": "detail-tanshen",
+        "lod": "detail",
+        "loadedAssets": 6,
+        "loadMs": 223,
+        "assetLoadMs": 181.59999999403954,
+        "hardware": {
+          "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5070 Ti (0x00002C05) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "logicalProcessors": 20,
+          "deviceMemoryGiB": 32
+        },
+        "samples": 300,
+        "medianFrameMs": 7,
+        "p95FrameMs": 7.4000000059604645,
+        "drawCalls": 63,
+        "triangles": 90493,
+        "geometries": 1859,
+        "textures": 74
+      },
+      "visibleReferences": [],
+      "selected": null,
+      "stableFrameWindow": {
+        "samples": 120,
+        "medianFrameMs": 6.900000000001455,
+        "p95FrameMs": 7.400000000001455
+      },
+      "file": "deliverables/verification/model-review/detail-tanshen-overview.png"
+    },
+    {
+      "asset": "detail-tanshen",
+      "lod": "detail",
+      "position": [
+        -285.89599442036115,
+        3.799999999999956,
+        -292.1362909612028
+      ],
+      "target": [
+        -258.3584544525018,
+        0.15,
+        -324.56596706995447
+      ],
+      "metrics": {
+        "viewport": [
+          1600,
+          1000
+        ],
+        "pixelRatio": 1,
+        "asset": "detail-tanshen",
+        "lod": "detail",
+        "loadedAssets": 6,
+        "loadMs": 223,
+        "assetLoadMs": 181.59999999403954,
+        "hardware": {
+          "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5070 Ti (0x00002C05) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "logicalProcessors": 20,
+          "deviceMemoryGiB": 32
+        },
+        "samples": 300,
+        "medianFrameMs": 7,
+        "p95FrameMs": 7.4000000059604645,
+        "drawCalls": 20,
+        "triangles": 33955,
+        "geometries": 1859,
+        "textures": 74
+      },
+      "visibleReferences": [],
+      "selected": null,
+      "stableFrameWindow": {
+        "samples": 120,
+        "medianFrameMs": 6.900000000001455,
+        "p95FrameMs": 7.400000000001455
+      },
+      "file": "deliverables/verification/model-review/detail-tanshen-field.png"
+    },
+    {
+      "asset": "detail-abcdef",
+      "lod": "detail",
+      "position": [
+        943.7329062410681,
+        1501.913509394019,
+        1890.0359843023307
+      ],
+      "target": [
+        13.976924235247,
+        0,
+        30.524020290688444
+      ],
+      "metrics": {
+        "viewport": [
+          1600,
+          1000
+        ],
+        "pixelRatio": 1,
+        "asset": "detail-abcdef",
+        "lod": "detail",
+        "loadedAssets": 7,
+        "loadMs": 223,
+        "assetLoadMs": 268.5,
+        "hardware": {
+          "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5070 Ti (0x00002C05) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "logicalProcessors": 20,
+          "deviceMemoryGiB": 32
+        },
+        "samples": 300,
+        "medianFrameMs": 7,
+        "p95FrameMs": 7.300000011920929,
+        "drawCalls": 385,
+        "triangles": 463961,
+        "geometries": 2243,
+        "textures": 89
+      },
+      "visibleReferences": [],
+      "selected": null,
+      "stableFrameWindow": {
+        "samples": 120,
+        "medianFrameMs": 6.900000000001455,
+        "p95FrameMs": 7.30000000000291
+      },
+      "file": "deliverables/verification/model-review/detail-abcdef-overview.png"
+    },
+    {
+      "asset": "detail-abcdef",
+      "lod": "detail",
+      "position": [
+        -93.94356958552001,
+        3.799999999999951,
+        -176.13140185280923
+      ],
+      "target": [
+        -79.7550032533842,
+        0.15000000000000002,
+        -216.2398122605849
+      ],
+      "metrics": {
+        "viewport": [
+          1600,
+          1000
+        ],
+        "pixelRatio": 1,
+        "asset": "detail-abcdef",
+        "lod": "detail",
+        "loadedAssets": 7,
+        "loadMs": 223,
+        "assetLoadMs": 268.5,
+        "hardware": {
+          "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5070 Ti (0x00002C05) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "logicalProcessors": 20,
+          "deviceMemoryGiB": 32
+        },
+        "samples": 300,
+        "medianFrameMs": 6.9000000059604645,
+        "p95FrameMs": 7.399999976158142,
+        "drawCalls": 46,
+        "triangles": 56663,
+        "geometries": 2243,
+        "textures": 89
+      },
+      "visibleReferences": [],
+      "selected": null,
+      "stableFrameWindow": {
+        "samples": 120,
+        "medianFrameMs": 6.900000000001455,
+        "p95FrameMs": 7.30000000000291
+      },
+      "file": "deliverables/verification/model-review/detail-abcdef-field.png"
+    }
+  ],
+  "errors": []
+}

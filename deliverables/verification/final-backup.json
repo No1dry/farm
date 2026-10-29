@@ -1,0 +1,61 @@
+{
+  "captured_at": "2026-10-29T05:48:52.768724+00:00",
+  "backup": "runtime/backups/farm-v06-20261029T054852356139Z.sqlite3",
+  "restored": "runtime/backups/farm-v06-restored-20261029T054852356139Z.sqlite3",
+  "backup_sha256": "4650a47f028eaa6670faa138620ddda42837ff25120c68ea4b5d3a5152b527c7",
+  "integrity": "ok",
+  "schema_version": 2,
+  "all_application_tables_equal": true,
+  "tables": {
+    "audit_log": {
+      "count": 979,
+      "sha256": "8e9c1a4eed0483a5d63d14b91be3b243c2c8e9290982c2de2333637c0350133a"
+    },
+    "entities": {
+      "count": 482,
+      "sha256": "1facb18227f6a646e5370c2cc7eeb3ef9697171461eb19bdf90b6349e3b75111"
+    },
+    "entity_sources": {
+      "count": 2318,
+      "sha256": "376f416a73ff6e398718cc8129bc377d50bff9a0e475665d5a64912c8c12841f"
+    },
+    "entity_versions": {
+      "count": 1463,
+      "sha256": "64f48f8944259c56efdb8e9dca99416bb5e0def6ea5e4a421e4d792b1f5db301"
+    },
+    "import_previews": {
+      "count": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "knowledge_entries": {
+      "count": 4,
+      "sha256": "f8f362d37e74b2ed9a90a7a7a1dc8b6fe1e22b8f9fdc962384b13b61ab1eb991"
+    },
+    "plans": {
+      "count": 10,
+      "sha256": "dc1ed3329d4744250b93a8a662f5e0e38e45c4bcdf6f6ee53c4c6f30f6fc9146"
+    },
+    "relations": {
+      "count": 239,
+      "sha256": "a07ffdecdc8be8338115801177db2787399c3b30ee25cae4a6d6072cbfc6e867"
+    },
+    "schema_migrations": {
+      "count": 2,
+      "sha256": "ab3c61852cabe8ed268e0d681f00e1f9ed7ae570ad3429057dce64e4f90734ae"
+    },
+    "source_systems": {
+      "count": 5,
+      "sha256": "c1ca59be7812c4e502d763ed1ab664985edef77f15e06fb8a2d1da22fc9f3a5b"
+    },
+    "sources": {
+      "count": 1140,
+      "sha256": "3e61a7103727545c5605168345cad172ae4f4f923e2f30044e210c1ebc29ddfb"
+    },
+    "spatial_bindings": {
+      "count": 414,
+      "sha256": "6966bd7dc3260a92ec6b524df0318a705a4ccde5f390140d78cf467ab8273cda"
+    }
+  },
+  "original_source_files_unchanged": 12,
+  "note": "Consistent V0.6 snapshot; compared all application table contents after restore to a new path. Secrets excluded."
+}

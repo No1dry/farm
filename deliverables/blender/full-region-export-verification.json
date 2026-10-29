@@ -1,0 +1,32 @@
+{
+  "model_revision": "v06",
+  "source_owners": 121,
+  "assets": [
+    {
+      "file": "full-area.glb",
+      "bytes": 135574212,
+      "sha256": "f842c8c148a17cbc76c8d21c505830909f914ffcf032d71025e68e01880a42c6",
+      "nodes": 591,
+      "meshes": 301,
+      "gpu_instance_batches": 147,
+      "gpu_component_instances": 13467,
+      "device_nodes": 49,
+      "leaf_alpha_mask": true,
+      "embedded_images": 17
+    },
+    {
+      "file": "full-area-lod.glb",
+      "bytes": 22646908,
+      "sha256": "152aed86cef8b9431e410c071a9203f315d12e4be12b5a49772293e1b87d23f4",
+      "nodes": 516,
+      "meshes": 226,
+      "gpu_instance_batches": 147,
+      "gpu_component_instances": 13467,
+      "device_nodes": 49,
+      "leaf_alpha_mask": true,
+      "embedded_images": 9
+    }
+  ],
+  "passed": true,
+  "limits": "Checks identity, self-containment and instance/material contracts; appearance is separately reviewed in actual rendered images."
+}

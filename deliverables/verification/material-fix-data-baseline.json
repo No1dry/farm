@@ -1,0 +1,11 @@
+{
+  "manifest_sha256": "2ac3bdcd10d578622bbb60b95ccb67069319e9ecda3d5a6254f7fd818a2b2417",
+  "object_metadata_sha256": "bf99b5ea8b64452a8c33c08e4c8ef05bf3b6b3a96b8b193f4d9e8f558f152187",
+  "object_count": 284,
+  "basis": "Persisted real spatial bindings from previous manifest; compared before new import",
+  "current_manifest_sha256": "7757d3e9ae4763885aa508d270be705d26b9ec2f978727edcb817052d98d5487",
+  "current_object_metadata_unchanged": true,
+  "changed_spatial_ids": [],
+  "final_verified_manifest_sha256": "2fc32f4cba5ef33e68eefa16e3d9ec41f8374f29ecfbdbd8f2ce68227d39c673",
+  "final_verification_receipt": "deliverables/verification/v06-database-import.json"
+}

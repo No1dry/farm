@@ -1,0 +1,305 @@
+{
+  "schema_version": "farm-knowledge/1",
+  "policy": "公开农业技术参考，不是现场事实。检索命中不表示现场适用；先核实对象、物种、生产阶段、天气、设备与有效观测。正文为独立摘要，完整依据通过原文链接查看。",
+  "entries": [
+    {
+      "id": "kb-hubei-pond-hot-weather-2024",
+      "kind": "knowledge",
+      "title": "湖北夏季高温池塘管理：溶氧与水温核查",
+      "source_title": "省水产技术推广总站关于印发2024年湖北省夏季高温水产养殖生产管理措施的通知",
+      "url": "https://hbnysy.hubei.gov.cn/zfxxgk/zc/qtzdgkwj/202406/t20240621_5244783.shtml",
+      "publisher": "湖北省水产技术推广总站",
+      "published_at": "2024-06-21",
+      "version": "2024-06-21/curated-v1",
+      "data_nature": "imported_unverified",
+      "reference_verified": true,
+      "evidence_type": "public_technical_guidance",
+      "status": "reference_not_site_fact",
+      "entity_kinds": [
+        "pond",
+        "lake"
+      ],
+      "keywords": [
+        "缺氧",
+        "溶解氧",
+        "增氧",
+        "高温",
+        "水温",
+        "浮头",
+        "水质"
+      ],
+      "scope": {
+        "regions": [
+          "湖北"
+        ],
+        "production": [
+          "pond_fish",
+          "pond_crustacean"
+        ],
+        "season": [
+          "hot_weather"
+        ],
+        "requires": [
+          "养殖类别",
+          "水温及分层",
+          "当前溶解氧",
+          "天气",
+          "设备可用状态"
+        ],
+        "exclusions": [
+          "不得由日期推定正在高温",
+          "不得把鱼塘的开机时段用于有水草的虾蟹塘"
+        ]
+      },
+      "summary": "该指导强调高温期水环境监测及增氧管理，同时区分鱼塘与虾蟹塘。搅动水体可能改变温度分层；品种、天气和分层情况不清楚时，不能直接给出统一开机时段。",
+      "steps": [
+        {
+          "priority": 1,
+          "action": "先核实养殖类别，复测溶氧与不同水层的水温，观察浮头情况。",
+          "conditions": [
+            "确认是池塘养殖"
+          ],
+          "limitations": [
+            "本条未提供本塘实测值"
+          ]
+        },
+        {
+          "priority": 2,
+          "action": "由现场人员结合天气、分层及设备状态制定增氧和水质调控措施。",
+          "conditions": [
+            "观测有效",
+            "设备经安全检查"
+          ],
+          "limitations": [
+            "未评估容量时不指定设备数量、运行时长或新增采购"
+          ]
+        }
+      ],
+      "retrieved_at": "2026-10-29T01:14:07.258450+00:00",
+      "source_sha256": "7ea0a59f7d076846a4f30540dc9572b844e1df61d2a6e33cc994cf3647d96038",
+      "source_bytes": 51217,
+      "retrieved_url": "https://hbnysy.hubei.gov.cn/zfxxgk/zc/qtzdgkwj/202406/t20240621_5244783.shtml"
+    },
+    {
+      "id": "kb-fao-pond-oxygen-principles",
+      "kind": "knowledge",
+      "title": "淡水池塘溶氧：温度、昼夜变化与承载能力",
+      "source_title": "Fish culture in undrainable ponds — Principles of freshwater fish culture",
+      "url": "https://www.fao.org/4/T0555E/T0555E02.htm",
+      "publisher": "FAO",
+      "published_at": null,
+      "version": "T0555E/chapter-2/curated-v1",
+      "data_nature": "imported_unverified",
+      "reference_verified": true,
+      "evidence_type": "public_technical_guidance",
+      "status": "reference_not_site_fact",
+      "entity_kinds": [
+        "pond",
+        "lake"
+      ],
+      "keywords": [
+        "缺氧",
+        "溶解氧",
+        "水温",
+        "昼夜",
+        "浮头",
+        "监测"
+      ],
+      "scope": {
+        "regions": [
+          "general"
+        ],
+        "production": [
+          "freshwater_pond"
+        ],
+        "season": [
+          "all"
+        ],
+        "requires": [
+          "淡水养殖条件",
+          "观测时间",
+          "水温",
+          "养殖品种和阶段"
+        ],
+        "exclusions": [
+          "不将基础机理当成本塘阈值",
+          "不据单次旧观测推断当前趋势"
+        ]
+      },
+      "summary": "淡水池塘的溶解氧与水温有关，并受光合作用及水中生物呼吸影响而发生昼夜变化。因此解释观测必须带上时间和温度；养殖承载能力不能仅从塘面积确定。",
+      "steps": [
+        {
+          "priority": 1,
+          "action": "保留采样时刻、水温和测点，比较具有可比条件的有效观测。",
+          "conditions": [
+            "传感器质量合格"
+          ],
+          "limitations": [
+            "未给定本地物种的统一安全阈值"
+          ]
+        },
+        {
+          "priority": 2,
+          "action": "低氧风险评估同时核查生物负荷及水体条件。",
+          "conditions": [
+            "种养殖资料已确认"
+          ],
+          "limitations": [
+            "未知养殖密度不能用模型面积替代"
+          ]
+        }
+      ],
+      "retrieved_at": "2026-10-29T01:14:04.186888+00:00",
+      "source_sha256": "ea504d9af80522f8e05493f4f7ffba1554ab9ed9c36ab2b9ad2eaa665a9e721f",
+      "source_bytes": 22842,
+      "retrieved_url": "https://www.fao.org/4/T0555E/T0555E02.htm"
+    },
+    {
+      "id": "kb-hubei-aquaculture-freezing-2024",
+      "kind": "knowledge",
+      "title": "湖北低温冰雪水产养殖：供电、设备与缺氧风险核查",
+      "source_title": "湖北省农业科技抗灾救灾技术指南——水产养殖",
+      "url": "https://nyt.hubei.gov.cn/bmdt/ztzl/wqzt/ffdwyx/jszn/202402/t20240223_5093895.shtml",
+      "publisher": "湖北省水产技术推广总站",
+      "published_at": "2024-02-23",
+      "version": "2024-02-23/curated-v1",
+      "data_nature": "imported_unverified",
+      "reference_verified": true,
+      "evidence_type": "public_technical_guidance",
+      "status": "reference_not_site_fact",
+      "entity_kinds": [
+        "pond",
+        "device"
+      ],
+      "keywords": [
+        "低温",
+        "冰雪",
+        "停电",
+        "设备",
+        "缺氧",
+        "报警",
+        "水泵"
+      ],
+      "scope": {
+        "regions": [
+          "湖北"
+        ],
+        "production": [
+          "aquaculture"
+        ],
+        "season": [
+          "freezing_weather"
+        ],
+        "requires": [
+          "实际天气预警",
+          "设施类型",
+          "供电与设备状态"
+        ],
+        "exclusions": [
+          "仅在低温冰雪情境适用",
+          "不得据本条声称现场有备用电源"
+        ]
+      },
+      "summary": "低温冰雪可同时带来水质、设施损坏及用电风险。该指南要求关注天气预警并检查养殖设施、供电、进排水和报警系统，按实际条件准备应急保障。",
+      "steps": [
+        {
+          "priority": 1,
+          "action": "核查预警、供电、进排水和报警是否正常，并记录故障。",
+          "conditions": [
+            "低温冰雪情境已确认"
+          ],
+          "limitations": [
+            "未知设备状态不能标为正常"
+          ]
+        },
+        {
+          "priority": 2,
+          "action": "由现场负责人核实备用保障和安全操作条件。",
+          "conditions": [
+            "现场清单可用"
+          ],
+          "limitations": [
+            "不指定未有依据的发电机或增氧机数量"
+          ]
+        }
+      ],
+      "retrieved_at": "2026-10-29T01:14:07.281697+00:00",
+      "source_sha256": "324e7998e407107b4822d386ee646c9611961af1ff63da399832f393f0f27fb5",
+      "source_bytes": 62134,
+      "retrieved_url": "https://nyt.hubei.gov.cn/bmdt/ztzl/wqzt/ffdwyx/jszn/202402/t20240223_5093895.shtml"
+    },
+    {
+      "id": "kb-hubei-rice-heat-drought-2026",
+      "kind": "knowledge",
+      "title": "湖北在田水稻高温干旱：按生育期和供水条件选择水分管理",
+      "source_title": "在田水稻应对高温干旱技术指导意见",
+      "url": "https://nyt.hubei.gov.cn/bmdt/yw/ywtz/snyjstgzz_9001/202607/t20260716_5978263.shtml",
+      "publisher": "湖北省农业技术推广总站、省水稻大面积专家指导组",
+      "published_at": "2026-07-16",
+      "version": "2026-07-16/curated-v1",
+      "data_nature": "imported_unverified",
+      "reference_verified": true,
+      "evidence_type": "public_technical_guidance",
+      "status": "reference_not_site_fact",
+      "entity_kinds": [
+        "field"
+      ],
+      "keywords": [
+        "水稻",
+        "高温",
+        "干旱",
+        "灌溉",
+        "水源",
+        "田间管理"
+      ],
+      "scope": {
+        "regions": [
+          "湖北"
+        ],
+        "production": [
+          "rice"
+        ],
+        "season": [
+          "hot_dry_weather"
+        ],
+        "requires": [
+          "作物确认为水稻",
+          "生育阶段",
+          "当前天气",
+          "供水条件"
+        ],
+        "exclusions": [
+          "不能由旱改水图纸推断当前种植水稻",
+          "不可套用至所有农田"
+        ]
+      },
+      "summary": "湖北该期技术意见按水稻生育阶段及灌溉条件区分高温干旱管理。具体水分措施需结合在田作物和可用水源；资料中的历史建议不是本项目当前生育期证明。",
+      "steps": [
+        {
+          "priority": 1,
+          "action": "确认作物、生育期、热旱情势与灌排设施条件。",
+          "conditions": [
+            "水稻种植已确认"
+          ],
+          "limitations": [
+            "作物未知时只列补充资料要求"
+          ]
+        },
+        {
+          "priority": 2,
+          "action": "由农技人员按所处阶段和供水能力选择田间水分措施。",
+          "conditions": [
+            "当前气象和水源可核实"
+          ],
+          "limitations": [
+            "不将文章历史水层要求作为全部地块控制指令"
+          ]
+        }
+      ],
+      "retrieved_at": "2026-10-29T01:14:06.726993+00:00",
+      "source_sha256": "aa71712d784467362a58dce794b6640b2a95d90b5fc23c27bbd8a32814757b7a",
+      "source_bytes": 62324,
+      "retrieved_url": "https://nyt.hubei.gov.cn/bmdt/yw/ywtz/snyjstgzz_9001/202607/t20260716_5978263.shtml"
+    }
+  ]
+}

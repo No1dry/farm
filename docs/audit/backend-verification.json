@@ -1,0 +1,202 @@
+{
+  "verified_at": "2026-10-29T02:00:59.149914+00:00",
+  "python_tests": {
+    "command": [
+      "C:\\Users\\robot\\Desktop\\farm-main\\.tools\\backend-venv\\Scripts\\python.exe",
+      "-m",
+      "pytest",
+      "tests/test_backend.py",
+      "-q",
+      "--basetemp",
+      "C:\\Users\\robot\\Desktop\\farm-main\\.tools\\pytest-backend-receipt-20261029T020050Z"
+    ],
+    "passed": 68,
+    "failed": 0,
+    "warnings": [
+      "Starlette TestClient httpx deprecation"
+    ]
+  },
+  "database": {
+    "schema_version": 2,
+    "integrity": "ok",
+    "counts": {
+      "real": 284,
+      "demo": 18
+    },
+    "ledger_count": 100,
+    "bound_ledger_count": 100,
+    "spatial_representations": 284,
+    "retired_identities": 9,
+    "public_references": 4,
+    "saved_drafts": 3,
+    "original_ledger_uuid_set_unchanged": true,
+    "repeat_import_uuid_revision_unchanged": true
+  },
+  "backup_restore": {
+    "backup": "runtime/backups/farm-verified-20261029T020050Z.sqlite3",
+    "restored": "runtime/backups/farm-restored-20261029T020050Z.sqlite3",
+    "integrity": "ok",
+    "identical_resource_ids_and_revisions": true,
+    "schema_version": 2,
+    "backup_sha256": "d53b25e021d26abfc22eea354c83b3974c488ec935fe67ca271be6b14f7a8c9a",
+    "restored_sha256": "d2cfcbd7ef578e447afb5dc95831f0e4b55ddab60589c4ce6372ad9b5159000d",
+    "all_application_tables_equal": true,
+    "table_checksums": {
+      "audit_log": {
+        "count": 204,
+        "sha256": "b1985b1de64ec04b3497f881280db59d240f852edbeb0c150449d016a6e38a52"
+      },
+      "entities": {
+        "count": 311,
+        "sha256": "2e67a5150590fcd4f1edc06d844a63c04ceecdbb308c477fe0c18694620310c4"
+      },
+      "entity_sources": {
+        "count": 620,
+        "sha256": "52f3c52eac4644f8d1bc77d6ebb89afa3ad470207646974b620f75518bdf45e9"
+      },
+      "entity_versions": {
+        "count": 449,
+        "sha256": "81f3da0c5688f00c4a15451e1f86af51fa91a7fb83be5672b435e12b2d859ff8"
+      },
+      "import_previews": {
+        "count": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "knowledge_entries": {
+        "count": 4,
+        "sha256": "f8f362d37e74b2ed9a90a7a7a1dc8b6fe1e22b8f9fdc962384b13b61ab1eb991"
+      },
+      "plans": {
+        "count": 3,
+        "sha256": "da1cf39b034385672dc3a7fd0aa22d9c57e0c6fda50f36adf4b068249adc8dc7"
+      },
+      "relations": {
+        "count": 20,
+        "sha256": "e3ddf7a9a62b65c7df4366b08166caac9bdf919e4062bf5047b1a45a28322082"
+      },
+      "schema_migrations": {
+        "count": 2,
+        "sha256": "ab3c61852cabe8ed268e0d681f00e1f9ed7ae570ad3429057dce64e4f90734ae"
+      },
+      "source_systems": {
+        "count": 4,
+        "sha256": "a97af383ee86821376c43f29185327dcf078346e9687e6378092bf27e9f93c10"
+      },
+      "sources": {
+        "count": 462,
+        "sha256": "99031fbdcbb828080e20fc349214106d7ddf7c3bd7b891f34ffa10bc2bfe4d07"
+      },
+      "spatial_bindings": {
+        "count": 293,
+        "sha256": "4bae9a75c14b15fec1c25be068da109bc2ec347aca0bcb40447635d09067eeb7"
+      }
+    }
+  },
+  "semantic_validation": {
+    "real": {
+      "conforms": true,
+      "issues": [],
+      "upstream_commit": "5776ba8d656139d3fb8dfabd137d83dd6dbba11c",
+      "engine": "pyshacl",
+      "inference": "rdfs",
+      "data_triples": 284,
+      "scope": "Upstream DeviceShape requires exactly one Organization manager; no claim of biological safety validation"
+    },
+    "demo": {
+      "conforms": true,
+      "issues": [],
+      "upstream_commit": "5776ba8d656139d3fb8dfabd137d83dd6dbba11c",
+      "engine": "pyshacl",
+      "inference": "rdfs",
+      "data_triples": 38,
+      "scope": "Upstream DeviceShape requires exactly one Organization manager; no claim of biological safety validation"
+    }
+  },
+  "actual_model_inference": {
+    "local-model-verification.json": {
+      "status": "ok",
+      "model": {
+        "configured": true,
+        "model": "qwen3-4b-local",
+        "provider": "openai-compatible",
+        "actual_inference": true,
+        "elapsed_ms": 2687,
+        "usage": {
+          "completion_tokens": 393,
+          "prompt_tokens": 2965,
+          "total_tokens": 3358,
+          "prompt_tokens_details": {
+            "cached_tokens": 4
+          }
+        }
+      },
+      "evidence_ids": [
+        "knowledge-demo-oxygen-v1",
+        "src-c293b220885934733499e5ce",
+        "upstream-pond-40666cd6-bfc7-59e2-be49-fd5ad55450bd"
+      ],
+      "sections": 7,
+      "production_plan_accepted": false
+    },
+    "local-model-verification-ready.json": {
+      "status": "ok",
+      "model": {
+        "configured": true,
+        "model": "qwen3-4b-local",
+        "provider": "openai-compatible",
+        "actual_inference": true,
+        "elapsed_ms": 2422,
+        "usage": {
+          "completion_tokens": 363,
+          "prompt_tokens": 2301,
+          "total_tokens": 2664,
+          "prompt_tokens_details": {
+            "cached_tokens": 4
+          }
+        }
+      },
+      "evidence_ids": [
+        "src-417546a8eac39c28a2a9bd11",
+        "src-b0d358aebbae882e0e436361",
+        "kb-fao-pond-oxygen-principles",
+        "kb-hubei-pond-hot-weather-2024"
+      ],
+      "sections": 7,
+      "production_plan_accepted": false
+    }
+  },
+  "limitations": [
+    "No production equipment connected",
+    "No full upstream multi-store runtime exercised",
+    "No field-approved agronomic thresholds or biological outcome verification",
+    "Arbitrary model prose is not proof of fact",
+    "Source drawings use paper coordinates and are not georeferenced",
+    "Operator sessions and bearer roles are not a complete account platform"
+  ],
+  "manifest": {
+    "path": "public/models/manifest.json",
+    "sha256": "b6f1cbfc7e4f8e08de154a0be433432d082139780d89fd4d66c269a1ec664552",
+    "object_count": 284
+  },
+  "final_identity_review": {
+    "qing17": {
+      "spatial_id": "DETAIL-QING17",
+      "resource_id": "7cce3a4c-9fba-4674-8b8f-b84eaff78ebf",
+      "same_uuid_restored": true
+    },
+    "e3": {
+      "ledger_resource_id": "76b962a0-479e-4f01-b4ff-c4efc8948625",
+      "ledger_spatial_ids": [
+        "DRAW-pdf-05-E3"
+      ],
+      "independent_candidate_resource_id": "5a2fa819-9da8-4684-a0ad-80056de7ef60",
+      "candidate_spatial_id": "DRAW-pdf-02-E3",
+      "wrong_document_source_detached": true
+    },
+    "namespaced_relation_count": 20,
+    "original_relation_ids_retained_as_external_id": true,
+    "facility_annotation_count": 20,
+    "facility_annotation_status": "Source label anchors; not verified unique field assets or online devices",
+    "ledger_model_area_m2_all_null": true
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "dataset": "demo",
+  "asset": "full",
+  "summary": {
+    "asset_id": "full",
+    "principal_count": 121,
+    "device_count": 49,
+    "counts": {
+      "device": 49,
+      "bare": 3,
+      "channel": 5,
+      "field": 38,
+      "lake": 1,
+      "pond": 36,
+      "road": 20,
+      "settlement": 9,
+      "woodland": 9
+    },
+    "observation_count": 281,
+    "business_alert_count": 20,
+    "reference_time": "2026-10-29T03:00:00Z",
+    "data_nature": "synthetic"
+  },
+  "selected": "田块 01 · 演示",
+  "relations": {
+    "root_id": "79901252-f7e1-5331-a953-dd045f809f2a",
+    "dataset": "demo",
+    "depth": 1,
+    "nodes": [
+      {
+        "id": "61af1158-db29-5ecf-a87e-7b2791ba1f04",
+        "name": "土壤监测仪 · 演示",
+        "kind": "device",
+        "class_iris": [
+          "https://w3id.org/lzo/ontology/Sensor"
+        ],
+        "dataset": "demo",
+        "data_nature": "synthetic"
+      },
+      {
+        "id": "79901252-f7e1-5331-a953-dd045f809f2a",
+        "name": "田块 01 · 演示",
+        "kind": "field",
+        "class_iris": [
+          "https://w3id.org/lzo/ontology/Field"
+        ],
+        "dataset": "demo",
+        "data_nature": "synthetic"
+      },
+      {
+        "id": "7d54ef62-63f1-5f8a-98d4-28066325b8db",
+        "name": "全域演示管理组",
+        "kind": "organization",
+        "class_iris": [
+          "https://w3id.org/lzo/ontology/Organization"
+        ],
+        "dataset": "demo",
+        "data_nature": "synthetic"
+      }
+    ],
+    "edges": [
+      {
+        "data_nature": "synthetic",
+        "external_id": null,
+        "id": "rel-71f28c601ee3729a0c569c893f4efe61f34cc4c217184bc58d844b42728680a3",
+        "predicate_iri": "https://w3id.org/lzo/ontology/managedBy",
+        "source_id": "95980312-fee2-4b2c-9eb3-a12ddd74a3b0",
+        "source_key": "full-area-demo-v1:SAT-FIELD-001",
+        "state": "accepted",
+        "subject_id": "79901252-f7e1-5331-a953-dd045f809f2a",
+        "support": {
+          "scenario_id": "full-area-demo-v1",
+          "site_fact": false,
+          "source_file": "data/demo/full-area-scenario.json",
+          "source_sha256": "0a479101c39d063ba60015a45d8e488a141606964a55c5145dc940782ea0db9c"
+        },
+        "target_id": "7d54ef62-63f1-5f8a-98d4-28066325b8db"
+      },
+      {
+        "data_nature": "synthetic",
+        "external_id": null,
+        "id": "rel-82ec33b1569db1ceb093325fbf3311817c676a61d5318a89f8e153fb531496ff",
+        "predicate_iri": "https://w3id.org/lzo/ontology/monitors",
+        "source_id": "95980312-fee2-4b2c-9eb3-a12ddd74a3b0",
+        "source_key": "full-area-demo-v1:SAT-FIELD-001:sensor",
+        "state": "accepted",
+        "subject_id": "61af1158-db29-5ecf-a87e-7b2791ba1f04",
+        "support": {
+          "scenario_id": "full-area-demo-v1",
+          "site_fact": false,
+          "source_file": "data/demo/full-area-scenario.json",
+          "source_sha256": "0a479101c39d063ba60015a45d8e488a141606964a55c5145dc940782ea0db9c"
+        },
+        "target_id": "79901252-f7e1-5331-a953-dd045f809f2a"
+      }
+    ],
+    "upstream": {
+      "repository": "https://github.com/lianggeming14/liangzihu-ontology-traceability",
+      "commit": "5776ba8d656139d3fb8dfabd137d83dd6dbba11c",
+      "directory": "ontology-platform",
+      "original_commit": "8ee79416073ce91d9eb5e724fefb04241e6187b5",
+      "integration": "local_sqlite_contract_adapter",
+      "full_platform_connected": false
+    }
+  },
+  "labels": [
+    {
+      "kind": "device",
+      "text": "◎水情监测仪Sensor · 演示"
+    },
+    {
+      "kind": "device",
+      "text": "◎土壤监测仪Sensor · 演示"
+    },
+    {
+      "kind": "device",
+      "text": "◎水情监测仪Sensor · 演示"
+    },
+    {
+      "kind": "channel",
+      "text": "≋沟渠 01SpatialAsset · 演示"
+    },
+    {
+      "kind": "alert",
+      "text": "⚠样例条件 · 田块 01固定快照 / 非生产预警"
+    },
+    {
+      "kind": "field",
+      "text": "▱田块 20Field · 演示"
+    },
+    {
+      "kind": "alert",
+      "text": "⚠样例条件 · 田块 25固定快照 / 非生产预警"
+    },
+    {
+      "kind": "field",
+      "text": "▱田块 31Field · 演示"
+    },
+    {
+      "kind": "pond",
+      "text": "≈水塘 25Pond · 演示"
+    },
+    {
+      "kind": "alert",
+      "text": "⚠样例条件 · 水塘 33固定快照 / 非生产预警"
+    },
+    {
+      "kind": "road",
+      "text": "╱道路 18SpatialAsset · 演示"
+    },
+    {
+      "kind": "settlement",
+      "text": "⌂毛家村李家村SpatialAsset · 演示"
+    },
+    {
+      "kind": "woodland",
+      "text": "♧林地 07SpatialAsset · 演示"
+    }
+  ],
+  "profile": "UUID 79901252-f7e1-5331-a953-dd045f809f2a演示数据田块 01本体分类Field来源全域样例配置 v1模型估算面积33,032 m²（演示）◎ 定位此本体对象",
+  "lines": 1,
+  "metrics": {
+    "viewport": [
+      1600,
+      1000
+    ],
+    "pixelRatio": 1,
+    "asset": "full",
+    "lod": "overview",
+    "loadedAssets": 1,
+    "loadMs": 131.40000000596046,
+    "assetLoadMs": 109.69999998807907,
+    "hardware": {
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5070 Ti (0x00002C05) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "logicalProcessors": 20,
+      "deviceMemoryGiB": 32
+    },
+    "samples": 300,
+    "medianFrameMs": 6.9000000059604645,
+    "p95FrameMs": 7.4000000059604645,
+    "drawCalls": 610,
+    "triangles": 78545,
+    "geometries": 610,
+    "textures": 8
+  },
+  "errors": []
+}

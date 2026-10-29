@@ -11,3 +11,5 @@
 - 天空与水面使用 Three.js 官方 Sky / Water 插件。
 
 - 自然天空 HDRI：[Poly Haven / Kloppenheim 06 PureSky](https://polyhaven.com/a/kloppenheim_06_puresky)，CC0。天空用于视觉环境参考，不代表现场实拍天气。
+
+- 补充样例树叶/枝皮纹理：[Poly Haven / Tree Small 02](https://polyhaven.com/a/tree_small_02)，作者 Rico Cilliers，CC0。仅使用1K叶片颜色/透明度/法线和枝皮颜色贴图，表示可替换通用植被外观，不表示现场树种。下载URL、MD5及SHA256在`textures/foliage/source-manifest.json`。Powered by Poly Haven（素材API来源）。

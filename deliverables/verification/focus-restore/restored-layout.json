@@ -1,0 +1,82 @@
+{
+  "timestamp": "2026-10-29T02:54:32.641Z",
+  "layout": {
+    ".screen-header": {
+      "x": 0,
+      "y": 0,
+      "width": 1600,
+      "height": 113,
+      "display": "flex"
+    },
+    ".header-title": {
+      "x": 540,
+      "y": 0,
+      "width": 520,
+      "height": 91,
+      "display": "block"
+    },
+    ".left-side": {
+      "x": 27,
+      "y": 114,
+      "width": 276,
+      "height": 792,
+      "display": "flex"
+    },
+    ".right-side": {
+      "x": 1297,
+      "y": 114,
+      "width": 276,
+      "height": 792,
+      "display": "flex"
+    },
+    ".bottom-nav": {
+      "x": 534.5,
+      "y": 911,
+      "width": 531,
+      "height": 55,
+      "display": "flex"
+    },
+    ".photo-panel": {
+      "x": 1297,
+      "y": 635,
+      "width": 276,
+      "height": 212,
+      "display": "block"
+    },
+    ".scene-toolbar": {
+      "x": 1244,
+      "y": 739,
+      "width": 32,
+      "height": 149,
+      "display": "flex"
+    }
+  },
+  "diffs": [],
+  "errors": [],
+  "candidates": 1,
+  "metrics": {
+    "viewport": [
+      390,
+      844
+    ],
+    "pixelRatio": 1,
+    "asset": "detail-miaoxia",
+    "lod": "detail",
+    "loadedAssets": 1,
+    "loadMs": 240.5,
+    "assetLoadMs": 220.19999998807907,
+    "hardware": {
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5070 Ti (0x00002C05) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "logicalProcessors": 20,
+      "deviceMemoryGiB": 32
+    },
+    "samples": 300,
+    "medianFrameMs": 7,
+    "p95FrameMs": 8.599999994039536,
+    "drawCalls": 117,
+    "triangles": 89049,
+    "geometries": 197,
+    "textures": 20
+  },
+  "selected": "L19"
+}

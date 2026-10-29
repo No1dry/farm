@@ -1,0 +1,49 @@
+{
+  "asset": "Tree Small 02 leaf/branch texture maps only",
+  "source": "https://polyhaven.com/a/tree_small_02",
+  "license_url": "https://polyhaven.com/license",
+  "api_credit": "Powered by Poly Haven",
+  "use": "Replaceable generic sample vegetation appearance; not a statement of on-site species.",
+  "files": [
+    {
+      "file": "public/focus/textures/foliage/leaves_diff.png",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/tree_small_02/tree_small_02_leaves_diff_1k.png",
+      "md5": "2c667193084725e8553062ddbdc73c7d",
+      "sha256": "d3fc48522c76aa1f91076c6b86f302669822ebe4e2acabd67d42c4d57eaa5ba0",
+      "bytes": 2338424,
+      "license": "CC0-1.0",
+      "author": "Rico Cilliers",
+      "source": "https://polyhaven.com/a/tree_small_02"
+    },
+    {
+      "file": "public/focus/textures/foliage/leaves_alpha.png",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/tree_small_02/tree_small_02_leaves_alpha_1k.png",
+      "md5": "63199ba87a9e8928424bd8c3b8017bd0",
+      "sha256": "4f143e2dda8a6a572f427ac378b92255d21761e4611de0d26e21816c01aa533b",
+      "bytes": 264711,
+      "license": "CC0-1.0",
+      "author": "Rico Cilliers",
+      "source": "https://polyhaven.com/a/tree_small_02"
+    },
+    {
+      "file": "public/focus/textures/foliage/leaves_nor_gl.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/tree_small_02/tree_small_02_leaves_nor_gl_1k.jpg",
+      "md5": "b06c87e73f54d9654f66d67e9de7aa85",
+      "sha256": "8c72e04fb23e16ae1df79c01385a638473d1dd4dede3d51e83d70153c129f09b",
+      "bytes": 681604,
+      "license": "CC0-1.0",
+      "author": "Rico Cilliers",
+      "source": "https://polyhaven.com/a/tree_small_02"
+    },
+    {
+      "file": "public/focus/textures/foliage/branch_diff.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/tree_small_02/tree_small_02_branch_diff_1k.jpg",
+      "md5": "88b531469f5dba2fc44ca85df3776e7c",
+      "sha256": "a71b768e330c0c6cca097e30314f6b4e842ef724a1370f6aab14b4434eec64cb",
+      "bytes": 449977,
+      "license": "CC0-1.0",
+      "author": "Rico Cilliers",
+      "source": "https://polyhaven.com/a/tree_small_02"
+    }
+  ]
+}

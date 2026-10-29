@@ -1,0 +1,49 @@
+{
+  "schema_version":"farm-full-scene-scenario/1",
+  "id":"full-area-demo-v1",
+  "label":"演示业务 · 卫星轮廓",
+  "reference_time":"2026-10-29T03:00:00Z",
+  "description":"用户授权缺失业务先使用样例。实体、设备、作物/鱼种、观测与规则均为合成演示；位置引用卫星概略对象，不证明现场存在这些设备、生产活动或数值。",
+  "replacement_instructions":"保留scenario id及spatial_id可重复导入；修改本配置的defaults/overrides或device_overrides后执行scripts/db_refresh_scenario.py。设备布局另由full-area-device-layout.json维护。现场确认资料应通过管理导入写real数据集，不将样例改称真实。",
+  "rule_policy":"仅用于演示阈值触发与本体检索；所有production_approved=false，不构成生产处置依据。",
+  "production_context_defaults":{"stage":"成长期（合成）","region":"湖北（情景）","season":"hot_weather","weather":"合成高温情景，非当前实况","site_applicability":"requires_site_confirmation"},
+  "defaults":{
+    "field":{
+      "species":"水稻（演示）","usage":"水稻种植样例","production":"crop",
+      "observations":[
+        {"metric":"soil_moisture","label":"土壤含水率","value":25.3,"unit":"%","sample_case":{"every":4,"value":12.5}},
+        {"metric":"soil_temperature","label":"土温","value":24.8,"unit":"°C"}
+      ],
+      "rule":{"name":"土壤偏干条件样例","version":"synthetic-1","metric":"soil_moisture","operator":"lt","threshold":18,"unit":"%","every":4,"requires":["species"],"description":"合成规则测试条件，不是生产阈值；现场处置前须核验条件与专业依据。"}
+    },
+    "pond":{
+      "species":"鲫鱼（演示）","usage":"淡水鱼养殖样例","production":"pond_fish",
+      "observations":[
+        {"metric":"dissolved_oxygen","label":"溶解氧","value":6.3,"unit":"mg/L","sample_case":{"every":4,"value":2.8}},
+        {"metric":"water_temperature","label":"水温","value":26.4,"unit":"°C"}
+      ],
+      "rule":{"name":"缺氧条件样例","version":"synthetic-1","metric":"dissolved_oxygen","operator":"lt","threshold":4,"unit":"mg/L","every":4,"requires":["species"],"description":"仅演示规则触发，不是生产阈值；鱼种、密度、天气、设备和校准须重新核查。"}
+    },
+    "lake":{
+      "species":null,"usage":"水域巡查样例，不认定实际养殖","production":"water_management",
+      "observations":[
+        {"metric":"dissolved_oxygen","label":"溶解氧","value":6.3,"unit":"mg/L","sample_case":{"every":4,"value":2.8}},
+        {"metric":"water_temperature","label":"水温","value":26.4,"unit":"°C"}
+      ],
+      "rule":{"name":"水域观测条件样例","version":"synthetic-1","metric":"dissolved_oxygen","operator":"lt","threshold":4,"unit":"mg/L","every":4,"requires":["species"],"description":"合成检索与规则展示，不推定湖面生产活动或处置需求。"}
+    },
+    "channel":{"usage":"灌排巡查样例","production":"water_management","observations":[{"metric":"water_level","label":"水位","value":0.82,"unit":"m"}]},
+    "settlement":{"usage":"公共区域巡查样例，不含住户资料","production":"spatial_management","observations":[{"metric":"inspection_count","label":"模拟巡检次数","value":3,"unit":"次"}]},
+    "woodland":{"usage":"林地养护样例","production":"land_management","observations":[{"metric":"soil_moisture","label":"土壤含水率","value":23.4,"unit":"%"}]},
+    "road":{"usage":"通行养护样例","production":"spatial_management","observations":[{"metric":"inspection_count","label":"模拟巡检次数","value":2,"unit":"次"}]},
+    "bare":{"usage":"待用地巡查样例","production":"land_management","observations":[{"metric":"surface_temperature","label":"地表温度","value":27.6,"unit":"°C"}]}
+  },
+  "overrides":{},
+  "device_defaults":{
+    "Sensor":{"inherit_observations":true,"readiness":"固定合成采样；没有现场设备连接或校准证明"},
+    "Camera":{"observations":[{"metric":"inspection_count","label":"模拟巡检次数","value":3,"unit":"次"}],"readiness":"样例视频巡查登记；没有实际摄像头视频流"},
+    "Pump":{"observations":[{"metric":"supply_voltage","label":"登记电压样例","value":220,"unit":"V"}],"readiness":"样例设备登记；容量、电气、水源与运行适用性须核查"}
+  },
+  "device_overrides":{},
+  "editing_notes":"按kind修改defaults，按spatial_id设置overrides，可覆盖species、usage、name、observations、rule、model_area_m2、production_context。按设备key设置device_overrides，可覆盖name、observations、readiness。设备类型与位置修改full-area-device-layout.json；移除设备条目会在本场景退役旧身份，重加相同key恢复同一UUID。"
+}
